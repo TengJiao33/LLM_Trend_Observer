@@ -61,7 +61,9 @@ async def run_pipeline():
         with open(report_path, "r", encoding="utf-8") as f:
             report_content = f.read()
         
-        success = notifier.send_all(report_content, "LLM 趋势观察周报")
+        from datetime import datetime
+        report_title = f"🤖 大模型今日趋势-{datetime.now().strftime('%m-%d')}"
+        success = notifier.send_all(report_content, report_title)
         if success:
             print("Notification triggered successfully.")
         else:

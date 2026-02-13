@@ -42,7 +42,7 @@ class ReportGenerator:
         lmsys_reports = self.engine.compare("lmsys", lmsys_data)
 
         # Build Markdown
-        md = f"""# 🤖 LLM 趋势观察技术报告
+        md = f"""# 🤖 大模型今日趋势-{now.strftime('%m-%d')}
 
 > 📅 **生成时间**: `{timestamp_str}`
 > 📊 **数据源**: [OpenRouter Rankings](https://openrouter.ai/rankings) & [LMSYS Leaderboard](https://lmarena.ai/leaderboard)
