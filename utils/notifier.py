@@ -5,42 +5,65 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+class ServerChanNotifier:
+    def __init__(self):
+        self.sendkey = os.getenv("SERVERCHAN_SENDKEY")
+        self.api_url = f"https://sctapi.ftqq.com/{self.sendkey}.send" if self.sendkey else None
+
+    def send(self, content, title="LLM Trend Observer Report"):
+        if not self.api_url:
+            return False
+        payload = {"title": title, "desp": content}
+        try:
+            response = requests.post(self.api_url, data=payload, timeout=10)
+            result = response.json()
+            if result.get("code") == 0 or (result.get("data") and result.get("data").get("errno") == 0):
+                print(f"Success: Sent via ServerChan.")
+                return True
+            print(f"Error: ServerChan failed: {result}")
+        except Exception as e:
+            print(f"Error: ServerChan exception: {e}")
+        return False
+
 class WXPusherNotifier:
     def __init__(self):
         self.app_token = os.getenv("WXPUSHER_APP_TOKEN")
         self.uids = os.getenv("WXPUSHER_UIDS", "").split(",")
         self.api_url = "https://wxpusher.zjiecode.com/api/send/message"
 
-    def send_report(self, content, summary="LLM Trend Observer Report"):
-        """
-        发送 Markdown 格式的报告
-        """
+    def send(self, content, summary="LLM Trend Observer Report"):
         if not self.app_token or not self.uids or not self.uids[0]:
-            print("Warning: WXPusher credentials missing. Skipping notification.")
             return False
-
         payload = {
             "appToken": self.app_token,
             "content": content,
             "summary": summary,
-            "contentType": 3,  # 1表示文字  2表示html(只发送body标签内部的数据) 3表示markdown
+            "contentType": 3,
             "uids": self.uids
         }
-
         try:
             response = requests.post(self.api_url, json=payload, timeout=10)
             result = response.json()
             if result.get("code") == 1000:
-                print("Notification sent successfully via WXPusher.")
+                print(f"Success: Sent via WXPusher.")
                 return True
-            else:
-                print(f"Failed to send notification: {result.get('msg')}")
-                return False
+            print(f"Error: WXPusher failed: {result}")
         except Exception as e:
-            print(f"Error calling WXPusher API: {e}")
-            return False
+            print(f"Error: WXPusher exception: {e}")
+        return False
 
-if __name__ == "__main__":
-    # Test notification
-    notifier = WXPusherNotifier()
-    notifier.send_report("### 这是一个测试报告\n- 测试项 1\n- 测试项 2", "测试通知")
+class HubNotifier:
+    def __init__(self):
+        self.notifiers = []
+        if os.getenv("SERVERCHAN_SENDKEY"):
+            self.notifiers.append(ServerChanNotifier())
+        if os.getenv("WXPUSHER_APP_TOKEN"):
+            self.notifiers.append(WXPusherNotifier())
+
+    def send_all(self, content, title="LLM Trend Observer Report"):
+        results = []
+        for n in self.notifiers:
+            results.append(n.send(content, title))
+        return any(results)
+
+

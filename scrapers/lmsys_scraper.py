@@ -114,8 +114,4 @@ async def scrape_lmsys_hf():
         finally:
             await browser.close()
 
-if __name__ == "__main__":
-    asyncio.run(scrape_lmsys_hf())
 
-if __name__ == "__main__":
-    asyncio.run(scrape_lmsys_hf())

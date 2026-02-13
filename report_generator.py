@@ -110,6 +110,4 @@ class ReportGenerator:
         print(f"Report generated: {filepath}")
         return filepath
 
-if __name__ == "__main__":
-    generator = ReportGenerator()
-    generator.generate()
+

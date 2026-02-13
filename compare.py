@@ -1,5 +1,6 @@
 import os
 import shutil
+import json
 from datetime import datetime
 
 class DeltaEngine:
@@ -61,23 +62,4 @@ class DeltaEngine:
         with open(self.history_file, "w", encoding="utf-8") as f:
             json.dump(self.history, f, indent=4, ensure_ascii=False)
 
-def run_comparison():
-    engine = DeltaEngine()
-    
-    # Process OpenRouter
-    or_file = "data/openrouter_current.json"
-    if os.path.exists(or_file):
-        with open(or_file, "r", encoding="utf-8") as f:
-            curr_or = json.load(f)
-            diff_or = engine.compare("openrouter", curr_or)
-            print("\n--- OpenRouter Delta Report ---")
-            for r in diff_or[:10]:
-                print(f"Rank {r['rank']}: {r['model_id']} ({r['delta']})")
-            
-            # Update history for next time (Manual trigger during dev)
-            # engine.update_history("openrouter", curr_or)
 
-    # TODO: Process LMSYS when ready
-
-if __name__ == "__main__":
-    run_comparison()

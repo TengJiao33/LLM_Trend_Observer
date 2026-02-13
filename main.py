@@ -56,12 +56,12 @@ async def run_pipeline():
     # 4. Notification (P5)
     print("\n[4/4] Notification System...")
     if os.path.exists(report_path):
-        from utils.notifier import WXPusherNotifier
-        notifier = WXPusherNotifier()
+        from utils.notifier import HubNotifier
+        notifier = HubNotifier()
         with open(report_path, "r", encoding="utf-8") as f:
             report_content = f.read()
         
-        success = notifier.send_report(report_content, "LLM 趋势观察周报")
+        success = notifier.send_all(report_content, "LLM 趋势观察周报")
         if success:
             print("Notification triggered successfully.")
         else:

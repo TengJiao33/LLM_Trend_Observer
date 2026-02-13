@@ -61,5 +61,4 @@ async def scrape_openrouter():
         finally:
             await browser.close()
 
-if __name__ == "__main__":
-    asyncio.run(scrape_openrouter())
+
