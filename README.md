@@ -40,14 +40,14 @@
 由于 **WXPusher** 支持更丰富的卡片展示且配置后无需后续干预，推荐所有用户使用此方案。
 
 ### 第一步：点击链接关注订阅
-点击下方链接，使用微信扫码关注应用：
+点击下方链接，使用微信扫码关注【大模型今日趋势报告】主题：
 
-👉 [**点击此处进行订阅**](https://wxpusher.zjiecode.com/wxuser/?type=1&id=119222#/follow)
+👉 [**点击此处进行订阅**](https://wxpusher.zjiecode.com/wxuser/?type=2&id=43364#/follow)
 
 ### 第二步：安装 App 确保实时到达
 1. 在应用市场搜索并下载 **WxPusher消息推送平台**。
 2. 使用**微信登录**。
-3. 进入 App 后，点击右上角三个点 -> **“订阅管理”**，确认列表中包含 **`TengJiao33`**。
+3. 进入 App 后，点击右上角三个点 -> **“订阅管理”**，确认列表中包含 **大模型今日趋势报告**。
 4. 只要该订阅存在，你就能每天准时收到最专业的大模型研报！
 
 > [!NOTE]
@@ -70,6 +70,7 @@
 # WXPusher (核心推送通道)
 WXPUSHER_APP_TOKEN=你的_APP_TOKEN
 WXPUSHER_UIDS=你的_UID
+WXPUSHER_TOPIC_IDS=你的_主题ID  # 重要：用于给所有关注者群发报告
 
 # Server酱 (可选备份通道)
 SERVERCHAN_SENDKEY=你的_SCT_KEY

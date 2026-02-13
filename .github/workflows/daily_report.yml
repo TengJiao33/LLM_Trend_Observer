@@ -34,6 +34,7 @@ jobs:
         env:
           WXPUSHER_APP_TOKEN: ${{ secrets.WXPUSHER_APP_TOKEN }}
           WXPUSHER_UIDS: ${{ secrets.WXPUSHER_UIDS }}
+          WXPUSHER_TOPIC_IDS: ${{ secrets.WXPUSHER_TOPIC_IDS }}
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
         run: python main.py
 

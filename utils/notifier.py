@@ -28,18 +28,22 @@ class ServerChanNotifier:
 class WXPusherNotifier:
     def __init__(self):
         self.app_token = os.getenv("WXPUSHER_APP_TOKEN")
-        self.uids = os.getenv("WXPUSHER_UIDS", "").split(",")
+        self.uids = [u for u in os.getenv("WXPUSHER_UIDS", "").split(",") if u]
+        self.topic_ids = [t for t in os.getenv("WXPUSHER_TOPIC_IDS", "").split(",") if t]
         self.api_url = "https://wxpusher.zjiecode.com/api/send/message"
 
     def send(self, content, summary="LLM Trend Observer Report"):
-        if not self.app_token or not self.uids or not self.uids[0]:
+        if not self.app_token:
+            return False
+        if not self.uids and not self.topic_ids:
             return False
         payload = {
             "appToken": self.app_token,
             "content": content,
             "summary": summary,
             "contentType": 3,
-            "uids": self.uids
+            "uids": self.uids,
+            "topicIds": self.topic_ids
         }
         try:
             response = requests.post(self.api_url, json=payload, timeout=10)
