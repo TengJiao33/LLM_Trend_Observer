@@ -1,6 +1,6 @@
 # LLM Trend Observer (大模型趋势观察者) 🚀
 
-这是一个自动化的大模型排行榜监测系统，能够持续抓取业界最权威的 **LMSYS Chatbot Arena** 和 **OpenRouter Rankings** 数据，自动计算排名变化，并于**每天北京时间 08:00** 准时推送到你的移动设备（微信/手机 App）。
+这是一个自动化的大模型排行榜监测系统，能够持续抓取业界最权威的 **LMSYS Chatbot Arena** 和 **OpenRouter Rankings** 数据，自动计算排名变化，并于**每天北京时间 11:00 前**准时推送到你的移动设备（微信/手机 App）。
 
 ---
 
@@ -77,4 +77,4 @@ SERVERCHAN_SENDKEY=你的_SCT_KEY
 ```
 
 ### 2. GitHub Secrets 设置
-在项目仓库的 **Settings -> Secrets and variables -> Actions** 中添加上述变量，系统每天北京时间 **08:00** 会自动运行并完成全球数据的横向对比。
+在项目仓库的 **Settings -> Secrets and variables -> Actions** 中添加上述变量，系统每天北京时间 **10:40** 会自动运行并在 11:00 前完成全球数据的横向对比。

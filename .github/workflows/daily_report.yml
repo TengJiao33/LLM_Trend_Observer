@@ -2,8 +2,8 @@ name: Daily LLM Trend Report
 
 on:
   schedule:
-    # 每天北京时间早上 8:00 (UTC 0:00) 运行
-    - cron: '0 0 * * *'
+    # 每天北京时间早上 10:40 (UTC 2:40) 运行，避开整点高峰以减少延迟
+    - cron: '40 2 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
