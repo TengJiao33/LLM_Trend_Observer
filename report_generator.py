@@ -42,6 +42,11 @@ class ReportGenerator:
             with open("data/artalanaly_current.json", "r", encoding="utf-8") as f:
                 aa_data = json.load(f)
 
+        hf_data = []
+        if os.path.exists("data/hf_leaderboard_current.json"):
+            with open("data/hf_leaderboard_current.json", "r", encoding="utf-8") as f:
+                hf_data = json.load(f)
+
         # Get Deltas
         or_reports = self.engine.compare("openrouter", or_data)
         
@@ -57,11 +62,13 @@ class ReportGenerator:
             for cat, data in aa_data.items():
                 aa_categories_reports[cat] = self.engine.compare(f"artalanaly_{cat}", data)
 
+        hf_reports = self.engine.compare("hf_leaderboard", hf_data)
+
         # Build Markdown
         md = f"""# 🤖 大模型今日趋势-{now.strftime('%m-%d')}
 base_url = "https://artificialanalysis.ai/"
 > 📅 **生成时间**: `{timestamp_str}`
-> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
+> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
 
@@ -137,6 +144,21 @@ base_url = "https://artificialanalysis.ai/"
                     delta_styled = self._format_delta(item['delta'])
                     md += f"| {item['rank']} | {item['model_id']} | `{item['score']}` | {delta_styled} | \n"
 
+        # HF Open LLM Leaderboard Section
+        if hf_reports:
+            md += "\n---\n"
+            md += f"""
+## 🤗 Hugging Face Open LLM 排行榜
+*基于开源模型综合评估指标 (Average Score) 统计*
+> 💡 **数据说明**: 本章节数据来自 HF 官方 `open-llm-leaderboard/contents` 数据集后端，包含所有已评估模型（共 4576 个）。相比于网页端 "Archived" 的快照，API 数据更全面且包含了一些未在前端置顶的模型。
+
+| 排名 | 模型名称 | 平均分 | 变动 |
+| :--- | :--- | :--- | :--- |
+"""
+            for item in hf_reports[:10]:
+                delta_styled = self._format_delta(item['delta'])
+                md += f"| {item['rank']} | **{item['model_id']}** | {item['score']} | {delta_styled} | \n"
+
         # Special Analysis Section
         md += "\n--- \n\n## 🔍 显著变动与新模型\n"
         
@@ -145,7 +167,7 @@ base_url = "https://artificialanalysis.ai/"
         for r_list in lmsys_categories_reports.values():
             all_lmsys_reports.extend(r_list)
             
-        combined_reports = or_reports + all_lmsys_reports
+        combined_reports = or_reports + all_lmsys_reports + hf_reports
         for r_list in aa_categories_reports.values():
             combined_reports.extend(r_list)
         

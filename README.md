@@ -62,20 +62,28 @@
 
 ---
 
-## 🤖 自动化部署
+## 📊 追踪榜单与量化指标
 
-如果你是项目的维护者，请确保在 GitHub 仓库中配置以下环境变量：
+本项目深度集成并量化了四大权威大模型排行榜，为研究者和开发者提供全方位、多维度的趋势分析：
 
-### 1. 环境变量配置 (`.env`)
-```env
-# WXPusher (核心推送通道)
-WXPUSHER_APP_TOKEN=你的_APP_TOKEN
-WXPUSHER_UIDS=你的_UID
-WXPUSHER_TOPIC_IDS=你的_主题ID  # 重要：用于给所有关注者群发报告
+### 1. [OpenRouter Rankings](https://openrouter.ai/rankings)
+- **量化指标**：真实生产环境中的 **Token 使用量 (Usage)** 和 **增长率 (Growth)**。
+- **价值**：反映了模型的“市场占有率”和“实际落地活跃度”，是真实用户用脚投票的结果。
 
-# Server酱 (可选备份通道)
-SERVERCHAN_SENDKEY=你的_SCT_KEY
-```
+### 2. [LMSYS Chatbot Arena](https://lmarena.ai/leaderboard)
+- **量化指标**：**Elo 分数** 和 **累计投票数**。
+- **涵盖赛道**：文本 (Text)、编程 (Code)、视觉 (Vision)、文生图 (T2I)、搜索增强 (Search)、视频 (Video) 等 8 个细分赛道。
+- **价值**：基于众测的盲测比较，是衡量模型“体感质量”和综合能力的黄金标准。
 
-### 2. GitHub Secrets 设置
-在项目仓库的 **Settings -> Secrets and variables -> Actions** 中添加上述变量，系统每天北京时间 **10:40** 会自动运行并在 11:00 前完成全球数据的横向对比。
+### 3. [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
+- **量化指标**：**平均分 (Average Score)**。内容源自官方数据集 API，覆盖 4500+ 个开源模型。
+- **价值**：专注于开源社区的模型表现，提供学术基准测试的量化分析。
+
+### 4. [Artificial Analysis](https://artificialanalysis.ai/)
+- **量化指标**：**质量指数 (Intelligence)**、**吞吐速度 (Speed)**、**每百万 Token 价格 (Price)**。
+- **价值**：提供极具参考价值的性能与成本对比（Speed vs. Quality），帮助用户在性能和预算间取得平衡。
+
+### 📂 完整报告参考
+你可以直接查看每次自动生成的完整 Markdown 报告。报告包含详细的排名、数据变动（↑/↓）以及“显著变动”分析章节。
+
+---

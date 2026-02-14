@@ -48,12 +48,12 @@ async def scrape_artalanaly():
             
             print(f"Detected column mapping: {col_map}")
             
-            # Diagnostic: Save HTML and Screenshot
-            await page.screenshot(path="artalanaly_debug.png")
-            content = await page.content()
-            with open("artalanaly_debug.html", "w", encoding="utf-8") as f:
-                f.write(content)
-            print("Debug screenshot and HTML saved.")
+            # Diagnostic: Save HTML and Screenshot (Disabled to avoid redundant files)
+            # await page.screenshot(path="artalanaly_debug.png")
+            # content = await page.content()
+            # with open("artalanaly_debug.html", "w", encoding="utf-8") as f:
+            #     f.write(content)
+            # print("Debug screenshot and HTML saved.")
 
             rows = await page.locator("tr").all()
             all_data = []

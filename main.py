@@ -4,6 +4,7 @@ import json
 from scrapers.openrouter_scraper import scrape_openrouter
 from scrapers.lmsys_scraper import scrape_lmsys_hf
 from scrapers.artalanaly_scraper import scrape_artalanaly
+from scrapers.hf_leaderboard_scraper import scrape_hf_leaderboard
 from compare import DeltaEngine
 
 async def run_pipeline():
@@ -14,6 +15,7 @@ async def run_pipeline():
     or_success = await scrape_openrouter()
     lmsys_success = await scrape_lmsys_hf()
     aa_success = await scrape_artalanaly()
+    hf_success = scrape_hf_leaderboard() # This one is synchronous
     
     if not or_success:
         print("Warning: OpenRouter scraping failed.")
@@ -21,6 +23,8 @@ async def run_pipeline():
         print("Warning: LMSYS scraping failed.")
     if not aa_success:
         print("Warning: Artificial Analysis scraping failed.")
+    if not hf_success:
+        print("Warning: Hugging Face Leaderboard scraping failed.")
 
     # 2. Comparison
     print("\n[2/3] Generating Delta Reports...")
@@ -29,7 +33,8 @@ async def run_pipeline():
     sources = [
         ("openrouter", "data/openrouter_current.json"),
         ("lmsys", "data/lmsys_current.json"),
-        ("artalanaly", "data/artalanaly_current.json")
+        ("artalanaly", "data/artalanaly_current.json"),
+        ("hf_leaderboard", "data/hf_leaderboard_current.json")
     ]
     
     all_reports = {}

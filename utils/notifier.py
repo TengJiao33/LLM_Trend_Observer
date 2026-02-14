@@ -61,9 +61,8 @@ class HubNotifier:
         self.notifiers = []
         if os.getenv("SERVERCHAN_SENDKEY"):
             self.notifiers.append(ServerChanNotifier())
-        # 用户要求：持续关闭 WXPusher 直到明确要求开启
-        # if os.getenv("WXPUSHER_APP_TOKEN"):
-        #     self.notifiers.append(WXPusherNotifier())
+        if os.getenv("WXPUSHER_APP_TOKEN"):
+            self.notifiers.append(WXPusherNotifier())
 
     def send_all(self, content, title="LLM Trend Observer Report"):
         results = []
