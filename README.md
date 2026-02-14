@@ -1,6 +1,6 @@
 # LLM Trend Observer (大模型趋势观察者) 🚀
 
-这是一个自动化的大模型排行榜监测系统，能够持续抓取业界最权威的 **LMSYS Chatbot Arena** 和 **OpenRouter Rankings** 数据，自动计算排名变化，并于**每天北京时间 11:00 前**准时推送到你的移动设备（微信/手机 App）。
+这是一个自动化的大模型排行榜监测系统，能够持续抓取业界最权威的 **LMSYS Chatbot Arena**、**OpenRouter Rankings** 以及 **Artificial Analysis** 数据，自动计算排名变化，并于**每天北京时间 11:00 前**准时推送到你的移动设备（微信/手机 App）。
 
 ---
 
@@ -20,7 +20,7 @@
 生成的报告包含详细的排名、Token 使用量、Elo 分数及变动 Delta：
 
 > ### 🤖 LLM 趋势观察技术报告 (示例)
-> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) & [LMSYS](https://lmarena.ai/leaderboard)
+> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS](https://lmarena.ai/leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 > 
 > | 排名 | 模型 ID / 名称 | 指标 (Tokens/Elo) | 变动 |
 > | :--- | :--- | :--- | :--- |
@@ -29,7 +29,8 @@
 > | 3 | `anthropic/claude-sonnet-4.5` | 654B tokens | 🔴 ↓1 | 
 > | 4 | `deepseek/deepseek-v3.2` | 741B tokens | ⚪ - | 
 > | 5 | `claude-opus-4-6-thinking` | 1506 Elo | ⚪ - | 
-> | 6 | `gpt-image-1.5-high-fidelity` | 1248 Elo | 🟢 ↑2 | 
+> | 6 | `Claude Opus 4.6 (Anthropic)` | 53 Index | 🆕 New | 
+> | 7 | `gpt-oss-120B (Cerebras)` | 2,969 t/s | ⚪ - | 
 >
 > *更多详细数据可在推送消息中点击直达...*
 

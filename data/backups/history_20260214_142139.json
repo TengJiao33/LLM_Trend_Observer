@@ -2324,53 +2324,53 @@
     "artalanaly_Price": [
         {
             "rank": 1,
-            "model_id": "Gemma 3n E4B (Together.ai)",
-            "score": "$0.03"
+            "model_id": "K-EXAONE (FriendliAI)",
+            "score": "$0.00"
         },
         {
             "rank": 2,
-            "model_id": "DeepSeek-OCR (Novita)",
-            "score": "$0.03"
+            "model_id": "Grok 3 mini Reasoning (high) (Microsoft Azure)",
+            "score": "$0.00"
         },
         {
             "rank": 3,
-            "model_id": "Gemma 3 4B (Amazon Bedrock)",
-            "score": "$0.05"
+            "model_id": "Apriel-v1.6-15B-Thinker (Together.ai)",
+            "score": "$0.00"
         },
         {
             "rank": 4,
-            "model_id": "Llama 3.2 11B (Vision) (DeepInfra)",
-            "score": "$0.05"
+            "model_id": "Devstral 2 (Mistral)",
+            "score": "$0.00"
         },
         {
             "rank": 5,
-            "model_id": "gpt-oss-20B (high) (DeepInfra)",
-            "score": "$0.06"
+            "model_id": "Devstral Small 2 (Mistral)",
+            "score": "$0.00"
         },
         {
             "rank": 6,
-            "model_id": "Nova Micro (Amazon Bedrock)",
-            "score": "$0.06"
+            "model_id": "Olmo 3.1 32B Think (Parasail)",
+            "score": "$0.00"
         },
         {
             "rank": 7,
-            "model_id": "Gemma 3 12B (DeepInfra)",
-            "score": "$0.06"
+            "model_id": "Gemma 3 27B (AI Studio) (Google (AI Studio))",
+            "score": "$0.00"
         },
         {
             "rank": 8,
-            "model_id": "gpt-oss-20B (low) (Novita)",
-            "score": "$0.07"
+            "model_id": "Gemma 3 12B (AI Studio) (Google (AI Studio))",
+            "score": "$0.00"
         },
         {
             "rank": 9,
-            "model_id": "NVIDIA Nemotron Nano 9B V2 (DeepInfra)",
-            "score": "$0.07"
+            "model_id": "Gemma 3 4B (AI Studio) (Google (AI Studio))",
+            "score": "$0.00"
         },
         {
             "rank": 10,
-            "model_id": "gpt-oss-120B (high) (DeepInfra)",
-            "score": "$0.08"
+            "model_id": "Gemma 3 1B (AI Studio) (Google (AI Studio))",
+            "score": "$0.00"
         }
     ],
     "artalanaly_ContextWindow": [
