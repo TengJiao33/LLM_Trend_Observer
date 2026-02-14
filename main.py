@@ -33,16 +33,31 @@ async def run_pipeline():
         if os.path.exists(file_path):
             with open(file_path, "r", encoding="utf-8") as f:
                 curr_data = json.load(f)
-                report = engine.compare(source_name, curr_data)
-                all_reports[source_name] = report
                 
-                print(f"\n--- {source_name.upper()} Delta Report ---")
-                for r in report[:10]:
-                    status = r['delta']
-                    print(f"Rank {r['rank']}: {r['model_id']} ({status})")
-                
-                # Update history after reporting
-                engine.update_history(source_name, curr_data)
+                # 如果是多赛道字典结构 (如 LMSYS)
+                if isinstance(curr_data, dict):
+                    print(f"\n[2/3] Processing Multi-Category source: {source_name}")
+                    for cat, data in curr_data.items():
+                        full_key = f"{source_name}_{cat}"
+                        report = engine.compare(full_key, data)
+                        
+                        print(f"\n--- {full_key.upper()} Delta Report ---")
+                        for r in report[:5]:
+                            status = r['delta']
+                            print(f"Rank {r['rank']}: {r['model_id']} ({status})")
+                        
+                        engine.update_history(full_key, data)
+                else:
+                    # 单一列表结构 (如 OpenRouter)
+                    report = engine.compare(source_name, curr_data)
+                    all_reports[source_name] = report
+                    
+                    print(f"\n--- {source_name.upper()} Delta Report ---")
+                    for r in report[:10]:
+                        status = r['delta']
+                        print(f"Rank {r['rank']}: {r['model_id']} ({status})")
+                    
+                    engine.update_history(source_name, curr_data)
         else:
             print(f"Skipping {source_name}: Data file not found.")
 

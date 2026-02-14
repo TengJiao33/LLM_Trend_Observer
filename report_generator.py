@@ -27,7 +27,7 @@ class ReportGenerator:
 
         # Load Current Data
         or_data = []
-        lmsys_data = []
+        lmsys_data = {}
         
         if os.path.exists("data/openrouter_current.json"):
             with open("data/openrouter_current.json", "r", encoding="utf-8") as f:
@@ -39,17 +39,24 @@ class ReportGenerator:
 
         # Get Deltas
         or_reports = self.engine.compare("openrouter", or_data)
-        lmsys_reports = self.engine.compare("lmsys", lmsys_data)
+        
+        lmsys_categories_reports = {}
+        if isinstance(lmsys_data, dict):
+            for cat, data in lmsys_data.items():
+                lmsys_categories_reports[cat] = self.engine.compare(f"lmsys_{cat}", data)
+        else:
+            # Fallback
+            lmsys_categories_reports["Overall"] = self.engine.compare("lmsys", lmsys_data)
 
         # Build Markdown
         md = f"""# 🤖 大模型今日趋势-{now.strftime('%m-%d')}
 
 > 📅 **生成时间**: `{timestamp_str}`
-> 📊 **数据源**: [OpenRouter Rankings](https://openrouter.ai/rankings) & [LMSYS Leaderboard](https://lmarena.ai/leaderboard)
+> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) & [LMSYS Arena](https://lmarena.ai/leaderboard)
 
 ---
 
-## 🚀 OpenRouter 排行榜 (Top 10)
+## 🚀 OpenRouter 排行榜
 *基于 OpenRouter 平台真实部署与调用量统计*
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
@@ -57,33 +64,57 @@ class ReportGenerator:
 """
         for item in or_reports[:10]:
             delta_styled = self._format_delta(item['delta'])
-            # Extract new metrics from or_data corresponding to item
             curr_item = next((x for x in or_data if x['model_id'] == item['model_id']), {})
             tokens = curr_item.get('tokens', '-')
             growth = curr_item.get('growth', '-')
             md += f"| {item['rank']} | `{item['model_id']}` | {tokens} | {growth} | {delta_styled} | \n"
 
-        md += f"""
----
-
-## 🏆 LMSYS Chatbot Arena (Top 10)
+        # LMSYS Section (Multi-Category)
+        md += "\n---\n"
+        for cat, reports in lmsys_categories_reports.items():
+            if not reports: continue
+            
+            # 赛道名称翻译
+            CAT_MAP = {
+                "Text": "文本能力",
+                "Code": "编程能力",
+                "Vision": "多模态/视觉",
+                "Text-to-Image": "文生图",
+                "Image Edit": "图像编辑",
+                "Search": "搜索增强",
+                "Text-to-Video": "文生视频",
+                "Image-to-Video": "图生视频"
+            }
+            display_name = f"{cat} ({CAT_MAP.get(cat, '综合')})"
+            
+            md += f"""
+## 🏆 LMSYS {display_name}
 *基于众测竞技场 Elo 分数统计*
 
 | 排名 | 模型名称 | Elo 分数 | 投票数 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
 """
-        for item in lmsys_reports[:10]:
-            delta_styled = self._format_delta(item['delta'])
-            # Extract new metrics
-            curr_item = next((x for x in lmsys_data if x['model_id'] == item['model_id']), {})
-            votes = curr_item.get('votes', '-')
-            md += f"| {item['rank']} | **{item['model_id']}** | {item['score']} | {votes} | {delta_styled} | \n"
+            # 获取该赛道的原始数据以提取投票数等
+            cat_raw_data = lmsys_data.get(cat, []) if isinstance(lmsys_data, dict) else lmsys_data
+            
+            for item in reports[:10]:
+                delta_styled = self._format_delta(item['delta'])
+                curr_item = next((x for x in cat_raw_data if x['model_id'] == item['model_id']), {})
+                votes = curr_item.get('votes', '-')
+                md += f"| {item['rank']} | **{item['model_id']}** | {item['score']} | {votes} | {delta_styled} | \n"
 
         # Special Analysis Section
         md += "\n--- \n\n## 🔍 显著变动与新模型\n"
         
-        new_models = [r['model_id'] for r in or_reports + lmsys_reports if r['delta'] == "New"]
-        big_ups = [r['model_id'] for r in or_reports + lmsys_reports if "↑" in r['delta'] and int(r['delta'][1:]) >= 2]
+        # 聚合所有赛道的报告进行分析
+        all_lmsys_reports = []
+        for r_list in lmsys_categories_reports.values():
+            all_lmsys_reports.extend(r_list)
+            
+        combined_reports = or_reports + all_lmsys_reports
+        
+        new_models = [r['model_id'] for r in combined_reports if r['delta'] == "New"]
+        big_ups = [r['model_id'] for r in combined_reports if "↑" in r['delta'] and int(r['delta'][1:]) >= 2]
         
         if new_models:
             md += "### 🆕 新上榜模型\n"

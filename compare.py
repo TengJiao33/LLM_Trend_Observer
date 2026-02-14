@@ -18,12 +18,18 @@ class DeltaEngine:
         """
         current_data: list of dicts with 'model_id' and 'rank'
         """
+        if not isinstance(current_data, list):
+            print(f"Warning: Expected list for {source_name}, got {type(current_data)}")
+            return []
+
         prev_data = self.history.get(source_name, [])
-        prev_map = {item["model_id"]: item["rank"] for item in prev_data}
+        prev_map = {item["model_id"]: item["rank"] for item in prev_data if isinstance(item, dict) and "model_id" in item}
         
         report = []
         for item in current_data:
-            model_id = item["model_id"]
+            model_id = item.get("model_id")
+            if not model_id: continue
+            
             curr_rank = int(item["rank"])
             
             if model_id not in prev_map:
@@ -55,8 +61,11 @@ class DeltaEngine:
                 os.makedirs(backup_dir)
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             backup_file = os.path.join(backup_dir, f"history_{timestamp}.json")
-            shutil.copy2(self.history_file, backup_file)
-            print(f"History backed up to {backup_file}")
+            try:
+                shutil.copy2(self.history_file, backup_file)
+                # print(f"History backed up to {backup_file}")
+            except:
+                pass
 
         self.history[source_name] = current_data
         with open(self.history_file, "w", encoding="utf-8") as f:

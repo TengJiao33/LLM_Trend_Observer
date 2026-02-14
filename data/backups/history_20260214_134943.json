@@ -2079,70 +2079,70 @@
             "model_id": "grok-imagine-video-720p",
             "score": "1402",
             "votes": "13,668",
-            "timestamp": "2026-02-14T13:49:32.451961"
+            "timestamp": "2026-02-14T13:44:51.441139"
         },
         {
             "rank": 2,
             "model_id": "veo-3.1-audio-1080p",
             "score": "1401",
             "votes": "8,979",
-            "timestamp": "2026-02-14T13:49:32.461833"
+            "timestamp": "2026-02-14T13:44:51.455357"
         },
         {
             "rank": 3,
             "model_id": "veo-3.1-audio",
             "score": "1395",
             "votes": "23,412",
-            "timestamp": "2026-02-14T13:49:32.473684"
+            "timestamp": "2026-02-14T13:44:51.471237"
         },
         {
             "rank": 4,
             "model_id": "veo-3.1-fast-audio",
             "score": "1382",
             "votes": "33,565",
-            "timestamp": "2026-02-14T13:49:32.485354"
+            "timestamp": "2026-02-14T13:44:51.485165"
         },
         {
             "rank": 5,
             "model_id": "veo-3.1-fast-audio-1080p",
             "score": "1381",
             "votes": "9,408",
-            "timestamp": "2026-02-14T13:49:32.496525"
+            "timestamp": "2026-02-14T13:44:51.498852"
         },
         {
             "rank": 6,
             "model_id": "grok-imagine-video-480p",
             "score": "1380",
             "votes": "19,547",
-            "timestamp": "2026-02-14T13:49:32.507706"
+            "timestamp": "2026-02-14T13:44:51.512668"
         },
         {
             "rank": 7,
             "model_id": "vidu-q3-pro",
             "score": "1351",
             "votes": "18,306",
-            "timestamp": "2026-02-14T13:49:32.519809"
+            "timestamp": "2026-02-14T13:44:51.530522"
         },
         {
             "rank": 8,
             "model_id": "wan2.5-i2v-preview",
             "score": "1339",
             "votes": "12,017",
-            "timestamp": "2026-02-14T13:49:32.530776"
+            "timestamp": "2026-02-14T13:44:51.545111"
         },
         {
             "rank": 9,
             "model_id": "veo-3-audio",
             "score": "1331",
             "votes": "34,536",
-            "timestamp": "2026-02-14T13:49:32.541917"
+            "timestamp": "2026-02-14T13:44:51.564385"
         },
         {
             "rank": 10,
             "model_id": "veo-3-fast-audio",
             "score": "1322",
             "votes": "43,885",
-            "timestamp": "2026-02-14T13:49:32.552618"
+            "timestamp": "2026-02-14T13:44:51.575243"
         }
     ],
     "lmsys_Vision": [
