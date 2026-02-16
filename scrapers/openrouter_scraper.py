@@ -52,12 +52,14 @@ async def scrape_openrouter():
                 with open("data/openrouter_current.json", "w", encoding="utf-8") as f:
                     json.dump(models, f, indent=4, ensure_ascii=False)
                 print(f"Success! Extracted {len(models)} structured model rankings.")
+                return True
             else:
                 print("No structured models found. Falling back to simple regex...")
-                # (Keep the fallback logic from before just in case)
+                return False
                 
         except Exception as e:
             print(f"OpenRouter Structured Scrape Failed: {e}")
+            return False
         finally:
             await browser.close()
 

@@ -12,7 +12,7 @@ def scrape_hf_leaderboard():
     
     # HF Datasets API endpoint for 'open-llm-leaderboard/contents'
     # This dataset contains the actual leaderboard rankings.
-    url = "https://datasets-server.huggingface.co/rows?dataset=open-llm-leaderboard/contents&config=default&split=train&offset=0&limit=100"
+    url = "https://datasets-server.huggingface.co/rows?dataset=open-llm-leaderboard/contents&config=default&split=train&offset=0&limit=500"
     
     try:
         response = requests.get(url, timeout=30)

@@ -56,7 +56,7 @@ async def run_pipeline():
                             status = r['delta']
                             print(f"Rank {r['rank']}: {r['model_id']} ({status})")
                         
-                        engine.update_history(full_key, data)
+                        # 历史更新移到报告生成之后，避免 ReportGenerator 读到已更新的历史
                 else:
                     # 单一列表结构 (如 OpenRouter)
                     report = engine.compare(source_name, curr_data)
@@ -67,7 +67,7 @@ async def run_pipeline():
                         status = r['delta']
                         print(f"Rank {r['rank']}: {r['model_id']} ({status})")
                     
-                    engine.update_history(source_name, curr_data)
+                    # 历史更新移到报告生成之后，避免 ReportGenerator 读到已更新的历史
         else:
             print(f"Skipping {source_name}: Data file not found.")
 
@@ -77,6 +77,19 @@ async def run_pipeline():
     generator = ReportGenerator()
     report_path = generator.generate()
     print(f"Technician Report created at: {report_path}")
+
+    # 报告生成完毕后再更新历史数据，确保 Delta 对比正确
+    print("\n[3.5/4] Updating History...")
+    for source_name, file_path in sources:
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                curr_data = json.load(f)
+                if isinstance(curr_data, dict):
+                    for cat, data in curr_data.items():
+                        full_key = f"{source_name}_{cat}"
+                        engine.update_history(full_key, data)
+                else:
+                    engine.update_history(source_name, curr_data)
 
     # 4. Notification (P5)
     print("\n[4/4] Notification System...")
