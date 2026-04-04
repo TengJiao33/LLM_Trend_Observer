@@ -2420,61 +2420,61 @@
         {
             "model_id": "Aryanne/QwentileSwap",
             "score": 43.92,
-            "timestamp": "2026-04-04T04:32:02.757208",
+            "timestamp": "2026-04-03T04:56:11.818647",
             "rank": 1
         },
         {
             "model_id": "1024m/QWEN-14B-B100",
             "score": 41.92,
-            "timestamp": "2026-04-04T04:32:02.757119",
+            "timestamp": "2026-04-03T04:56:11.818563",
             "rank": 2
         },
         {
             "model_id": "Aashraf995/QwenStock-14B",
             "score": 37.13,
-            "timestamp": "2026-04-04T04:32:02.757168",
+            "timestamp": "2026-04-03T04:56:11.818608",
             "rank": 3
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0625-Llama3-70B",
             "score": 36.91,
-            "timestamp": "2026-04-04T04:32:02.757246",
+            "timestamp": "2026-04-03T04:56:11.818684",
             "rank": 4
         },
         {
             "model_id": "1-800-LLMs/Qwen-2.5-14B-Hindi",
             "score": 36.27,
-            "timestamp": "2026-04-04T04:32:02.757113",
+            "timestamp": "2026-04-03T04:56:11.818558",
             "rank": 5
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0613-Llama3-70B",
             "score": 35.58,
-            "timestamp": "2026-04-04T04:32:02.757242",
+            "timestamp": "2026-04-03T04:56:11.818681",
             "rank": 6
         },
         {
             "model_id": "Aashraf995/Gemma-Evo-10B",
             "score": 34.33,
-            "timestamp": "2026-04-04T04:32:02.757165",
+            "timestamp": "2026-04-03T04:56:11.818605",
             "rank": 7
         },
         {
             "model_id": "01-ai/Yi-1.5-34B-Chat",
             "score": 33.36,
-            "timestamp": "2026-04-04T04:32:02.757080",
+            "timestamp": "2026-04-03T04:56:11.818513",
             "rank": 8
         },
         {
             "model_id": "Azure99/Blossom-V6-14B",
             "score": 32.81,
-            "timestamp": "2026-04-04T04:32:02.757231",
+            "timestamp": "2026-04-03T04:56:11.818669",
             "rank": 9
         },
         {
             "model_id": "AELLM/gemma-2-aeria-infinity-9b",
             "score": 31.92,
-            "timestamp": "2026-04-04T04:32:02.757143",
+            "timestamp": "2026-04-03T04:56:11.818584",
             "rank": 10
         }
     ],
