@@ -3,6 +3,43 @@ import os
 from datetime import datetime
 from compare import DeltaEngine
 
+
+SOURCE_FILES = {
+    "openrouter": "data/openrouter_current.json",
+    "lmsys": "data/lmsys_current.json",
+    "artalanaly": "data/artalanaly_current.json",
+    "hf_leaderboard": "data/hf_leaderboard_current.json",
+}
+SOURCE_LABELS = {
+    "openrouter": "OpenRouter",
+    "lmsys": "LMSYS/Arena",
+    "artalanaly": "Artificial Analysis",
+    "hf_leaderboard": "HF Open LLM",
+}
+STATUS_FILE = "data/source_status.json"
+
+CAT_MAP = {
+    "Agent": "智能体",
+    "Text": "文本能力",
+    "Code": "编程能力",
+    "WebDev": "网页开发",
+    "Vision": "多模态/视觉",
+    "Document": "文档理解",
+    "Text-to-Image": "文生图",
+    "Image Edit": "图像编辑",
+    "Image-to-WebDev": "图生网页",
+    "Search": "搜索增强",
+    "Text-to-Video": "文生视频",
+    "Image-to-Video": "图生视频",
+    "Video Edit": "视频编辑",
+}
+AA_CAT_MAP = {
+    "Intelligence": "智力/质量指数",
+    "Speed": "吞吐速度",
+    "Price": "价格",
+}
+
+
 class ReportGenerator:
     def __init__(self, output_dir="reports"):
         self.output_dir = output_dir
@@ -19,33 +56,109 @@ class ReportGenerator:
         else:
             return "⚪ -"
 
+    def _load_json(self, file_path, default):
+        if not os.path.exists(file_path):
+            return default
+
+        with open(file_path, "r", encoding="utf-8-sig") as f:
+            return json.load(f)
+
+    def _load_source_statuses(self):
+        return self._load_json(STATUS_FILE, {})
+
+    def _history_categories(self, source_name, preferred_order=None, include_extra=True):
+        prefix = f"{source_name}_"
+        categories = {}
+
+        if preferred_order:
+            for cat in preferred_order:
+                key = f"{prefix}{cat}"
+                data = self.engine.history.get(key)
+                if isinstance(data, list) and data:
+                    categories[cat] = data
+
+        if not include_extra:
+            return categories
+
+        for key in sorted(self.engine.history):
+            if not key.startswith(prefix):
+                continue
+            cat = key[len(prefix):]
+            if cat in categories:
+                continue
+            data = self.engine.history.get(key)
+            if isinstance(data, list) and data:
+                categories[cat] = data
+
+        return categories
+
+    def _load_single_source(self, source_name):
+        file_path = SOURCE_FILES[source_name]
+        data = self._load_json(file_path, None)
+        if data is not None:
+            return data, False
+
+        history_data = self.engine.history.get(source_name, [])
+        return history_data, bool(history_data)
+
+    def _load_multi_source(self, source_name, preferred_order=None, include_extra=True):
+        file_path = SOURCE_FILES[source_name]
+        data = self._load_json(file_path, None)
+        if isinstance(data, dict):
+            return data, False
+
+        history_data = self._history_categories(source_name, preferred_order, include_extra)
+        return history_data, bool(history_data)
+
+    def _build_status_md(self, statuses, fallback_sources):
+        if not statuses and not fallback_sources:
+            return ""
+
+        lines = ["## 🧭 数据源状态", ""]
+        for source_name, label in SOURCE_LABELS.items():
+            status = statuses.get(source_name)
+            if status and status.get("success") and status.get("has_current"):
+                lines.append(f"- ✅ {label}: 本次抓取成功")
+            elif source_name in fallback_sources:
+                lines.append(f"- ⚠️ {label}: 本次抓取缺失，报告沿用历史数据")
+            elif status and not status.get("success"):
+                lines.append(f"- ❌ {label}: 本次抓取失败，暂无可用数据")
+            elif status:
+                lines.append(f"- ⚠️ {label}: 本次抓取未产出数据文件")
+
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+        return "\n".join(lines)
+
     def generate(self):
         now = datetime.now()
         timestamp_str = now.strftime("%Y-%m-%d %H:%M:%S")
         filename = f"report_{now.strftime('%Y%m%d_%H%M%S')}.md"
         filepath = os.path.join(self.output_dir, filename)
 
-        # Load Current Data
-        or_data = []
-        lmsys_data = {}
-        
-        if os.path.exists("data/openrouter_current.json"):
-            with open("data/openrouter_current.json", "r", encoding="utf-8") as f:
-                or_data = json.load(f)
-        
-        if os.path.exists("data/lmsys_current.json"):
-            with open("data/lmsys_current.json", "r", encoding="utf-8") as f:
-                lmsys_data = json.load(f)
+        statuses = self._load_source_statuses()
+        fallback_sources = set()
 
-        aa_data = {}
-        if os.path.exists("data/artalanaly_current.json"):
-            with open("data/artalanaly_current.json", "r", encoding="utf-8") as f:
-                aa_data = json.load(f)
+        or_data, used_fallback = self._load_single_source("openrouter")
+        if used_fallback:
+            fallback_sources.add("openrouter")
 
-        hf_data = []
-        if os.path.exists("data/hf_leaderboard_current.json"):
-            with open("data/hf_leaderboard_current.json", "r", encoding="utf-8") as f:
-                hf_data = json.load(f)
+        lmsys_data, used_fallback = self._load_multi_source(
+            "lmsys", preferred_order=CAT_MAP.keys(), include_extra=False
+        )
+        if used_fallback:
+            fallback_sources.add("lmsys")
+
+        aa_data, used_fallback = self._load_multi_source(
+            "artalanaly", preferred_order=AA_CAT_MAP.keys(), include_extra=False
+        )
+        if used_fallback:
+            fallback_sources.add("artalanaly")
+
+        hf_data, used_fallback = self._load_single_source("hf_leaderboard")
+        if used_fallback:
+            fallback_sources.add("hf_leaderboard")
 
         # Get Deltas
         or_reports = self.engine.compare("openrouter", or_data)
@@ -65,28 +178,6 @@ class ReportGenerator:
         hf_reports = self.engine.compare("hf_leaderboard", hf_data)
 
         # --- 构建显著变动摘要（放在报告最前面） ---
-        # 赛道名称映射
-        CAT_MAP = {
-            "Agent": "智能体",
-            "Text": "文本能力",
-            "Code": "编程能力",
-            "WebDev": "网页开发",
-            "Vision": "多模态/视觉",
-            "Document": "文档理解",
-            "Text-to-Image": "文生图",
-            "Image Edit": "图像编辑",
-            "Image-to-WebDev": "图生网页",
-            "Search": "搜索增强",
-            "Text-to-Video": "文生视频",
-            "Image-to-Video": "图生视频",
-            "Video Edit": "视频编辑"
-        }
-        AA_CAT_MAP = {
-            "Intelligence": "智力/质量指数",
-            "Speed": "吞吐速度",
-            "Price": "价格"
-        }
-
         # 收集所有来源的变动，附带榜单名称
         tagged_reports = []
         for r in or_reports:
@@ -136,6 +227,8 @@ class ReportGenerator:
 ---
 
 """
+        md += self._build_status_md(statuses, fallback_sources)
+
         # 显著变动放在最前面
         md += highlights_md
 

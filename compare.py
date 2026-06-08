@@ -10,7 +10,7 @@ class DeltaEngine:
 
     def _load_history(self):
         if os.path.exists(self.history_file):
-            with open(self.history_file, "r", encoding="utf-8") as f:
+            with open(self.history_file, "r", encoding="utf-8-sig") as f:
                 return json.load(f)
         return {}
 
@@ -53,8 +53,7 @@ class DeltaEngine:
             
         return report
 
-    def update_history(self, source_name, current_data):
-        # 备份旧的历史文件
+    def _backup_history(self):
         if os.path.exists(self.history_file):
             backup_dir = "data/backups"
             if not os.path.exists(backup_dir):
@@ -67,8 +66,24 @@ class DeltaEngine:
             except:
                 pass
 
-        self.history[source_name] = current_data
+    def _save_history(self):
+        os.makedirs(os.path.dirname(self.history_file), exist_ok=True)
         with open(self.history_file, "w", encoding="utf-8") as f:
             json.dump(self.history, f, indent=4, ensure_ascii=False)
+
+    def update_history(self, source_name, current_data):
+        # 备份旧的历史文件
+        self._backup_history()
+        self.history[source_name] = current_data
+        self._save_history()
+
+    def update_many(self, updates):
+        if not updates:
+            return
+
+        self._backup_history()
+        for source_name, current_data in updates.items():
+            self.history[source_name] = current_data
+        self._save_history()
 
 
