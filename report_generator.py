@@ -67,14 +67,19 @@ class ReportGenerator:
         # --- 构建显著变动摘要（放在报告最前面） ---
         # 赛道名称映射
         CAT_MAP = {
+            "Agent": "智能体",
             "Text": "文本能力",
             "Code": "编程能力",
+            "WebDev": "网页开发",
             "Vision": "多模态/视觉",
+            "Document": "文档理解",
             "Text-to-Image": "文生图",
             "Image Edit": "图像编辑",
+            "Image-to-WebDev": "图生网页",
             "Search": "搜索增强",
             "Text-to-Video": "文生视频",
-            "Image-to-Video": "图生视频"
+            "Image-to-Video": "图生视频",
+            "Video Edit": "视频编辑"
         }
         AA_CAT_MAP = {
             "Intelligence": "智力/质量指数",
@@ -159,10 +164,10 @@ class ReportGenerator:
 ## 🏆 LMSYS {display_name}
 *基于众测竞技场 Elo 分数统计*
 
-| 排名 | 模型名称 | Elo 分数 | 投票数 | 变动 |
+| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
 """
-            # 获取该赛道的原始数据以提取投票数等
+            # 获取该赛道的原始数据以提取置信区间等
             cat_raw_data = lmsys_data.get(cat, []) if isinstance(lmsys_data, dict) else lmsys_data
             
             for item in reports[:10]:
