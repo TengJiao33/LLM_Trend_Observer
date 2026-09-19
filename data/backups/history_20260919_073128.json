@@ -5,90 +5,90 @@
             "model_id": "openai/gpt-5.6-luna",
             "display_name": "GPT-5.6 Luna",
             "provider": "openai",
-            "tokens": "15.2T tokens",
-            "growth": "4%",
-            "timestamp": "2026-09-19T07:31:27.972731"
+            "tokens": "15.8T tokens",
+            "growth": "12%",
+            "timestamp": "2026-09-18T07:36:14.036996"
         },
         {
             "rank": 2,
             "model_id": "deepseek/deepseek-v4.1-flash",
             "display_name": "DeepSeek V4.1 Flash",
             "provider": "deepseek",
-            "tokens": "12.9T tokens",
-            "growth": "484%",
-            "timestamp": "2026-09-19T07:31:27.972740"
+            "tokens": "11.8T tokens",
+            "growth": ">999%",
+            "timestamp": "2026-09-18T07:36:14.037009"
         },
         {
             "rank": 3,
             "model_id": "tencent/hy4-preview",
             "display_name": "Hy4 preview",
             "provider": "tencent",
-            "tokens": "12T tokens",
-            "growth": "32%",
-            "timestamp": "2026-09-19T07:31:27.972743"
+            "tokens": "11.6T tokens",
+            "growth": "39%",
+            "timestamp": "2026-09-18T07:36:14.037013"
         },
         {
             "rank": 4,
             "model_id": "z-ai/glm-5.3-flash",
             "display_name": "GLM 5.3 Flash",
             "provider": "z-ai",
-            "tokens": "11.6T tokens",
-            "growth": "4%",
-            "timestamp": "2026-09-19T07:31:27.972746"
+            "tokens": "11.4T tokens",
+            "growth": "7%",
+            "timestamp": "2026-09-18T07:36:14.037018"
         },
         {
             "rank": 5,
             "model_id": "deepseek/deepseek-v4-flash-0731",
             "display_name": "DeepSeek V4 Flash 0731",
             "provider": "deepseek",
-            "tokens": "9.9T tokens",
-            "growth": "18%",
-            "timestamp": "2026-09-19T07:31:27.972749"
+            "tokens": "10.6T tokens",
+            "growth": "14%",
+            "timestamp": "2026-09-18T07:36:14.037021"
         },
         {
             "rank": 6,
             "model_id": "xiaomi/mimo-v2.5",
             "display_name": "MiMo-V2.5",
             "provider": "xiaomi",
-            "tokens": "7.29T tokens",
-            "growth": "20%",
-            "timestamp": "2026-09-19T07:31:27.972752"
+            "tokens": "7.52T tokens",
+            "growth": "46%",
+            "timestamp": "2026-09-18T07:36:14.037027"
         },
         {
             "rank": 7,
             "model_id": "tencent/hy3",
             "display_name": "Hy3",
             "provider": "tencent",
-            "tokens": "4.74T tokens",
-            "growth": "35%",
-            "timestamp": "2026-09-19T07:31:27.972755"
+            "tokens": "4.69T tokens",
+            "growth": "40%",
+            "timestamp": "2026-09-18T07:36:14.037031"
         },
         {
             "rank": 8,
-            "model_id": "nvidia/nemotron-3-ultra-(free)",
-            "display_name": "Nemotron 3 Ultra (free)",
-            "provider": "nvidia",
-            "tokens": "3.98T tokens",
-            "growth": "12%",
-            "timestamp": "2026-09-19T07:31:27.972757"
-        },
-        {
-            "rank": 9,
             "model_id": "deepseek/deepseek-v4-flash-0423",
             "display_name": "DeepSeek V4 Flash 0423",
             "provider": "deepseek",
-            "tokens": "3.95T tokens",
-            "growth": "15%",
-            "timestamp": "2026-09-19T07:31:27.972759"
+            "tokens": "4.09T tokens",
+            "growth": "14%",
+            "timestamp": "2026-09-18T07:36:14.037035"
+        },
+        {
+            "rank": 9,
+            "model_id": "nvidia/nemotron-3-ultra-(free)",
+            "display_name": "Nemotron 3 Ultra (free)",
+            "provider": "nvidia",
+            "tokens": "3.64T tokens",
+            "growth": "0%",
+            "timestamp": "2026-09-18T07:36:14.037038"
         },
         {
             "rank": 10,
             "model_id": "z-ai/glm-5.3",
             "display_name": "GLM 5.3",
             "provider": "z-ai",
-            "tokens": "2.83T tokens",
-            "growth": "2%",
-            "timestamp": "2026-09-19T07:31:27.972762"
+            "tokens": "2.56T tokens",
+            "growth": "16%",
+            "timestamp": "2026-09-18T07:36:14.037042"
         }
     ],
     "lmsys_Category_1": [
@@ -1440,70 +1440,70 @@
             "model_id": "claude-fable-5-high",
             "score": "1506",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760795"
+            "timestamp": "2026-09-18T07:36:04.359322"
         },
         {
             "rank": 2,
             "model_id": "claude-opus-4-6-high",
             "score": "1505",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760797"
+            "timestamp": "2026-09-18T07:36:04.359327"
         },
         {
             "rank": 3,
             "model_id": "claude-opus-4-7-high",
             "score": "1502",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760798"
+            "timestamp": "2026-09-18T07:36:04.359329"
         },
         {
             "rank": 4,
             "model_id": "muse-spark-1.2 (xHigh)",
             "score": "1500",
             "votes": "±11",
-            "timestamp": "2026-09-19T07:31:17.760799"
+            "timestamp": "2026-09-18T07:36:04.359331"
         },
         {
             "rank": 5,
             "model_id": "claude-fable-5.1-max",
             "score": "1498",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760800"
+            "timestamp": "2026-09-18T07:36:04.359333"
         },
         {
             "rank": 6,
             "model_id": "claude-opus-4-6",
             "score": "1497",
             "votes": "±3",
-            "timestamp": "2026-09-19T07:31:17.760801"
+            "timestamp": "2026-09-18T07:36:04.359335"
         },
         {
             "rank": 7,
             "model_id": "claude-opus-4-7",
             "score": "1494",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760803"
+            "timestamp": "2026-09-18T07:36:04.359337"
         },
         {
             "rank": 8,
             "model_id": "muse-spark-1.3-max",
             "score": "1493",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760804"
+            "timestamp": "2026-09-18T07:36:04.359339"
         },
         {
             "rank": 9,
             "model_id": "gemini-3.8-flash-high",
             "score": "1493",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760805"
+            "timestamp": "2026-09-18T07:36:04.359341"
         },
         {
             "rank": 10,
             "model_id": "claude-opus-5-high",
             "score": "1493",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760806"
+            "timestamp": "2026-09-18T07:36:04.359343"
         }
     ],
     "lmsys_Text_2": [
@@ -1656,70 +1656,70 @@
             "model_id": "gpt-image-2.5-sunburst",
             "score": "1421",
             "votes": "±13",
-            "timestamp": "2026-09-19T07:31:17.760872"
+            "timestamp": "2026-09-18T07:36:04.359418"
         },
         {
             "rank": 2,
             "model_id": "gpt-image-2.5-flare",
             "score": "1399",
             "votes": "±13",
-            "timestamp": "2026-09-19T07:31:17.760874"
+            "timestamp": "2026-09-18T07:36:04.359420"
         },
         {
             "rank": 3,
             "model_id": "gpt-image-2 (medium)",
             "score": "1381",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760875"
+            "timestamp": "2026-09-18T07:36:04.359422"
         },
         {
             "rank": 4,
             "model_id": "mai-image-2.6",
             "score": "1331",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760878"
+            "timestamp": "2026-09-18T07:36:04.359424"
         },
         {
             "rank": 5,
             "model_id": "grok-imagine-image-2.0 (low)",
             "score": "1315",
             "votes": "±12",
-            "timestamp": "2026-09-19T07:31:17.760881"
+            "timestamp": "2026-09-18T07:36:04.359427"
         },
         {
             "rank": 6,
             "model_id": "reve-2.1",
             "score": "1301",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760883"
+            "timestamp": "2026-09-18T07:36:04.359430"
         },
         {
             "rank": 7,
             "model_id": "muse-image",
             "score": "1277",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760885"
+            "timestamp": "2026-09-18T07:36:04.359432"
         },
         {
             "rank": 8,
             "model_id": "reve-2.0",
             "score": "1270",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760887"
+            "timestamp": "2026-09-18T07:36:04.359434"
         },
         {
             "rank": 9,
             "model_id": "gemini-3.1-flash-image (nano-banana-2) [web-search]",
             "score": "1261",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760889"
+            "timestamp": "2026-09-18T07:36:04.359436"
         },
         {
             "rank": 10,
             "model_id": "seedream-5.0-pro",
             "score": "1257",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760891"
+            "timestamp": "2026-09-18T07:36:04.359438"
         }
     ],
     "lmsys_Text-to-Image_2": [
@@ -1800,70 +1800,70 @@
             "model_id": "gpt-5.6-sol-xhigh",
             "score": "1257",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760938"
+            "timestamp": "2026-09-18T07:36:04.359496"
         },
         {
             "rank": 2,
             "model_id": "claude-opus-4-6-search",
             "score": "1253",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760943"
+            "timestamp": "2026-09-18T07:36:04.359498"
         },
         {
             "rank": 3,
             "model_id": "gpt-5.5-search",
             "score": "1242",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760945"
+            "timestamp": "2026-09-18T07:36:04.359501"
         },
         {
             "rank": 4,
             "model_id": "claude-opus-4-7",
             "score": "1233",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760947"
+            "timestamp": "2026-09-18T07:36:04.359503"
         },
         {
             "rank": 5,
             "model_id": "claude-fable-5-high",
             "score": "1230",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760949"
+            "timestamp": "2026-09-18T07:36:04.359505"
         },
         {
             "rank": 6,
             "model_id": "ernie-5.1",
             "score": "1227",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.760951"
+            "timestamp": "2026-09-18T07:36:04.359508"
         },
         {
             "rank": 7,
             "model_id": "claude-sonnet-4-6-search",
             "score": "1221",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760953"
+            "timestamp": "2026-09-18T07:36:04.359510"
         },
         {
             "rank": 8,
             "model_id": "grok-4.5",
             "score": "1213",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760955"
+            "timestamp": "2026-09-18T07:36:04.359512"
         },
         {
             "rank": 9,
             "model_id": "gemini-3.1-pro-grounding",
             "score": "1210",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760957"
+            "timestamp": "2026-09-18T07:36:04.359515"
         },
         {
             "rank": 10,
             "model_id": "gemini-3-pro-grounding",
             "score": "1207",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760959"
+            "timestamp": "2026-09-18T07:36:04.359517"
         }
     ],
     "lmsys_Code": [
@@ -1944,70 +1944,70 @@
             "model_id": "gpt-image-2.5-sunburst",
             "score": "1520",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760895"
+            "timestamp": "2026-09-18T07:36:04.359444"
         },
         {
             "rank": 2,
             "model_id": "gpt-image-2.5-flare",
             "score": "1491",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760897"
+            "timestamp": "2026-09-18T07:36:04.359447"
         },
         {
             "rank": 3,
             "model_id": "gpt-image-2 (medium)",
             "score": "1461",
             "votes": "±3",
-            "timestamp": "2026-09-19T07:31:17.760899"
+            "timestamp": "2026-09-18T07:36:04.359451"
         },
         {
             "rank": 4,
             "model_id": "grok-imagine-image-2.0 (low)",
             "score": "1439",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760901"
+            "timestamp": "2026-09-18T07:36:04.359453"
         },
         {
             "rank": 5,
             "model_id": "mai-image-2.6",
             "score": "1434",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760903"
+            "timestamp": "2026-09-18T07:36:04.359455"
         },
         {
             "rank": 6,
             "model_id": "muse-image",
             "score": "1403",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.760906"
+            "timestamp": "2026-09-18T07:36:04.359457"
         },
         {
             "rank": 7,
             "model_id": "mai-image-2.5",
             "score": "1400",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760908"
+            "timestamp": "2026-09-18T07:36:04.359459"
         },
         {
             "rank": 8,
             "model_id": "seedream-5.0-pro",
             "score": "1394",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.760909"
+            "timestamp": "2026-09-18T07:36:04.359462"
         },
         {
             "rank": 9,
             "model_id": "gemini-3-pro-image-2k (nano-banana-pro)",
             "score": "1390",
             "votes": "±3",
-            "timestamp": "2026-09-19T07:31:17.760911"
+            "timestamp": "2026-09-18T07:36:04.359464"
         },
         {
             "rank": 10,
             "model_id": "grok-imagine-image-quality (20260519)",
             "score": "1390",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760913"
+            "timestamp": "2026-09-18T07:36:04.359466"
         }
     ],
     "lmsys_Text-to-Video": [
@@ -2016,70 +2016,70 @@
             "model_id": "gemini-omni-1.1-flash",
             "score": "1515",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.760964"
+            "timestamp": "2026-09-18T07:36:04.359521"
         },
         {
             "rank": 2,
             "model_id": "gemini-omni-flash",
             "score": "1511",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.760966"
+            "timestamp": "2026-09-18T07:36:04.359523"
         },
         {
             "rank": 3,
             "model_id": "wan3.0",
             "score": "1494",
             "votes": "±19",
-            "timestamp": "2026-09-19T07:31:17.760968"
+            "timestamp": "2026-09-18T07:36:04.359525"
         },
         {
             "rank": 4,
             "model_id": "flux-3-video",
             "score": "1494",
             "votes": "±17",
-            "timestamp": "2026-09-19T07:31:17.761167"
+            "timestamp": "2026-09-18T07:36:04.359528"
         },
         {
             "rank": 5,
             "model_id": "grok-imagine-video-1.5-agent",
             "score": "1491",
             "votes": "±19",
-            "timestamp": "2026-09-19T07:31:17.761173"
+            "timestamp": "2026-09-18T07:36:04.359530"
         },
         {
             "rank": 6,
             "model_id": "dreamina-seedance-2.5-720p",
             "score": "1482",
             "votes": "±12",
-            "timestamp": "2026-09-19T07:31:17.761175"
+            "timestamp": "2026-09-18T07:36:04.359532"
         },
         {
             "rank": 7,
             "model_id": "dreamina-seedance-2.0-720p",
             "score": "1479",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.761177"
+            "timestamp": "2026-09-18T07:36:04.359534"
         },
         {
             "rank": 8,
             "model_id": "minimax-h3",
             "score": "1462",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.761179"
+            "timestamp": "2026-09-18T07:36:04.359536"
         },
         {
             "rank": 9,
             "model_id": "muse-video",
             "score": "1456",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.761181"
+            "timestamp": "2026-09-18T07:36:04.359538"
         },
         {
             "rank": 10,
             "model_id": "happyhorse-1.0",
             "score": "1427",
             "votes": "±13",
-            "timestamp": "2026-09-19T07:31:17.761184"
+            "timestamp": "2026-09-18T07:36:04.359541"
         }
     ],
     "lmsys_Image-to-Video": [
@@ -2088,70 +2088,70 @@
             "model_id": "minimax-h3",
             "score": "1494",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.761188"
+            "timestamp": "2026-09-18T07:36:04.359544"
         },
         {
             "rank": 2,
             "model_id": "gemini-omni-1.1-flash",
             "score": "1488",
             "votes": "±11",
-            "timestamp": "2026-09-19T07:31:17.761190"
+            "timestamp": "2026-09-18T07:36:04.359546"
         },
         {
             "rank": 3,
             "model_id": "wan3.0",
             "score": "1479",
             "votes": "±11",
-            "timestamp": "2026-09-19T07:31:17.761192"
+            "timestamp": "2026-09-18T07:36:04.359549"
         },
         {
             "rank": 4,
             "model_id": "dreamina-seedance-2.5-720p",
             "score": "1475",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.761194"
+            "timestamp": "2026-09-18T07:36:04.359551"
         },
         {
             "rank": 5,
             "model_id": "dreamina-seedance-2.0-720p",
             "score": "1474",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.761196"
+            "timestamp": "2026-09-18T07:36:04.359553"
         },
         {
             "rank": 6,
             "model_id": "gemini-omni-flash",
             "score": "1464",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.761198"
+            "timestamp": "2026-09-18T07:36:04.359555"
         },
         {
             "rank": 7,
             "model_id": "grok-imagine-video-1.5-720p",
             "score": "1456",
             "votes": "±4",
-            "timestamp": "2026-09-19T07:31:17.761200"
+            "timestamp": "2026-09-18T07:36:04.359557"
         },
         {
             "rank": 8,
             "model_id": "hidream-o1-video-1.0",
             "score": "1452",
             "votes": "±12",
-            "timestamp": "2026-09-19T07:31:17.761202"
+            "timestamp": "2026-09-18T07:36:04.359559"
         },
         {
             "rank": 9,
             "model_id": "flux-3-video-20260811",
             "score": "1450",
             "votes": "±5",
-            "timestamp": "2026-09-19T07:31:17.761204"
+            "timestamp": "2026-09-18T07:36:04.359562"
         },
         {
             "rank": 10,
             "model_id": "happyhorse-1.0",
             "score": "1442",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.761206"
+            "timestamp": "2026-09-18T07:36:04.359564"
         }
     ],
     "lmsys_Vision": [
@@ -2160,70 +2160,70 @@
             "model_id": "claude-fable-5-high",
             "score": "1310",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760824"
+            "timestamp": "2026-09-18T07:36:04.359372"
         },
         {
             "rank": 2,
             "model_id": "qwen3.8-max",
             "score": "1302",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760826"
+            "timestamp": "2026-09-18T07:36:04.359374"
         },
         {
             "rank": 3,
             "model_id": "claude-opus-4-7-high",
             "score": "1301",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760827"
+            "timestamp": "2026-09-18T07:36:04.359376"
         },
         {
             "rank": 4,
             "model_id": "claude-opus-4-7",
             "score": "1300",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760828"
+            "timestamp": "2026-09-18T07:36:04.359378"
         },
         {
             "rank": 5,
             "model_id": "claude-opus-4-6-high",
             "score": "1299",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760829"
+            "timestamp": "2026-09-18T07:36:04.359380"
         },
         {
             "rank": 6,
             "model_id": "muse-spark-1.3-max",
             "score": "1294",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.760831"
+            "timestamp": "2026-09-18T07:36:04.359382"
         },
         {
             "rank": 7,
             "model_id": "muse-spark",
             "score": "1294",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760832"
+            "timestamp": "2026-09-18T07:36:04.359384"
         },
         {
             "rank": 8,
             "model_id": "claude-opus-4-6",
             "score": "1293",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760833"
+            "timestamp": "2026-09-18T07:36:04.359387"
         },
         {
             "rank": 9,
             "model_id": "muse-spark-1.2 (xHigh)",
             "score": "1292",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.760835"
+            "timestamp": "2026-09-18T07:36:04.359389"
         },
         {
             "rank": 10,
             "model_id": "claude-opus-5-high",
             "score": "1289",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760836"
+            "timestamp": "2026-09-18T07:36:04.359391"
         }
     ],
     "artalanaly_Intelligence": [
@@ -2282,52 +2282,52 @@
         {
             "rank": 1,
             "model_id": "gpt-oss-120b (high) (Cerebras)",
-            "score": "1,664"
+            "score": "1,708"
         },
         {
             "rank": 2,
-            "model_id": "Celeris-1 (Celeris)",
-            "score": "1,541"
+            "model_id": "gpt-oss-120b (low) (Cerebras)",
+            "score": "1,626"
         },
         {
             "rank": 3,
-            "model_id": "gpt-oss-120b (low) (Cerebras)",
-            "score": "1,522"
+            "model_id": "Celeris-1 (Celeris)",
+            "score": "1,423"
         },
         {
             "rank": 4,
             "model_id": "gpt-oss-20b (high) (Groq)",
-            "score": "942"
+            "score": "943"
         },
         {
             "rank": 5,
             "model_id": "gpt-oss-20b (low) (Groq)",
-            "score": "922"
+            "score": "919"
         },
         {
             "rank": 6,
-            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
-            "score": "539"
+            "model_id": "Nemotron 3.5 Lightning (BF16) (Fireworks)",
+            "score": "516"
         },
         {
             "rank": 7,
+            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
+            "score": "508"
+        },
+        {
+            "rank": 8,
             "model_id": "Mercury 2 (Inception)",
             "score": "480"
         },
         {
-            "rank": 8,
-            "model_id": "Nemotron 3.5 Lightning (BF16) (Fireworks)",
-            "score": "475"
-        },
-        {
             "rank": 9,
             "model_id": "GLM-5.3-Flash (FAST) (Inco)",
-            "score": "468"
+            "score": "478"
         },
         {
             "rank": 10,
-            "model_id": "Llama 4 Maverick (FP8) (Microsoft Azure)",
-            "score": "435"
+            "model_id": "Ministral 3 3B (Amazon Bedrock)",
+            "score": "460"
         }
     ],
     "artalanaly_Price": [
@@ -2438,61 +2438,61 @@
         {
             "model_id": "Aryanne/QwentileSwap",
             "score": 43.92,
-            "timestamp": "2026-09-19T07:31:07.927675",
+            "timestamp": "2026-09-18T07:35:50.143871",
             "rank": 1
         },
         {
             "model_id": "1024m/QWEN-14B-B100",
             "score": 41.92,
-            "timestamp": "2026-09-19T07:31:07.927621",
+            "timestamp": "2026-09-18T07:35:50.143778",
             "rank": 2
         },
         {
             "model_id": "Aashraf995/QwenStock-14B",
             "score": 37.13,
-            "timestamp": "2026-09-19T07:31:07.927648",
+            "timestamp": "2026-09-18T07:35:50.143825",
             "rank": 3
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0625-Llama3-70B",
             "score": 36.91,
-            "timestamp": "2026-09-19T07:31:07.927699",
+            "timestamp": "2026-09-18T07:35:50.143908",
             "rank": 4
         },
         {
             "model_id": "1-800-LLMs/Qwen-2.5-14B-Hindi",
             "score": 36.27,
-            "timestamp": "2026-09-19T07:31:07.927618",
+            "timestamp": "2026-09-18T07:35:50.143773",
             "rank": 5
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0613-Llama3-70B",
             "score": 35.58,
-            "timestamp": "2026-09-19T07:31:07.927697",
+            "timestamp": "2026-09-18T07:35:50.143905",
             "rank": 6
         },
         {
             "model_id": "Aashraf995/Gemma-Evo-10B",
             "score": 34.33,
-            "timestamp": "2026-09-19T07:31:07.927646",
+            "timestamp": "2026-09-18T07:35:50.143822",
             "rank": 7
         },
         {
             "model_id": "01-ai/Yi-1.5-34B-Chat",
             "score": 33.36,
-            "timestamp": "2026-09-19T07:31:07.927597",
+            "timestamp": "2026-09-18T07:35:50.143739",
             "rank": 8
         },
         {
             "model_id": "Azure99/Blossom-V6-14B",
             "score": 32.81,
-            "timestamp": "2026-09-19T07:31:07.927690",
+            "timestamp": "2026-09-18T07:35:50.143894",
             "rank": 9
         },
         {
             "model_id": "AELLM/gemma-2-aeria-infinity-9b",
             "score": 31.92,
-            "timestamp": "2026-09-19T07:31:07.927634",
+            "timestamp": "2026-09-18T07:35:50.143801",
             "rank": 10
         }
     ],
@@ -2546,70 +2546,70 @@
             "model_id": "Claude Fable 5.1 (Max)",
             "score": "13.71%",
             "votes": "±1.72%",
-            "timestamp": "2026-09-19T07:31:17.760775"
+            "timestamp": "2026-09-18T07:36:04.359287"
         },
         {
             "rank": 2,
             "model_id": "GPT 6 Astra (Max)",
             "score": "11.54%",
             "votes": "±2.10%",
-            "timestamp": "2026-09-19T07:31:17.760781"
+            "timestamp": "2026-09-18T07:36:04.359297"
         },
         {
             "rank": 3,
             "model_id": "Claude Opus 5 (High)",
             "score": "10.25%",
             "votes": "±1.41%",
-            "timestamp": "2026-09-19T07:31:17.760783"
+            "timestamp": "2026-09-18T07:36:04.359300"
         },
         {
             "rank": 4,
             "model_id": "Claude Opus 5 (Max)",
             "score": "10.16%",
             "votes": "±1.55%",
-            "timestamp": "2026-09-19T07:31:17.760784"
+            "timestamp": "2026-09-18T07:36:04.359302"
         },
         {
             "rank": 5,
             "model_id": "Claude Fable 5 (High)",
             "score": "8.81%",
             "votes": "±1.25%",
-            "timestamp": "2026-09-19T07:31:17.760785"
+            "timestamp": "2026-09-18T07:36:04.359305"
         },
         {
             "rank": 6,
             "model_id": "Claude Opus 4.8 (High)",
             "score": "8.19%",
             "votes": "±1.27%",
-            "timestamp": "2026-09-19T07:31:17.760787"
+            "timestamp": "2026-09-18T07:36:04.359307"
         },
         {
             "rank": 7,
             "model_id": "GPT 5.6 Sol (xHigh)",
             "score": "7.10%",
             "votes": "±1.28%",
-            "timestamp": "2026-09-19T07:31:17.760788"
+            "timestamp": "2026-09-18T07:36:04.359309"
         },
         {
             "rank": 8,
             "model_id": "Kimi K3 (Max)",
             "score": "6.22%",
             "votes": "±0.62%",
-            "timestamp": "2026-09-19T07:31:17.760789"
+            "timestamp": "2026-09-18T07:36:04.359311"
         },
         {
             "rank": 9,
             "model_id": "Claude Sonnet 5 (High)",
             "score": "5.97%",
             "votes": "±1.62%",
-            "timestamp": "2026-09-19T07:31:17.760790"
+            "timestamp": "2026-09-18T07:36:04.359313"
         },
         {
             "rank": 10,
             "model_id": "GPT 5.5 (xHigh)",
             "score": "5.03%",
             "votes": "±0.92%",
-            "timestamp": "2026-09-19T07:31:17.760792"
+            "timestamp": "2026-09-18T07:36:04.359315"
         }
     ],
     "lmsys_WebDev": [
@@ -2618,70 +2618,70 @@
             "model_id": "gpt-6-astra-max",
             "score": "1800",
             "votes": "+16/-16",
-            "timestamp": "2026-09-19T07:31:17.760809"
+            "timestamp": "2026-09-18T07:36:04.359348"
         },
         {
             "rank": 2,
             "model_id": "claude-fable-5.1-max",
             "score": "1758",
             "votes": "+14/-14",
-            "timestamp": "2026-09-19T07:31:17.760811"
+            "timestamp": "2026-09-18T07:36:04.359350"
         },
         {
             "rank": 3,
             "model_id": "claude-opus-5-max",
             "score": "1687",
             "votes": "+7/-7",
-            "timestamp": "2026-09-19T07:31:17.760812"
+            "timestamp": "2026-09-18T07:36:04.359353"
         },
         {
             "rank": 4,
             "model_id": "qwen3.8-max-0902",
             "score": "1681",
             "votes": "+15/-15",
-            "timestamp": "2026-09-19T07:31:17.760813"
+            "timestamp": "2026-09-18T07:36:04.359355"
         },
         {
             "rank": 5,
             "model_id": "kimi-k3-max",
             "score": "1674",
             "votes": "+11/-11",
-            "timestamp": "2026-09-19T07:31:17.760815"
+            "timestamp": "2026-09-18T07:36:04.359357"
         },
         {
             "rank": 6,
             "model_id": "qwen3.8-max",
             "score": "1671",
             "votes": "+12/-12",
-            "timestamp": "2026-09-19T07:31:17.760816"
+            "timestamp": "2026-09-18T07:36:04.359359"
         },
         {
             "rank": 7,
             "model_id": "claude-opus-5-high",
             "score": "1660",
             "votes": "+7/-7",
-            "timestamp": "2026-09-19T07:31:17.760817"
+            "timestamp": "2026-09-18T07:36:04.359361"
         },
         {
             "rank": 8,
             "model_id": "muse-spark-1.3-max",
             "score": "1652",
             "votes": "+12/-12",
-            "timestamp": "2026-09-19T07:31:17.760819"
+            "timestamp": "2026-09-18T07:36:04.359363"
         },
         {
             "rank": 9,
             "model_id": "qwen3.8-flash-next",
             "score": "1635",
             "votes": "+13/-13",
-            "timestamp": "2026-09-19T07:31:17.760820"
+            "timestamp": "2026-09-18T07:36:04.359365"
         },
         {
             "rank": 10,
             "model_id": "claude-fable-5-high",
             "score": "1628",
             "votes": "+7/-7",
-            "timestamp": "2026-09-19T07:31:17.760822"
+            "timestamp": "2026-09-18T07:36:04.359368"
         }
     ],
     "lmsys_Document": [
@@ -2690,70 +2690,70 @@
             "model_id": "claude-opus-5-high",
             "score": "1516",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760840"
+            "timestamp": "2026-09-18T07:36:04.359394"
         },
         {
             "rank": 2,
             "model_id": "claude-fable-5.1-max",
             "score": "1513",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.760841"
+            "timestamp": "2026-09-18T07:36:04.359397"
         },
         {
             "rank": 3,
             "model_id": "claude-opus-4-6-high",
             "score": "1507",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760843"
+            "timestamp": "2026-09-18T07:36:04.359399"
         },
         {
             "rank": 4,
             "model_id": "claude-opus-4-6",
             "score": "1507",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760844"
+            "timestamp": "2026-09-18T07:36:04.359401"
         },
         {
             "rank": 5,
             "model_id": "claude-fable-5-high",
             "score": "1496",
             "votes": "±8",
-            "timestamp": "2026-09-19T07:31:17.760845"
+            "timestamp": "2026-09-18T07:36:04.359403"
         },
         {
             "rank": 6,
             "model_id": "claude-opus-4-7",
             "score": "1495",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760846"
+            "timestamp": "2026-09-18T07:36:04.359405"
         },
         {
             "rank": 7,
             "model_id": "claude-opus-4-7-high",
             "score": "1495",
             "votes": "±7",
-            "timestamp": "2026-09-19T07:31:17.760848"
+            "timestamp": "2026-09-18T07:36:04.359407"
         },
         {
             "rank": 8,
             "model_id": "gpt-5.5",
             "score": "1486",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760849"
+            "timestamp": "2026-09-18T07:36:04.359409"
         },
         {
             "rank": 9,
             "model_id": "gpt-5.5-high",
             "score": "1484",
             "votes": "±6",
-            "timestamp": "2026-09-19T07:31:17.760850"
+            "timestamp": "2026-09-18T07:36:04.359411"
         },
         {
             "rank": 10,
             "model_id": "gpt-5.6-sol-xhigh",
             "score": "1483",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.760852"
+            "timestamp": "2026-09-18T07:36:04.359414"
         }
     ],
     "lmsys_Image-to-WebDev": [
@@ -2762,70 +2762,70 @@
             "model_id": "gpt-6-astra-max",
             "score": "1733",
             "votes": "+21/-21",
-            "timestamp": "2026-09-19T07:31:17.760917"
+            "timestamp": "2026-09-18T07:36:04.359471"
         },
         {
             "rank": 2,
             "model_id": "claude-fable-5.1-max",
             "score": "1710",
             "votes": "+21/-21",
-            "timestamp": "2026-09-19T07:31:17.760919"
+            "timestamp": "2026-09-18T07:36:04.359475"
         },
         {
             "rank": 3,
             "model_id": "claude-opus-5-max",
             "score": "1665",
             "votes": "+13/-13",
-            "timestamp": "2026-09-19T07:31:17.760921"
+            "timestamp": "2026-09-18T07:36:04.359477"
         },
         {
             "rank": 4,
             "model_id": "muse-spark-1.3-max",
             "score": "1645",
             "votes": "+18/-18",
-            "timestamp": "2026-09-19T07:31:17.760923"
+            "timestamp": "2026-09-18T07:36:04.359479"
         },
         {
             "rank": 5,
             "model_id": "qwen3.8-max-0902",
             "score": "1639",
             "votes": "+19/-19",
-            "timestamp": "2026-09-19T07:31:17.760925"
+            "timestamp": "2026-09-18T07:36:04.359481"
         },
         {
             "rank": 6,
             "model_id": "claude-fable-5-high",
             "score": "1623",
             "votes": "+11/-11",
-            "timestamp": "2026-09-19T07:31:17.760927"
+            "timestamp": "2026-09-18T07:36:04.359483"
         },
         {
             "rank": 7,
             "model_id": "qwen3.8-max",
             "score": "1618",
             "votes": "+13/-13",
-            "timestamp": "2026-09-19T07:31:17.760929"
+            "timestamp": "2026-09-18T07:36:04.359485"
         },
         {
             "rank": 8,
             "model_id": "gpt-5.6-sol-xhigh (codex-harness)",
             "score": "1604",
             "votes": "+13/-13",
-            "timestamp": "2026-09-19T07:31:17.760931"
+            "timestamp": "2026-09-18T07:36:04.359488"
         },
         {
             "rank": 9,
             "model_id": "grok-4.6-high",
             "score": "1596",
             "votes": "+18/-18",
-            "timestamp": "2026-09-19T07:31:17.760933"
+            "timestamp": "2026-09-18T07:36:04.359490"
         },
         {
             "rank": 10,
             "model_id": "glm-5.3-flash",
             "score": "1588",
             "votes": "+15/-15",
-            "timestamp": "2026-09-19T07:31:17.760935"
+            "timestamp": "2026-09-18T07:36:04.359492"
         }
     ],
     "lmsys_Video Edit": [
@@ -2834,70 +2834,70 @@
             "model_id": "wan3.0",
             "score": "1414",
             "votes": "±26",
-            "timestamp": "2026-09-19T07:31:17.761209"
+            "timestamp": "2026-09-18T07:36:04.359568"
         },
         {
             "rank": 2,
             "model_id": "dreamina-seedance-2.5-720p",
             "score": "1410",
             "votes": "±26",
-            "timestamp": "2026-09-19T07:31:17.761211"
+            "timestamp": "2026-09-18T07:36:04.359570"
         },
         {
             "rank": 3,
             "model_id": "minimax-h3",
             "score": "1392",
             "votes": "±19",
-            "timestamp": "2026-09-19T07:31:17.761213"
+            "timestamp": "2026-09-18T07:36:04.359572"
         },
         {
             "rank": 4,
             "model_id": "gemini-omni-flash",
             "score": "1367",
             "votes": "±15",
-            "timestamp": "2026-09-19T07:31:17.761216"
+            "timestamp": "2026-09-18T07:36:04.359575"
         },
         {
             "rank": 5,
             "model_id": "dreamina-seedance-2.0-720p",
             "score": "1365",
             "votes": "±14",
-            "timestamp": "2026-09-19T07:31:17.761218"
+            "timestamp": "2026-09-18T07:36:04.359579"
         },
         {
             "rank": 6,
             "model_id": "happyhorse-1.0",
             "score": "1307",
             "votes": "±14",
-            "timestamp": "2026-09-19T07:31:17.761220"
+            "timestamp": "2026-09-18T07:36:04.359581"
         },
         {
             "rank": 7,
             "model_id": "grok-imagine-video",
             "score": "1258",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.761222"
+            "timestamp": "2026-09-18T07:36:04.359584"
         },
         {
             "rank": 8,
             "model_id": "kling-o3-pro",
             "score": "1255",
             "votes": "±11",
-            "timestamp": "2026-09-19T07:31:17.761224"
+            "timestamp": "2026-09-18T07:36:04.359586"
         },
         {
             "rank": 9,
             "model_id": "kling-o1-pro",
             "score": "1197",
             "votes": "±10",
-            "timestamp": "2026-09-19T07:31:17.761226"
+            "timestamp": "2026-09-18T07:36:04.359588"
         },
         {
             "rank": 10,
             "model_id": "runway-gen4-aleph",
             "score": "1182",
             "votes": "±9",
-            "timestamp": "2026-09-19T07:31:17.761228"
+            "timestamp": "2026-09-18T07:36:04.359590"
         }
     ]
 }
