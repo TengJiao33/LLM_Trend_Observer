@@ -5,90 +5,81 @@
             "model_id": "deepseek/deepseek-v4.1-flash",
             "display_name": "DeepSeek V4.1 Flash",
             "provider": "deepseek",
-            "tokens": "37.6T tokens",
-            "growth": "56%",
-            "timestamp": "2026-10-10T08:55:13.641779"
+            "tokens": "38.7T tokens",
+            "growth": "51%",
+            "timestamp": "2026-10-11T09:16:11.760043"
         },
         {
             "rank": 2,
-            "model_id": "stealth/space-bunny-alpha",
-            "display_name": "Space Bunny Alpha",
-            "provider": "stealth",
-            "tokens": "16.9T tokens",
-            "growth": "49%",
-            "timestamp": "2026-10-10T08:55:13.641792"
-        },
-        {
-            "rank": 3,
             "model_id": "z-ai/glm-5.3-flash",
             "display_name": "GLM 5.3 Flash",
             "provider": "z-ai",
-            "tokens": "11.2T tokens",
-            "growth": "16%",
-            "timestamp": "2026-10-10T08:55:13.641797"
+            "tokens": "11.6T tokens",
+            "growth": "22%",
+            "timestamp": "2026-10-11T09:16:11.760058"
         },
         {
-            "rank": 4,
+            "rank": 3,
             "model_id": "xiaomi/mimo-v2.6-flash",
             "display_name": "MiMo-V2.6-Flash",
             "provider": "xiaomi",
+            "tokens": "11.3T tokens",
+            "growth": "19%",
+            "timestamp": "2026-10-11T09:16:11.760062"
+        },
+        {
+            "rank": 4,
+            "model_id": "stealth/space-bunny-alpha",
+            "display_name": "Space Bunny Alpha",
+            "provider": "stealth",
             "tokens": "10.9T tokens",
-            "growth": "17%",
-            "timestamp": "2026-10-10T08:55:13.641801"
+            "growth": "70%",
+            "timestamp": "2026-10-11T09:16:11.760065"
         },
         {
             "rank": 5,
             "model_id": "tencent/hy4-preview",
             "display_name": "Hy4 preview",
             "provider": "tencent",
-            "tokens": "7.96T tokens",
-            "growth": "20%",
-            "timestamp": "2026-10-10T08:55:13.641805"
+            "tokens": "8.41T tokens",
+            "growth": "28%",
+            "timestamp": "2026-10-11T09:16:11.760068"
         },
         {
             "rank": 6,
             "model_id": "openai/gpt-6-luna",
             "display_name": "GPT-6 Luna",
             "provider": "openai",
-            "tokens": "6.94T tokens",
-            "growth": "17%",
-            "timestamp": "2026-10-10T08:55:13.641809"
+            "tokens": "7.12T tokens",
+            "growth": "19%",
+            "timestamp": "2026-10-11T09:16:11.760072"
         },
         {
             "rank": 7,
             "model_id": "nvidia/nemotron-3-ultra-(free)",
             "display_name": "Nemotron 3 Ultra (free)",
             "provider": "nvidia",
-            "tokens": "6.38T tokens",
-            "growth": "7%",
-            "timestamp": "2026-10-10T08:55:13.641813"
-        },
-        {
-            "rank": 8,
-            "model_id": "deepseek/deepseek-v4-flash-0731",
-            "display_name": "DeepSeek V4 Flash 0731",
-            "provider": "deepseek",
-            "tokens": "5.21T tokens",
-            "growth": "19%",
-            "timestamp": "2026-10-10T08:55:13.641817"
+            "tokens": "6.63T tokens",
+            "growth": "15%",
+            "timestamp": "2026-10-11T09:16:11.760075"
         },
         {
             "rank": 9,
-            "model_id": "anthropic/claude-opus-5.5",
-            "display_name": "Claude Opus 5.5",
-            "provider": "anthropic",
-            "tokens": "4.32T tokens",
-            "growth": "99%",
-            "timestamp": "2026-10-10T08:55:13.641821"
+            "model_id": "deepseek/deepseek-v4-flash-0731",
+            "display_name": "DeepSeek V4 Flash 0731",
+            "provider": "deepseek",
+            "tokens": "5.04T tokens",
+            "growth": "17%",
+            "timestamp": "2026-10-11T09:16:11.760087"
         },
         {
             "rank": 10,
-            "model_id": "z-ai/glm-5.3",
-            "display_name": "GLM 5.3",
-            "provider": "z-ai",
-            "tokens": "3.42T tokens",
-            "growth": "34%",
-            "timestamp": "2026-10-10T08:55:13.641825"
+            "model_id": "anthropic/claude-opus-5.5",
+            "display_name": "Claude Opus 5.5",
+            "provider": "anthropic",
+            "tokens": "4.68T tokens",
+            "growth": "102%",
+            "timestamp": "2026-10-11T09:16:11.760091"
         }
     ],
     "lmsys_Category_1": [
@@ -2281,53 +2272,53 @@
     "artalanaly_Speed": [
         {
             "rank": 1,
-            "model_id": "gpt-oss-120b (low) (Cerebras)",
-            "score": "1,712"
+            "model_id": "gpt-oss-120b (high) (Cerebras)",
+            "score": "1,721"
         },
         {
             "rank": 2,
-            "model_id": "gpt-oss-120b (high) (Cerebras)",
-            "score": "1,668"
+            "model_id": "Celeris-1 (Celeris)",
+            "score": "1,532"
         },
         {
             "rank": 3,
-            "model_id": "Celeris-1 (Celeris)",
-            "score": "1,461"
+            "model_id": "gpt-oss-120b (low) (Cerebras)",
+            "score": "1,524"
         },
         {
             "rank": 4,
             "model_id": "GLM-5.3-Flash (FAST) (Inco)",
-            "score": "1,249"
+            "score": "1,272"
         },
         {
             "rank": 5,
-            "model_id": "DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI)",
-            "score": "1,182"
+            "model_id": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
+            "score": "1,237"
         },
         {
             "rank": 6,
-            "model_id": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
-            "score": "1,141"
+            "model_id": "DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI)",
+            "score": "1,179"
         },
         {
             "rank": 7,
-            "model_id": "DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI)",
-            "score": "1,060"
+            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
+            "score": "1,047"
         },
         {
             "rank": 8,
-            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
-            "score": "1,032"
+            "model_id": "DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI)",
+            "score": "995"
         },
         {
             "rank": 9,
-            "model_id": "gpt-oss-20b (low) (Groq)",
-            "score": "910"
+            "model_id": "gpt-oss-20b (high) (Groq)",
+            "score": "939"
         },
         {
             "rank": 10,
-            "model_id": "gpt-oss-20b (high) (Groq)",
-            "score": "899"
+            "model_id": "gpt-oss-20b (low) (Groq)",
+            "score": "922"
         }
     ],
     "artalanaly_Price": [
@@ -2438,61 +2429,61 @@
         {
             "model_id": "Aryanne/QwentileSwap",
             "score": 43.92,
-            "timestamp": "2026-10-10T08:54:56.565015",
+            "timestamp": "2026-10-11T09:15:49.395043",
             "rank": 1
         },
         {
             "model_id": "1024m/QWEN-14B-B100",
             "score": 41.92,
-            "timestamp": "2026-10-10T08:54:56.564819",
+            "timestamp": "2026-10-11T09:15:49.394964",
             "rank": 2
         },
         {
             "model_id": "Aashraf995/QwenStock-14B",
             "score": 37.13,
-            "timestamp": "2026-10-10T08:54:56.564940",
+            "timestamp": "2026-10-11T09:15:49.395009",
             "rank": 3
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0625-Llama3-70B",
             "score": 36.91,
-            "timestamp": "2026-10-10T08:54:56.565055",
+            "timestamp": "2026-10-11T09:15:49.395074",
             "rank": 4
         },
         {
             "model_id": "1-800-LLMs/Qwen-2.5-14B-Hindi",
             "score": 36.27,
-            "timestamp": "2026-10-10T08:54:56.564809",
+            "timestamp": "2026-10-11T09:15:49.394959",
             "rank": 5
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0613-Llama3-70B",
             "score": 35.58,
-            "timestamp": "2026-10-10T08:54:56.565052",
+            "timestamp": "2026-10-11T09:15:49.395071",
             "rank": 6
         },
         {
             "model_id": "Aashraf995/Gemma-Evo-10B",
             "score": 34.33,
-            "timestamp": "2026-10-10T08:54:56.564933",
+            "timestamp": "2026-10-11T09:15:49.395006",
             "rank": 7
         },
         {
             "model_id": "01-ai/Yi-1.5-34B-Chat",
             "score": 33.36,
-            "timestamp": "2026-10-10T08:54:56.564702",
+            "timestamp": "2026-10-11T09:15:49.394928",
             "rank": 8
         },
         {
             "model_id": "Azure99/Blossom-V6-14B",
             "score": 32.81,
-            "timestamp": "2026-10-10T08:54:56.565040",
+            "timestamp": "2026-10-11T09:15:49.395061",
             "rank": 9
         },
         {
             "model_id": "AELLM/gemma-2-aeria-infinity-9b",
             "score": 31.92,
-            "timestamp": "2026-10-10T08:54:56.564889",
+            "timestamp": "2026-10-11T09:15:49.394986",
             "rank": 10
         }
     ],

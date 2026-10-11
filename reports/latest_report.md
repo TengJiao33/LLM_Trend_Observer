@@ -1,5 +1,5 @@
-# 🤖 大模型今日趋势-10-10
-> 📅 **生成时间**: `2026-10-10 08:56:01`
+# 🤖 大模型今日趋势-10-11
+> 📅 **生成时间**: `2026-10-11 09:16:55`
 > 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
@@ -14,16 +14,10 @@
 ---
 ## 🔍 今日显著变动
 
-### 🆕 新上榜模型
-- `z-ai/glm-5.3` — *OpenRouter*
-- `Claude Sonnet 5.5 (max with fallback) (Anthropic)` — *AA 智力/质量指数*
-
-### 📈 排名大幅上升 (≥2 位)
-- `GLM-5.3-Flash (FAST) (Inco)` (🟢 ↑5) — *AA 吞吐速度*
 
 ### 📉 排名大幅下跌 (≥2 位)
-- `GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)` (🔴 ↓2) — *AA 吞吐速度*
-- `DeepSeek V4.1 Flash (max) (FAST) (Inco)` (🔴 ↓3) — *AA 吞吐速度*
+- `stealth/space-bunny-alpha` (🔴 ↓2) — *OpenRouter*
+- `gpt-oss-120b (low) (Cerebras)` (🔴 ↓2) — *AA 吞吐速度*
 
 ---
 
@@ -32,16 +26,15 @@
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 37.6T tokens | 56% | ⚪ - | 
-| 2 | `stealth/space-bunny-alpha` | 16.9T tokens | 49% | ⚪ - | 
-| 3 | `z-ai/glm-5.3-flash` | 11.2T tokens | 16% | ⚪ - | 
-| 4 | `xiaomi/mimo-v2.6-flash` | 10.9T tokens | 17% | ⚪ - | 
-| 5 | `tencent/hy4-preview` | 7.96T tokens | 20% | ⚪ - | 
-| 6 | `openai/gpt-6-luna` | 6.94T tokens | 17% | ⚪ - | 
-| 7 | `nvidia/nemotron-3-ultra-(free)` | 6.38T tokens | 7% | ⚪ - | 
-| 8 | `deepseek/deepseek-v4-flash-0731` | 5.21T tokens | 19% | ⚪ - | 
-| 9 | `anthropic/claude-opus-5.5` | 4.32T tokens | 99% | ⚪ - | 
-| 10 | `z-ai/glm-5.3` | 3.42T tokens | 34% | 🆕 **New** | 
+| 1 | `deepseek/deepseek-v4.1-flash` | 38.7T tokens | 51% | ⚪ - | 
+| 2 | `z-ai/glm-5.3-flash` | 11.6T tokens | 22% | 🟢 ↑1 | 
+| 3 | `xiaomi/mimo-v2.6-flash` | 11.3T tokens | 19% | 🟢 ↑1 | 
+| 4 | `stealth/space-bunny-alpha` | 10.9T tokens | 70% | 🔴 ↓2 | 
+| 5 | `tencent/hy4-preview` | 8.41T tokens | 28% | ⚪ - | 
+| 6 | `openai/gpt-6-luna` | 7.12T tokens | 19% | ⚪ - | 
+| 7 | `nvidia/nemotron-3-ultra-(free)` | 6.63T tokens | 15% | ⚪ - | 
+| 8 | `deepseek/deepseek-v4-flash-0731` | 5.04T tokens | 17% | 🔴 ↓1 | 
+| 9 | `anthropic/claude-opus-5.5` | 4.68T tokens | 102% | 🔴 ↓1 | 
 
 ---
 
@@ -261,7 +254,7 @@
 | 排名 | 模型名称 (托管商) | 数值 | 变动 |
 | :--- | :--- | :--- | :--- |
 | 1 | Claude Opus 5.5 (max with fallback) (Anthropic) | `58` | ⚪ - | 
-| 2 | Claude Sonnet 5.5 (max with fallback) (Anthropic) | `56` | 🆕 **New** | 
+| 2 | Claude Sonnet 5.5 (max with fallback) (Anthropic) | `56` | ⚪ - | 
 | 3 | Claude Opus 5.5 (xhigh with fallback) (Anthropic) | `56` | ⚪ - | 
 | 4 | Claude Opus 5.5 (high with fallback) (Anthropic) | `54` | ⚪ - | 
 | 5 | Claude Fable 5.1 (max with fallback) (Anthropic) | `53` | ⚪ - | 
@@ -276,16 +269,16 @@
 
 | 排名 | 模型名称 (托管商) | 数值 | 变动 |
 | :--- | :--- | :--- | :--- |
-| 1 | gpt-oss-120b (low) (Cerebras) | `1,712` | ⚪ - | 
-| 2 | gpt-oss-120b (high) (Cerebras) | `1,668` | ⚪ - | 
-| 3 | Celeris-1 (Celeris) | `1,461` | ⚪ - | 
-| 4 | GLM-5.3-Flash (FAST) (Inco) | `1,249` | 🟢 ↑5 | 
-| 5 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,182` | 🟢 ↑1 | 
-| 6 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,141` | 🔴 ↓2 | 
-| 7 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,060` | ⚪ - | 
-| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,032` | 🔴 ↓3 | 
-| 9 | gpt-oss-20b (low) (Groq) | `910` | 🔴 ↓1 | 
-| 10 | gpt-oss-20b (high) (Groq) | `899` | ⚪ - | 
+| 1 | gpt-oss-120b (high) (Cerebras) | `1,721` | 🟢 ↑1 | 
+| 2 | Celeris-1 (Celeris) | `1,532` | 🟢 ↑1 | 
+| 3 | gpt-oss-120b (low) (Cerebras) | `1,524` | 🔴 ↓2 | 
+| 4 | GLM-5.3-Flash (FAST) (Inco) | `1,272` | ⚪ - | 
+| 5 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,237` | 🟢 ↑1 | 
+| 6 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,179` | 🔴 ↓1 | 
+| 7 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,047` | 🟢 ↑1 | 
+| 8 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `995` | 🔴 ↓1 | 
+| 9 | gpt-oss-20b (high) (Groq) | `939` | 🟢 ↑1 | 
+| 10 | gpt-oss-20b (low) (Groq) | `922` | 🔴 ↓1 | 
 
 ## 💎 Artificial Analysis 价格
 *基于独立基准测试与性能追踪*
