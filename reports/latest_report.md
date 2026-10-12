@@ -1,5 +1,5 @@
-# 🤖 大模型今日趋势-10-11
-> 📅 **生成时间**: `2026-10-11 09:16:55`
+# 🤖 大模型今日趋势-10-12
+> 📅 **生成时间**: `2026-10-12 09:42:58`
 > 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
@@ -14,10 +14,16 @@
 ---
 ## 🔍 今日显著变动
 
+### 🆕 新上榜模型
+- `GPT-6 Astra (max) (Fast) (OpenAI)` — *AA 智力/质量指数*
+- `GPT-6 Astra (max) (Ultrafast) (OpenAI)` — *AA 智力/质量指数*
+- `GPT-6 Astra (max) (Flex) (OpenAI)` — *AA 智力/质量指数*
+
+### 📈 排名大幅上升 (≥2 位)
+- `anthropic/claude-opus-5.5` (🟢 ↑2) — *OpenRouter*
 
 ### 📉 排名大幅下跌 (≥2 位)
-- `stealth/space-bunny-alpha` (🔴 ↓2) — *OpenRouter*
-- `gpt-oss-120b (low) (Cerebras)` (🔴 ↓2) — *AA 吞吐速度*
+- `stealth/space-bunny-alpha` (🔴 ↓6) — *OpenRouter*
 
 ---
 
@@ -26,15 +32,15 @@
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 38.7T tokens | 51% | ⚪ - | 
-| 2 | `z-ai/glm-5.3-flash` | 11.6T tokens | 22% | 🟢 ↑1 | 
-| 3 | `xiaomi/mimo-v2.6-flash` | 11.3T tokens | 19% | 🟢 ↑1 | 
-| 4 | `stealth/space-bunny-alpha` | 10.9T tokens | 70% | 🔴 ↓2 | 
-| 5 | `tencent/hy4-preview` | 8.41T tokens | 28% | ⚪ - | 
-| 6 | `openai/gpt-6-luna` | 7.12T tokens | 19% | ⚪ - | 
-| 7 | `nvidia/nemotron-3-ultra-(free)` | 6.63T tokens | 15% | ⚪ - | 
-| 8 | `deepseek/deepseek-v4-flash-0731` | 5.04T tokens | 17% | 🔴 ↓1 | 
-| 9 | `anthropic/claude-opus-5.5` | 4.68T tokens | 102% | 🔴 ↓1 | 
+| 1 | `deepseek/deepseek-v4.1-flash` | 41T tokens | 60% | ⚪ - | 
+| 2 | `z-ai/glm-5.3-flash` | 12.2T tokens | 26% | ⚪ - | 
+| 3 | `xiaomi/mimo-v2.6-flash` | 11.5T tokens | 19% | ⚪ - | 
+| 4 | `tencent/hy4-preview` | 8.28T tokens | 27% | ⚪ - | 
+| 5 | `openai/gpt-6-luna` | 7.08T tokens | 15% | ⚪ - | 
+| 6 | `nvidia/nemotron-3-ultra-(free)` | 6.87T tokens | 22% | ⚪ - | 
+| 7 | `anthropic/claude-opus-5.5` | 5.02T tokens | 104% | 🟢 ↑2 | 
+| 8 | `deepseek/deepseek-v4-flash-0731` | 4.92T tokens | 18% | ⚪ - | 
+| 9 | `stealth/space-bunny-alpha` | 4.2T tokens | 89% | 🔴 ↓6 | 
 
 ---
 
@@ -260,25 +266,25 @@
 | 5 | Claude Fable 5.1 (max with fallback) (Anthropic) | `53` | ⚪ - | 
 | 6 | Claude Fable 5.1 (xhigh with fallback) (Anthropic) | `53` | ⚪ - | 
 | 7 | GPT-6 Astra (max) (OpenAI) | `53` | ⚪ - | 
-| 8 | Gemini 4 Argon (high) AI Studio (1M output) (Google) | `53` | ⚪ - | 
-| 9 | GPT-6 Astra (xhigh) (OpenAI) | `52` | ⚪ - | 
-| 10 | Claude Sonnet 5.5 (xhigh with fallback) (Anthropic) | `52` | ⚪ - | 
+| 8 | GPT-6 Astra (max) (Fast) (OpenAI) | `53` | 🆕 **New** | 
+| 9 | GPT-6 Astra (max) (Ultrafast) (OpenAI) | `53` | 🆕 **New** | 
+| 10 | GPT-6 Astra (max) (Flex) (OpenAI) | `53` | 🆕 **New** | 
 
 ## 💎 Artificial Analysis 吞吐速度
 *基于独立基准测试与性能追踪*
 
 | 排名 | 模型名称 (托管商) | 数值 | 变动 |
 | :--- | :--- | :--- | :--- |
-| 1 | gpt-oss-120b (high) (Cerebras) | `1,721` | 🟢 ↑1 | 
-| 2 | Celeris-1 (Celeris) | `1,532` | 🟢 ↑1 | 
-| 3 | gpt-oss-120b (low) (Cerebras) | `1,524` | 🔴 ↓2 | 
-| 4 | GLM-5.3-Flash (FAST) (Inco) | `1,272` | ⚪ - | 
-| 5 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,237` | 🟢 ↑1 | 
-| 6 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,179` | 🔴 ↓1 | 
-| 7 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,047` | 🟢 ↑1 | 
-| 8 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `995` | 🔴 ↓1 | 
-| 9 | gpt-oss-20b (high) (Groq) | `939` | 🟢 ↑1 | 
-| 10 | gpt-oss-20b (low) (Groq) | `922` | 🔴 ↓1 | 
+| 1 | gpt-oss-120b (high) (Cerebras) | `1,756` | ⚪ - | 
+| 2 | Celeris-1 (Celeris) | `1,564` | ⚪ - | 
+| 3 | gpt-oss-120b (low) (Cerebras) | `1,437` | ⚪ - | 
+| 4 | GLM-5.3-Flash (FAST) (Inco) | `1,320` | ⚪ - | 
+| 5 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,294` | ⚪ - | 
+| 6 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,233` | ⚪ - | 
+| 7 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,185` | 🟢 ↑1 | 
+| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,168` | 🔴 ↓1 | 
+| 9 | gpt-oss-20b (high) (Groq) | `951` | ⚪ - | 
+| 10 | gpt-oss-20b (low) (Groq) | `938` | ⚪ - | 
 
 ## 💎 Artificial Analysis 价格
 *基于独立基准测试与性能追踪*
