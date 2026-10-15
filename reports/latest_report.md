@@ -1,5 +1,5 @@
-# 🤖 大模型今日趋势-10-14
-> 📅 **生成时间**: `2026-10-14 08:01:01`
+# 🤖 大模型今日趋势-10-15
+> 📅 **生成时间**: `2026-10-15 07:44:09`
 > 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
@@ -13,7 +13,15 @@
 
 ---
 ## 🔍 今日显著变动
-本期排名相对稳定，未检测到显著异常变动。
+
+### 🆕 新上榜模型
+- `Llama 4 Maverick (DigitalOcean)` — *AA 价格*
+- `Gemma 4 E4B (DeepInfra)` — *AA 价格*
+
+### 📉 排名大幅下跌 (≥2 位)
+- `Nemotron 3 Nano (FP8) (Crusoe)` (🔴 ↓2) — *AA 价格*
+- `Ministral 3 8B (Mistral)` (🔴 ↓2) — *AA 价格*
+- `Ministral 3 3B (Mistral)` (🔴 ↓2) — *AA 价格*
 
 ---
 
@@ -22,15 +30,15 @@
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 40.5T tokens | 37% | ⚪ - | 
-| 2 | `z-ai/glm-5.3-flash` | 12.9T tokens | 26% | 🔴 ↓1 | 
-| 3 | `xiaomi/mimo-v2.6-flash` | 11.6T tokens | 18% | ⚪ - | 
-| 4 | `tencent/hy4-preview` | 8.13T tokens | 27% | ⚪ - | 
-| 5 | `nvidia/nemotron-3-ultra-(free)` | 7.38T tokens | 30% | ⚪ - | 
-| 6 | `openai/gpt-6-luna` | 7.1T tokens | 10% | ⚪ - | 
-| 7 | `anthropic/claude-opus-5.5` | 5.64T tokens | 93% | ⚪ - | 
-| 8 | `deepseek/deepseek-v4-flash-0731` | 4.42T tokens | 24% | ⚪ - | 
-| 9 | `z-ai/glm-5.3` | 4.18T tokens | 36% | ⚪ - | 
+| 1 | `deepseek/deepseek-v4.1-flash` | 37.4T tokens | 11% | ⚪ - | 
+| 2 | `z-ai/glm-5.3-flash` | 12.9T tokens | 23% | ⚪ - | 
+| 3 | `xiaomi/mimo-v2.6-flash` | 11.5T tokens | 14% | ⚪ - | 
+| 4 | `tencent/hy4-preview` | 7.84T tokens | 16% | ⚪ - | 
+| 5 | `nvidia/nemotron-3-ultra-(free)` | 7.46T tokens | 25% | ⚪ - | 
+| 6 | `openai/gpt-6-luna` | 7.07T tokens | 10% | ⚪ - | 
+| 7 | `anthropic/claude-opus-5.5` | 5.65T tokens | 68% | ⚪ - | 
+| 8 | `deepseek/deepseek-v4-flash-0731` | 4.71T tokens | 15% | ⚪ - | 
+| 9 | `z-ai/glm-5.3` | 4.43T tokens | 40% | ⚪ - | 
 
 ---
 
@@ -265,16 +273,16 @@
 
 | 排名 | 模型名称 (托管商) | 数值 | 变动 |
 | :--- | :--- | :--- | :--- |
-| 1 | gpt-oss-120b (high) (Cerebras) | `1,721` | ⚪ - | 
-| 2 | gpt-oss-120b (low) (Cerebras) | `1,533` | 🟢 ↑1 | 
-| 3 | Celeris-1 (Celeris) | `1,532` | 🔴 ↓1 | 
-| 4 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,463` | ⚪ - | 
-| 5 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,455` | ⚪ - | 
-| 6 | GLM-5.3-Flash (FAST) (Inco) | `1,424` | ⚪ - | 
-| 7 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,277` | ⚪ - | 
-| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,241` | ⚪ - | 
-| 9 | gpt-oss-20b (high) (Groq) | `955` | ⚪ - | 
-| 10 | gpt-oss-20b (low) (Groq) | `948` | ⚪ - | 
+| 1 | gpt-oss-120b (high) (Cerebras) | `1,659` | ⚪ - | 
+| 2 | gpt-oss-120b (low) (Cerebras) | `1,612` | ⚪ - | 
+| 3 | Celeris-1 (Celeris) | `1,459` | ⚪ - | 
+| 4 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,446` | 🟢 ↑1 | 
+| 5 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,377` | 🔴 ↓1 | 
+| 6 | GLM-5.3-Flash (FAST) (Inco) | `1,291` | ⚪ - | 
+| 7 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,204` | ⚪ - | 
+| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,107` | ⚪ - | 
+| 9 | gpt-oss-20b (high) (Groq) | `956` | ⚪ - | 
+| 10 | gpt-oss-20b (low) (Groq) | `951` | ⚪ - | 
 
 ## 💎 Artificial Analysis 价格
 *基于独立基准测试与性能追踪*
@@ -283,14 +291,14 @@
 | :--- | :--- | :--- | :--- |
 | 1 | GPT-6 Luna (low) (OpenAI) | `$0.0045` | ⚪ - | 
 | 2 | GPT-6 Luna (non-reasoning) (OpenAI) | `$0.01` | ⚪ - | 
-| 3 | Granite 4.2 3B (DeepInfra) | `$0.01` | ⚪ - | 
-| 4 | gpt-oss-20b (high) (CoreWeave) | `$0.01` | ⚪ - | 
-| 5 | gpt-oss-20b (high) Vertex (Google) | `$0.01` | ⚪ - | 
-| 6 | Nemotron 3 Nano (FP8) (Crusoe) | `$0.01` | ⚪ - | 
-| 7 | Ministral 3 8B (Mistral) | `$0.01` | ⚪ - | 
-| 8 | Ministral 3 3B (Mistral) | `$0.01` | ⚪ - | 
-| 9 | GPT-6 Luna (medium) (OpenAI) | `$0.02` | ⚪ - | 
-| 10 | Claude Haiku 5.5 (low) (Anthropic) | `$0.02` | ⚪ - | 
+| 3 | Llama 4 Maverick (DigitalOcean) | `$0.01` | 🆕 **New** | 
+| 4 | Granite 4.2 3B (DeepInfra) | `$0.01` | 🔴 ↓1 | 
+| 5 | gpt-oss-20b (high) (CoreWeave) | `$0.01` | 🔴 ↓1 | 
+| 6 | gpt-oss-20b (high) Vertex (Google) | `$0.01` | 🔴 ↓1 | 
+| 7 | Gemma 4 E4B (DeepInfra) | `$0.01` | 🆕 **New** | 
+| 8 | Nemotron 3 Nano (FP8) (Crusoe) | `$0.01` | 🔴 ↓2 | 
+| 9 | Ministral 3 8B (Mistral) | `$0.01` | 🔴 ↓2 | 
+| 10 | Ministral 3 3B (Mistral) | `$0.01` | 🔴 ↓2 | 
 
 ---
 
