@@ -5,9 +5,18 @@
             "model_id": "deepseek/deepseek-v4.1-flash",
             "display_name": "DeepSeek V4.1 Flash",
             "provider": "deepseek",
-            "tokens": "37.4T tokens",
-            "growth": "11%",
-            "timestamp": "2026-10-15T07:42:30.933384"
+            "tokens": "37.1T tokens",
+            "growth": "4%",
+            "timestamp": "2026-10-16T07:29:28.308941"
+        },
+        {
+            "rank": 2,
+            "model_id": "stepfun/step-5-preview",
+            "display_name": "Step 5 Preview",
+            "provider": "stepfun",
+            "tokens": "19.5T tokens",
+            "growth": ">999%",
+            "timestamp": "2026-10-16T07:29:28.308953"
         },
         {
             "rank": 3,
@@ -15,71 +24,71 @@
             "display_name": "GLM 5.3 Flash",
             "provider": "z-ai",
             "tokens": "12.9T tokens",
-            "growth": "23%",
-            "timestamp": "2026-10-15T07:42:30.933409"
+            "growth": "19%",
+            "timestamp": "2026-10-16T07:29:28.308957"
         },
         {
             "rank": 4,
             "model_id": "xiaomi/mimo-v2.6-flash",
             "display_name": "MiMo-V2.6-Flash",
             "provider": "xiaomi",
-            "tokens": "11.5T tokens",
-            "growth": "14%",
-            "timestamp": "2026-10-15T07:42:30.933413"
+            "tokens": "11.2T tokens",
+            "growth": "7%",
+            "timestamp": "2026-10-16T07:29:28.308960"
         },
         {
             "rank": 5,
             "model_id": "tencent/hy4-preview",
             "display_name": "Hy4 preview",
             "provider": "tencent",
-            "tokens": "7.84T tokens",
-            "growth": "16%",
-            "timestamp": "2026-10-15T07:42:30.933417"
+            "tokens": "7.88T tokens",
+            "growth": "7%",
+            "timestamp": "2026-10-16T07:29:28.308963"
         },
         {
             "rank": 6,
             "model_id": "nvidia/nemotron-3-ultra-(free)",
             "display_name": "Nemotron 3 Ultra (free)",
             "provider": "nvidia",
-            "tokens": "7.46T tokens",
-            "growth": "25%",
-            "timestamp": "2026-10-15T07:42:30.933421"
+            "tokens": "7.27T tokens",
+            "growth": "18%",
+            "timestamp": "2026-10-16T07:29:28.308967"
         },
         {
             "rank": 7,
             "model_id": "openai/gpt-6-luna",
             "display_name": "GPT-6 Luna",
             "provider": "openai",
-            "tokens": "7.07T tokens",
-            "growth": "10%",
-            "timestamp": "2026-10-15T07:42:30.933425"
+            "tokens": "6.77T tokens",
+            "growth": "3%",
+            "timestamp": "2026-10-16T07:29:28.308970"
         },
         {
             "rank": 8,
             "model_id": "anthropic/claude-opus-5.5",
             "display_name": "Claude Opus 5.5",
             "provider": "anthropic",
-            "tokens": "5.65T tokens",
-            "growth": "68%",
-            "timestamp": "2026-10-15T07:42:30.933429"
+            "tokens": "5.85T tokens",
+            "growth": "53%",
+            "timestamp": "2026-10-16T07:29:28.308973"
         },
         {
             "rank": 9,
-            "model_id": "deepseek/deepseek-v4-flash-0731",
-            "display_name": "DeepSeek V4 Flash 0731",
-            "provider": "deepseek",
-            "tokens": "4.71T tokens",
-            "growth": "15%",
-            "timestamp": "2026-10-15T07:42:30.933433"
-        },
-        {
-            "rank": 10,
             "model_id": "z-ai/glm-5.3",
             "display_name": "GLM 5.3",
             "provider": "z-ai",
-            "tokens": "4.43T tokens",
-            "growth": "40%",
-            "timestamp": "2026-10-15T07:42:30.933437"
+            "tokens": "4.83T tokens",
+            "growth": "46%",
+            "timestamp": "2026-10-16T07:29:28.308976"
+        },
+        {
+            "rank": 10,
+            "model_id": "deepseek/deepseek-v4-flash-0731",
+            "display_name": "DeepSeek V4 Flash 0731",
+            "provider": "deepseek",
+            "tokens": "4.73T tokens",
+            "growth": "10%",
+            "timestamp": "2026-10-16T07:29:28.308980"
         }
     ],
     "lmsys_Category_1": [
@@ -2272,53 +2281,53 @@
     "artalanaly_Speed": [
         {
             "rank": 1,
-            "model_id": "gpt-oss-120b (high) (Cerebras)",
-            "score": "1,659"
+            "model_id": "gpt-oss-120b (low) (Cerebras)",
+            "score": "1,810"
         },
         {
             "rank": 2,
-            "model_id": "gpt-oss-120b (low) (Cerebras)",
-            "score": "1,612"
+            "model_id": "gpt-oss-120b (high) (Cerebras)",
+            "score": "1,708"
         },
         {
             "rank": 3,
-            "model_id": "Celeris-1 (Celeris)",
-            "score": "1,459"
+            "model_id": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
+            "score": "1,612"
         },
         {
             "rank": 4,
             "model_id": "DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI)",
-            "score": "1,446"
+            "score": "1,464"
         },
         {
             "rank": 5,
-            "model_id": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
-            "score": "1,377"
+            "model_id": "GLM-5.3-Flash (FAST) (Inco)",
+            "score": "1,435"
         },
         {
             "rank": 6,
-            "model_id": "GLM-5.3-Flash (FAST) (Inco)",
-            "score": "1,291"
+            "model_id": "Celeris-1 (Celeris)",
+            "score": "1,402"
         },
         {
             "rank": 7,
-            "model_id": "DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI)",
-            "score": "1,204"
+            "model_id": "DeepSeek V4.1 Flash (non-reasoning) (FAST) (Inco)",
+            "score": "1,384"
         },
         {
             "rank": 8,
-            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
-            "score": "1,107"
+            "model_id": "DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI)",
+            "score": "1,312"
         },
         {
             "rank": 9,
-            "model_id": "gpt-oss-20b (high) (Groq)",
-            "score": "956"
+            "model_id": "DeepSeek V4.1 Flash (max) (FAST) (Inco)",
+            "score": "1,282"
         },
         {
             "rank": 10,
-            "model_id": "gpt-oss-20b (low) (Groq)",
-            "score": "951"
+            "model_id": "K2 Horizon 375B A23B (Institute of Foundation Models)",
+            "score": "1,213"
         }
     ],
     "artalanaly_Price": [
