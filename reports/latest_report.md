@@ -1,5 +1,5 @@
-# 🤖 大模型今日趋势-10-17
-> 📅 **生成时间**: `2026-10-17 07:12:01`
+# 🤖 大模型今日趋势-10-18
+> 📅 **生成时间**: `2026-10-18 07:26:02`
 > 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
@@ -13,16 +13,7 @@
 
 ---
 ## 🔍 今日显著变动
-
-### 🆕 新上榜模型
-- `gpt-oss-20b (high) (Groq)` — *AA 吞吐速度*
-
-### 📈 排名大幅上升 (≥2 位)
-- `DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI)` (🟢 ↑3) — *AA 吞吐速度*
-
-### 📉 排名大幅下跌 (≥2 位)
-- `GLM-5.3-Flash (FAST) (Inco)` (🔴 ↓2) — *AA 吞吐速度*
-- `DeepSeek V4.1 Flash (non-reasoning) (FAST) (Inco)` (🔴 ↓2) — *AA 吞吐速度*
+本期排名相对稳定，未检测到显著异常变动。
 
 ---
 
@@ -31,16 +22,16 @@
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 36.8T tokens | 2% | ⚪ - | 
-| 2 | `stepfun/step-5-preview` | 17.1T tokens | 430% | ⚪ - | 
-| 3 | `z-ai/glm-5.3-flash` | 12.7T tokens | 13% | ⚪ - | 
-| 4 | `xiaomi/mimo-v2.6-flash` | 10.9T tokens | 0% | ⚪ - | 
-| 5 | `tencent/hy4-preview` | 7.85T tokens | 1% | ⚪ - | 
-| 6 | `openai/gpt-6-luna` | 6.5T tokens | 6% | 🟢 ↑1 | 
-| 7 | `nvidia/nemotron-3-ultra-(free)` | 6.35T tokens | 1% | 🔴 ↓1 | 
-| 8 | `anthropic/claude-opus-5.5` | 5.95T tokens | 38% | ⚪ - | 
-| 9 | `z-ai/glm-5.3` | 5.23T tokens | 53% | ⚪ - | 
-| 10 | `deepseek/deepseek-v4-flash-0731` | 4.67T tokens | 10% | ⚪ - | 
+| 1 | `deepseek/deepseek-v4.1-flash` | 35.9T tokens | 7% | ⚪ - | 
+| 2 | `stepfun/step-5-preview` | 13.9T tokens | 119% | ⚪ - | 
+| 3 | `z-ai/glm-5.3-flash` | 12.6T tokens | 8% | ⚪ - | 
+| 4 | `xiaomi/mimo-v2.6-flash` | 10.3T tokens | 9% | ⚪ - | 
+| 5 | `tencent/hy4-preview` | 7.55T tokens | 10% | ⚪ - | 
+| 6 | `openai/gpt-6-luna` | 6.29T tokens | 12% | ⚪ - | 
+| 7 | `anthropic/claude-opus-5.5` | 6.05T tokens | 29% | 🟢 ↑1 | 
+| 8 | `nvidia/nemotron-3-ultra-(free)` | 5.34T tokens | 19% | 🔴 ↓1 | 
+| 9 | `z-ai/glm-5.3` | 5.34T tokens | 55% | ⚪ - | 
+| 10 | `deepseek/deepseek-v4-flash-0731` | 4.71T tokens | 7% | ⚪ - | 
 
 ---
 
@@ -279,12 +270,12 @@
 | 2 | gpt-oss-120b (high) (Cerebras) | `1,737` | ⚪ - | 
 | 3 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,518` | ⚪ - | 
 | 4 | DeepSeek V4.1 Flash (max) (ULTRA CHAT) (LithosAI) | `1,504` | ⚪ - | 
-| 5 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,444` | 🟢 ↑3 | 
+| 5 | DeepSeek V4.1 Flash (non-reasoning) (ULTRA CHAT) (LithosAI) | `1,444` | ⚪ - | 
 | 6 | Celeris-1 (Celeris) | `1,407` | ⚪ - | 
-| 7 | GLM-5.3-Flash (FAST) (Inco) | `1,397` | 🔴 ↓2 | 
-| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,222` | 🟢 ↑1 | 
-| 9 | DeepSeek V4.1 Flash (non-reasoning) (FAST) (Inco) | `1,102` | 🔴 ↓2 | 
-| 10 | gpt-oss-20b (high) (Groq) | `964` | 🆕 **New** | 
+| 7 | GLM-5.3-Flash (FAST) (Inco) | `1,397` | ⚪ - | 
+| 8 | DeepSeek V4.1 Flash (max) (FAST) (Inco) | `1,222` | ⚪ - | 
+| 9 | DeepSeek V4.1 Flash (non-reasoning) (FAST) (Inco) | `1,102` | ⚪ - | 
+| 10 | gpt-oss-20b (high) (Groq) | `964` | ⚪ - | 
 
 ## 💎 Artificial Analysis 价格
 *基于独立基准测试与性能追踪*
