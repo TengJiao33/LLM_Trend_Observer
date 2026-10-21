@@ -5,81 +5,72 @@
             "model_id": "deepseek/deepseek-v4.1-flash",
             "display_name": "DeepSeek V4.1 Flash",
             "provider": "deepseek",
-            "tokens": "29.6T tokens",
-            "growth": "27%",
-            "timestamp": "2026-10-20T07:54:39.105991"
+            "tokens": "27.3T tokens",
+            "growth": "32%",
+            "timestamp": "2026-10-21T07:58:23.877281"
         },
         {
             "rank": 2,
             "model_id": "z-ai/glm-5.3-flash",
             "display_name": "GLM 5.3 Flash",
             "provider": "z-ai",
-            "tokens": "11.9T tokens",
-            "growth": "6%",
-            "timestamp": "2026-10-20T07:54:39.106004"
-        },
-        {
-            "rank": 3,
-            "model_id": "xiaomi/mimo-v2.6-flash",
-            "display_name": "MiMo-V2.6-Flash",
-            "provider": "xiaomi",
-            "tokens": "9.57T tokens",
-            "growth": "17%",
-            "timestamp": "2026-10-20T07:54:39.106008"
+            "tokens": "11.6T tokens",
+            "growth": "10%",
+            "timestamp": "2026-10-21T07:58:23.877292"
         },
         {
             "rank": 4,
-            "model_id": "stepfun/step-5-preview",
-            "display_name": "Step 5 Preview",
-            "provider": "stepfun",
-            "tokens": "8.22T tokens",
-            "growth": "32%",
-            "timestamp": "2026-10-20T07:54:39.106012"
+            "model_id": "xiaomi/mimo-v2.6-flash",
+            "display_name": "MiMo-V2.6-Flash",
+            "provider": "xiaomi",
+            "tokens": "9.05T tokens",
+            "growth": "22%",
+            "timestamp": "2026-10-21T07:58:23.877319"
         },
         {
             "rank": 5,
             "model_id": "tencent/hy4-preview",
             "display_name": "Hy4 preview",
             "provider": "tencent",
-            "tokens": "7.82T tokens",
-            "growth": "6%",
-            "timestamp": "2026-10-20T07:54:39.106016"
+            "tokens": "8.16T tokens",
+            "growth": "0%",
+            "timestamp": "2026-10-21T07:58:23.877323"
         },
         {
-            "rank": 7,
+            "rank": 6,
             "model_id": "anthropic/claude-opus-5.5",
             "display_name": "Claude Opus 5.5",
             "provider": "anthropic",
-            "tokens": "6.47T tokens",
+            "tokens": "6.8T tokens",
             "growth": "21%",
-            "timestamp": "2026-10-20T07:54:39.106039"
+            "timestamp": "2026-10-21T07:58:23.877327"
         },
         {
-            "rank": 8,
+            "rank": 7,
             "model_id": "openai/gpt-6-luna",
             "display_name": "GPT-6 Luna",
             "provider": "openai",
-            "tokens": "6.23T tokens",
-            "growth": "12%",
-            "timestamp": "2026-10-20T07:54:39.106043"
+            "tokens": "6.21T tokens",
+            "growth": "13%",
+            "timestamp": "2026-10-21T07:58:23.877331"
+        },
+        {
+            "rank": 8,
+            "model_id": "stepfun/step-5-preview",
+            "display_name": "Step 5 Preview",
+            "provider": "stepfun",
+            "tokens": "5.82T tokens",
+            "growth": "61%",
+            "timestamp": "2026-10-21T07:58:23.877335"
         },
         {
             "rank": 9,
             "model_id": "z-ai/glm-5.3",
             "display_name": "GLM 5.3",
             "provider": "z-ai",
-            "tokens": "5.29T tokens",
-            "growth": "33%",
-            "timestamp": "2026-10-20T07:54:39.106047"
-        },
-        {
-            "rank": 10,
-            "model_id": "deepseek/deepseek-v4-flash-0731",
-            "display_name": "DeepSeek V4 Flash 0731",
-            "provider": "deepseek",
-            "tokens": "4.73T tokens",
-            "growth": "1%",
-            "timestamp": "2026-10-20T07:54:39.106050"
+            "tokens": "5.32T tokens",
+            "growth": "27%",
+            "timestamp": "2026-10-21T07:58:23.877338"
         }
     ],
     "lmsys_Category_1": [
@@ -2273,52 +2264,52 @@
         {
             "rank": 1,
             "model_id": "gpt-oss-120b (low) (Cerebras)",
-            "score": "1,809"
+            "score": "1,791"
         },
         {
             "rank": 2,
             "model_id": "gpt-oss-120b (high) (Cerebras)",
-            "score": "1,734"
+            "score": "1,732"
         },
         {
             "rank": 3,
             "model_id": "Celeris-1 (Celeris)",
-            "score": "1,521"
+            "score": "1,497"
         },
         {
             "rank": 4,
             "model_id": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
-            "score": "1,477"
+            "score": "1,481"
         },
         {
             "rank": 5,
             "model_id": "GLM-5.3-Flash (FAST) (Inco)",
-            "score": "1,449"
+            "score": "1,441"
         },
         {
             "rank": 6,
             "model_id": "K2 Horizon 375B A23B (Institute of Foundation Models)",
-            "score": "1,109"
+            "score": "1,115"
         },
         {
             "rank": 7,
-            "model_id": "gpt-oss-20b (low) (Groq)",
-            "score": "914"
+            "model_id": "gpt-oss-20b (high) (Groq)",
+            "score": "899"
         },
         {
             "rank": 8,
-            "model_id": "gpt-oss-20b (high) (Groq)",
-            "score": "904"
+            "model_id": "gpt-oss-20b (low) (Groq)",
+            "score": "891"
         },
         {
             "rank": 9,
             "model_id": "Mercury 2.5 (Inception)",
-            "score": "720"
+            "score": "781"
         },
         {
             "rank": 10,
             "model_id": "DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten)",
-            "score": "697"
+            "score": "720"
         }
     ],
     "artalanaly_Price": [
@@ -2429,61 +2420,61 @@
         {
             "model_id": "Aryanne/QwentileSwap",
             "score": 43.92,
-            "timestamp": "2026-10-20T07:54:15.946296",
+            "timestamp": "2026-10-21T07:58:02.048235",
             "rank": 1
         },
         {
             "model_id": "1024m/QWEN-14B-B100",
             "score": 41.92,
-            "timestamp": "2026-10-20T07:54:15.946120",
+            "timestamp": "2026-10-21T07:58:02.048026",
             "rank": 2
         },
         {
             "model_id": "Aashraf995/QwenStock-14B",
             "score": 37.13,
-            "timestamp": "2026-10-20T07:54:15.946218",
+            "timestamp": "2026-10-21T07:58:02.048150",
             "rank": 3
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0625-Llama3-70B",
             "score": 36.91,
-            "timestamp": "2026-10-20T07:54:15.946364",
+            "timestamp": "2026-10-21T07:58:02.048314",
             "rank": 4
         },
         {
             "model_id": "1-800-LLMs/Qwen-2.5-14B-Hindi",
             "score": 36.27,
-            "timestamp": "2026-10-20T07:54:15.946110",
+            "timestamp": "2026-10-21T07:58:02.048016",
             "rank": 5
         },
         {
             "model_id": "BAAI/Infinity-Instruct-3M-0613-Llama3-70B",
             "score": 35.58,
-            "timestamp": "2026-10-20T07:54:15.946359",
+            "timestamp": "2026-10-21T07:58:02.048307",
             "rank": 6
         },
         {
             "model_id": "Aashraf995/Gemma-Evo-10B",
             "score": 34.33,
-            "timestamp": "2026-10-20T07:54:15.946212",
+            "timestamp": "2026-10-21T07:58:02.048143",
             "rank": 7
         },
         {
             "model_id": "01-ai/Yi-1.5-34B-Chat",
             "score": 33.36,
-            "timestamp": "2026-10-20T07:54:15.946043",
+            "timestamp": "2026-10-21T07:58:02.047952",
             "rank": 8
         },
         {
             "model_id": "Azure99/Blossom-V6-14B",
             "score": 32.81,
-            "timestamp": "2026-10-20T07:54:15.946338",
+            "timestamp": "2026-10-21T07:58:02.048282",
             "rank": 9
         },
         {
             "model_id": "AELLM/gemma-2-aeria-infinity-9b",
             "score": 31.92,
-            "timestamp": "2026-10-20T07:54:15.946166",
+            "timestamp": "2026-10-21T07:58:02.048092",
             "rank": 10
         }
     ],

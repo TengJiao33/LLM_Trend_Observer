@@ -1,5 +1,5 @@
-# 🤖 大模型今日趋势-10-20
-> 📅 **生成时间**: `2026-10-20 07:56:17`
+# 🤖 大模型今日趋势-10-21
+> 📅 **生成时间**: `2026-10-21 08:00:02`
 > 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
 
 ---
@@ -14,18 +14,9 @@
 ---
 ## 🔍 今日显著变动
 
-### 🆕 新上榜模型
-- `gpt-oss-20b (low) (Groq)` — *AA 吞吐速度*
-- `gpt-oss-20b (high) (Groq)` — *AA 吞吐速度*
-- `Mercury 2.5 (Inception)` — *AA 吞吐速度*
-- `DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten)` — *AA 吞吐速度*
-
-### 📈 排名大幅上升 (≥2 位)
-- `GLM-5.3-Flash (FAST) (Inco)` (🟢 ↑2) — *AA 吞吐速度*
-- `K2 Horizon 375B A23B (Institute of Foundation Models)` (🟢 ↑4) — *AA 吞吐速度*
 
 ### 📉 排名大幅下跌 (≥2 位)
-- `openai/gpt-6-luna` (🔴 ↓2) — *OpenRouter*
+- `stepfun/step-5-preview` (🔴 ↓4) — *OpenRouter*
 
 ---
 
@@ -34,15 +25,14 @@
 
 | 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 29.6T tokens | 27% | ⚪ - | 
-| 2 | `z-ai/glm-5.3-flash` | 11.9T tokens | 6% | ⚪ - | 
-| 3 | `xiaomi/mimo-v2.6-flash` | 9.57T tokens | 17% | 🟢 ↑1 | 
-| 4 | `stepfun/step-5-preview` | 8.22T tokens | 32% | 🔴 ↓1 | 
-| 5 | `tencent/hy4-preview` | 7.82T tokens | 6% | ⚪ - | 
-| 6 | `anthropic/claude-opus-5.5` | 6.47T tokens | 21% | ⚪ - | 
-| 7 | `openai/gpt-6-luna` | 6.23T tokens | 12% | 🔴 ↓2 | 
-| 8 | `z-ai/glm-5.3` | 5.29T tokens | 33% | 🔴 ↓1 | 
-| 9 | `deepseek/deepseek-v4-flash-0731` | 4.73T tokens | 1% | ⚪ - | 
+| 1 | `deepseek/deepseek-v4.1-flash` | 27.3T tokens | 32% | ⚪ - | 
+| 2 | `z-ai/glm-5.3-flash` | 11.6T tokens | 10% | ⚪ - | 
+| 3 | `xiaomi/mimo-v2.6-flash` | 9.05T tokens | 22% | 🔴 ↓1 | 
+| 4 | `tencent/hy4-preview` | 8.16T tokens | 0% | ⚪ - | 
+| 5 | `anthropic/claude-opus-5.5` | 6.8T tokens | 21% | 🟢 ↑1 | 
+| 6 | `openai/gpt-6-luna` | 6.21T tokens | 13% | 🟢 ↑1 | 
+| 7 | `stepfun/step-5-preview` | 5.82T tokens | 61% | 🔴 ↓4 | 
+| 8 | `z-ai/glm-5.3` | 5.32T tokens | 27% | ⚪ - | 
 
 ---
 
@@ -277,16 +267,16 @@
 
 | 排名 | 模型名称 (托管商) | 数值 | 变动 |
 | :--- | :--- | :--- | :--- |
-| 1 | gpt-oss-120b (low) (Cerebras) | `1,809` | 🟢 ↑1 | 
-| 2 | gpt-oss-120b (high) (Cerebras) | `1,734` | 🔴 ↓1 | 
-| 3 | Celeris-1 (Celeris) | `1,521` | ⚪ - | 
-| 4 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,477` | ⚪ - | 
-| 5 | GLM-5.3-Flash (FAST) (Inco) | `1,449` | 🟢 ↑2 | 
-| 6 | K2 Horizon 375B A23B (Institute of Foundation Models) | `1,109` | 🟢 ↑4 | 
-| 7 | gpt-oss-20b (low) (Groq) | `914` | 🆕 **New** | 
-| 8 | gpt-oss-20b (high) (Groq) | `904` | 🆕 **New** | 
-| 9 | Mercury 2.5 (Inception) | `720` | 🆕 **New** | 
-| 10 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | `697` | 🆕 **New** | 
+| 1 | gpt-oss-120b (low) (Cerebras) | `1,791` | ⚪ - | 
+| 2 | gpt-oss-120b (high) (Cerebras) | `1,732` | ⚪ - | 
+| 3 | Celeris-1 (Celeris) | `1,497` | ⚪ - | 
+| 4 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,481` | ⚪ - | 
+| 5 | GLM-5.3-Flash (FAST) (Inco) | `1,441` | ⚪ - | 
+| 6 | K2 Horizon 375B A23B (Institute of Foundation Models) | `1,115` | ⚪ - | 
+| 7 | gpt-oss-20b (high) (Groq) | `899` | 🟢 ↑1 | 
+| 8 | gpt-oss-20b (low) (Groq) | `891` | 🔴 ↓1 | 
+| 9 | Mercury 2.5 (Inception) | `781` | ⚪ - | 
+| 10 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | `720` | ⚪ - | 
 
 ## 💎 Artificial Analysis 价格
 *基于独立基准测试与性能追踪*
