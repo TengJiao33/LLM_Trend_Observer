@@ -1,314 +1,310 @@
-# 🤖 大模型今日趋势-10-23
-> 📅 **生成时间**: `2026-10-23 08:04:22`
-> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS Arena](https://lmarena.ai/leaderboard) | [HF Open LLM](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
+# 大模型趋势日报 · 2026-10-24
 
----
+生成时间：2026-10-24 11:34:37（北京时间，UTC+8）
 
-## 🧭 数据源状态
+## 数据状态
 
-- ✅ OpenRouter: 本次抓取成功
-- ⚠️ LMSYS/Arena: 本次抓取缺失，报告沿用历史数据
-- ✅ Artificial Analysis: 本次抓取成功
-- ✅ HF Open LLM: 本次抓取成功
+| 来源 | 本次采集 | 可用榜单 | 采集时间（UTC） |
+| :--- | :--- | ---: | :--- |
+| OpenRouter | 成功 | 1 | 2026-10-24T03:32:49+00:00 |
+| Arena | 成功 | 11 | 2026-10-24T03:32:59+00:00 |
+| Artificial Analysis | 成功 | 3 | 2026-10-24T03:32:49+00:00 |
 
----
-## 🔍 今日显著变动
-本期排名相对稳定，未检测到显著异常变动。
+## 变化摘要
 
----
+本次尚无可比较的新旧快照，无法判断趋势。
+本次为 15 个榜单建立新基线；首次采集或口径变化不记为新模型发布。
 
-## 🚀 OpenRouter 排行榜
-*基于 OpenRouter 平台真实部署与调用量统计*
+摘要阈值：名次变化至少 2 位；或 Arena 分数变化至少 5 分、能力指数至少 1 分、Agent 分数至少 1 个百分点、其他数值至少 10%。这些是筛选规则，不是统计显著性检验。
 
-| 排名 | 模型 ID | 使用量 (Tokens) | 增长率 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | `deepseek/deepseek-v4.1-flash` | 23.5T tokens | 37% | ⚪ - | 
-| 2 | `z-ai/glm-5.3-flash` | 11.4T tokens | 12% | 🔴 ↓1 | 
-| 3 | `tencent/hy4-preview` | 8.67T tokens | 10% | 🟢 ↑1 | 
-| 4 | `xiaomi/mimo-v2.6-flash` | 8T tokens | 29% | 🔴 ↓1 | 
-| 5 | `anthropic/claude-opus-5.5` | 7.45T tokens | 27% | ⚪ - | 
-| 6 | `openai/gpt-6-luna` | 6.1T tokens | 10% | ⚪ - | 
-| 7 | `z-ai/glm-5.3` | 5.15T tokens | 7% | ⚪ - | 
-| 8 | `nvidia/nemotron-3-ultra-(free)` | 4.63T tokens | 36% | ⚪ - | 
+## OpenRouter · 模型调用量
 
----
+数据发布日期：来源未提供；最近成功采集：2026-10-24T03:32:49+00:00（UTC）。
+采集方式：公开网页；单位：Tokens。
+统计窗口：OpenRouter 公开周榜。
 
-## 🏆 LMSYS Agent (智能体)
-*基于众测竞技场 Elo 分数统计*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 26.7T | — | 基线 | 未知 |
+| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 20.5T | — | 基线 | 未知 |
+| 3 | [minimax/minimax-m3.1-flash:free](https://openrouter.ai/minimax/minimax-m3.1-flash:free) | 13.7T | — | 基线 | 未知 |
+| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.9T | — | 基线 | 未知 |
+| 5 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 8.77T | — | 基线 | 未知 |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 8.04T | — | 基线 | 未知 |
+| 7 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 7.41T | — | 基线 | 未知 |
+| 8 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 6.74T | — | 基线 | 未知 |
+| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 5.43T | — | 基线 | 未知 |
+| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 5.02T | — | 基线 | 未知 |
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **Claude Fable 5.1 (Max)** | 13.71% | ±1.72% | ⚪ - | 
-| 2 | **GPT 6 Astra (Max)** | 11.54% | ±2.10% | ⚪ - | 
-| 3 | **Claude Opus 5 (High)** | 10.25% | ±1.41% | ⚪ - | 
-| 4 | **Claude Opus 5 (Max)** | 10.16% | ±1.55% | ⚪ - | 
-| 5 | **Claude Fable 5 (High)** | 8.81% | ±1.25% | ⚪ - | 
-| 6 | **Claude Opus 4.8 (High)** | 8.19% | ±1.27% | ⚪ - | 
-| 7 | **GPT 5.6 Sol (xHigh)** | 7.10% | ±1.28% | ⚪ - | 
-| 8 | **Kimi K3 (Max)** | 6.22% | ±0.62% | ⚪ - | 
-| 9 | **Claude Sonnet 5 (High)** | 5.97% | ±1.62% | ⚪ - | 
-| 10 | **GPT 5.5 (xHigh)** | 5.03% | ±0.92% | ⚪ - | 
+## Arena · 智能体
 
-## 🏆 LMSYS Text (文本能力)
-*基于众测竞技场 Elo 分数统计*
+数据发布日期：2026-10-23；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：百分比。
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **claude-fable-5-high** | 1506 | ±5 | ⚪ - | 
-| 2 | **claude-opus-4-6-high** | 1505 | ±4 | ⚪ - | 
-| 3 | **claude-opus-4-7-high** | 1502 | ±4 | ⚪ - | 
-| 4 | **muse-spark-1.2 (xHigh)** | 1500 | ±11 | ⚪ - | 
-| 5 | **claude-fable-5.1-max** | 1498 | ±8 | ⚪ - | 
-| 6 | **claude-opus-4-6** | 1497 | ±3 | ⚪ - | 
-| 7 | **claude-opus-4-7** | 1494 | ±4 | ⚪ - | 
-| 8 | **muse-spark-1.3-max** | 1493 | ±9 | ⚪ - | 
-| 9 | **gemini-3.8-flash-high** | 1493 | ±9 | ⚪ - | 
-| 10 | **claude-opus-5-high** | 1493 | ±4 | ⚪ - | 
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Claude Opus 5.5 (Max) | 20.77% | [18.39%, 23.15%] | 基线 | 未知 |
+| 2 | Claude Sonnet 5.5 (Max) | 13.99% | [10.95%, 17.02%] | 基线 | 未知 |
+| 3 | GPT-6 Astra (Max) | 13.96% | [11.88%, 16.04%] | 基线 | 未知 |
+| 4 | Claude Fable 5.1 (Max) | 13.94% | [12.01%, 15.88%] | 基线 | 未知 |
+| 5 | GPT-6.1 Sol (Max) | 13.64% | [12.01%, 15.27%] | 基线 | 未知 |
+| 6 | Gemini 4 Argon (High) | 11.75% | [10.84%, 12.66%] | 基线 | 未知 |
+| 7 | GPT-6 Sol (Max) | 8.57% | [6.85%, 10.28%] | 基线 | 未知 |
+| 8 | Claude Opus 5 (Max) | 8.22% | [6.59%, 9.85%] | 基线 | 未知 |
+| 9 | Claude Fable 5 (High) | 7.75% | [6.35%, 9.16%] | 基线 | 未知 |
+| 10 | GPT-5.6 Sol (xHigh) | 6.06% | [4.72%, 7.39%] | 基线 | 未知 |
 
-## 🏆 LMSYS Code (编程能力)
-*基于众测竞技场 Elo 分数统计*
+## Arena · 文本
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **claude-opus-4-7-thinking** | 1571 | - | ⚪ - | 
-| 2 | **claude-opus-4-7** | 1565 | - | ⚪ - | 
-| 3 | **claude-opus-4-6-thinking** | 1551 | - | ⚪ - | 
-| 4 | **claude-opus-4-6** | 1548 | - | ⚪ - | 
-| 5 | **glm-5.1** | 1534 | - | ⚪ - | 
-| 6 | **kimi-k2.6** | 1529 | - | ⚪ - | 
-| 7 | **claude-sonnet-4-6** | 1525 | - | ⚪ - | 
-| 8 | **muse-spark** | 1510 | - | ⚪ - | 
-| 9 | **gpt-5.5-high (codex-harness)** | 1500 | - | ⚪ - | 
-| 10 | **claude-opus-4-5-20251101-thinking-32k** | 1491 | - | ⚪ - | 
+数据发布日期：2026-10-22；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-## 🏆 LMSYS WebDev (网页开发)
-*基于众测竞技场 Elo 分数统计*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Gemini 4 Argon (High) | 1,517.2 | [1,510.6, 1,523.8] | 基线 | 未知 |
+| 2 | Claude Opus 5.5 (High) | 1,508.7 | [1,501.9, 1,515.5] | 基线 | 未知 |
+| 3 | Muse Wonder (Max) | 1,508.7 | [1,500.6, 1,516.8] | 基线 | 未知 |
+| 4 | Claude Fable 5 (High) | 1,503.3 | [1,499.1, 1,507.5] | 基线 | 未知 |
+| 5 | Claude Fable 5.1 (Max) | 1,503.2 | [1,497.3, 1,509.1] | 基线 | 未知 |
+| 6 | Claude Opus 4.6 (High) | 1,502.9 | [1,499.6, 1,506.2] | 基线 | 未知 |
+| 7 | Claude Opus 4.7 (High) | 1,501.1 | [1,497.3, 1,504.8] | 基线 | 未知 |
+| 8 | Claude Opus 4.6 | 1,496.7 | [1,493.4, 1,499.9] | 基线 | 未知 |
+| 9 | Gemini 3.8 Flash (High) | 1,495.7 | [1,491.2, 1,500.2] | 基线 | 未知 |
+| 10 | Muse Spark 1.3 (Max) | 1,495.6 | [1,490.2, 1,500.9] | 基线 | 未知 |
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **claude-opus-5.5-max** | 1818 | +21/-21 | ⚪ - | 
-| 2 | **gpt-6-astra-max** | 1792 | +12/-12 | ⚪ - | 
-| 3 | **claude-fable-5.1-max** | 1755 | +11/-11 | ⚪ - | 
-| 4 | **claude-opus-5-max** | 1692 | +7/-7 | ⚪ - | 
-| 5 | **gpt-6-sol-max** | 1686 | +17/-17 | ⚪ - | 
-| 6 | **qwen3.8-max** | 1671 | +12/-12 | ⚪ - | 
-| 7 | **claude-opus-5-high** | 1662 | +6/-6 | ⚪ - | 
-| 8 | **qwen3.8-max-0902** | 1661 | +9/-9 | ⚪ - | 
-| 9 | **kimi-k3-max** | 1660 | +7/-7 | ⚪ - | 
-| 10 | **muse-spark-1.3-max** | 1658 | +10/-10 | ⚪ - | 
+## Arena · 网页开发
 
-## 🏆 LMSYS Vision (多模态/视觉)
-*基于众测竞技场 Elo 分数统计*
+数据发布日期：2026-10-23；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **claude-fable-5-high** | 1310 | ±8 | ⚪ - | 
-| 2 | **qwen3.8-max** | 1302 | ±8 | ⚪ - | 
-| 3 | **claude-opus-4-7-high** | 1301 | ±7 | ⚪ - | 
-| 4 | **claude-opus-4-7** | 1300 | ±7 | ⚪ - | 
-| 5 | **claude-opus-4-6-high** | 1299 | ±7 | ⚪ - | 
-| 6 | **muse-spark-1.3-max** | 1294 | ±15 | ⚪ - | 
-| 7 | **muse-spark** | 1294 | ±9 | ⚪ - | 
-| 8 | **claude-opus-4-6** | 1293 | ±7 | ⚪ - | 
-| 9 | **muse-spark-1.2 (xHigh)** | 1292 | ±15 | ⚪ - | 
-| 10 | **claude-opus-5-high** | 1289 | ±8 | ⚪ - | 
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Claude Opus 5.5 (Max) | 1,806.9 | [1,793.6, 1,820.3] | 基线 | 未知 |
+| 2 | GPT-6 Astra (Max) | 1,774.3 | [1,764.4, 1,784.2] | 基线 | 未知 |
+| 3 | Claude Sonnet 5.5 (xHigh) | 1,768.9 | [1,756.7, 1,781.1] | 基线 | 未知 |
+| 4 | GPT-6.1 Sol (Max) | 1,749.3 | [1,737.1, 1,761.6] | 基线 | 未知 |
+| 5 | Claude Fable 5.1 (Max) | 1,742.5 | [1,733.7, 1,751.2] | 基线 | 未知 |
+| 6 | Muse Wonder Full (Max) | 1,725.9 | [1,712.0, 1,739.8] | 基线 | 未知 |
+| 7 | Claude Sonnet 5.5 (High) | 1,709.2 | [1,699.6, 1,718.8] | 基线 | 未知 |
+| 8 | Kimi K3.1 Pro (Max) | 1,691.6 | [1,678.1, 1,705.2] | 基线 | 未知 |
+| 9 | Claude Opus 5 (Max) | 1,690.7 | [1,684.5, 1,696.9] | 基线 | 未知 |
+| 10 | GPT-6 Sol (Max) | 1,680.8 | [1,670.9, 1,690.8] | 基线 | 未知 |
 
-## 🏆 LMSYS Document (文档理解)
-*基于众测竞技场 Elo 分数统计*
+## Arena · 视觉
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **claude-opus-5-high** | 1516 | ±7 | ⚪ - | 
-| 2 | **claude-fable-5.1-max** | 1513 | ±15 | ⚪ - | 
-| 3 | **claude-opus-4-6-high** | 1507 | ±6 | ⚪ - | 
-| 4 | **claude-opus-4-6** | 1507 | ±6 | ⚪ - | 
-| 5 | **claude-fable-5-high** | 1496 | ±8 | ⚪ - | 
-| 6 | **claude-opus-4-7** | 1495 | ±6 | ⚪ - | 
-| 7 | **claude-opus-4-7-high** | 1495 | ±7 | ⚪ - | 
-| 8 | **gpt-5.5** | 1486 | ±6 | ⚪ - | 
-| 9 | **gpt-5.5-high** | 1484 | ±6 | ⚪ - | 
-| 10 | **gpt-5.6-sol-xhigh** | 1483 | ±9 | ⚪ - | 
+数据发布日期：2026-10-19；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-## 🏆 LMSYS Text-to-Image (文生图)
-*基于众测竞技场 Elo 分数统计*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Claude Fable 5 (High) | 1,308.7 | [1,301.7, 1,315.8] | 基线 | 未知 |
+| 2 | Qwen3.8-Max | 1,300.0 | [1,292.5, 1,307.5] | 基线 | 未知 |
+| 3 | Claude Opus 4.6 (High) | 1,299.1 | [1,292.6, 1,305.5] | 基线 | 未知 |
+| 4 | Claude Opus 4.7 | 1,298.7 | [1,292.1, 1,305.3] | 基线 | 未知 |
+| 5 | Claude Opus 4.7 (High) | 1,297.7 | [1,291.2, 1,304.3] | 基线 | 未知 |
+| 6 | Gemini 3.7 Flash (High) | 1,295.2 | [1,285.9, 1,304.4] | 基线 | 未知 |
+| 7 | Muse Spark | 1,294.1 | [1,285.0, 1,303.2] | 基线 | 未知 |
+| 8 | Claude Opus 4.6 | 1,293.7 | [1,287.4, 1,300.0] | 基线 | 未知 |
+| 9 | GPT-6.1 Sol (Max) | 1,293.5 | [1,280.6, 1,306.5] | 基线 | 未知 |
+| 10 | Claude Opus 5.5 (High) | 1,293.0 | [1,281.2, 1,304.7] | 基线 | 未知 |
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **gpt-image-2.5-sunburst** | 1423 | ±9 | ⚪ - | 
-| 2 | **gpt-image-2.5-flare** | 1401 | ±9 | ⚪ - | 
-| 3 | **gpt-image-2 (medium)** | 1381 | ±4 | ⚪ - | 
-| 4 | **mai-image-2.6** | 1334 | ±6 | ⚪ - | 
-| 5 | **grok-imagine-image-2.0 (low)** | 1302 | ±9 | ⚪ - | 
-| 6 | **reve-2.1** | 1301 | ±8 | ⚪ - | 
-| 7 | **muse-image** | 1276 | ±5 | ⚪ - | 
-| 8 | **reve-2.0** | 1270 | ±6 | ⚪ - | 
-| 9 | **gemini-3.1-flash-image (nano-banana-2) [web-search]** | 1260 | ±4 | ⚪ - | 
-| 10 | **seedream-5.0-pro** | 1256 | ±4 | ⚪ - | 
+## Arena · 文档
 
-## 🏆 LMSYS Image Edit (图像编辑)
-*基于众测竞技场 Elo 分数统计*
+数据发布日期：2026-09-13；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **gpt-image-2.5-sunburst** | 1526 | ±6 | ⚪ - | 
-| 2 | **gpt-image-2.5-flare** | 1482 | ±6 | ⚪ - | 
-| 3 | **gpt-image-2 (medium)** | 1461 | ±3 | ⚪ - | 
-| 4 | **grok-imagine-image-2.0 (low)** | 1430 | ±6 | ⚪ - | 
-| 5 | **mai-image-2.6** | 1429 | ±6 | ⚪ - | 
-| 6 | **muse-image** | 1402 | ±5 | ⚪ - | 
-| 7 | **mai-image-2.5** | 1400 | ±4 | ⚪ - | 
-| 8 | **seedream-5.0-pro** | 1394 | ±3 | ⚪ - | 
-| 9 | **gemini-3-pro-image-2k (nano-banana-pro)** | 1390 | ±3 | ⚪ - | 
-| 10 | **grok-imagine-image-quality (20260519)** | 1390 | ±6 | ⚪ - | 
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | claude-opus-5-high | 1,516.3 | [1,509.2, 1,523.3] | 基线 | 未知 |
+| 2 | claude-fable-5.1-max | 1,512.6 | [1,497.4, 1,527.8] | 基线 | 未知 |
+| 3 | claude-opus-4-6-high | 1,507.3 | [1,500.9, 1,513.7] | 基线 | 未知 |
+| 4 | claude-opus-4-6 | 1,507.1 | [1,501.2, 1,512.9] | 基线 | 未知 |
+| 5 | claude-fable-5 | 1,496.1 | [1,488.2, 1,503.9] | 基线 | 未知 |
+| 6 | claude-opus-4-7 | 1,495.0 | [1,488.7, 1,501.4] | 基线 | 未知 |
+| 7 | claude-opus-4-7-high | 1,494.7 | [1,488.2, 1,501.2] | 基线 | 未知 |
+| 8 | gpt-5.5 | 1,485.7 | [1,479.5, 1,492.0] | 基线 | 未知 |
+| 9 | gpt-5.5-high | 1,484.5 | [1,478.1, 1,490.9] | 基线 | 未知 |
+| 10 | gpt-5.6-sol-xhigh | 1,482.7 | [1,473.9, 1,491.5] | 基线 | 未知 |
 
-## 🏆 LMSYS Image-to-WebDev (图生网页)
-*基于众测竞技场 Elo 分数统计*
+## Arena · 搜索
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **gpt-6-astra-max** | 1733 | +21/-21 | ⚪ - | 
-| 2 | **claude-fable-5.1-max** | 1710 | +21/-21 | ⚪ - | 
-| 3 | **claude-opus-5-max** | 1665 | +13/-13 | ⚪ - | 
-| 4 | **muse-spark-1.3-max** | 1645 | +18/-18 | ⚪ - | 
-| 5 | **qwen3.8-max-0902** | 1639 | +19/-19 | ⚪ - | 
-| 6 | **claude-fable-5-high** | 1623 | +11/-11 | ⚪ - | 
-| 7 | **qwen3.8-max** | 1618 | +13/-13 | ⚪ - | 
-| 8 | **gpt-5.6-sol-xhigh (codex-harness)** | 1604 | +13/-13 | ⚪ - | 
-| 9 | **grok-4.6-high** | 1596 | +18/-18 | ⚪ - | 
-| 10 | **glm-5.3-flash** | 1588 | +15/-15 | ⚪ - | 
+数据发布日期：2026-10-13；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-## 🏆 LMSYS Search (搜索增强)
-*基于众测竞技场 Elo 分数统计*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | gpt-5.6-sol-xhigh | 1,261.1 | [1,254.8, 1,267.4] | 基线 | 未知 |
+| 2 | qwen3.8-max | 1,261.1 | [1,247.9, 1,274.3] | 基线 | 未知 |
+| 3 | claude-opus-4-6-search | 1,251.4 | [1,246.8, 1,255.9] | 基线 | 未知 |
+| 4 | gpt-5.5-search | 1,246.6 | [1,241.7, 1,251.5] | 基线 | 未知 |
+| 5 | claude-fable-5.1-high | 1,245.8 | [1,238.8, 1,252.9] | 基线 | 未知 |
+| 6 | claude-opus-5-high | 1,241.6 | [1,234.7, 1,248.4] | 基线 | 未知 |
+| 7 | gpt-6-astra-max | 1,233.6 | [1,225.8, 1,241.5] | 基线 | 未知 |
+| 8 | gpt-6.1-sol-max | 1,233.1 | [1,224.2, 1,242.0] | 基线 | 未知 |
+| 9 | claude-opus-4-7 | 1,230.1 | [1,225.3, 1,235.0] | 基线 | 未知 |
+| 10 | claude-fable-5-high | 1,229.1 | [1,222.6, 1,235.6] | 基线 | 未知 |
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **gpt-5.6-sol-xhigh** | 1257 | ±7 | ⚪ - | 
-| 2 | **claude-opus-4-6-search** | 1253 | ±5 | ⚪ - | 
-| 3 | **gpt-5.5-search** | 1242 | ±5 | ⚪ - | 
-| 4 | **claude-opus-4-7** | 1233 | ±5 | ⚪ - | 
-| 5 | **claude-fable-5-high** | 1230 | ±8 | ⚪ - | 
-| 6 | **ernie-5.1** | 1227 | ±10 | ⚪ - | 
-| 7 | **claude-sonnet-4-6-search** | 1221 | ±5 | ⚪ - | 
-| 8 | **grok-4.5** | 1213 | ±7 | ⚪ - | 
-| 9 | **gemini-3.1-pro-grounding** | 1210 | ±5 | ⚪ - | 
-| 10 | **gemini-3-pro-grounding** | 1207 | ±6 | ⚪ - | 
+## Arena · 文生图
 
-## 🏆 LMSYS Text-to-Video (文生视频)
-*基于众测竞技场 Elo 分数统计*
+数据发布日期：2026-10-07；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **gemini-omni-1.1-flash** | 1516 | ±15 | ⚪ - | 
-| 2 | **gemini-omni-flash** | 1513 | ±9 | ⚪ - | 
-| 3 | **flux-3-video** | 1493 | ±17 | ⚪ - | 
-| 4 | **grok-imagine-video-1.5-agent** | 1492 | ±18 | ⚪ - | 
-| 5 | **dreamina-seedance-2.0-720p** | 1479 | ±8 | ⚪ - | 
-| 6 | **wan3.0** | 1476 | ±13 | ⚪ - | 
-| 7 | **dreamina-seedance-2.5-720p** | 1474 | ±9 | ⚪ - | 
-| 8 | **minimax-h3** | 1460 | ±9 | ⚪ - | 
-| 9 | **muse-video** | 1456 | ±15 | ⚪ - | 
-| 10 | **happyhorse-1.0** | 1427 | ±13 | ⚪ - | 
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | gpt-image-2.5-sunburst | 1,424.6 | [1,417.7, 1,431.4] | 基线 | 未知 |
+| 2 | gpt-image-2.5-flare | 1,397.6 | [1,390.9, 1,404.4] | 基线 | 未知 |
+| 3 | gpt-image-2 (medium) | 1,383.0 | [1,379.0, 1,387.1] | 基线 | 未知 |
+| 4 | grok-imagine-image-2.0 (canvas) | 1,333.5 | [1,322.0, 1,345.1] | 基线 | 未知 |
+| 5 | mai-image-2.6 | 1,332.1 | [1,326.7, 1,337.5] | 基线 | 未知 |
+| 6 | gemini-nano-banana-2.1 | 1,327.8 | [1,319.0, 1,336.5] | 基线 | 未知 |
+| 7 | reve-2.1 | 1,301.7 | [1,294.2, 1,309.2] | 基线 | 未知 |
+| 8 | grok-imagine-image-2.0 (20260801) | 1,294.2 | [1,287.9, 1,300.6] | 基线 | 未知 |
+| 9 | muse-image | 1,274.0 | [1,268.9, 1,279.1] | 基线 | 未知 |
+| 10 | reve-2.0 | 1,269.2 | [1,263.0, 1,275.4] | 基线 | 未知 |
 
-## 🏆 LMSYS Image-to-Video (图生视频)
-*基于众测竞技场 Elo 分数统计*
+## Arena · 图像编辑
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **minimax-h3** | 1495 | ±5 | ⚪ - | 
-| 2 | **gemini-omni-1.1-flash** | 1488 | ±11 | ⚪ - | 
-| 3 | **wan3.0** | 1480 | ±11 | ⚪ - | 
-| 4 | **dreamina-seedance-2.5-720p** | 1477 | ±7 | ⚪ - | 
-| 5 | **dreamina-seedance-2.0-720p** | 1475 | ±7 | ⚪ - | 
-| 6 | **gemini-omni-flash** | 1465 | ±6 | ⚪ - | 
-| 7 | **hidream-o1-video-1.0** | 1456 | ±8 | ⚪ - | 
-| 8 | **grok-imagine-video-1.5-720p** | 1456 | ±4 | ⚪ - | 
-| 9 | **flux-3-video-20260811** | 1449 | ±5 | ⚪ - | 
-| 10 | **happyhorse-1.0** | 1442 | ±10 | ⚪ - | 
+数据发布日期：2026-10-20；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-## 🏆 LMSYS Video Edit (视频编辑)
-*基于众测竞技场 Elo 分数统计*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | GPT-Image-2.5 Sunburst | 1,514.4 | [1,508.9, 1,519.9] | 基线 | 未知 |
+| 2 | GPT-Image-2.5 Flare | 1,480.7 | [1,475.4, 1,486.0] | 基线 | 未知 |
+| 3 | GPT-Image-2 (Medium) | 1,460.6 | [1,457.4, 1,463.8] | 基线 | 未知 |
+| 4 | Grok Imagine Image 2.0 | 1,439.4 | [1,433.3, 1,445.5] | 基线 | 未知 |
+| 5 | Gemini Nano Banana 2.1 | 1,426.2 | [1,420.4, 1,432.0] | 基线 | 未知 |
+| 6 | MAI-Image-2.6 | 1,425.3 | [1,420.1, 1,430.5] | 基线 | 未知 |
+| 7 | Grok Imagine Image 2.0 (20260801) | 1,415.0 | [1,409.8, 1,420.1] | 基线 | 未知 |
+| 8 | Krea 3 Ultra | 1,410.5 | [1,399.2, 1,421.8] | 基线 | 未知 |
+| 9 | MAI-Image-2.5 | 1,399.9 | [1,396.3, 1,403.6] | 基线 | 未知 |
+| 10 | Muse Image | 1,398.0 | [1,393.8, 1,402.1] | 基线 | 未知 |
 
-| 排名 | 模型名称 | 分数 | 区间/误差 | 变动 |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | **wan3.0** | 1414 | ±26 | ⚪ - | 
-| 2 | **dreamina-seedance-2.5-720p** | 1410 | ±26 | ⚪ - | 
-| 3 | **minimax-h3** | 1392 | ±19 | ⚪ - | 
-| 4 | **gemini-omni-flash** | 1367 | ±15 | ⚪ - | 
-| 5 | **dreamina-seedance-2.0-720p** | 1365 | ±14 | ⚪ - | 
-| 6 | **happyhorse-1.0** | 1307 | ±14 | ⚪ - | 
-| 7 | **grok-imagine-video** | 1258 | ±10 | ⚪ - | 
-| 8 | **kling-o3-pro** | 1255 | ±11 | ⚪ - | 
-| 9 | **kling-o1-pro** | 1197 | ±10 | ⚪ - | 
-| 10 | **runway-gen4-aleph** | 1182 | ±9 | ⚪ - | 
+## Arena · 文生视频
 
----
+数据发布日期：2026-09-22；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-## 💎 Artificial Analysis 智力/质量指数
-*基于独立基准测试与性能追踪*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | gemini-omni-1.1-flash | 1,516.2 | [1,500.8, 1,531.7] | 基线 | 未知 |
+| 2 | gemini-omni-flash | 1,512.9 | [1,503.9, 1,521.8] | 基线 | 未知 |
+| 3 | flux-3-video | 1,493.1 | [1,475.8, 1,510.3] | 基线 | 未知 |
+| 4 | grok-imagine-video-1.5-agent | 1,492.3 | [1,474.0, 1,510.6] | 基线 | 未知 |
+| 5 | dreamina-seedance-2.0-720p | 1,479.2 | [1,471.2, 1,487.2] | 基线 | 未知 |
+| 6 | wan3.0 | 1,476.3 | [1,463.6, 1,488.9] | 基线 | 未知 |
+| 7 | dreamina-seedance-2.5-720p | 1,473.9 | [1,465.4, 1,482.5] | 基线 | 未知 |
+| 8 | minimax-h3 | 1,460.3 | [1,451.7, 1,468.9] | 基线 | 未知 |
+| 9 | muse-video | 1,455.8 | [1,441.2, 1,470.5] | 基线 | 未知 |
+| 10 | happyhorse-1.0 | 1,427.2 | [1,414.7, 1,439.7] | 基线 | 未知 |
 
-| 排名 | 模型名称 (托管商) | 数值 | 变动 |
-| :--- | :--- | :--- | :--- |
-| 1 | Claude Opus 5.5 (max with fallback) (Anthropic) | `58` | ⚪ - | 
-| 2 | Claude Sonnet 5.5 (max with fallback) (Anthropic) | `56` | ⚪ - | 
-| 3 | Claude Opus 5.5 (xhigh with fallback) (Anthropic) | `56` | ⚪ - | 
-| 4 | Claude Opus 5.5 (high with fallback) (Anthropic) | `54` | ⚪ - | 
-| 5 | Claude Fable 5.1 (max with fallback) (Anthropic) | `53` | ⚪ - | 
-| 6 | Claude Fable 5.1 (xhigh with fallback) (Anthropic) | `53` | ⚪ - | 
-| 7 | GPT-6 Astra (max) (OpenAI) | `53` | ⚪ - | 
-| 8 | GPT-6 Astra (max) (Fast) (OpenAI) | `53` | ⚪ - | 
-| 9 | GPT-6 Astra (max) (Ultrafast) (OpenAI) | `53` | ⚪ - | 
-| 10 | GPT-6 Astra (max) (Flex) (OpenAI) | `53` | ⚪ - | 
+## Arena · 图生视频
 
-## 💎 Artificial Analysis 吞吐速度
-*基于独立基准测试与性能追踪*
+数据发布日期：2026-09-22；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
-| 排名 | 模型名称 (托管商) | 数值 | 变动 |
-| :--- | :--- | :--- | :--- |
-| 1 | gpt-oss-120b (low) (Cerebras) | `1,798` | ⚪ - | 
-| 2 | gpt-oss-120b (high) (Cerebras) | `1,730` | ⚪ - | 
-| 3 | Celeris-1 (Celeris) | `1,518` | ⚪ - | 
-| 4 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | `1,489` | ⚪ - | 
-| 5 | GLM-5.3-Flash (FAST) (Inco) | `1,351` | ⚪ - | 
-| 6 | DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI) | `1,235` | ⚪ - | 
-| 7 | K2 Horizon 375B A23B (Institute of Foundation Models) | `925` | ⚪ - | 
-| 8 | gpt-oss-20b (high) (Groq) | `891` | ⚪ - | 
-| 9 | gpt-oss-20b (low) (Groq) | `870` | ⚪ - | 
-| 10 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | `837` | ⚪ - | 
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | minimax-h3 | 1,495.4 | [1,490.2, 1,500.6] | 基线 | 未知 |
+| 2 | gemini-omni-1.1-flash | 1,488.5 | [1,477.6, 1,499.4] | 基线 | 未知 |
+| 3 | wan3.0 | 1,479.8 | [1,469.0, 1,490.6] | 基线 | 未知 |
+| 4 | dreamina-seedance-2.5-720p | 1,477.4 | [1,470.2, 1,484.6] | 基线 | 未知 |
+| 5 | dreamina-seedance-2.0-720p | 1,474.6 | [1,467.5, 1,481.6] | 基线 | 未知 |
+| 6 | gemini-omni-flash | 1,464.8 | [1,459.3, 1,470.4] | 基线 | 未知 |
+| 7 | hidream-o1-video-1.0 | 1,456.5 | [1,448.5, 1,464.4] | 基线 | 未知 |
+| 8 | grok-imagine-video-1.5-720p | 1,456.0 | [1,451.8, 1,460.2] | 基线 | 未知 |
+| 9 | flux-3-video-20260811 | 1,449.4 | [1,444.5, 1,454.4] | 基线 | 未知 |
+| 10 | happyhorse-1.0 | 1,441.7 | [1,431.8, 1,451.5] | 基线 | 未知 |
 
-## 💎 Artificial Analysis 价格
-*基于独立基准测试与性能追踪*
+## Arena · 视频编辑
 
-| 排名 | 模型名称 (托管商) | 数值 | 变动 |
-| :--- | :--- | :--- | :--- |
-| 1 | GPT-6 Luna (low) (OpenAI) | `$0.0045` | ⚪ - | 
-| 2 | GPT-6 Luna (non-reasoning) (OpenAI) | `$0.01` | ⚪ - | 
-| 3 | Llama 4 Maverick (DigitalOcean) | `$0.01` | ⚪ - | 
-| 4 | Granite 4.2 3B (DeepInfra) | `$0.01` | ⚪ - | 
-| 5 | gpt-oss-20b (high) (CoreWeave) | `$0.01` | ⚪ - | 
-| 6 | gpt-oss-20b (high) Vertex (Google) | `$0.01` | ⚪ - | 
-| 7 | Gemma 4 E4B (DeepInfra) | `$0.01` | ⚪ - | 
-| 8 | Nemotron 3 Nano (FP8) (Crusoe) | `$0.01` | ⚪ - | 
-| 9 | Ministral 3 8B (Mistral) | `$0.01` | ⚪ - | 
-| 10 | Ministral 3 3B (Mistral) | `$0.01` | ⚪ - | 
+数据发布日期：2026-08-27；最近成功采集：2026-10-24T03:32:59+00:00（UTC）。
+采集方式：官方数据集；单位：Arena 分数。
 
----
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | wan3.0 | 1,414.1 | [1,388.4, 1,439.8] | 基线 | 未知 |
+| 2 | dreamina-seedance-2.5-720p | 1,409.8 | [1,383.3, 1,436.2] | 基线 | 未知 |
+| 3 | minimax-h3 | 1,392.2 | [1,373.6, 1,410.8] | 基线 | 未知 |
+| 4 | gemini-omni-flash | 1,366.6 | [1,352.0, 1,381.2] | 基线 | 未知 |
+| 5 | dreamina-seedance-2.0-720p | 1,364.6 | [1,350.3, 1,378.9] | 基线 | 未知 |
+| 6 | happyhorse-1.0 | 1,306.7 | [1,293.1, 1,320.3] | 基线 | 未知 |
+| 7 | grok-imagine-video | 1,257.8 | [1,247.5, 1,268.1] | 基线 | 未知 |
+| 8 | kling-o3-pro | 1,255.3 | [1,243.9, 1,266.8] | 基线 | 未知 |
+| 9 | kling-o1-pro | 1,197.3 | [1,186.9, 1,207.8] | 基线 | 未知 |
+| 10 | runway-gen4-aleph | 1,182.2 | [1,173.5, 1,190.9] | 基线 | 未知 |
 
-## 🤗 Hugging Face Open LLM 排行榜
-*基于开源模型综合评估指标 (Average Score) 统计*
-> 💡 **数据说明**: 本章节数据来自 HF 官方 `open-llm-leaderboard/contents` 数据集后端，包含所有已评估模型（共 4576 个）。相比于网页端 "Archived" 的快照，API 数据更全面且包含了一些未在前端置顶的模型。
+## Artificial Analysis · 能力指数
 
-| 排名 | 模型名称 | 平均分 | 变动 |
-| :--- | :--- | :--- | :--- |
-| 1 | **Aryanne/QwentileSwap** | 43.92 | ⚪ - | 
-| 2 | **1024m/QWEN-14B-B100** | 41.92 | ⚪ - | 
-| 3 | **Aashraf995/QwenStock-14B** | 37.13 | ⚪ - | 
-| 4 | **BAAI/Infinity-Instruct-3M-0625-Llama3-70B** | 36.91 | ⚪ - | 
-| 5 | **1-800-LLMs/Qwen-2.5-14B-Hindi** | 36.27 | ⚪ - | 
-| 6 | **BAAI/Infinity-Instruct-3M-0613-Llama3-70B** | 35.58 | ⚪ - | 
-| 7 | **Aashraf995/Gemma-Evo-10B** | 34.33 | ⚪ - | 
-| 8 | **01-ai/Yi-1.5-34B-Chat** | 33.36 | ⚪ - | 
-| 9 | **Azure99/Blossom-V6-14B** | 32.81 | ⚪ - | 
-| 10 | **AELLM/gemma-2-aeria-infinity-9b** | 31.92 | ⚪ - | 
+数据发布日期：来源未提供；最近成功采集：2026-10-24T03:32:49+00:00（UTC）。
+采集方式：公开网页；单位：能力指数。
 
----
-*Report generated by LLM Trend Observer System*
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Claude Opus 5.5 (max with fallback) | 58 | — | 基线 | 未知 |
+| 2 | Claude Opus 5.5 (xhigh with fallback) | 56 | — | 基线 | 未知 |
+| 2 | Claude Sonnet 5.5 (max with fallback) | 56 | — | 基线 | 未知 |
+| 4 | Kimi K3.1 Pro High Speed | 55 | — | 基线 | 未知 |
+| 4 | Kimi K3.1 Pro | 55 | — | 基线 | 未知 |
+| 6 | Claude Opus 5.5 (high with fallback) | 54 | — | 基线 | 未知 |
+| 7 | Claude Fable 5.1 (xhigh with fallback) | 53 | — | 基线 | 未知 |
+| 7 | Claude Fable 5.1 (max with fallback) | 53 | — | 基线 | 未知 |
+| 7 | Gemini 4 Argon (high) (Vertex) | 53 | — | 基线 | 未知 |
+| 7 | Gemini 4 Argon (high) AI Studio (1M output) | 53 | — | 基线 | 未知 |
+| 7 | Gemini 4 Argon (high) AI Studio | 53 | — | 基线 | 未知 |
+| 7 | GPT-6 Astra (max) (Fast) | 53 | — | 基线 | 未知 |
+| 7 | GPT-6 Astra (max) (Flex) | 53 | — | 基线 | 未知 |
+| 7 | GPT-6 Astra (max) (Ultrafast) | 53 | — | 基线 | 未知 |
+| 7 | GPT-6 Astra (max) | 53 | — | 基线 | 未知 |
+
+## Artificial Analysis · 输出速度
+
+数据发布日期：来源未提供；最近成功采集：2026-10-24T03:32:49+00:00（UTC）。
+采集方式：公开网页；单位：输出 Tokens/s。
+
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | gpt-oss-120b (low) (Cerebras) | 1,789 | — | 基线 | 未知 |
+| 2 | gpt-oss-120b (high) (Cerebras) | 1,664 | — | 基线 | 未知 |
+| 3 | Celeris-1 (Celeris) | 1,541 | — | 基线 | 未知 |
+| 4 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | 1,432 | — | 基线 | 未知 |
+| 5 | GLM-5.3-Flash (FAST) (Inco) | 1,365 | — | 基线 | 未知 |
+| 6 | DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI) | 1,235 | — | 基线 | 未知 |
+| 7 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco) | 1,067 | — | 基线 | 未知 |
+| 8 | K2 Horizon 375B A23B (Institute of Foundation Models) | 925 | — | 基线 | 未知 |
+| 9 | gpt-oss-20b (low) (Groq) | 870 | — | 基线 | 未知 |
+| 10 | gpt-oss-20b (high) (Groq) | 863 | — | 基线 | 未知 |
+
+## Artificial Analysis · 任务成本
+
+数据发布日期：来源未提供；最近成功采集：2026-10-24T03:32:49+00:00（UTC）。
+采集方式：公开网页；单位：USD/任务。
+
+| 排名 | 模型 / 部署 | 数值 | 区间 | 名次变化 | 数值变化 |
+| ---: | :--- | ---: | :--- | :--- | :--- |
+| 1 | Command A+ (Cohere) | 0 | — | 基线 | 未知 |
+| 1 | Gemma 4 31B (AI Studio) (Google) | 0 | — | 基线 | 未知 |
+| 1 | K2 Horizon 375B A23B (Institute of Foundation Models) | 0 | — | 基线 | 未知 |
+| 1 | Ling 3.0 Tiny (InclusionAI) | 0 | — | 基线 | 未知 |
+| 1 | North Mini Code (Cohere) | 0 | — | 基线 | 未知 |
+| 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | — | 基线 | 未知 |
+| 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | — | 基线 | 未知 |
+| 8 | GPT-6 Luna (low) (OpenAI) | 0.0045 | — | 基线 | 未知 |
+| 9 | Gemma 4 E4B (DeepInfra) | 0.01 | — | 基线 | 未知 |
+| 9 | GPT-6 Luna (non-reasoning) (Microsoft Azure) | 0.01 | — | 基线 | 未知 |
+| 9 | GPT-6 Luna (non-reasoning) (OpenAI) | 0.01 | — | 基线 | 未知 |
+| 9 | gpt-oss-20b (high) (Amazon Bedrock) | 0.01 | — | 基线 | 未知 |
+| 9 | gpt-oss-20b (high) (CoreWeave) | 0.01 | — | 基线 | 未知 |
+| 9 | gpt-oss-20b (high) (DeepInfra) | 0.01 | — | 基线 | 未知 |
+| 9 | Granite 4.2 3B (DeepInfra) | 0.01 | — | 基线 | 未知 |
+| 9 | Llama 4 Maverick (DigitalOcean) | 0.01 | — | 基线 | 未知 |
+| 9 | Ministral 3 3B (Mistral) | 0.01 | — | 基线 | 未知 |
+| 9 | Ministral 3 8B (Mistral) | 0.01 | — | 基线 | 未知 |
+| 9 | Nemotron 3 Nano (FP8) (Crusoe) | 0.01 | — | 基线 | 未知 |
+
+## 来源与口径
+
+- [OpenRouter](https://openrouter.ai/rankings)：只反映该平台的 Token 使用量，不等同于整个市场的占有率。API 模式采用上一个完整 UTC 日；网页模式采用公开周榜，两种口径分别建立基线。
+- [Arena 官方数据集](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset)：Text、Vision 使用 style control；其余为所列赛道的 overall。遵循官方名次和区间，不将单次名次波动解释为能力提升。数据许可：CC BY 4.0。
+- [Artificial Analysis](https://artificialanalysis.ai/)：网页模式的 USD/task 是任务成本；API 模式单列输入和输出 USD/1M tokens。能力榜区分推理设置，速度与成本榜区分托管部署。网页数值受来源显示精度限制，显示为零不等于免费。
+- HF Open LLM Leaderboard 已退役，不再进入日报；旧历史记录保留，不作为新口径的比较基线。

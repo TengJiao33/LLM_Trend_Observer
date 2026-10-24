@@ -1,5 +1,4 @@
-requests
-pandas
-playwright
-beautifulsoup4
-python-dotenv
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+python-dotenv>=1,<2
+pyarrow>=17

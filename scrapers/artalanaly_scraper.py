@@ -1,176 +1,100 @@
-import asyncio
-import json
+"""Artificial Analysis metrics with explicit units and header-based parsing."""
 import os
-from playwright.async_api import async_playwright
-from datetime import datetime
+import re
 
-async def scrape_artalanaly():
-    print("Starting Artificial Analysis Scrape (Embed Leaderboard)...")
-    async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
-        )
-        page = await context.new_page()
-        
-        try:
-            url = "https://artificialanalysis.ai/embed/llm-performance-leaderboard"
-            print(f"Navigating to {url}...")
-            await page.goto(url, wait_until="networkidle", timeout=60000)
-            
-            # Artificial Analysis usually loads a large table. 
-            # We need to wait for it.
-            await asyncio.sleep(5)
-            
-            # The embedded page typically has a table with columns like:
-            # Model, Quality Index, Speed/Throughput, Price
-            
-            results = {
-                "Intelligence": [],
-                "Speed": [],
-                "Price": []
-            }
-            
-            # Try to identify columns
-            headers = await page.locator("th").all_inner_texts()
-            print(f"Found headers: {headers}")
-            
-            col_map = {}
-            for i, h in enumerate(headers):
-                h_clean = h.lower()
-                if "model" in h_clean: col_map["model"] = i
-                if "quality" in h_clean or "intelligence" in h_clean or "index" in h_clean: 
-                    col_map["intelligence"] = i
-                if "tokens/sec" in h_clean or "speed" in h_clean or "throughput" in h_clean:
-                    col_map["speed"] = i
-                if "price" in h_clean or "cost" in h_clean:
-                    col_map["price"] = i
-            
-            print(f"Detected column mapping: {col_map}")
-            
-            # Diagnostic: Save HTML and Screenshot (Disabled to avoid redundant files)
-            # await page.screenshot(path="artalanaly_debug.png")
-            # content = await page.content()
-            # with open("artalanaly_debug.html", "w", encoding="utf-8") as f:
-            #     f.write(content)
-            # print("Debug screenshot and HTML saved.")
+from bs4 import BeautifulSoup
 
-            rows = await page.locator("tr").all()
-            all_data = []
-            
-            print(f"Found {len(rows)} rows total.")
-            for i, row in enumerate(rows):
-                cells = await row.locator("td, th").all_inner_texts()
-                if not cells or len(cells) < 7: continue
-                
-                # Check if it's a header-like row (skip rows like Row 0 and Row 1 from dump)
-                if "Model" in cells[1] or "API" in cells[0]:
-                    continue
+from utils.data import get, http_session, number, snapshot, validate_board
 
-                provider = cells[0].strip()
-                model_name = cells[1].strip()
-                # Construct ID: Model (Provider)
-                full_id = f"{model_name} ({provider})"
-                
-                def parse_val(val):
-                    v = val.strip().replace("$", "").replace("%", "").replace("/M", "").replace(",", "")
-                    if "k" in v.lower():
-                        v = float(v.lower().replace("k", "")) * 1000
-                    elif "m" in v.lower():
-                        v = float(v.lower().replace("m", "")) * 1000000
-                    try:
-                        return float(v)
-                    except:
-                        return None
+EMBED_URL = "https://artificialanalysis.ai/embed/llm-performance-leaderboard"
+API_URL = "https://artificialanalysis.ai/api/v2/data/llms/models"
 
-                intel_val = parse_val(cells[4])
-                price_val = parse_val(cells[5])
-                speed_val = parse_val(cells[6])
 
-                all_data.append({
-                    "model_id": full_id,
-                    "model_base": model_name,
-                    "intelligence_raw": cells[4].strip(),
-                    "intelligence": intel_val,
-                    "price_raw": cells[5].strip(),
-                    "price": price_val,
-                    "speed_raw": cells[6].strip(),
-                    "speed": speed_val,
-                    "timestamp": datetime.now().isoformat()
-                })
-            
-            if not all_data:
-                print("No data extracted from table rows.")
-                return False
+def parse_value(text):
+    text = text.strip().replace(",", "").removeprefix("$")
+    match = re.fullmatch(r"([\d.]+)\s*([kKmM]?)", text)
+    return number(match[1]) * {"": 1, "k": 1e3, "m": 1e6}[match[2].lower()] if match and number(match[1]) is not None else None
 
-            # --- Deduplicate and Sort ---
-            
-            # 1. Intelligence (Descending)
-            intel_list = sorted(
-                [d for d in all_data if d["intelligence"] is not None],
-                key=lambda x: x["intelligence"],
-                reverse=True
-            )
-            seen = set()
-            for item in intel_list:
-                if item["model_base"] not in seen:
-                    results["Intelligence"].append({
-                        "rank": len(results["Intelligence"]) + 1,
-                        "model_id": item["model_id"],
-                        "score": item["intelligence_raw"]
-                    })
-                    seen.add(item["model_base"])
-                if len(results["Intelligence"]) >= 10: break
 
-            # 2. Speed (Descending)
-            speed_list = sorted(
-                [d for d in all_data if d["speed"] is not None],
-                key=lambda x: x["speed"],
-                reverse=True
-            )
-            seen = set()
-            for item in speed_list:
-                if item["model_base"] not in seen:
-                    results["Speed"].append({
-                        "rank": len(results["Speed"]) + 1,
-                        "model_id": item["model_id"],
-                        "score": item["speed_raw"]
-                    })
-                    seen.add(item["model_base"])
-                if len(results["Speed"]) >= 10: break
+def build_boards(models, definitions, method):
+    boards = {}
+    for name, (metric, unit, ascending) in definitions.items():
+        candidates = [m for m in models if number(m.get(metric)) is not None and m[metric] >= 0]
+        candidates.sort(key=lambda m: (m[metric] if ascending else -m[metric], m["model_id"]))
+        rows, seen = [], set()
+        for model in candidates:
+            identity = model["base_id"] if name == "Intelligence" else model["model_id"]
+            if identity in seen:
+                continue
+            seen.add(identity)
+            score = model[metric]
+            rank = rows[-1]["rank"] if rows and rows[-1]["score"] == score else len(rows) + 1
+            rows.append({"model_id": identity, "name": model["name"] if name == "Intelligence" else model["deployment_name"],
+                         "rank": rank, "score": score})
+        if not rows:
+            raise ValueError(f"Artificial Analysis: no values for {name}")
+        board = {"scope": f"aa:{method}:{metric}", "metric": metric, "unit": unit,
+                 "published_at": None, "rows": [r for r in rows if r["rank"] <= 50], "coverage": "rank<=50"}
+        validate_board(board)
+        boards[name] = board
+    return boards
 
-            # 3. Price (Ascending, ignore $0.00)
-            price_list = sorted(
-                [d for d in all_data if d["price"] is not None and d["price"] > 0],
-                key=lambda x: x["price"]
-            )
-            seen = set()
-            for item in price_list:
-                if item["model_base"] not in seen:
-                    results["Price"].append({
-                        "rank": len(results["Price"]) + 1,
-                        "model_id": item["model_id"],
-                        "score": item["price_raw"]
-                    })
-                    seen.add(item["model_base"])
-                if len(results["Price"]) >= 10: break
 
-            if any(results.values()):
-                os.makedirs("data", exist_ok=True)
-                with open("data/artalanaly_current.json", "w", encoding="utf-8") as f:
-                    json.dump(results, f, indent=4, ensure_ascii=False)
-                print("Success: Artificial Analysis data saved with correct indexing.")
-                return True
-            else:
-                print("Warning: No data extracted from Artificial Analysis.")
-                await page.screenshot(path="artalanaly_error.png")
-                return False
-                
-        except Exception as e:
-            print(f"Error during ArtalAnaly scrape: {e}")
-            return False
-        finally:
-            await browser.close()
+def parse_embed_html(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for table in soup.select("table"):
+        header = next((tr for tr in table.select("tr") if "API Provider" in [th.get_text(" ", strip=True) for th in tr.select("th")]), None)
+        if header is None:
+            continue
+        names = [th.get_text(" ", strip=True) for th in header.select("th")]
+        required = {"provider": "API Provider", "name": "Model", "intelligence": "Artificial Analysis Intelligence Index",
+                    "cost_per_task": "Cost per Task USD", "speed": "Median Tokens/s"}
+        if not all(value in names for value in required.values()):
+            raise ValueError("Artificial Analysis table headers or cost units changed")
+        columns = {key: names.index(value) for key, value in required.items()}
+        models = []
+        for tr in table.select("tr"):
+            cells = tr.select("td")
+            if not cells:
+                continue
+            if len(cells) < len(names):
+                raise ValueError("Artificial Analysis table has an incomplete row")
+            text = [c.get_text(" ", strip=True) for c in cells]
+            link = tr.find("a", href=re.compile(r"^/models/"))
+            provider_link = tr.find("a", href=re.compile(r"^/providers/"))
+            if not link or not provider_link:
+                raise ValueError("Artificial Analysis model or provider link is missing")
+            name, provider = text[columns["name"]], text[columns["provider"]]
+            identity = link["href"] + "|" + name
+            models.append({"base_id": identity, "model_id": identity + "|" + provider_link["href"],
+                           "name": name, "deployment_name": f"{name} ({provider})",
+                           **{key: parse_value(text[columns[key]]) for key in ["intelligence", "cost_per_task", "speed"]}})
+        return build_boards(models, {"Intelligence": ("intelligence", "index", False),
+                                    "Speed": ("speed", "tokens/s", False),
+                                    "CostPerTask": ("cost_per_task", "USD/task", True)}, "html")
+    raise ValueError("Artificial Analysis performance table not found")
 
-if __name__ == "__main__":
-    asyncio.run(scrape_artalanaly())
+
+def parse_api(payload):
+    models = []
+    for row in payload["data"]:
+        identity, name = row["id"], row["name"]
+        models.append({"base_id": identity, "model_id": identity, "name": name, "deployment_name": name,
+                       "intelligence": number(row.get("evaluations", {}).get("artificial_analysis_intelligence_index")),
+                       "speed": number(row.get("median_output_tokens_per_second")),
+                       "input_price": number(row.get("pricing", {}).get("price_1m_input_tokens")),
+                       "output_price": number(row.get("pricing", {}).get("price_1m_output_tokens"))})
+    return build_boards(models, {"Intelligence": ("intelligence", "index", False),
+                                "Speed": ("speed", "tokens/s", False),
+                                "InputPrice": ("input_price", "USD/1M input tokens", True),
+                                "OutputPrice": ("output_price", "USD/1M output tokens", True)}, "api")
+
+
+def scrape_artalanaly():
+    key = os.getenv("ARTIFICIAL_ANALYSIS_API_KEY")
+    with http_session() as session:
+        if key:
+            payload = get(session, API_URL, headers={"x-api-key": key}).json()
+            return snapshot("artalanaly", "https://artificialanalysis.ai/", "official_api", parse_api(payload))
+        html = get(session, EMBED_URL).text
+    return snapshot("artalanaly", EMBED_URL, "public_html", parse_embed_html(html))
