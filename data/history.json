@@ -6,7 +6,7 @@
       "source": "openrouter",
       "url": "https://openrouter.ai/rankings?view=week",
       "method": "public_html",
-      "fetched_at": "2026-10-24T03:32:49+00:00",
+      "fetched_at": "2026-10-24T03:41:01+00:00",
       "boards": {
         "Usage": {
           "scope": "openrouter:html:week",
@@ -97,7 +97,7 @@
             }
           ],
           "coverage": "top10",
-          "fetched_at": "2026-10-24T03:32:49+00:00",
+          "fetched_at": "2026-10-24T03:41:01+00:00",
           "method": "public_html"
         }
       },
@@ -108,7 +108,7 @@
       "source": "lmsys",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "method": "official_dataset",
-      "fetched_at": "2026-10-24T03:32:59+00:00",
+      "fetched_at": "2026-10-24T03:41:02+00:00",
       "boards": {
         "Agent": {
           "scope": "arena:agent:overall",
@@ -669,7 +669,7 @@
           ],
           "coverage": "rank<=50",
           "population": 50,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Text": {
@@ -1231,7 +1231,7 @@
           ],
           "coverage": "rank<=50",
           "population": 418,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "WebDev": {
@@ -1793,7 +1793,7 @@
           ],
           "coverage": "rank<=50",
           "population": 150,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Vision": {
@@ -2355,7 +2355,7 @@
           ],
           "coverage": "rank<=50",
           "population": 167,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Document": {
@@ -2851,7 +2851,7 @@
           ],
           "coverage": "rank<=50",
           "population": 44,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Search": {
@@ -3325,7 +3325,7 @@
           ],
           "coverage": "rank<=50",
           "population": 42,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Text-to-Image": {
@@ -3887,7 +3887,7 @@
           ],
           "coverage": "rank<=50",
           "population": 82,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Image Edit": {
@@ -4449,7 +4449,7 @@
           ],
           "coverage": "rank<=50",
           "population": 60,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Text-to-Video": {
@@ -4989,7 +4989,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Image-to-Video": {
@@ -5529,7 +5529,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         },
         "Video Edit": {
@@ -5651,7 +5651,7 @@
           ],
           "coverage": "rank<=50",
           "population": 10,
-          "fetched_at": "2026-10-24T03:32:59+00:00",
+          "fetched_at": "2026-10-24T03:41:02+00:00",
           "method": "official_dataset"
         }
       },
@@ -5663,7 +5663,7 @@
       "source": "artalanaly",
       "url": "https://artificialanalysis.ai/embed/llm-performance-leaderboard",
       "method": "public_html",
-      "fetched_at": "2026-10-24T03:32:49+00:00",
+      "fetched_at": "2026-10-24T03:41:01+00:00",
       "boards": {
         "Intelligence": {
           "scope": "aa:html:intelligence",
@@ -5979,7 +5979,7 @@
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-24T03:32:49+00:00",
+          "fetched_at": "2026-10-24T03:41:01+00:00",
           "method": "public_html"
         },
         "Speed": {
@@ -6290,7 +6290,7 @@
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-24T03:32:49+00:00",
+          "fetched_at": "2026-10-24T03:41:01+00:00",
           "method": "public_html"
         },
         "CostPerTask": {
@@ -6601,7 +6601,7 @@
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-24T03:32:49+00:00",
+          "fetched_at": "2026-10-24T03:41:01+00:00",
           "method": "public_html"
         }
       },
