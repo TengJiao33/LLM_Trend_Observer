@@ -68,6 +68,6 @@ class HubNotifier:
         results = []
         for n in self.notifiers:
             results.append(n.send(content, title))
-        return any(results)
+        return bool(results) and all(results)
 
 

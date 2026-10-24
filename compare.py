@@ -1,89 +1,68 @@
-import os
+"""Compare only snapshots with matching metric, unit and collection scope."""
 import shutil
-import json
-from datetime import datetime
+from datetime import datetime, timezone
+from pathlib import Path
+
+from utils.data import read_json, write_json
+
 
 class DeltaEngine:
     def __init__(self, history_file="data/history.json"):
-        self.history_file = history_file
-        self.history = self._load_history()
+        self.history_file = Path(history_file)
+        saved = read_json(self.history_file, {})
+        # Legacy rankings had ambiguous units and identities. Preserve them without
+        # treating them as a valid baseline for the new collection methods.
+        self.history = saved if saved.get("schema_version") == 2 else {
+            "schema_version": 2, "sources": {}, "legacy": saved,
+        }
 
-    def _load_history(self):
-        if os.path.exists(self.history_file):
-            with open(self.history_file, "r", encoding="utf-8-sig") as f:
-                return json.load(f)
-        return {}
+    def previous_boards(self, source):
+        return self.history.get("sources", {}).get(source, {}).get("boards", {})
 
-    def compare(self, source_name, current_data):
-        """
-        current_data: list of dicts with 'model_id' and 'rank'
-        """
-        if not isinstance(current_data, list):
-            print(f"Warning: Expected list for {source_name}, got {type(current_data)}")
-            return []
+    def compare(self, source, category, board, fresh=True):
+        previous = self.previous_boards(source).get(category)
+        compatible = previous is not None and all(
+            previous.get(k) == board.get(k) for k in ["scope", "metric", "unit", "coverage"]
+        )
+        state = "fallback" if not fresh else "comparable" if compatible else "baseline"
+        prev_map = {r["model_id"]: r for r in previous["rows"]} if compatible else {}
+        rows = []
+        for item in board["rows"]:
+            row = dict(item, rank_delta=None, score_delta=None, relative_delta=None, change="unknown")
+            old = prev_map.get(item["model_id"])
+            if state == "comparable" and old:
+                difference = item["score"] - old["score"]
+                row.update(rank_delta=old["rank"] - item["rank"], score_delta=difference,
+                           relative_delta=difference / abs(old["score"]) if old["score"] else None,
+                           change="observed")
+            elif state == "comparable":
+                row["change"] = "entered"
+            rows.append(row)
+        departures = []
+        if state == "comparable":
+            current = {r["model_id"]: r for r in board["rows"]}
+            visible = {r["model_id"] for r in board["rows"] if r["rank"] <= 10}
+            for old in (r for r in previous["rows"] if r["rank"] <= 10):
+                if old["model_id"] not in visible:
+                    departures.append({"name": old["name"], "old_rank": old["rank"],
+                                       "new_rank": current.get(old["model_id"], {}).get("rank")})
+        return {"state": state, "rows": rows, "departures": departures,
+                "baseline_at": previous.get("fetched_at") if compatible else None}
 
-        prev_data = self.history.get(source_name, [])
-        prev_map = {item["model_id"]: item["rank"] for item in prev_data if isinstance(item, dict) and "model_id" in item}
-        
-        report = []
-        for item in current_data:
-            model_id = item.get("model_id")
-            if not model_id: continue
-            
-            curr_rank = int(item["rank"])
-            
-            if model_id not in prev_map:
-                diff = "New"
-            else:
-                prev_rank = int(prev_map[model_id])
-                shift = prev_rank - curr_rank
-                if shift > 0:
-                    diff = f"↑{shift}"
-                elif shift < 0:
-                    diff = f"↓{abs(shift)}"
-                else:
-                    diff = "-"
-            
-            report.append({
-                "model_id": model_id,
-                "rank": curr_rank,
-                "delta": diff,
-                "score": item.get("score", "-")
-            })
-            
-        return report
-
-    def _backup_history(self):
-        if os.path.exists(self.history_file):
-            backup_dir = "data/backups"
-            if not os.path.exists(backup_dir):
-                os.makedirs(backup_dir)
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            backup_file = os.path.join(backup_dir, f"history_{timestamp}.json")
-            try:
-                shutil.copy2(self.history_file, backup_file)
-                # print(f"History backed up to {backup_file}")
-            except:
-                pass
-
-    def _save_history(self):
-        os.makedirs(os.path.dirname(self.history_file), exist_ok=True)
-        with open(self.history_file, "w", encoding="utf-8") as f:
-            json.dump(self.history, f, indent=4, ensure_ascii=False)
-
-    def update_history(self, source_name, current_data):
-        # 备份旧的历史文件
-        self._backup_history()
-        self.history[source_name] = current_data
-        self._save_history()
-
-    def update_many(self, updates):
-        if not updates:
+    def update_many(self, snapshots):
+        valid = {key: value for key, value in snapshots.items() if value.get("boards")}
+        if not valid:
             return
-
-        self._backup_history()
-        for source_name, current_data in updates.items():
-            self.history[source_name] = current_data
-        self._save_history()
-
-
+        if self.history_file.exists():
+            backup_dir = self.history_file.parent / "backups"
+            backup_dir.mkdir(parents=True, exist_ok=True)
+            stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S_%f")
+            shutil.copy2(self.history_file, backup_dir / f"history_{stamp}.json")
+        sources = self.history.setdefault("sources", {})
+        for source, current in valid.items():
+            old_source = sources.get(source, {})
+            old_boards = self.previous_boards(source) if old_source.get("method") == current.get("method") else {}
+            # Missing categories keep their own last successful observation date.
+            merged = {**old_boards, **current["boards"]}
+            sources[source] = {**current, "boards": merged}
+        write_json(self.history_file, self.history)

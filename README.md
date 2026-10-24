@@ -1,89 +1,112 @@
-# LLM Trend Observer (大模型趋势观察者) 🚀
+# LLM Trend Observer
 
-这是一个自动化的大模型排行榜监测系统，能够持续抓取业界最权威的 **LMSYS Chatbot Arena**、**OpenRouter Rankings** 以及 **Artificial Analysis** 数据，自动计算排名变化，并于**每天北京时间 11:00 前**准时推送到你的移动设备（微信/手机 App）。
+**简体中文** | [English](README.en.md)
 
----
+持续追踪大模型的使用量、评测表现与运行成本，生成每日 Markdown 报告，并支持通过 WxPusher 和 Server酱订阅。
 
-## 📱 推送效果展示
+报告区分数据发布日期与采集时间，展示同口径快照之间的名次及数值变化。数据缺失时明确标注历史回退，避免将采集失败解释为榜单稳定。
 
-为了让你第一时间掌握大模型界的“风吹草动”，系统支持美观的 Markdown 报告推送（支持微信、App、浏览器多端同步）：
+## 查看报告与订阅
 
-### 推送效果图
-| WXPusher 移动端展示 (1) | WXPusher 移动端展示 (2) | Server酱 (方糖) 展示 |
-| :---: | :---: | :---: |
-| ![WXP推送展示1](image/WXP展示1.jpg) | ![WXP推送展示2](image/WXP展示2.jpg) | ![Server酱展示](image/Server酱展示.jpg) |
+- [最新报告](reports/latest_report.md)
+- [历史报告](reports/)
+- [运行状态](https://github.com/TengJiao33/LLM_Trend_Observer/actions/workflows/daily_report.yml)
+- [通过微信订阅 WxPusher 主题](https://wxpusher.zjiecode.com/wxuser/?type=2&id=43364#/follow)
 
----
+工作流计划在每天北京时间 **10:17** 启动。GitHub Actions 的定时任务可能延迟；实际生成时间和数据日期以报告为准。
 
-## 🏆 报告示例
+## 数据来源
 
-生成的报告包含详细的排名、Token 使用量、Elo 分数及变动 Delta：
+| 来源 | 追踪内容 | 采集方式 |
+| :--- | :--- | :--- |
+| [OpenRouter](https://openrouter.ai/rankings) | 平台内模型 Token 使用量 | 配置 API key 时读取上一个完整 UTC 日的官方 Data API；否则读取公开周榜 |
+| [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) | 文本、视觉、智能体、网页开发、文档、搜索、图像及视频赛道 | 固定数据集版本，读取官方 `latest` Parquet 文件的 `overall` 分类 |
+| [Artificial Analysis](https://artificialanalysis.ai/) | 能力指数、输出速度、成本 | 配置 API key 时读取官方 API；否则按表头读取公开性能榜 |
 
-> ### 🤖 LLM 趋势观察技术报告 (示例)
-> 📊 **数据源**: [OpenRouter](https://openrouter.ai/rankings) | [LMSYS](https://lmarena.ai/leaderboard) | [Artificial Analysis](https://artificialanalysis.ai/)
-> 
-> | 排名 | 模型 ID / 名称 | 指标 (Tokens/Elo) | 变动 |
-> | :--- | :--- | :--- | :--- |
-> | 1 | `moonshotai/kimi-k2.5` | 1.52T tokens | ⚪ - | 
-> | 2 | `google/gemini-3-flash-preview` | 744B tokens | 🟢 ↑1 | 
-> | 3 | `anthropic/claude-sonnet-4.5` | 654B tokens | 🔴 ↓1 | 
-> | 4 | `deepseek/deepseek-v3.2` | 741B tokens | ⚪ - | 
-> | 5 | `claude-opus-4-6-thinking` | 1506 Elo | ⚪ - | 
-> | 6 | `Claude Opus 4.6 (Anthropic)` | 53 Index | 🆕 New | 
-> | 7 | `gpt-oss-120B (Cerebras)` | 2,969 t/s | ⚪ - | 
->
-> *更多详细数据可在推送消息中点击直达...*
+Text 和 Vision 使用 Arena 的 style-controlled 版本。Agent 分数以百分比展示，其他 Arena 分数保留官方评分与区间。官方数据集没有单独提供的旧分类不会继续用过期快照补齐。
 
----
+AA 网页中的 **USD/task** 表示任务成本；API 模式分别展示输入和输出的 **USD/1M tokens**。这些指标分别建立基线。能力榜区分推理设置，速度和成本榜区分模型部署及托管商。
 
-## 📢 如何接收推送 (推荐 WXPusher)
+HF Open LLM Leaderboard 已于 [2025 年 3 月正式退役](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard/discussions/1135)，不再纳入日报。已有历史文件保留供查阅。
 
-由于 **WXPusher** 支持更丰富的卡片展示且配置后无需后续干预，推荐所有用户使用此方案。
+## 报告如何判断变化
 
-### 第一步：点击链接关注订阅
-点击下方链接，使用微信扫码关注【LLM今日_藤椒33】主题：
+- 保留来源的原始名次和真实模型标识；前十名包含并列条目，不强行改成连续排名。
+- 同时展示名次变化、数值变化，以及适用时的相对变化。
+- 标注进入或离开前十的模型；离开采集范围不等于模型下架。
+- 只有指标、单位、采集范围和方法一致的快照参与比较。切换日榜与周榜、API 与网页时重新建立基线。
+- 采集失败的赛道沿用最近成功数据，并展示其时间；所有变化标为“未知”。首次采集显示“基线”。
 
-👉 [**点击此处进行订阅**](https://wxpusher.zjiecode.com/wxuser/?type=2&id=43364#/follow)
+摘要筛选规则为：名次变化至少 2 位，或 Arena 分数变化至少 5 分、能力指数至少 1 分、Agent 分数至少 1 个百分点、其他数值至少 10%；基线为零时的非零变化也会单列。这些阈值用于控制信息量，不代表统计显著性。比较基线是最近一次同口径成功采集，不一定是前一天。
 
-### 第二步：安装 App 确保实时到达
-1. 在应用市场搜索并下载 **WxPusher消息推送平台**。
-2. 使用**微信登录**。
-3. 进入 App 后，点击右上角三个点 -> **“订阅管理”**，确认列表中包含 **LLM今日_藤椒33**。
-4. 只要该订阅存在，你就能每天准时收到最专业的大模型研报！
+OpenRouter 的使用量只代表该平台，不能直接作为整个市场的占有率。不同榜单反映不同任务与评测方法，不合并为单一“最佳模型”排名。
 
-> [!NOTE]
-> **关于 Server酱**：Server酱主要用于个人本地调试，配置流程相对繁琐。如无特殊需求，建议优先使用上方的 WxPusher 方案。如果你坚持使用 Server酱，请参考以下教程。
+## 本地运行
 
-### 方案 B：Server酱 (作为备份或个人调试)
-1. 访问 [Server酱官网 (Turbo版)](https://sct.ftqq.com/sendkey) 并点击“微信登入”。
-2. 登录后，复制页面显示的 **`SendKey`** (通常以 `SCT` 开头)。
-3. 在官网上找到 **“通道配置”**，确保开启了 **“方糖服务号”**，并扫码关注“方糖”公众号。
-4. 将 `SendKey` 填入 `.env` 文件或 GitHub Secrets。
+需要 Python 3.10 或更高版本；CI 使用 Python 3.12。无需安装浏览器。
 
----
+```bash
+git clone https://github.com/TengJiao33/LLM_Trend_Observer.git
+cd LLM_Trend_Observer
+python -m venv .venv
+```
 
-## 📊 追踪榜单与量化指标
+激活环境：Windows PowerShell 使用 `.\.venv\Scripts\Activate.ps1`；macOS/Linux 使用 `source .venv/bin/activate`。
 
-本项目深度集成并量化了四大权威大模型排行榜，为研究者和开发者提供全方位、多维度的趋势分析：
+```bash
+python -m pip install -r requirements.txt
+python main.py --no-notify
+```
 
-### 1. [OpenRouter Rankings](https://openrouter.ai/rankings)
-- **量化指标**：真实生产环境中的 **Token 使用量 (Usage)** 和 **增长率 (Growth)**。
-- **价值**：反映了模型的“市场占有率”和“实际落地活跃度”，是真实用户用脚投票的结果。
+默认生成报告和更新本地历史，不发送通知。开发或试运行时可使用独立目录：
 
-### 2. [LMSYS Chatbot Arena](https://lmarena.ai/leaderboard)
-- **量化指标**：**Elo 分数** 和 **累计投票数**。
-- **涵盖赛道**：文本 (Text)、编程 (Code)、视觉 (Vision)、文生图 (T2I)、搜索增强 (Search)、视频 (Video) 等 8 个细分赛道。
-- **价值**：基于众测的盲测比较，是衡量模型“体感质量”和综合能力的黄金标准。
+```bash
+python main.py --no-notify --data-dir work/data --output-dir work/reports
+python -m unittest discover -s tests -v
+```
 
-### 3. [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)
-- **量化指标**：**平均分 (Average Score)**。内容源自官方数据集 API，覆盖 4500+ 个开源模型。
-- **价值**：专注于开源社区的模型表现，提供学术基准测试的量化分析。
+生成文件：
 
-### 4. [Artificial Analysis](https://artificialanalysis.ai/)
-- **量化指标**：**质量指数 (Intelligence)**、**吞吐速度 (Speed)**、**每百万 Token 价格 (Price)**。
-- **价值**：提供极具参考价值的性能与成本对比（Speed vs. Quality），帮助用户在性能和预算间取得平衡。
+| 路径 | 内容 |
+| :--- | :--- |
+| `reports/latest_report.md` | 最新报告 |
+| `reports/report_*.md` | 历史报告，文件名使用北京时间 |
+| `data/*_current.json` | 本次采集的快照及指标口径 |
+| `data/source_status.json` | 各来源及赛道的采集状态 |
+| `data/history.json` | 最近成功快照，用于下次比较 |
+| `data/backups/` | 更新前的历史备份 |
 
-### 📂 完整报告参考
-你可以直接查看每次自动生成的完整 Markdown 报告。报告包含详细的排名、数据变动（↑/↓）以及“显著变动”分析章节。
+首次升级会保留旧格式历史，并为新采集口径重新建立基线，避免将旧的错误排名或模糊单位带入比较。
 
----
+## 配置数据接口与推送
+
+将 `.env.example` 复制为 `.env`，按需填写。密钥只保存在本地或 GitHub Secrets 中。
+
+| 配置项 | 用途 |
+| :--- | :--- |
+| `OPENROUTER_API_KEY` | 可选；启用 [OpenRouter Data API](https://openrouter.ai/docs/cookbook/administration/data-api) 的每日使用量 |
+| `ARTIFICIAL_ANALYSIS_API_KEY` | 可选；启用 [AA API](https://artificialanalysis.ai/api-reference) 的能力、速度与 Token 价格 |
+| `WXPUSHER_APP_TOKEN` | WxPusher 应用 token |
+| `WXPUSHER_UIDS` | 接收用户 UID，逗号分隔 |
+| `WXPUSHER_TOPIC_IDS` | 订阅主题 ID，逗号分隔；与 UID 至少配置一种 |
+| `SERVERCHAN_SENDKEY` | Server酱推送密钥 |
+
+配置接口密钥后，接口失败会明确报错，不自动切换统计口径。未配置接口密钥时，公开网页模式仍可使用。
+
+发送报告需显式启用：
+
+```bash
+python main.py --notify
+```
+
+## GitHub Actions
+
+Fork 仓库后，在 **Settings → Secrets and variables → Actions** 中添加所需配置，并为工作流启用仓库内容写入权限。可在 **Actions → Daily LLM Trend Report → Run workflow** 手动运行。
+
+工作流先运行回归测试，再采集和推送。来源全部失败、部分赛道缺失或已配置推送渠道报错时，运行状态会失败；已生成的报告和成功快照仍会保存，原始采集文件也会作为 Actions artifact 保留 30 天。
+
+本地命令遵循相同退出规则。只有在主动接受不完整来源时，才使用 `--allow-partial`；此选项不会忽略推送失败。
+
+## 数据署名
+
+报告链接到各原始来源。Arena 数据和 OpenRouter Data API 数据遵循各自的 CC BY 4.0 署名要求；使用 AA 数据时保留 Artificial Analysis 署名。数据定义、授权条件与评测方法以各来源的官方说明为准。
