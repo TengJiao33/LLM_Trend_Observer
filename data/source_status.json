@@ -1,20 +1,20 @@
 {
-  "artalanaly": {
-    "state": "ok",
-    "fetched_at": "2026-10-24T03:41:01+00:00",
-    "boards": 3,
-    "errors": {}
-  },
   "openrouter": {
     "state": "ok",
-    "fetched_at": "2026-10-24T03:41:01+00:00",
+    "fetched_at": "2026-10-25T07:36:43+00:00",
     "boards": 1,
     "errors": {}
   },
   "lmsys": {
     "state": "ok",
-    "fetched_at": "2026-10-24T03:41:02+00:00",
+    "fetched_at": "2026-10-25T07:36:44+00:00",
     "boards": 11,
+    "errors": {}
+  },
+  "artalanaly": {
+    "state": "ok",
+    "fetched_at": "2026-10-25T07:36:44+00:00",
+    "boards": 3,
     "errors": {}
   }
 }
