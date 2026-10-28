@@ -205,10 +205,11 @@ class HistoryAndReportTests(unittest.TestCase):
         text = Path(path).read_text(encoding="utf-8")
         self.assertIn("| 4 | B |", text)
         self.assertNotIn("| 2 | B |", text)
-        self.assertIn("全部变动未知", text)
-        self.assertIn("2026-10-23T08:00:00+00:00", text)
+        self.assertIn("本次未更新", text)
+        self.assertIn("2026-10-23 历史数据", text)
+        self.assertNotIn("名次变化", text)
         self.assertNotIn("## HF", text)
-        self.assertIn("无法判断趋势", text)
+        self.assertIn("暂无可比数据", text)
 
 
 class PipelineTests(unittest.TestCase):

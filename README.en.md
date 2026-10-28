@@ -4,7 +4,7 @@
 
 Track model usage, evaluation results and operating costs. The project produces daily Markdown reports and supports subscriptions through WxPusher and ServerChan.
 
-Reports distinguish publication dates from collection times and compare snapshots with matching definitions. Missing data is marked as historical fallback rather than presented as an unchanged leaderboard.
+Reports show key changes, top-ten leaderboards and source links, with at most two highlights per source and no dot separators or bullet lists. Units appear in table headers. Collection methods, timestamps, windows and filtering rules remain in snapshot files and project documentation. Missing updates receive a short historical-data label.
 
 ## Reports and subscription
 
@@ -13,7 +13,7 @@ Reports distinguish publication dates from collection times and compare snapshot
 - [Workflow status](https://github.com/TengJiao33/LLM_Trend_Observer/actions/workflows/daily_report.yml)
 - [Subscribe to the WxPusher topic through WeChat](https://wxpusher.zjiecode.com/wxuser/?type=2&id=43364#/follow)
 
-The workflow requests a daily start at **10:17 Asia/Shanghai (02:17 UTC)**. GitHub Actions may delay scheduled runs. Refer to the report for the actual generation time and data dates.
+The workflow requests a daily start at **10:17 Asia/Shanghai (02:17 UTC)**. GitHub Actions may delay scheduled runs. Refer to snapshot files for the actual collection times.
 
 ## Data sources
 
@@ -23,7 +23,7 @@ The workflow requests a daily start at **10:17 Asia/Shanghai (02:17 UTC)**. GitH
 | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) | Text, vision, agents, web development, documents, search, images and video | Official `latest` Parquet files from one pinned dataset revision, filtered to `overall` |
 | [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence, output speed and cost | Official API when a key is configured; otherwise the public performance table, parsed by header |
 
-Text and Vision use Arena's style-controlled subsets. Agent scores are displayed as percentages; other Arena scores retain the official ratings and intervals. Legacy categories without a separate official dataset subset are not filled with obsolete snapshots.
+Text and Vision use Arena's style-controlled subsets. Agent scores are displayed as percentages; other Arena scores retain the official ratings, with intervals kept in snapshot files. Legacy categories without a separate official dataset subset are not filled with obsolete snapshots.
 
 The AA public table reports **USD/task**, a task cost. API mode reports input and output **USD/1M tokens** separately. These metrics have separate comparison baselines. Intelligence rankings distinguish reasoning settings; speed and cost rankings distinguish deployments and hosting providers.
 
@@ -35,7 +35,7 @@ The HF Open LLM Leaderboard [retired in March 2025](https://huggingface.co/space
 - Reports show rank changes, absolute value changes and relative changes where appropriate.
 - Entries and departures from the top ten are reported. Leaving the collected range does not establish that a model was discontinued.
 - Comparisons require matching metrics, units, collection coverage and methods. Changing between daily and weekly data, or between API and HTML modes, establishes a new baseline.
-- A failed category falls back to its last successful observation, with its timestamp shown and changes marked as unknown. Initial observations are labelled as baselines.
+- A failed category falls back to its last successful observation with a short date label. Change columns are hidden for initial observations and historical data.
 
 Summary thresholds are a rank change of at least two places, or an Arena rating change of five points, an intelligence index change of one point, an Agent score change of one percentage point, or a ten percent change in other numeric metrics. Nonzero changes from a zero baseline are also listed. These are filtering rules, not statistical significance tests. The baseline is the last successful comparable observation, which may be older than yesterday.
 
