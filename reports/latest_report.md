@@ -1,19 +1,5 @@
 # 大模型趋势日报 2026-10-28
 
-## 重点变化
-
-OpenRouter 模型调用量：GPT-6 Luna，排名 ↑2，现第 4 名；变化 +80B (+0.9%)
-
-OpenRouter 模型调用量：MiniMax M3.1 Flash (free)，排名 ↓2，现第 6 名；变化 -3.89T (-30.9%)
-
-Arena 网页开发：Gemini 4 Argon (High)，排名 ↑1，现第 10 名；变化 +5.7
-
-Arena 网页开发：GPT-6 Sol (Max) 离开前十（原第 10 名，现第 11 名）
-
-Artificial Analysis 能力指数：Claude Opus 5.5 (xhigh with fallback)，变化 +1
-
-Artificial Analysis 能力指数：GPT-6 Astra (max) (Fast)，排名 ↑5，现第 2 名；变化 +4
-
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |

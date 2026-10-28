@@ -1,4 +1,4 @@
-"""Daily highlights and leaderboards without collection-process boilerplate."""
+"""Daily leaderboards without summaries or collection-process boilerplate."""
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -59,19 +59,6 @@ def value_delta(row, unit):
     return text
 
 
-def noteworthy(row, board):
-    if row["change"] == "entered":
-        return True
-    if row["rank_delta"] is None:
-        return False
-    if abs(row["rank_delta"]) >= 2:
-        return True
-    threshold = {"rating": 5, "index": 1, "proportion": 0.01}.get(board["unit"])
-    if threshold is not None:
-        return abs(row["score_delta"]) >= threshold
-    return abs(row["relative_delta"]) >= 0.1 if row["relative_delta"] is not None else row["score_delta"] != 0
-
-
 class ReportGenerator:
     def __init__(self, output_dir="reports", engine=None):
         self.output_dir = Path(output_dir)
@@ -100,36 +87,6 @@ class ReportGenerator:
         lines = [f"# 大模型趋势日报 {self.report_date}", ""]
         if missing:
             lines += ["暂无数据：" + "、".join(map(escape, missing)), ""]
-        lines += ["## 重点变化", ""]
-        highlights = {source: [] for source in LABELS}
-        for source, name, board, comparison in selections:
-            if comparison["state"] != "comparable":
-                continue
-            label = f"{LABELS[source]} {BOARD_LABELS.get(name, name)}"
-            for row in (r for r in comparison["rows"] if r["rank"] <= 10):
-                if noteworthy(row, board):
-                    if row["change"] == "entered":
-                        detail = f"进入前十，现第 {row['rank']} 名"
-                    else:
-                        changes = []
-                        if row["rank_delta"]:
-                            changes.append(f"排名 {rank_delta(row, 'comparable')}，现第 {row['rank']} 名")
-                        if row["score_delta"]:
-                            changes.append(f"变化 {value_delta(row, board['unit'])}")
-                        detail = "；".join(changes)
-                    highlights[source].append(f"{escape(label)}：{escape(row['name'])}，{detail}")
-            for row in comparison["departures"]:
-                destination = f"，现第 {row['new_rank']} 名" if row["new_rank"] else ""
-                highlights[source].append(f"{escape(label)}：{escape(row['name'])} 离开前十（原第 {row['old_rank']} 名{destination}）")
-        comparable = sum(c["state"] == "comparable" for _, _, _, c in selections)
-        if any(highlights.values()):
-            for source_highlights in highlights.values():
-                for highlight in source_highlights[:2]:
-                    lines += [highlight, ""]
-        elif comparable:
-            lines += ["暂无明显变化", ""]
-        else:
-            lines += ["暂无可比数据", ""]
         for source, name, board, comparison in selections:
             lines += [f"## {escape(LABELS[source])} {escape(BOARD_LABELS.get(name, name))}", ""]
             state = comparison["state"]

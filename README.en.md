@@ -4,7 +4,7 @@
 
 Track model usage, evaluation results and operating costs. The project produces daily Markdown reports and supports subscriptions through WxPusher and ServerChan.
 
-Reports show key changes, top-ten leaderboards and source links, with at most two highlights per source and no dot separators or bullet lists. Units appear in table headers. Collection methods, timestamps, windows and filtering rules remain in snapshot files and project documentation. Missing updates receive a short historical-data label.
+Reports show top-ten leaderboards, key values and source links, without change summaries, dot separators or bullet lists. Units appear in table headers. Collection methods, timestamps and windows remain in snapshot files and project documentation. Missing updates receive a short historical-data label.
 
 ## Reports and subscription
 
@@ -33,11 +33,11 @@ The HF Open LLM Leaderboard [retired in March 2025](https://huggingface.co/space
 
 - Original ranks and canonical model identifiers are retained. The top ten includes tied entries, without renumbering them.
 - Reports show rank changes, absolute value changes and relative changes where appropriate.
-- Entries and departures from the top ten are reported. Leaving the collected range does not establish that a model was discontinued.
+- Newly observed entries are labelled in the tables. Models leaving the top ten are no longer displayed.
 - Comparisons require matching metrics, units, collection coverage and methods. Changing between daily and weekly data, or between API and HTML modes, establishes a new baseline.
 - A failed category falls back to its last successful observation with a short date label. Change columns are hidden for initial observations and historical data.
 
-Summary thresholds are a rank change of at least two places, or an Arena rating change of five points, an intelligence index change of one point, an Agent score change of one percentage point, or a ten percent change in other numeric metrics. Nonzero changes from a zero baseline are also listed. These are filtering rules, not statistical significance tests. The baseline is the last successful comparable observation, which may be older than yesterday.
+The baseline is the last successful comparable observation, which may be older than yesterday.
 
 OpenRouter usage represents its platform, not the entire market. Leaderboards reflect different tasks and evaluation methods and are not merged into a single best-model ranking.
 

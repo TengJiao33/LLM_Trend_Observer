@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 from compare import DeltaEngine
 from main import collect_sources, run_pipeline
-from report_generator import ReportGenerator, noteworthy
+from report_generator import ReportGenerator
 from scrapers.artalanaly_scraper import parse_api, parse_embed_html, parse_value
 from scrapers.lmsys_scraper import CONFIGS, parse_arena_rows
 from scrapers.openrouter_scraper import parse_daily_api, parse_rankings_html
@@ -150,7 +150,6 @@ class HistoryAndReportTests(unittest.TestCase):
         result = self.engine.compare("openrouter", "Usage", current)
         self.assertEqual(0, result["rows"][0]["rank_delta"])
         self.assertEqual(-90, result["rows"][0]["score_delta"])
-        self.assertTrue(noteworthy(result["rows"][0], current))
 
     def test_scope_unit_and_coverage_changes_reset_baselines(self):
         self.save(board())
@@ -165,7 +164,7 @@ class HistoryAndReportTests(unittest.TestCase):
         current = board(unit="USD/task")
         row = self.engine.compare("openrouter", "Usage", current)["rows"][0]
         self.assertIsNone(row["relative_delta"])
-        self.assertTrue(noteworthy(row, current))
+        self.assertEqual(100, row["score_delta"])
 
     def test_fallback_has_no_changes_or_departures(self):
         self.save(board())
@@ -209,7 +208,8 @@ class HistoryAndReportTests(unittest.TestCase):
         self.assertIn("2026-10-23 历史数据", text)
         self.assertNotIn("名次变化", text)
         self.assertNotIn("## HF", text)
-        self.assertIn("暂无可比数据", text)
+        self.assertNotIn("重点变化", text)
+        self.assertNotIn("暂无可比数据", text)
 
 
 class PipelineTests(unittest.TestCase):
