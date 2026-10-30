@@ -6,7 +6,7 @@
       "source": "openrouter",
       "url": "https://openrouter.ai/rankings?view=week",
       "method": "public_html",
-      "fetched_at": "2026-10-29T08:30:43+00:00",
+      "fetched_at": "2026-10-30T08:40:57+00:00",
       "boards": {
         "Usage": {
           "scope": "openrouter:html:week",
@@ -19,85 +19,85 @@
               "rank": 1,
               "model_id": "deepseek/deepseek-v4.1-flash-1017",
               "name": "DeepSeek V4.1 Flash 1017",
-              "score": 39600000000000,
-              "tokens_display": "39.6T tokens",
-              "growth": "+140%"
+              "score": 42400000000000,
+              "tokens_display": "42.4T tokens",
+              "growth": "+96%"
             },
             {
               "rank": 2,
               "model_id": "deepseek/deepseek-v4.1-flash",
               "name": "DeepSeek V4.1 Flash",
-              "score": 16600000000000,
-              "tokens_display": "16.6T tokens",
-              "growth": "-35%"
+              "score": 15900000000000,
+              "tokens_display": "15.9T tokens",
+              "growth": "-32%"
             },
             {
               "rank": 3,
               "model_id": "z-ai/glm-5.3-flash",
               "name": "GLM 5.3 Flash",
-              "score": 15000000000000,
-              "tokens_display": "15T tokens",
-              "growth": "+32%"
+              "score": 15600000000000,
+              "tokens_display": "15.6T tokens",
+              "growth": "+37%"
             },
             {
               "rank": 4,
               "model_id": "openai/gpt-6-luna",
               "name": "GPT-6 Luna",
-              "score": 9590000000000,
-              "tokens_display": "9.59T tokens",
-              "growth": "+58%"
+              "score": 11400000000000,
+              "tokens_display": "11.4T tokens",
+              "growth": "+86%"
             },
             {
               "rank": 5,
               "model_id": "tencent/hy4-preview",
               "name": "Hy4 preview",
-              "score": 8960000000000,
-              "tokens_display": "8.96T tokens",
-              "growth": "+5%"
+              "score": 9180000000000,
+              "tokens_display": "9.18T tokens",
+              "growth": "+6%"
             },
             {
               "rank": 6,
               "model_id": "anthropic/claude-opus-5.5",
               "name": "Claude Opus 5.5",
-              "score": 7860000000000,
-              "tokens_display": "7.86T tokens",
-              "growth": "+10%"
+              "score": 7840000000000,
+              "tokens_display": "7.84T tokens",
+              "growth": "+5%"
             },
             {
               "rank": 7,
               "model_id": "stepfun/step-5-preview",
               "name": "Step 5 Preview",
-              "score": 5390000000000,
-              "tokens_display": "5.39T tokens",
-              "growth": "+132%"
+              "score": 5930000000000,
+              "tokens_display": "5.93T tokens",
+              "growth": "+262%"
             },
             {
               "rank": 8,
               "model_id": "z-ai/glm-5.3",
               "name": "GLM 5.3",
-              "score": 5150000000000,
-              "tokens_display": "5.15T tokens",
-              "growth": "-1%"
+              "score": 4900000000000,
+              "tokens_display": "4.9T tokens",
+              "growth": "-5%"
             },
             {
               "rank": 9,
-              "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
-              "name": "Nemotron 3 Ultra (free)",
-              "score": 4440000000000,
-              "tokens_display": "4.44T tokens",
-              "growth": "+0%"
+              "model_id": "minimax/minimax-m3.1-flash",
+              "name": "MiniMax M3.1 Flash",
+              "score": 4120000000000,
+              "tokens_display": "4.12T tokens",
+              "growth": "+>999%"
             },
             {
               "rank": 10,
-              "model_id": "xiaomi/mimo-v2.6-flash",
-              "name": "MiMo-V2.6-Flash",
-              "score": 4099999999999,
-              "tokens_display": "4.1T tokens",
-              "growth": "-52%"
+              "model_id": "deepseek/deepseek-v4-flash-0731",
+              "name": "DeepSeek V4 Flash 0731",
+              "score": 3990000000000,
+              "tokens_display": "3.99T tokens",
+              "growth": "-5%"
             }
           ],
           "coverage": "top10",
-          "fetched_at": "2026-10-29T08:30:43+00:00",
+          "fetched_at": "2026-10-30T08:40:57+00:00",
           "method": "public_html"
         }
       },
@@ -108,7 +108,7 @@
       "source": "lmsys",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "method": "official_dataset",
-      "fetched_at": "2026-10-29T08:30:44+00:00",
+      "fetched_at": "2026-10-30T08:40:58+00:00",
       "boards": {
         "Agent": {
           "scope": "arena:agent:overall",
@@ -194,9 +194,31 @@
               "license": "Proprietary"
             },
             {
+              "model_id": "GPT-6.1 Terra (Max)",
+              "name": "GPT-6.1 Terra (Max)",
+              "rank": 8,
+              "score": 0.10574985212598499,
+              "ci_low": 0.08615062605575963,
+              "ci_high": 0.12534907819621036,
+              "votes": 8977.0,
+              "organization": "openai",
+              "license": "Proprietary"
+            },
+            {
+              "model_id": "Muse Wonder Full (Max)",
+              "name": "Muse Wonder Full (Max)",
+              "rank": 9,
+              "score": 0.10089643946312506,
+              "ci_low": 0.09145785722513157,
+              "ci_high": 0.11033502170111854,
+              "votes": 26753.0,
+              "organization": "meta",
+              "license": "Proprietary"
+            },
+            {
               "model_id": "Claude Fable 5 (High)",
               "name": "Claude Fable 5 (High)",
-              "rank": 8,
+              "rank": 10,
               "score": 0.08037071257211915,
               "ci_low": 0.0694241036579715,
               "ci_high": 0.09131732148626681,
@@ -207,7 +229,7 @@
             {
               "model_id": "GPT-6 Sol (Max)",
               "name": "GPT-6 Sol (Max)",
-              "rank": 9,
+              "rank": 11,
               "score": 0.07955487093669349,
               "ci_low": 0.06324170812201578,
               "ci_high": 0.09586803375137119,
@@ -218,7 +240,7 @@
             {
               "model_id": "Claude Opus 5 (Max)",
               "name": "Claude Opus 5 (Max)",
-              "rank": 10,
+              "rank": 12,
               "score": 0.07565942758202185,
               "ci_low": 0.06347673424226583,
               "ci_high": 0.08784212092177787,
@@ -227,9 +249,20 @@
               "license": "Proprietary"
             },
             {
+              "model_id": "Kimi K3.1 Pro (Max)",
+              "name": "Kimi K3.1 Pro (Max)",
+              "rank": 13,
+              "score": 0.05955600574608372,
+              "ci_low": 0.04367243354093753,
+              "ci_high": 0.07543957795122991,
+              "votes": 14300.0,
+              "organization": "moonshot",
+              "license": "Proprietary"
+            },
+            {
               "model_id": "GPT-5.6 Sol (xHigh)",
               "name": "GPT-5.6 Sol (xHigh)",
-              "rank": 11,
+              "rank": 14,
               "score": 0.04790625499047256,
               "ci_low": 0.03759488680544941,
               "ci_high": 0.05821762317549571,
@@ -240,7 +273,7 @@
             {
               "model_id": "Muse Wonder (Max)",
               "name": "Muse Wonder (Max)",
-              "rank": 12,
+              "rank": 15,
               "score": 0.031375825809846235,
               "ci_low": 0.016892737125076725,
               "ci_high": 0.045858914494615745,
@@ -251,7 +284,7 @@
             {
               "model_id": "Claude Sonnet 5 (High)",
               "name": "Claude Sonnet 5 (High)",
-              "rank": 13,
+              "rank": 16,
               "score": 0.02940963023579071,
               "ci_low": 0.01768982828684621,
               "ci_high": 0.04112943218473521,
@@ -262,7 +295,7 @@
             {
               "model_id": "MiMo-V2.6-Pro",
               "name": "MiMo-V2.6-Pro",
-              "rank": 14,
+              "rank": 17,
               "score": 0.027705996772957868,
               "ci_low": 0.0190098517654946,
               "ci_high": 0.036402141780421136,
@@ -271,9 +304,20 @@
               "license": "MIT"
             },
             {
+              "model_id": "DeepSeek-V4.1-Flash-20261017 (Max)",
+              "name": "DeepSeek-V4.1-Flash-20261017 (Max)",
+              "rank": 18,
+              "score": 0.026748579776335085,
+              "ci_low": 0.020321105127655035,
+              "ci_high": 0.03317605442501513,
+              "votes": 54255.0,
+              "organization": "deepseek",
+              "license": "MIT"
+            },
+            {
               "model_id": "Gemini 3.8 Flash (High)",
               "name": "Gemini 3.8 Flash (High)",
-              "rank": 15,
+              "rank": 19,
               "score": 0.026495450925865173,
               "ci_low": 0.018322909989095443,
               "ci_high": 0.0346679918626349,
@@ -284,7 +328,7 @@
             {
               "model_id": "Muse Spark 1.3 (Max)",
               "name": "Muse Spark 1.3 (Max)",
-              "rank": 16,
+              "rank": 20,
               "score": 0.02593617325354452,
               "ci_low": 0.01778188210778351,
               "ci_high": 0.03409046439930553,
@@ -295,7 +339,7 @@
             {
               "model_id": "Grok 4.7 (xHigh)",
               "name": "Grok 4.7 (xHigh)",
-              "rank": 17,
+              "rank": 21,
               "score": 0.023946701791754732,
               "ci_low": 0.009388498983269962,
               "ci_high": 0.0385049046002395,
@@ -306,7 +350,7 @@
             {
               "model_id": "GPT-6 Luna (Max)",
               "name": "GPT-6 Luna (Max)",
-              "rank": 18,
+              "rank": 22,
               "score": 0.02225749002662884,
               "ci_low": 0.018151115704074097,
               "ci_high": 0.026363864349183582,
@@ -317,7 +361,7 @@
             {
               "model_id": "DeepSeek-V4.1-Flash-20260910 (Max)",
               "name": "DeepSeek-V4.1-Flash-20260910 (Max)",
-              "rank": 19,
+              "rank": 23,
               "score": 0.019121718092652323,
               "ci_low": 0.015769024482770445,
               "ci_high": 0.0224744117025342,
@@ -328,7 +372,7 @@
             {
               "model_id": "Claude Haiku 5.5 (High)",
               "name": "Claude Haiku 5.5 (High)",
-              "rank": 20,
+              "rank": 24,
               "score": 0.014326641851425207,
               "ci_low": 0.0038263966217152758,
               "ci_high": 0.02482688708113514,
@@ -339,7 +383,7 @@
             {
               "model_id": "GLM-5.2 (Max)",
               "name": "GLM-5.2 (Max)",
-              "rank": 21,
+              "rank": 25,
               "score": 0.012550529818184046,
               "ci_low": 0.0048938818092522434,
               "ci_high": 0.020207177827115848,
@@ -350,7 +394,7 @@
             {
               "model_id": "Hy4 preview",
               "name": "Hy4 preview",
-              "rank": 22,
+              "rank": 26,
               "score": 0.01223884066007757,
               "ci_low": 0.005494043657310407,
               "ci_high": 0.01898363766284473,
@@ -361,7 +405,7 @@
             {
               "model_id": "Kimi K3 (Max)",
               "name": "Kimi K3 (Max)",
-              "rank": 23,
+              "rank": 27,
               "score": 0.010787136728542578,
               "ci_low": 0.0051033435081316815,
               "ci_high": 0.016470929948953474,
@@ -372,7 +416,7 @@
             {
               "model_id": "MiMo-V2.6-Flash",
               "name": "MiMo-V2.6-Flash",
-              "rank": 24,
+              "rank": 28,
               "score": 0.010018747709004657,
               "ci_low": -0.0014324658401875662,
               "ci_high": 0.02146996125819688,
@@ -383,7 +427,7 @@
             {
               "model_id": "GLM-5.3 (Max)",
               "name": "GLM-5.3 (Max)",
-              "rank": 25,
+              "rank": 29,
               "score": 0.009119361444542019,
               "ci_low": 0.0013924646938139693,
               "ci_high": 0.016846258195270067,
@@ -394,7 +438,7 @@
             {
               "model_id": "Grok 4.6 (xHigh)",
               "name": "Grok 4.6 (xHigh)",
-              "rank": 26,
+              "rank": 30,
               "score": 0.004874136743475029,
               "ci_low": -0.006461237657287101,
               "ci_high": 0.01620951114423716,
@@ -405,7 +449,7 @@
             {
               "model_id": "Qwen3.8-Max",
               "name": "Qwen3.8-Max",
-              "rank": 27,
+              "rank": 31,
               "score": 0.004482244232743595,
               "ci_low": -0.0019337408855307926,
               "ci_high": 0.010898229351017983,
@@ -416,7 +460,7 @@
             {
               "model_id": "DeepSeek-V4-Pro (High, 20260813)",
               "name": "DeepSeek-V4-Pro (High, 20260813)",
-              "rank": 28,
+              "rank": 32,
               "score": -0.0030051721572174742,
               "ci_low": -0.02001503143037685,
               "ci_high": 0.014004687115941902,
@@ -427,7 +471,7 @@
             {
               "model_id": "Gemini 3.7 Flash (High)",
               "name": "Gemini 3.7 Flash (High)",
-              "rank": 29,
+              "rank": 33,
               "score": -0.013461022898167443,
               "ci_low": -0.02206228487043189,
               "ci_high": -0.004859760925902994,
@@ -438,7 +482,7 @@
             {
               "model_id": "GPT-5.6 Terra (xHigh)",
               "name": "GPT-5.6 Terra (xHigh)",
-              "rank": 30,
+              "rank": 34,
               "score": -0.013902435627719558,
               "ci_low": -0.02171785408899482,
               "ci_high": -0.006087017166444298,
@@ -447,9 +491,20 @@
               "license": "Proprietary"
             },
             {
+              "model_id": "GPT-6 Luna (Medium)",
+              "name": "GPT-6 Luna (Medium)",
+              "rank": 35,
+              "score": -0.01492816310927985,
+              "ci_low": -0.02153033894413366,
+              "ci_high": -0.008325987274426041,
+              "votes": 46849.0,
+              "organization": "openai",
+              "license": "Proprietary"
+            },
+            {
               "model_id": "GLM-5.3-Flash",
               "name": "GLM-5.3-Flash",
-              "rank": 31,
+              "rank": 36,
               "score": -0.023262807029308576,
               "ci_low": -0.029969354331575212,
               "ci_high": -0.01655625972704194,
@@ -460,7 +515,7 @@
             {
               "model_id": "Step 5 Preview",
               "name": "Step 5 Preview",
-              "rank": 32,
+              "rank": 37,
               "score": -0.026798104156421143,
               "ci_low": -0.04025123246539941,
               "ci_high": -0.013344975847442877,
@@ -469,9 +524,20 @@
               "license": "Proprietary"
             },
             {
+              "model_id": "MiniMax-M3.1-Flash",
+              "name": "MiniMax-M3.1-Flash",
+              "rank": 38,
+              "score": -0.03962980693930212,
+              "ci_low": -0.0555364630755953,
+              "ci_high": -0.023723150803008932,
+              "votes": 11230.0,
+              "organization": "minimax",
+              "license": "MiniMax Community License"
+            },
+            {
               "model_id": "Qwen3.8-Flash-Next",
               "name": "Qwen3.8-Flash-Next",
-              "rank": 33,
+              "rank": 39,
               "score": -0.04022661938759629,
               "ci_low": -0.0474123171444256,
               "ci_high": -0.033040921630766974,
@@ -482,7 +548,7 @@
             {
               "model_id": "Gemini 3.1 Pro Preview",
               "name": "Gemini 3.1 Pro Preview",
-              "rank": 34,
+              "rank": 40,
               "score": -0.044514063835776815,
               "ci_low": -0.05782026489936329,
               "ci_high": -0.031207862772190342,
@@ -493,7 +559,7 @@
             {
               "model_id": "Qwen3.8-27B",
               "name": "Qwen3.8-27B",
-              "rank": 35,
+              "rank": 41,
               "score": -0.04459740534602481,
               "ci_low": -0.052766278990310264,
               "ci_high": -0.03642853170173936,
@@ -504,7 +570,7 @@
             {
               "model_id": "Beam 1.0 501B A23B",
               "name": "Beam 1.0 501B A23B",
-              "rank": 36,
+              "rank": 42,
               "score": -0.049272209402198626,
               "ci_low": -0.07246766782946382,
               "ci_high": -0.02607675097493343,
@@ -515,7 +581,7 @@
             {
               "model_id": "Mistral Large 4",
               "name": "Mistral Large 4",
-              "rank": 37,
+              "rank": 43,
               "score": -0.060236922606071455,
               "ci_low": -0.0814506792582487,
               "ci_high": -0.03902316595389421,
@@ -526,7 +592,7 @@
             {
               "model_id": "GPT-6 Luna (Low)",
               "name": "GPT-6 Luna (Low)",
-              "rank": 38,
+              "rank": 44,
               "score": -0.062306713868359655,
               "ci_low": -0.07005901599784463,
               "ci_high": -0.05455441173887469,
@@ -537,7 +603,7 @@
             {
               "model_id": "Qwen3.7-Max",
               "name": "Qwen3.7-Max",
-              "rank": 39,
+              "rank": 45,
               "score": -0.06586293614361291,
               "ci_low": -0.07771222781866367,
               "ci_high": -0.05401364446856215,
@@ -548,7 +614,7 @@
             {
               "model_id": "Hy3",
               "name": "Hy3",
-              "rank": 40,
+              "rank": 46,
               "score": -0.07319108163660436,
               "ci_low": -0.08767474160879533,
               "ci_high": -0.05870742166441339,
@@ -559,7 +625,7 @@
             {
               "model_id": "Qwen3.7-Plus",
               "name": "Qwen3.7-Plus",
-              "rank": 41,
+              "rank": 47,
               "score": -0.07368242078467599,
               "ci_low": -0.09076461249992328,
               "ci_high": -0.0566002290694287,
@@ -570,7 +636,7 @@
             {
               "model_id": "Muse Spark 1.2 (xHigh)",
               "name": "Muse Spark 1.2 (xHigh)",
-              "rank": 42,
+              "rank": 48,
               "score": -0.07538020659982388,
               "ci_low": -0.08380729941747689,
               "ci_high": -0.06695311378217086,
@@ -581,7 +647,7 @@
             {
               "model_id": "Muse Spark 1.1",
               "name": "Muse Spark 1.1",
-              "rank": 43,
+              "rank": 49,
               "score": -0.0766934579263557,
               "ci_low": -0.08323748638502321,
               "ci_high": -0.07014942946768818,
@@ -592,84 +658,18 @@
             {
               "model_id": "MiMo-V2.5-Pro",
               "name": "MiMo-V2.5-Pro",
-              "rank": 44,
+              "rank": 50,
               "score": -0.08932691327565813,
               "ci_low": -0.09940245910986245,
               "ci_high": -0.07925136744145381,
               "votes": 49682.0,
               "organization": "xiaomi",
               "license": "MIT"
-            },
-            {
-              "model_id": "MiniMax-M3",
-              "name": "MiniMax-M3",
-              "rank": 45,
-              "score": -0.10161684431257027,
-              "ci_low": -0.11347037573808393,
-              "ci_high": -0.08976331288705662,
-              "votes": 44123.0,
-              "organization": "minimax",
-              "license": "MiniMax Community License"
-            },
-            {
-              "model_id": "Mistral Medium 3.5",
-              "name": "Mistral Medium 3.5",
-              "rank": 46,
-              "score": -0.12647508600286153,
-              "ci_low": -0.1432608461713169,
-              "ci_high": -0.10968932583440617,
-              "votes": 13796.0,
-              "organization": "mistral",
-              "license": "Modified MIT"
-            },
-            {
-              "model_id": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-              "name": "NVIDIA-Nemotron-3.5-Super-VL-120B-A12B (NVFP4)",
-              "rank": 47,
-              "score": -0.149438527585762,
-              "ci_low": -0.16148779421145704,
-              "ci_high": -0.13738926096006698,
-              "votes": 13260.0,
-              "organization": "nvidia",
-              "license": "OpenMDW-1.1"
-            },
-            {
-              "model_id": "Nemotron 3 Ultra",
-              "name": "Nemotron 3 Ultra",
-              "rank": 48,
-              "score": -0.1575690442802316,
-              "ci_low": -0.19038146845413711,
-              "ci_high": -0.1247566201063261,
-              "votes": 13536.0,
-              "organization": "nvidia",
-              "license": "OpenMDW-1.1"
-            },
-            {
-              "model_id": "Inkling",
-              "name": "Inkling",
-              "rank": 49,
-              "score": -0.15799537295041588,
-              "ci_low": -0.1726335163226686,
-              "ci_high": -0.14335722957816316,
-              "votes": 44144.0,
-              "organization": "thinky",
-              "license": "Apache 2.0"
-            },
-            {
-              "model_id": "Inkling-Small",
-              "name": "Inkling-Small",
-              "rank": 50,
-              "score": -0.17010177604397714,
-              "ci_low": -0.188449530870737,
-              "ci_high": -0.1517540212172173,
-              "votes": 14622.0,
-              "organization": "thinky",
-              "license": "Apache 2.0"
             }
           ],
           "coverage": "rank<=50",
-          "population": 51,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "population": 57,
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Text": {
@@ -1231,7 +1231,7 @@
           ],
           "coverage": "rank<=50",
           "population": 419,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "WebDev": {
@@ -1793,7 +1793,7 @@
           ],
           "coverage": "rank<=50",
           "population": 152,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Vision": {
@@ -2355,7 +2355,7 @@
           ],
           "coverage": "rank<=50",
           "population": 167,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Document": {
@@ -2851,7 +2851,7 @@
           ],
           "coverage": "rank<=50",
           "population": 44,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Search": {
@@ -3325,7 +3325,7 @@
           ],
           "coverage": "rank<=50",
           "population": 42,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Text-to-Image": {
@@ -3887,7 +3887,7 @@
           ],
           "coverage": "rank<=50",
           "population": 82,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Image Edit": {
@@ -4449,7 +4449,7 @@
           ],
           "coverage": "rank<=50",
           "population": 61,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Text-to-Video": {
@@ -4989,7 +4989,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Image-to-Video": {
@@ -5529,7 +5529,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         },
         "Video Edit": {
@@ -5651,19 +5651,19 @@
           ],
           "coverage": "rank<=50",
           "population": 10,
-          "fetched_at": "2026-10-29T08:30:44+00:00",
+          "fetched_at": "2026-10-30T08:40:58+00:00",
           "method": "official_dataset"
         }
       },
       "errors": {},
-      "revision": "4491b06c6382aebe3224461fc7209b57f7beb1ae"
+      "revision": "323062f70843f40e3f739865c3fe9d806126e412"
     },
     "artalanaly": {
       "schema_version": 2,
       "source": "artalanaly",
       "url": "https://artificialanalysis.ai/embed/llm-performance-leaderboard",
       "method": "public_html",
-      "fetched_at": "2026-10-29T08:30:43+00:00",
+      "fetched_at": "2026-10-30T08:40:57+00:00",
       "boards": {
         "Intelligence": {
           "scope": "aa:html:intelligence",
@@ -5997,7 +5997,7 @@
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-29T08:30:43+00:00",
+          "fetched_at": "2026-10-30T08:40:57+00:00",
           "method": "public_html"
         },
         "Speed": {
@@ -6007,308 +6007,308 @@
           "published_at": null,
           "rows": [
             {
+              "model_id": "/models/celeris-1|Celeris-1|/providers/celeris",
+              "name": "Celeris-1 (Celeris)",
+              "rank": 1,
+              "score": 1663.0
+            },
+            {
               "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/cerebras",
               "name": "gpt-oss-120b (low) (Cerebras)",
               "rank": 1,
-              "score": 1795.0
+              "score": 1663.0
             },
             {
               "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/cerebras",
               "name": "gpt-oss-120b (high) (Cerebras)",
-              "rank": 2,
-              "score": 1752.0
+              "rank": 1,
+              "score": 1663.0
             },
             {
-              "model_id": "/models/celeris-1|Celeris-1|/providers/celeris",
-              "name": "Celeris-1 (Celeris)",
-              "rank": 3,
-              "score": 1658.0
+              "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FAST)|/providers/inco",
+              "name": "GLM-5.3-Flash (FAST) (Inco)",
+              "rank": 4,
+              "score": 1477.0
             },
             {
               "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FP4, ULTRA CHAT)|/providers/lithos-ai",
               "name": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
-              "rank": 4,
-              "score": 1463.0
+              "rank": 5,
+              "score": 1449.0
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT)|/providers/lithos-ai",
               "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI)",
-              "rank": 5,
-              "score": 1294.0
+              "rank": 6,
+              "score": 1293.0
             },
             {
-              "model_id": "/models/k2-horizon-375b-a23b|K2 Horizon 375B A23B|/providers/ifm",
-              "name": "K2 Horizon 375B A23B (Institute of Foundation Models)",
-              "rank": 6,
-              "score": 929.0
+              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (FAST)|/providers/inco",
+              "name": "DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco)",
+              "rank": 7,
+              "score": 1170.0
+            },
+            {
+              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/inco",
+              "name": "MiniMax-M3.1-Flash (Inco)",
+              "rank": 8,
+              "score": 893.0
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (FAST)|/providers/baseten",
               "name": "DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten)",
-              "rank": 7,
+              "rank": 9,
               "score": 856.0
             },
             {
               "model_id": "/models/gpt-oss-20b-low|gpt-oss-20b (low)|/providers/groq",
               "name": "gpt-oss-20b (low) (Groq)",
-              "rank": 8,
-              "score": 849.0
+              "rank": 10,
+              "score": 855.0
             },
             {
               "model_id": "/models/gpt-oss-20b|gpt-oss-20b (high)|/providers/groq",
               "name": "gpt-oss-20b (high) (Groq)",
-              "rank": 9,
-              "score": 848.0
-            },
-            {
-              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4 ULTRA CHAT)|/providers/lithos-ai",
-              "name": "GLM-5.3 (max) (FP4 ULTRA CHAT) (LithosAI)",
-              "rank": 10,
-              "score": 764.0
-            },
-            {
-              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/primalabs",
-              "name": "Nemotron 3.5 Lightning (NVFP4) (PrimaLabs)",
               "rank": 11,
-              "score": 754.0
+              "score": 841.0
             },
             {
               "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/sambanova",
               "name": "gpt-oss-120b (low) (SambaNova)",
               "rank": 12,
-              "score": 739.0
+              "score": 740.0
             },
             {
               "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/sambanova",
               "name": "gpt-oss-120b (high) (SambaNova)",
               "rank": 13,
-              "score": 709.0
+              "score": 708.0
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/primalabs",
+              "name": "Nemotron 3.5 Lightning (NVFP4) (PrimaLabs)",
+              "rank": 14,
+              "score": 707.0
+            },
+            {
+              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4 ULTRA CHAT)|/providers/lithos-ai",
+              "name": "GLM-5.3 (max) (FP4 ULTRA CHAT) (LithosAI)",
+              "rank": 15,
+              "score": 685.0
+            },
+            {
+              "model_id": "/models/k2-horizon-375b-a23b|K2 Horizon 375B A23B|/providers/ifm",
+              "name": "K2 Horizon 375B A23B (Institute of Foundation Models)",
+              "rank": 16,
+              "score": 681.0
             },
             {
               "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FP4, ULTRA)|/providers/lithos-ai",
               "name": "GLM-5.3-Flash (FP4, ULTRA) (LithosAI)",
-              "rank": 14,
-              "score": 627.0
+              "rank": 17,
+              "score": 583.0
             },
             {
               "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/primalabs",
               "name": "Nemotron 3.5 Super VL (NVFP4) (PrimaLabs)",
-              "rank": 15,
-              "score": 618.0
-            },
-            {
-              "model_id": "/models/glm-5-3-low|GLM-5.3 (low) (FP4, FAST)|/providers/supernova",
-              "name": "GLM-5.3 (low) (FP4, FAST) (Supernova)",
-              "rank": 16,
-              "score": 607.0
-            },
-            {
-              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4, FAST)|/providers/supernova",
-              "name": "GLM-5.3 (max) (FP4, FAST) (Supernova)",
-              "rank": 17,
-              "score": 594.0
-            },
-            {
-              "model_id": "/models/glm-5-3-low|GLM-5.3 (low) (FAST)|/providers/inco",
-              "name": "GLM-5.3 (low) (FAST) (Inco)",
               "rank": 18,
-              "score": 584.0
+              "score": 578.0
             },
             {
               "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL|/providers/baseten",
               "name": "Nemotron 3.5 Super VL (Baseten)",
               "rank": 19,
-              "score": 577.0
+              "score": 558.0
             },
             {
-              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FAST)|/providers/inco",
-              "name": "GLM-5.3 (max) (FAST) (Inco)",
+              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4, FAST)|/providers/supernova",
+              "name": "GLM-5.3 (max) (FP4, FAST) (Supernova)",
               "rank": 20,
-              "score": 575.0
+              "score": 557.0
             },
             {
-              "model_id": "/models/gemma-4-26b-a4b|Gemma 4 26B A4B|/providers/systalyze",
-              "name": "Gemma 4 26B A4B (Systalyze)",
+              "model_id": "/models/glm-5-3-low|GLM-5.3 (low) (FP4, FAST)|/providers/supernova",
+              "name": "GLM-5.3 (low) (FP4, FAST) (Supernova)",
               "rank": 21,
-              "score": 549.0
-            },
-            {
-              "model_id": "/models/gemma-4-31b|Gemma 4 31B|/providers/sambanova",
-              "name": "Gemma 4 31B (SambaNova)",
-              "rank": 22,
-              "score": 532.0
-            },
-            {
-              "model_id": "/models/gemma-4-26b-a4b-non-reasoning|Gemma 4 26B A4B (non-reasoning)|/providers/systalyze",
-              "name": "Gemma 4 26B A4B (non-reasoning) (Systalyze)",
-              "rank": 23,
-              "score": 528.0
-            },
-            {
-              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/coreweave",
-              "name": "Nemotron 3.5 Super VL (NVFP4) (CoreWeave)",
-              "rank": 24,
-              "score": 518.0
+              "score": 556.0
             },
             {
               "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/baseten",
               "name": "Beam 1.0 (NVFP4) (Baseten)",
+              "rank": 22,
+              "score": 504.0
+            },
+            {
+              "model_id": "/models/gemma-4-26b-a4b|Gemma 4 26B A4B|/providers/systalyze",
+              "name": "Gemma 4 26B A4B (Systalyze)",
+              "rank": 23,
+              "score": 499.0
+            },
+            {
+              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FAST)|/providers/inco",
+              "name": "GLM-5.3 (max) (FAST) (Inco)",
+              "rank": 24,
+              "score": 494.0
+            },
+            {
+              "model_id": "/models/gemma-4-31b|Gemma 4 31B|/providers/sambanova",
+              "name": "Gemma 4 31B (SambaNova)",
               "rank": 25,
-              "score": 507.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/groq",
-              "name": "gpt-oss-120b (low) (Groq)",
-              "rank": 26,
-              "score": 471.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/groq",
-              "name": "gpt-oss-120b (high) (Groq)",
-              "rank": 27,
-              "score": 470.0
-            },
-            {
-              "model_id": "/models/gemini-3-5-flash-lite|Gemini 3.5 Flash-Lite AI Studio|/providers/google",
-              "name": "Gemini 3.5 Flash-Lite AI Studio (Google)",
-              "rank": 28,
-              "score": 455.0
-            },
-            {
-              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4)|/providers/lithos-ai",
-              "name": "GLM-5.3 (max) (FP4) (LithosAI)",
-              "rank": 28,
-              "score": 455.0
+              "score": 484.0
             },
             {
               "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/togetherai",
               "name": "Nemotron 3.5 Super VL (NVFP4) (Together AI)",
+              "rank": 26,
+              "score": 482.0
+            },
+            {
+              "model_id": "/models/glm-5-3-low|GLM-5.3 (low) (FAST)|/providers/inco",
+              "name": "GLM-5.3 (low) (FAST) (Inco)",
+              "rank": 27,
+              "score": 476.0
+            },
+            {
+              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/coreweave",
+              "name": "Nemotron 3.5 Super VL (NVFP4) (CoreWeave)",
+              "rank": 27,
+              "score": 476.0
+            },
+            {
+              "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/groq",
+              "name": "gpt-oss-120b (low) (Groq)",
+              "rank": 29,
+              "score": 472.0
+            },
+            {
+              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/groq",
+              "name": "gpt-oss-120b (high) (Groq)",
               "rank": 30,
-              "score": 446.0
+              "score": 471.0
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA)|/providers/lithos-ai",
               "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA) (LithosAI)",
               "rank": 31,
+              "score": 457.0
+            },
+            {
+              "model_id": "/models/gemma-4-26b-a4b-non-reasoning|Gemma 4 26B A4B (non-reasoning)|/providers/systalyze",
+              "name": "Gemma 4 26B A4B (non-reasoning) (Systalyze)",
+              "rank": 32,
+              "score": 456.0
+            },
+            {
+              "model_id": "/models/glm-5-3|GLM-5.3 (max) (FP4)|/providers/lithos-ai",
+              "name": "GLM-5.3 (max) (FP4) (LithosAI)",
+              "rank": 33,
+              "score": 451.0
+            },
+            {
+              "model_id": "/models/gemini-3-5-flash-lite|Gemini 3.5 Flash-Lite AI Studio|/providers/google",
+              "name": "Gemini 3.5 Flash-Lite AI Studio (Google)",
+              "rank": 34,
+              "score": 439.0
+            },
+            {
+              "model_id": "/models/glm-5-3|GLM-5.3 (max)|/providers/systalyze",
+              "name": "GLM-5.3 (max) (Systalyze)",
+              "rank": 35,
+              "score": 433.0
+            },
+            {
+              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (FAST)|/providers/lithos-ai",
+              "name": "DeepSeek V4.1 Flash 1017 (max) (FAST) (LithosAI)",
+              "rank": 36,
               "score": 432.0
             },
             {
               "model_id": "/models/ministral-3-3b|Ministral 3 3B|/providers/amazon_bedrock",
               "name": "Ministral 3 3B (Amazon Bedrock)",
-              "rank": 32,
-              "score": 428.0
+              "rank": 37,
+              "score": 426.0
             },
             {
               "model_id": "/models/qwen3-8-27b-non-reasoning|Qwen3.8 27B (non-reasoning) (FP4)|/providers/nebius",
               "name": "Qwen3.8 27B (non-reasoning) (FP4) (Nebius)",
-              "rank": 33,
-              "score": 422.0
+              "rank": 38,
+              "score": 408.0
             },
             {
               "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/fireworks",
               "name": "Nemotron 3.5 Lightning (BF16) (Fireworks)",
-              "rank": 34,
-              "score": 412.0
-            },
-            {
-              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (FAST)|/providers/lithos-ai",
-              "name": "DeepSeek V4.1 Flash 1017 (max) (FAST) (LithosAI)",
-              "rank": 35,
-              "score": 403.0
+              "rank": 39,
+              "score": 407.0
             },
             {
               "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (xhigh) (FP4)|/providers/nebius",
               "name": "Qwen3.8 27B (xhigh) (FP4) (Nebius)",
-              "rank": 35,
+              "rank": 40,
               "score": 403.0
             },
             {
-              "model_id": "/models/nvidia-nemotron-3-ultra-550b-a55b|Nemotron 3 Ultra|/providers/coreweave",
-              "name": "Nemotron 3 Ultra (CoreWeave)",
-              "rank": 37,
-              "score": 398.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/azure",
-              "name": "gpt-oss-120b (high) (Microsoft Azure)",
-              "rank": 38,
-              "score": 396.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/azure",
-              "name": "gpt-oss-120b (low) (Microsoft Azure)",
-              "rank": 39,
-              "score": 395.0
-            },
-            {
-              "model_id": "/models/muse-spark-open|Muse Spark Open (xhigh) (NVFP4)|/providers/makora",
-              "name": "Muse Spark Open (xhigh) (NVFP4) (Makora)",
-              "rank": 40,
-              "score": 390.0
+              "model_id": "/models/minimax-m3|MiniMax-M3 (NVFP4)|/providers/coreweave",
+              "name": "MiniMax-M3 (NVFP4) (CoreWeave)",
+              "rank": 41,
+              "score": 397.0
             },
             {
               "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/crusoe",
               "name": "gpt-oss-120b (low) (Crusoe)",
-              "rank": 41,
-              "score": 381.0
+              "rank": 42,
+              "score": 393.0
             },
             {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/crusoe",
-              "name": "gpt-oss-120b (high) (Crusoe)",
-              "rank": 42,
+              "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low)|/providers/azure",
+              "name": "gpt-oss-120b (low) (Microsoft Azure)",
+              "rank": 43,
+              "score": 384.0
+            },
+            {
+              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/azure",
+              "name": "gpt-oss-120b (high) (Microsoft Azure)",
+              "rank": 44,
               "score": 379.0
+            },
+            {
+              "model_id": "/models/muse-spark-open|Muse Spark Open (xhigh) (NVFP4)|/providers/makora",
+              "name": "Muse Spark Open (xhigh) (NVFP4) (Makora)",
+              "rank": 45,
+              "score": 374.0
             },
             {
               "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/digitalocean",
               "name": "MiniMax-M3.1-Flash (DigitalOcean)",
-              "rank": 42,
-              "score": 379.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b-low|gpt-oss-120b (low) Base|/providers/nebius",
-              "name": "gpt-oss-120b (low) Base (Nebius)",
-              "rank": 44,
-              "score": 366.0
-            },
-            {
-              "model_id": "/models/minimax-m3|MiniMax-M3 (FP8)|/providers/nebius",
-              "name": "MiniMax-M3 (FP8) (Nebius)",
-              "rank": 45,
-              "score": 365.0
-            },
-            {
-              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/coreweave",
-              "name": "Nemotron 3.5 Lightning (BF16) (CoreWeave)",
               "rank": 46,
-              "score": 364.0
-            },
-            {
-              "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FP4)|/providers/lithos-ai",
-              "name": "GLM-5.3-Flash (FP4) (LithosAI)",
-              "rank": 47,
-              "score": 354.0
-            },
-            {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high) (Base)|/providers/nebius",
-              "name": "gpt-oss-120b (high) (Base) (Nebius)",
-              "rank": 48,
-              "score": 351.0
+              "score": 373.0
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/togetherai",
               "name": "DeepSeek V4.1 Flash 1017 (max) (Together AI)",
-              "rank": 49,
-              "score": 349.0
+              "rank": 47,
+              "score": 372.0
             },
             {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (max) (Ultrafast)|/providers/openai",
-              "name": "GPT-6.1 Sol (max) (Ultrafast) (OpenAI)",
+              "model_id": "/models/glm-5-3-low|GLM-5.3 (low)|/providers/systalyze",
+              "name": "GLM-5.3 (low) (Systalyze)",
+              "rank": 48,
+              "score": 371.0
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/coreweave",
+              "name": "Nemotron 3.5 Lightning (BF16) (CoreWeave)",
+              "rank": 49,
+              "score": 369.0
+            },
+            {
+              "model_id": "/models/nvidia-nemotron-3-ultra-550b-a55b|Nemotron 3 Ultra|/providers/coreweave",
+              "name": "Nemotron 3 Ultra (CoreWeave)",
               "rank": 50,
-              "score": 348.0
+              "score": 362.0
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-29T08:30:43+00:00",
+          "fetched_at": "2026-10-30T08:40:57+00:00",
           "method": "public_html"
         },
         "CostPerTask": {
@@ -6354,272 +6354,278 @@
               "score": 0.04
             },
             {
+              "model_id": "/models/mistral-small-4|Mistral Small 4|/providers/mistral",
+              "name": "Mistral Small 4 (Mistral)",
+              "rank": 5,
+              "score": 0.04
+            },
+            {
               "model_id": "/models/muse-glimmer|Muse Glimmer (high)|/providers/systalyze",
               "name": "Muse Glimmer (high) (Systalyze)",
-              "rank": 7,
+              "rank": 8,
               "score": 0.06
             },
             {
               "model_id": "/models/gpt-6-1-terra-low|GPT-6.1 Terra (low)|/providers/openai",
               "name": "GPT-6.1 Terra (low) (OpenAI)",
-              "rank": 8,
+              "rank": 9,
               "score": 0.07
             },
             {
               "model_id": "/models/gpt-6-luna-high|GPT-6 Luna (high)|/providers/openai",
               "name": "GPT-6 Luna (high) (OpenAI)",
-              "rank": 8,
+              "rank": 9,
               "score": 0.07
             },
             {
               "model_id": "/models/gpt-6-luna-non-reasoning|GPT-6 Luna (non-reasoning)|/providers/openai",
               "name": "GPT-6 Luna (non-reasoning) (OpenAI)",
-              "rank": 8,
+              "rank": 9,
+              "score": 0.07
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/fireworks",
+              "name": "Nemotron 3.5 Lightning (BF16) (Fireworks)",
+              "rank": 9,
               "score": 0.07
             },
             {
               "model_id": "/models/gpt-6-luna-high|GPT-6 Luna (high)|/providers/azure",
               "name": "GPT-6 Luna (high) (Microsoft Azure)",
-              "rank": 11,
+              "rank": 13,
               "score": 0.08
             },
             {
               "model_id": "/models/gpt-6-luna-non-reasoning|GPT-6 Luna (non-reasoning)|/providers/azure",
               "name": "GPT-6 Luna (non-reasoning) (Microsoft Azure)",
-              "rank": 11,
+              "rank": 13,
               "score": 0.08
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (max) (Flex)|/providers/openai",
               "name": "GPT-6 Luna (max) (Flex) (OpenAI)",
-              "rank": 11,
+              "rank": 13,
               "score": 0.08
             },
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash|/providers/deepinfra",
               "name": "MiMo-V2.6-Flash (DeepInfra)",
-              "rank": 11,
+              "rank": 13,
               "score": 0.08
             },
             {
               "model_id": "/models/claude-haiku-5-5-medium|Claude Haiku 5.5 (medium)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (medium) (Anthropic)",
-              "rank": 15,
+              "rank": 17,
               "score": 0.09
             },
             {
               "model_id": "/models/gpt-6-luna-xhigh|GPT-6 Luna (xhigh)|/providers/openai",
               "name": "GPT-6 Luna (xhigh) (OpenAI)",
-              "rank": 16,
+              "rank": 18,
               "score": 0.1
             },
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash (BF16)|/providers/gmi",
               "name": "MiMo-V2.6-Flash (BF16) (GMI)",
-              "rank": 17,
+              "rank": 19,
               "score": 0.11
             },
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash|/providers/xiaomi",
               "name": "MiMo-V2.6-Flash (Xiaomi)",
-              "rank": 18,
+              "rank": 20,
               "score": 0.13
             },
             {
               "model_id": "/models/muse-glimmer|Muse Glimmer (high)|/providers/deepinfra",
               "name": "Muse Glimmer (high) (DeepInfra)",
-              "rank": 18,
+              "rank": 20,
               "score": 0.13
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (max)|/providers/openai",
               "name": "GPT-6 Luna (max) (OpenAI)",
-              "rank": 20,
+              "rank": 22,
               "score": 0.15
             },
             {
               "model_id": "/models/claude-haiku-5-5-high|Claude Haiku 5.5 (high)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (high) (Anthropic)",
-              "rank": 21,
+              "rank": 23,
               "score": 0.16
             },
             {
               "model_id": "/models/gpt-6-1-sol-low|GPT-6.1 Sol (low)|/providers/openai",
               "name": "GPT-6.1 Sol (low) (OpenAI)",
-              "rank": 21,
+              "rank": 23,
               "score": 0.16
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (max)|/providers/azure",
               "name": "GPT-6 Luna (max) (Microsoft Azure)",
-              "rank": 21,
+              "rank": 23,
               "score": 0.16
             },
             {
               "model_id": "/models/gpt-6-1-terra-medium|GPT-6.1 Terra (medium)|/providers/openai",
               "name": "GPT-6.1 Terra (medium) (OpenAI)",
-              "rank": 24,
+              "rank": 26,
               "score": 0.17
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/deepinfra",
               "name": "DeepSeek V4.1 Flash 1017 (max) (DeepInfra)",
-              "rank": 25,
+              "rank": 27,
               "score": 0.19
             },
             {
               "model_id": "/models/inkling-small|Inkling Small|/providers/thinking-machines",
               "name": "Inkling Small (Thinking Machines)",
-              "rank": 26,
+              "rank": 28,
               "score": 0.2
             },
             {
               "model_id": "/models/gpt-6-1-terra-non-reasoning|GPT-6.1 Terra (non-reasoning)|/providers/openai",
               "name": "GPT-6.1 Terra (non-reasoning) (OpenAI)",
-              "rank": 27,
+              "rank": 29,
               "score": 0.23
             },
             {
               "model_id": "/models/muse-glimmer|Muse Glimmer (high)|/providers/togetherai",
               "name": "Muse Glimmer (high) (Together AI)",
-              "rank": 27,
+              "rank": 29,
               "score": 0.23
             },
             {
               "model_id": "/models/mimo-v2-6-pro|MiMo-V2.6-Pro (BF16)|/providers/gmi",
               "name": "MiMo-V2.6-Pro (BF16) (GMI)",
-              "rank": 29,
+              "rank": 31,
+              "score": 0.24
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/coreweave",
+              "name": "Nemotron 3.5 Lightning (BF16) (CoreWeave)",
+              "rank": 31,
               "score": 0.24
             },
             {
               "model_id": "/models/claude-haiku-5-5-xhigh|Claude Haiku 5.5 (xhigh)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (xhigh) (Anthropic)",
-              "rank": 30,
+              "rank": 33,
               "score": 0.25
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/wafer",
               "name": "DeepSeek V4.1 Flash 1017 (max) (Wafer)",
-              "rank": 30,
+              "rank": 33,
               "score": 0.25
             },
             {
               "model_id": "/models/gpt-6-1-terra-high|GPT-6.1 Terra (high)|/providers/openai",
               "name": "GPT-6.1 Terra (high) (OpenAI)",
-              "rank": 32,
+              "rank": 35,
               "score": 0.26
             },
             {
               "model_id": "/models/mimo-v2-6-pro|MiMo-V2.6-Pro|/providers/xiaomi",
               "name": "MiMo-V2.6-Pro (Xiaomi)",
-              "rank": 32,
+              "rank": 35,
               "score": 0.26
             },
             {
-              "model_id": "/models/mimo-v2-6-pro|MiMo-V2.6-Pro|/providers/primalabs",
-              "name": "MiMo-V2.6-Pro (PrimaLabs)",
-              "rank": 34,
-              "score": 0.27
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/crusoe",
+              "name": "Nemotron 3.5 Lightning (BF16) (Crusoe)",
+              "rank": 35,
+              "score": 0.26
             },
             {
               "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/togetherai",
               "name": "Beam 1.0 (NVFP4) (Together AI)",
-              "rank": 35,
+              "rank": 38,
               "score": 0.28
             },
             {
               "model_id": "/models/reflection-beam|Beam 1.0|/providers/digitalocean",
               "name": "Beam 1.0 (DigitalOcean)",
-              "rank": 35,
+              "rank": 38,
               "score": 0.28
             },
             {
               "model_id": "/models/inkling-small|Inkling Small|/providers/deepinfra",
               "name": "Inkling Small (DeepInfra)",
-              "rank": 37,
+              "rank": 40,
               "score": 0.29
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/deepinfra",
+              "name": "Nemotron 3.5 Lightning (NVFP4) (DeepInfra)",
+              "rank": 41,
+              "score": 0.31
             },
             {
               "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL|/providers/baseten",
               "name": "Nemotron 3.5 Super VL (Baseten)",
-              "rank": 38,
+              "rank": 41,
               "score": 0.31
+            },
+            {
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/nebius",
+              "name": "Nemotron 3.5 Lightning (BF16) (Nebius)",
+              "rank": 43,
+              "score": 0.32
+            },
+            {
+              "model_id": "/models/glm-5-3-low|GLM-5.3 (low)|/providers/systalyze",
+              "name": "GLM-5.3 (low) (Systalyze)",
+              "rank": 44,
+              "score": 0.33
             },
             {
               "model_id": "/models/gpt-6-1-sol-medium|GPT-6.1 Sol (medium)|/providers/openai",
               "name": "GPT-6.1 Sol (medium) (OpenAI)",
-              "rank": 39,
+              "rank": 45,
               "score": 0.36
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/gmi",
               "name": "DeepSeek V4.1 Flash 1017 (max) (GMI)",
-              "rank": 40,
+              "rank": 46,
               "score": 0.37
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/lithos-ai",
               "name": "DeepSeek V4.1 Flash 1017 (max) (LithosAI)",
-              "rank": 41,
+              "rank": 47,
               "score": 0.39
             },
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash|/providers/makora",
               "name": "MiMo-V2.6-Flash (Makora)",
-              "rank": 41,
+              "rank": 47,
               "score": 0.39
             },
             {
               "model_id": "/models/gpt-6-1-terra-xhigh|GPT-6.1 Terra (xhigh)|/providers/openai",
               "name": "GPT-6.1 Terra (xhigh) (OpenAI)",
-              "rank": 43,
+              "rank": 49,
               "score": 0.4
             },
             {
               "model_id": "/models/claude-haiku-5-5|Claude Haiku 5.5 (max)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (max) (Anthropic)",
-              "rank": 44,
+              "rank": 50,
               "score": 0.41
             },
             {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/digitalocean",
-              "name": "MiniMax-M3.1-Flash (DigitalOcean)",
-              "rank": 45,
-              "score": 0.42
-            },
-            {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/gmi",
-              "name": "MiniMax-M3.1-Flash (GMI)",
-              "rank": 45,
-              "score": 0.42
-            },
-            {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/wafer",
-              "name": "MiniMax-M3.1-Flash (Wafer)",
-              "rank": 45,
-              "score": 0.42
-            },
-            {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/modular",
-              "name": "MiniMax-M3.1-Flash (Modular)",
-              "rank": 48,
-              "score": 0.43
-            },
-            {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/novita",
-              "name": "MiniMax-M3.1-Flash (Novita)",
-              "rank": 48,
-              "score": 0.43
-            },
-            {
-              "model_id": "/models/minimax-m3-1-flash|MiniMax-M3.1-Flash|/providers/parasail",
-              "name": "MiniMax-M3.1-Flash (Parasail)",
+              "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash|/providers/gmi",
+              "name": "GLM-5.3-Flash (GMI)",
               "rank": 50,
-              "score": 0.44
+              "score": 0.41
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-10-29T08:30:43+00:00",
+          "fetched_at": "2026-10-30T08:40:57+00:00",
           "method": "public_html"
         }
       },
