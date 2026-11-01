@@ -1,19 +1,19 @@
-# 大模型趋势日报 2026-10-31
+# 大模型趋势日报 2026-11-01
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 45.5T | 0 | +3.1T (+7.3%) |
-| 2 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 16.1T | ↑1 | +500B (+3.2%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.2T | ↓1 | -700B (-4.4%) |
-| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 10.9T | 0 | -500B (-4.4%) |
-| 5 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 9.33T | 0 | +150B (+1.6%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.31T | 0 | -530B (-6.8%) |
-| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.3T | 0 | +370B (+6.2%) |
-| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 5.04T | ↑1 | +920B (+22.3%) |
-| 9 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.62T | ↓1 | -280B (-5.7%) |
-| 10 | [deepseek/deepseek-v4-flash-0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) | 3.93T | 0 | -60B (-1.5%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 47.8T | 0 | +2.3T (+5.1%) |
+| 2 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 15.7T | 0 | -400B (-2.5%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 14.6T | 0 | -600B (-3.9%) |
+| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 10.3T | 0 | -600B (-5.5%) |
+| 5 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 9.31T | 0 | -20B (-0.2%) |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.91T | 0 | -400B (-5.5%) |
+| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.3T | 0 | 0 (+0.0%) |
+| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 5.67T | 0 | +630B (+12.5%) |
+| 9 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.42T | 0 | -200B (-4.3%) |
+| 10 | [openai/gpt-5.6-luna](https://openrouter.ai/openai/gpt-5.6-luna) | 4T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
@@ -202,16 +202,16 @@
 
 | 排名 | 模型 | 输出 Tokens/s | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Celeris-1 (Celeris) | 1,680 | 0 | +17 (+1.0%) |
-| 2 | gpt-oss-120b (high) (Cerebras) | 1,673 | ↓1 | +10 (+0.6%) |
-| 3 | gpt-oss-120b (low) (Cerebras) | 1,650 | ↓2 | -13 (-0.8%) |
-| 4 | DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco) | 1,486 | 新入榜 | 未知 |
-| 5 | GLM-5.3-Flash (FAST) (Inco) | 1,461 | ↓1 | -16 (-1.1%) |
-| 6 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | 1,454 | ↓1 | +5 (+0.3%) |
-| 7 | DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI) | 1,230 | ↓1 | -63 (-4.9%) |
-| 8 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco) | 1,169 | ↓1 | -1 (-0.1%) |
-| 9 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | 951 | 0 | +95 (+11.1%) |
-| 10 | gpt-oss-20b (low) (Groq) | 876 | 0 | +21 (+2.5%) |
+| 1 | Celeris-1 (Celeris) | 1,680 | 0 | 0 (+0.0%) |
+| 2 | gpt-oss-120b (high) (Cerebras) | 1,673 | 0 | 0 (+0.0%) |
+| 3 | gpt-oss-120b (low) (Cerebras) | 1,650 | 0 | 0 (+0.0%) |
+| 4 | DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco) | 1,486 | 0 | 0 (+0.0%) |
+| 5 | GLM-5.3-Flash (FAST) (Inco) | 1,461 | 0 | 0 (+0.0%) |
+| 6 | GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI) | 1,454 | 0 | 0 (+0.0%) |
+| 7 | DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI) | 1,230 | 0 | 0 (+0.0%) |
+| 8 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco) | 1,169 | 0 | 0 (+0.0%) |
+| 9 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | 951 | 0 | 0 (+0.0%) |
+| 10 | gpt-oss-20b (low) (Groq) | 876 | 0 | 0 (+0.0%) |
 
 ## Artificial Analysis 任务成本
 
@@ -219,16 +219,16 @@
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | Command A+ (Cohere) | 0 | 0 | 0 |
 | 1 | K2 Horizon 375B A23B (Institute of Foundation Models) | 0 | 0 | 0 |
-| 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 新入榜 | 未知 |
+| 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | 0 | 0 |
-| 5 | GPT-6 Luna (low) (OpenAI) | 0.01 | ↓1 | 0 (+0.0%) |
-| 6 | Claude Haiku 5.5 (low) (Anthropic) | 0.04 | ↓1 | 0 (+0.0%) |
-| 6 | GPT-6 Luna (medium) (OpenAI) | 0.04 | ↓1 | 0 (+0.0%) |
-| 6 | Mistral Small 4 (Mistral) | 0.04 | ↓1 | 0 (+0.0%) |
-| 9 | Muse Glimmer (high) (Systalyze) | 0.06 | ↓1 | 0 (+0.0%) |
-| 10 | GPT-6.1 Terra (low) (OpenAI) | 0.07 | ↓1 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (high) (OpenAI) | 0.07 | ↓1 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 0.07 | ↓1 | 0 (+0.0%) |
-| 10 | Nemotron 3.5 Lightning (BF16) (Fireworks) | 0.07 | ↓1 | 0 (+0.0%) |
+| 5 | GPT-6 Luna (low) (OpenAI) | 0.01 | 0 | 0 (+0.0%) |
+| 6 | Claude Haiku 5.5 (low) (Anthropic) | 0.04 | 0 | 0 (+0.0%) |
+| 6 | GPT-6 Luna (medium) (OpenAI) | 0.04 | 0 | 0 (+0.0%) |
+| 6 | Mistral Small 4 (Mistral) | 0.04 | 0 | 0 (+0.0%) |
+| 9 | Muse Glimmer (high) (Systalyze) | 0.06 | 0 | 0 (+0.0%) |
+| 10 | GPT-6.1 Terra (low) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
+| 10 | GPT-6 Luna (high) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
+| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
+| 10 | Nemotron 3.5 Lightning (BF16) (Fireworks) | 0.07 | 0 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
