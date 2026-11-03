@@ -1,34 +1,34 @@
-# 大模型趋势日报 2026-11-02
+# 大模型趋势日报 2026-11-03
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 48.1T | 0 | +300B (+0.6%) |
-| 2 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 15T | 0 | -700B (-4.5%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 14.9T | 0 | +300B (+2.1%) |
-| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 9.62T | 0 | -680B (-6.6%) |
-| 5 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 9.07T | 0 | -240B (-2.6%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.73T | 0 | -180B (-2.6%) |
-| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.25T | 0 | -50B (-0.8%) |
-| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 6.23T | 0 | +560B (+9.9%) |
-| 9 | [openai/gpt-5.6-luna](https://openrouter.ai/openai/gpt-5.6-luna) | 4.33T | ↑1 | +330B (+8.2%) |
-| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.23T | ↓1 | -190B (-4.3%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 50.4T | 0 | +2.3T (+4.8%) |
+| 2 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 15.3T | 0 | +300B (+2.0%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.1T | 0 | +200B (+1.3%) |
+| 4 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 9.25T | ↑1 | +180B (+2.0%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 9.22T | ↓1 | -400B (-4.2%) |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.67T | 0 | -60B (-0.9%) |
+| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 6.46T | ↑1 | +230B (+3.7%) |
+| 8 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.46T | ↓1 | +210B (+3.4%) |
+| 9 | [openai/gpt-5.6-luna](https://openrouter.ai/openai/gpt-5.6-luna) | 5.32T | 0 | +990B (+22.9%) |
+| 10 | [openai/gpt-6.1-sol](https://openrouter.ai/openai/gpt-6.1-sol) | 3.93T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Opus 5.5 (Max) | 20.94% | 0 | +0.00 pp |
-| 2 | Gemini 4 Carbon (High) | 16.04% | 0 | +0.00 pp |
-| 3 | Claude Sonnet 5.5 (Max) | 13.84% | 0 | +0.00 pp |
-| 4 | Claude Fable 5.1 (Max) | 13.35% | 0 | +0.00 pp |
-| 5 | GPT-6 Astra (Max) | 12.96% | 0 | +0.00 pp |
-| 6 | GPT-6.1 Sol (Max) | 12.47% | 0 | +0.00 pp |
-| 7 | Gemini 4 Argon (High) | 10.73% | 0 | +0.00 pp |
-| 8 | GPT-6.1 Terra (Max) | 10.57% | 0 | +0.00 pp |
-| 9 | Muse Wonder Full (Max) | 10.09% | 0 | +0.00 pp |
-| 10 | Claude Fable 5 (High) | 8.04% | 0 | +0.00 pp |
+| 1 | Claude Opus 5.5 (Max) | 20.04% | 0 | -0.90 pp |
+| 2 | Gemini 4 Carbon (High) | 16.56% | 0 | +0.52 pp |
+| 3 | Claude Sonnet 5.5 (Max) | 14.62% | 0 | +0.78 pp |
+| 4 | GPT-6 Astra (Max) | 13.68% | ↑1 | +0.72 pp |
+| 5 | Claude Fable 5.1 (Max) | 13.15% | ↓1 | -0.21 pp |
+| 6 | GPT-6.1 Sol (Max) | 12.24% | 0 | -0.23 pp |
+| 7 | Gemini 4 Argon (High) | 10.61% | 0 | -0.12 pp |
+| 8 | GPT-6.1 Terra (Max) | 10.19% | 0 | -0.39 pp |
+| 9 | Muse Wonder Full (Max) | 9.63% | 0 | -0.45 pp |
+| 10 | Claude Fable 5 (High) | 7.78% | 0 | -0.26 pp |
 
 ## Arena 文本
 
@@ -186,33 +186,33 @@
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | Gemini 4 Carbon (high) | 59 | 0 | 0 |
 | 2 | Claude Opus 5.5 (max with fallback) | 58 | 0 | 0 |
-| 2 | Gemini 4 Carbon (medium) | 58 | 新入榜 | 未知 |
-| 4 | Claude Opus 5.5 (xhigh with fallback) | 57 | ↓1 | 0 |
-| 4 | GPT-6 Astra (max) (Fast) | 57 | ↓1 | 0 |
-| 4 | GPT-6 Astra (max) (Flex) | 57 | ↓1 | 0 |
-| 4 | GPT-6 Astra (max) (Ultrafast) | 57 | ↓1 | 0 |
-| 4 | GPT-6 Astra (max) | 57 | ↓1 | 0 |
-| 9 | GPT-6.1 Sol (max) (Fast) | 55 | ↓1 | 0 |
-| 9 | GPT-6.1 Sol (max) (Flex) | 55 | ↓1 | 0 |
-| 9 | GPT-6.1 Sol (max) (Ultrafast) | 55 | ↓1 | 0 |
-| 9 | GPT-6.1 Sol (max) | 55 | ↓1 | 0 |
-| 9 | GPT-6 Astra (high) | 55 | ↓1 | 0 |
-| 9 | GPT-6 Astra (xhigh) | 55 | ↓1 | 0 |
+| 2 | Gemini 4 Carbon (medium) | 58 | 0 | 0 |
+| 4 | Claude Opus 5.5 (xhigh with fallback) | 57 | 0 | 0 |
+| 4 | GPT-6 Astra (max) (Fast) | 57 | 0 | 0 |
+| 4 | GPT-6 Astra (max) (Flex) | 57 | 0 | 0 |
+| 4 | GPT-6 Astra (max) (Ultrafast) | 57 | 0 | 0 |
+| 4 | GPT-6 Astra (max) | 57 | 0 | 0 |
+| 9 | GPT-6.1 Sol (max) (Fast) | 55 | 0 | 0 |
+| 9 | GPT-6.1 Sol (max) (Flex) | 55 | 0 | 0 |
+| 9 | GPT-6.1 Sol (max) (Ultrafast) | 55 | 0 | 0 |
+| 9 | GPT-6.1 Sol (max) | 55 | 0 | 0 |
+| 9 | GPT-6 Astra (high) | 55 | 0 | 0 |
+| 9 | GPT-6 Astra (xhigh) | 55 | 0 | 0 |
 
 ## Artificial Analysis 输出速度
 
 | 排名 | 模型 | 输出 Tokens/s | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | gpt-oss-120b (low) (Cerebras) | 1,731 | ↑2 | +81 (+4.9%) |
-| 2 | Celeris-1 (Celeris) | 1,712 | ↓1 | +32 (+1.9%) |
-| 3 | gpt-oss-120b (high) (Cerebras) | 1,694 | ↓1 | +21 (+1.3%) |
-| 4 | GLM-5.3-Flash (FAST) (Inco) | 1,395 | ↑1 | -66 (-4.5%) |
-| 5 | DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco) | 1,160 | ↓1 | -326 (-21.9%) |
-| 6 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco) | 1,094 | ↑2 | -75 (-6.4%) |
-| 7 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | 1,022 | ↑2 | +71 (+7.5%) |
-| 8 | gpt-oss-20b (high) (Groq) | 860 | ↑3 | +14 (+1.7%) |
-| 9 | gpt-oss-20b (low) (Groq) | 856 | ↑1 | -20 (-2.3%) |
-| 10 | DeepSeek V4.1 Flash 1017 (max) (Systalyze) | 830 | ↑11 | +266 (+47.2%) |
+| 1 | gpt-oss-120b (low) (Cerebras) | 1,746 | 0 | +15 (+0.9%) |
+| 2 | gpt-oss-120b (high) (Cerebras) | 1,684 | ↑1 | -10 (-0.6%) |
+| 3 | Celeris-1 (Celeris) | 1,638 | ↓1 | -74 (-4.3%) |
+| 4 | GLM-5.3-Flash (FAST) (Inco) | 1,382 | 0 | -13 (-0.9%) |
+| 5 | DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco) | 1,116 | 0 | -44 (-3.8%) |
+| 6 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Inco) | 1,075 | 0 | -19 (-1.7%) |
+| 7 | DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten) | 1,022 | 0 | 0 (+0.0%) |
+| 8 | gpt-oss-20b (high) (Groq) | 865 | 0 | +5 (+0.6%) |
+| 9 | DeepSeek V4.1 Flash 1017 (max) (Systalyze) | 838 | ↑1 | +8 (+1.0%) |
+| 10 | gpt-oss-20b (low) (Groq) | 830 | ↓1 | -26 (-3.0%) |
 
 ## Artificial Analysis 任务成本
 
@@ -225,11 +225,8 @@
 | 5 | GPT-6 Luna (low) (OpenAI) | 0.01 | 0 | 0 (+0.0%) |
 | 6 | Claude Haiku 5.5 (low) (Anthropic) | 0.04 | 0 | 0 (+0.0%) |
 | 6 | GPT-6 Luna (medium) (OpenAI) | 0.04 | 0 | 0 (+0.0%) |
+| 6 | Granite 4.2 8B (DeepInfra) | 0.04 | 新入榜 | 未知 |
 | 6 | Mistral Small 4 (Mistral) | 0.04 | 0 | 0 (+0.0%) |
-| 9 | Muse Glimmer (high) (Systalyze) | 0.06 | 0 | 0 (+0.0%) |
-| 10 | GPT-6.1 Terra (low) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (high) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 0.07 | 0 | 0 (+0.0%) |
-| 10 | Nemotron 3.5 Lightning (BF16) (Fireworks) | 0.07 | 0 | 0 (+0.0%) |
+| 10 | Muse Glimmer (high) (Systalyze) | 0.06 | ↓1 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
