@@ -6,7 +6,7 @@
       "source": "openrouter",
       "url": "https://openrouter.ai/rankings?view=week",
       "method": "public_html",
-      "fetched_at": "2026-11-03T09:34:43+00:00",
+      "fetched_at": "2026-11-04T09:15:19+00:00",
       "boards": {
         "Usage": {
           "scope": "openrouter:html:week",
@@ -19,85 +19,85 @@
               "rank": 1,
               "model_id": "deepseek/deepseek-v4.1-flash-1017",
               "name": "DeepSeek V4.1 Flash 1017",
-              "score": 50400000000000,
-              "tokens_display": "50.4T tokens",
-              "growth": "+43%"
+              "score": 54800000000000,
+              "tokens_display": "54.8T tokens",
+              "growth": "+47%"
             },
             {
               "rank": 2,
               "model_id": "z-ai/glm-5.3-flash",
               "name": "GLM 5.3 Flash",
-              "score": 15300000000000,
-              "tokens_display": "15.3T tokens",
-              "growth": "+11%"
+              "score": 16399999999999,
+              "tokens_display": "16.4T tokens",
+              "growth": "+16%"
             },
             {
               "rank": 3,
               "model_id": "deepseek/deepseek-v4.1-flash",
               "name": "DeepSeek V4.1 Flash",
-              "score": 15100000000000,
-              "tokens_display": "15.1T tokens",
-              "growth": "-13%"
+              "score": 15600000000000,
+              "tokens_display": "15.6T tokens",
+              "growth": "-8%"
             },
             {
               "rank": 4,
               "model_id": "tencent/hy4-preview",
               "name": "Hy4 preview",
-              "score": 9250000000000,
-              "tokens_display": "9.25T tokens",
-              "growth": "+3%"
+              "score": 9480000000000,
+              "tokens_display": "9.48T tokens",
+              "growth": "+6%"
             },
             {
               "rank": 5,
               "model_id": "openai/gpt-6-luna",
               "name": "GPT-6 Luna",
-              "score": 9220000000000,
-              "tokens_display": "9.22T tokens",
+              "score": 9260000000000,
+              "tokens_display": "9.26T tokens",
               "growth": "+2%"
             },
             {
               "rank": 6,
+              "model_id": "stepfun/step-5-preview",
+              "name": "Step 5 Preview",
+              "score": 6680000000000,
+              "tokens_display": "6.68T tokens",
+              "growth": "+43%"
+            },
+            {
+              "rank": 7,
               "model_id": "anthropic/claude-opus-5.5",
               "name": "Claude Opus 5.5",
               "score": 6670000000000,
               "tokens_display": "6.67T tokens",
-              "growth": "-19%"
-            },
-            {
-              "rank": 7,
-              "model_id": "minimax/minimax-m3.1-flash",
-              "name": "MiniMax M3.1 Flash",
-              "score": 6460000000000,
-              "tokens_display": "6.46T tokens",
-              "growth": "+340%"
+              "growth": "-17%"
             },
             {
               "rank": 8,
-              "model_id": "stepfun/step-5-preview",
-              "name": "Step 5 Preview",
-              "score": 6460000000000,
-              "tokens_display": "6.46T tokens",
-              "growth": "+46%"
+              "model_id": "minimax/minimax-m3.1-flash",
+              "name": "MiniMax M3.1 Flash",
+              "score": 6500000000000,
+              "tokens_display": "6.5T tokens",
+              "growth": "+181%"
             },
             {
               "rank": 9,
               "model_id": "openai/gpt-5.6-luna",
               "name": "GPT-5.6 Luna",
-              "score": 5320000000000,
-              "tokens_display": "5.32T tokens",
-              "growth": "+199%"
+              "score": 5330000000000,
+              "tokens_display": "5.33T tokens",
+              "growth": "+176%"
             },
             {
               "rank": 10,
               "model_id": "openai/gpt-6.1-sol",
               "name": "GPT-6.1 Sol",
-              "score": 3930000000000,
-              "tokens_display": "3.93T tokens",
-              "growth": "+35%"
+              "score": 4050000000000,
+              "tokens_display": "4.05T tokens",
+              "growth": "+37%"
             }
           ],
           "coverage": "top10",
-          "fetched_at": "2026-11-03T09:34:43+00:00",
+          "fetched_at": "2026-11-04T09:15:19+00:00",
           "method": "public_html"
         }
       },
@@ -108,7 +108,7 @@
       "source": "lmsys",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "method": "official_dataset",
-      "fetched_at": "2026-11-03T09:34:44+00:00",
+      "fetched_at": "2026-11-04T09:15:20+00:00",
       "boards": {
         "Agent": {
           "scope": "arena:agent:overall",
@@ -669,7 +669,7 @@
           ],
           "coverage": "rank<=50",
           "population": 57,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Text": {
@@ -1231,7 +1231,7 @@
           ],
           "coverage": "rank<=50",
           "population": 419,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "WebDev": {
@@ -1793,7 +1793,7 @@
           ],
           "coverage": "rank<=50",
           "population": 152,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Vision": {
@@ -2355,7 +2355,7 @@
           ],
           "coverage": "rank<=50",
           "population": 167,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Document": {
@@ -2851,7 +2851,7 @@
           ],
           "coverage": "rank<=50",
           "population": 44,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Search": {
@@ -3325,7 +3325,7 @@
           ],
           "coverage": "rank<=50",
           "population": 42,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Text-to-Image": {
@@ -3887,7 +3887,7 @@
           ],
           "coverage": "rank<=50",
           "population": 82,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Image Edit": {
@@ -4449,7 +4449,7 @@
           ],
           "coverage": "rank<=50",
           "population": 61,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Text-to-Video": {
@@ -4989,7 +4989,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Image-to-Video": {
@@ -5529,7 +5529,7 @@
           ],
           "coverage": "rank<=50",
           "population": 48,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         },
         "Video Edit": {
@@ -5651,7 +5651,7 @@
           ],
           "coverage": "rank<=50",
           "population": 10,
-          "fetched_at": "2026-11-03T09:34:44+00:00",
+          "fetched_at": "2026-11-04T09:15:20+00:00",
           "method": "official_dataset"
         }
       },
