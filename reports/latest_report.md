@@ -1,34 +1,34 @@
-# 大模型趋势日报 2026-11-05
+# 大模型趋势日报 2026-11-06
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 57.6T | 0 | +2.8T (+5.1%) |
-| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16.2T | ↑1 | +600B (+3.8%) |
-| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 15.9T | ↓1 | -500B (-3.0%) |
-| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.95T | ↑1 | -310B (-3.3%) |
-| 5 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 8.1T | ↓1 | -1.38T (-14.6%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.81T | ↑1 | +140B (+2.1%) |
-| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.73T | ↓1 | +50B (+0.7%) |
-| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 6.35T | 0 | -150B (-2.3%) |
-| 9 | [openai/gpt-5.6-luna](https://openrouter.ai/openai/gpt-5.6-luna) | 5.25T | 0 | -80B (-1.5%) |
-| 10 | [openai/gpt-6.1-sol](https://openrouter.ai/openai/gpt-6.1-sol) | 4.11T | 0 | +60B (+1.5%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 56.5T | 0 | -1.1T (-1.9%) |
+| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16.5T | 0 | +300B (+1.9%) |
+| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 15T | 0 | -900B (-5.7%) |
+| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.26T | 0 | -1.69T (-18.9%) |
+| 5 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.67T | ↑2 | -60B (-0.9%) |
+| 6 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 6.58T | ↓1 | -1.52T (-18.8%) |
+| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.53T | ↓1 | -280B (-4.1%) |
+| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 6.04T | 0 | -310B (-4.9%) |
+| 9 | [openai/gpt-5.6-luna](https://openrouter.ai/openai/gpt-5.6-luna) | 4.99T | 0 | -260B (-5.0%) |
+| 10 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 4.01T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Opus 5.5 (Max) | 20.14% | 0 | +0.11 pp |
-| 2 | Gemini 4 Carbon (High) | 16.72% | 0 | +0.16 pp |
-| 3 | Claude Sonnet 5.5 (Max) | 15.42% | 0 | +0.81 pp |
-| 4 | GPT-6 Astra (Max) | 14.70% | 0 | +1.02 pp |
-| 5 | Claude Fable 5.1 (Max) | 13.86% | 0 | +0.71 pp |
-| 6 | GPT-6.1 Sol (Max) | 12.51% | 0 | +0.28 pp |
-| 7 | GPT-6.1 Terra (Max) | 11.40% | ↑1 | +1.21 pp |
-| 8 | Gemini 4 Argon (High) | 10.53% | ↓1 | -0.08 pp |
-| 9 | Muse Wonder Full (Max) | 9.42% | 0 | -0.21 pp |
-| 10 | Claude Fable 5 (High) | 7.82% | 0 | +0.04 pp |
+| 1 | Claude Opus 5.5 (Max) | 20.14% | 0 | +0.00 pp |
+| 2 | Gemini 4 Carbon (High) | 16.72% | 0 | +0.00 pp |
+| 3 | Claude Sonnet 5.5 (Max) | 15.42% | 0 | +0.00 pp |
+| 4 | GPT-6 Astra (Max) | 14.70% | 0 | +0.00 pp |
+| 5 | Claude Fable 5.1 (Max) | 13.86% | 0 | +0.00 pp |
+| 6 | GPT-6.1 Sol (Max) | 12.51% | 0 | +0.00 pp |
+| 7 | GPT-6.1 Terra (Max) | 11.40% | 0 | +0.00 pp |
+| 8 | Gemini 4 Argon (High) | 10.53% | 0 | +0.00 pp |
+| 9 | Muse Wonder Full (Max) | 9.42% | 0 | +0.00 pp |
+| 10 | Claude Fable 5 (High) | 7.82% | 0 | +0.00 pp |
 
 ## Arena 文本
 
@@ -109,76 +109,76 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,427.1 | 0 | -0.3 |
-| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,409.0 | 新入榜 | 未知 |
-| 3 | GPT-Image-2.5 Flare | 1,399.4 | ↓1 | -1.8 |
-| 4 | GPT-Image-2.6 Flare (Medium) | 1,383.6 | 新入榜 | 未知 |
-| 5 | GPT-Image-2 (Medium) | 1,382.1 | ↓2 | +0.8 |
-| 6 | MAI-Image-2.6 | 1,330.6 | ↓2 | +1.9 |
-| 7 | Gemini Nano Banana 2.1 | 1,325.3 | ↓2 | +0.1 |
-| 8 | Grok Imagine Image 2.0 | 1,317.3 | ↓2 | +0.7 |
-| 9 | Reve 2.1 | 1,300.4 | ↓2 | +0.3 |
-| 10 | Grok Imagine Image 2.0 (20260801) | 1,290.7 | ↓2 | +2.9 |
+| 1 | GPT-Image-2.5 Sunburst | 1,427.1 | 0 | 0.0 |
+| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,409.0 | 0 | 0.0 |
+| 3 | GPT-Image-2.5 Flare | 1,399.4 | 0 | 0.0 |
+| 4 | GPT-Image-2.6 Flare (Medium) | 1,383.6 | 0 | 0.0 |
+| 5 | GPT-Image-2 (Medium) | 1,382.1 | 0 | 0.0 |
+| 6 | MAI-Image-2.6 | 1,330.6 | 0 | 0.0 |
+| 7 | Gemini Nano Banana 2.1 | 1,325.3 | 0 | 0.0 |
+| 8 | Grok Imagine Image 2.0 | 1,317.3 | 0 | 0.0 |
+| 9 | Reve 2.1 | 1,300.4 | 0 | 0.0 |
+| 10 | Grok Imagine Image 2.0 (20260801) | 1,290.7 | 0 | 0.0 |
 
 ## Arena 图像编辑
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,517.3 | 0 | +0.5 |
-| 2 | GPT-Image-2.5 Flare | 1,482.1 | 0 | +0.3 |
-| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,476.3 | 新入榜 | 未知 |
-| 4 | MAI-Image-2.7-Preview | 1,468.8 | ↓1 | -2.5 |
-| 5 | GPT-Image-2.6 Flare (Medium) | 1,462.0 | 新入榜 | 未知 |
-| 6 | GPT-Image-2 (Medium) | 1,460.1 | ↓2 | +0.1 |
-| 7 | Grok Imagine Image 2.0 | 1,438.0 | ↓2 | -0.6 |
-| 8 | Gemini Nano Banana 2.1 | 1,427.3 | ↓1 | +0.4 |
-| 9 | MAI-Image-2.6 | 1,426.3 | ↓3 | -1.1 |
-| 10 | Grok Imagine Image 2.0 (20260801) | 1,416.1 | ↓2 | -1.5 |
+| 1 | GPT-Image-2.5 Sunburst | 1,517.3 | 0 | 0.0 |
+| 2 | GPT-Image-2.5 Flare | 1,482.1 | 0 | 0.0 |
+| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,476.3 | 0 | 0.0 |
+| 4 | MAI-Image-2.7-Preview | 1,468.8 | 0 | 0.0 |
+| 5 | GPT-Image-2.6 Flare (Medium) | 1,462.0 | 0 | 0.0 |
+| 6 | GPT-Image-2 (Medium) | 1,460.1 | 0 | 0.0 |
+| 7 | Grok Imagine Image 2.0 | 1,438.0 | 0 | 0.0 |
+| 8 | Gemini Nano Banana 2.1 | 1,427.3 | 0 | 0.0 |
+| 9 | MAI-Image-2.6 | 1,426.3 | 0 | 0.0 |
+| 10 | Grok Imagine Image 2.0 (20260801) | 1,416.1 | 0 | 0.0 |
 
 ## Arena 文生视频
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | gemini-omni-1.1-flash | 1,516.2 | 0 | 0.0 |
-| 2 | gemini-omni-flash | 1,512.9 | 0 | 0.0 |
-| 3 | flux-3-video | 1,493.1 | 0 | 0.0 |
-| 4 | grok-imagine-video-1.5-agent | 1,492.3 | 0 | 0.0 |
-| 5 | dreamina-seedance-2.0-720p | 1,479.2 | 0 | 0.0 |
-| 6 | wan3.0 | 1,476.3 | 0 | 0.0 |
-| 7 | dreamina-seedance-2.5-720p | 1,473.9 | 0 | 0.0 |
-| 8 | minimax-h3 | 1,460.3 | 0 | 0.0 |
-| 9 | muse-video | 1,455.8 | 0 | 0.0 |
-| 10 | happyhorse-1.0 | 1,427.2 | 0 | 0.0 |
+| 1 | Gemini Omni 1.2 Flash | 1,541.4 | 新入榜 | 未知 |
+| 2 | Gemini Omni 1.1 Flash | 1,513.6 | 新入榜 | 未知 |
+| 3 | gemini-omni-flash | 1,509.4 | ↓1 | -3.5 |
+| 4 | FLUX 3 Video | 1,490.5 | 新入榜 | 未知 |
+| 5 | Grok Imagine Video 1.5 | 1,486.3 | 新入榜 | 未知 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,481.4 | 新入榜 | 未知 |
+| 7 | Dreamina Seedance 2.5 (720p) | 1,480.1 | 新入榜 | 未知 |
+| 8 | Wan 3.0 | 1,477.4 | 新入榜 | 未知 |
+| 9 | SkyReels V4 | 1,457.1 | 新入榜 | 未知 |
+| 10 | Muse Video | 1,456.8 | 新入榜 | 未知 |
 
 ## Arena 图生视频
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | minimax-h3 | 1,495.4 | 0 | 0.0 |
-| 2 | gemini-omni-1.1-flash | 1,488.5 | 0 | 0.0 |
-| 3 | wan3.0 | 1,479.8 | 0 | 0.0 |
-| 4 | dreamina-seedance-2.5-720p | 1,477.4 | 0 | 0.0 |
-| 5 | dreamina-seedance-2.0-720p | 1,474.6 | 0 | 0.0 |
-| 6 | gemini-omni-flash | 1,464.8 | 0 | 0.0 |
-| 7 | hidream-o1-video-1.0 | 1,456.5 | 0 | 0.0 |
-| 8 | grok-imagine-video-1.5-720p | 1,456.0 | 0 | 0.0 |
-| 9 | flux-3-video-20260811 | 1,449.4 | 0 | 0.0 |
-| 10 | happyhorse-1.0 | 1,441.7 | 0 | 0.0 |
+| 1 | Gemini Omni 1.2 Flash | 1,502.3 | 新入榜 | 未知 |
+| 2 | MiniMax H3 | 1,493.2 | 新入榜 | 未知 |
+| 3 | Dreamina Seedance 2.5 (720p) | 1,488.3 | 新入榜 | 未知 |
+| 4 | Gemini Omni 1.1 Flash | 1,486.5 | 新入榜 | 未知 |
+| 5 | Wan 3.0 | 1,480.9 | 新入榜 | 未知 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,478.4 | 新入榜 | 未知 |
+| 7 | SkyReels V4 | 1,476.3 | 新入榜 | 未知 |
+| 8 | gemini-omni-flash | 1,463.1 | ↓2 | -1.8 |
+| 9 | HiDream-O1-Video-1.0 | 1,454.7 | 新入榜 | 未知 |
+| 10 | Grok Imagine Video 1.5 (720p) | 1,453.9 | 新入榜 | 未知 |
 
 ## Arena 视频编辑
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | wan3.0 | 1,414.1 | 0 | 0.0 |
-| 2 | dreamina-seedance-2.5-720p | 1,409.8 | 0 | 0.0 |
-| 3 | minimax-h3 | 1,392.2 | 0 | 0.0 |
-| 4 | gemini-omni-flash | 1,366.6 | 0 | 0.0 |
-| 5 | dreamina-seedance-2.0-720p | 1,364.6 | 0 | 0.0 |
-| 6 | happyhorse-1.0 | 1,306.7 | 0 | 0.0 |
-| 7 | grok-imagine-video | 1,257.8 | 0 | 0.0 |
-| 8 | kling-o3-pro | 1,255.3 | 0 | 0.0 |
-| 9 | kling-o1-pro | 1,197.3 | 0 | 0.0 |
-| 10 | runway-gen4-aleph | 1,182.2 | 0 | 0.0 |
+| 1 | Wan 3.0 | 1,423.2 | 新入榜 | 未知 |
+| 2 | Dreamina Seedance 2.5 (720p) | 1,416.1 | 新入榜 | 未知 |
+| 3 | Gemini Omni 1.2 Flash | 1,395.2 | 新入榜 | 未知 |
+| 4 | MiniMax H3 | 1,385.1 | 新入榜 | 未知 |
+| 5 | gemini-omni-flash | 1,374.6 | ↓1 | +7.9 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,366.7 | 新入榜 | 未知 |
+| 7 | HappyHorse 1.0 | 1,305.5 | 新入榜 | 未知 |
+| 8 | Kling O3 Pro | 1,263.6 | 新入榜 | 未知 |
+| 9 | Grok Imagine Video | 1,249.8 | 新入榜 | 未知 |
+| 10 | Kling O1 Pro | 1,191.5 | 新入榜 | 未知 |
 
 ## Artificial Analysis 能力指数
 
