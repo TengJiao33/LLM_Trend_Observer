@@ -6,7 +6,7 @@
       "source": "openrouter",
       "url": "https://openrouter.ai/rankings?view=week",
       "method": "public_html",
-      "fetched_at": "2026-11-07T08:49:30+00:00",
+      "fetched_at": "2026-11-08T09:00:32+00:00",
       "boards": {
         "Usage": {
           "scope": "openrouter:html:week",
@@ -19,85 +19,85 @@
               "rank": 1,
               "model_id": "deepseek/deepseek-v4.1-flash-1017",
               "name": "DeepSeek V4.1 Flash 1017",
-              "score": 56200000000000,
-              "tokens_display": "56.2T tokens",
-              "growth": "+23%"
+              "score": 56000000000000,
+              "tokens_display": "56T tokens",
+              "growth": "+17%"
             },
             {
               "rank": 2,
               "model_id": "deepseek/deepseek-v4.1-flash",
               "name": "DeepSeek V4.1 Flash",
-              "score": 17200000000000,
-              "tokens_display": "17.2T tokens",
-              "growth": "+13%"
+              "score": 17700000000000,
+              "tokens_display": "17.7T tokens",
+              "growth": "+21%"
             },
             {
               "rank": 3,
               "model_id": "z-ai/glm-5.3-flash",
               "name": "GLM 5.3 Flash",
-              "score": 14100000000000,
-              "tokens_display": "14.1T tokens",
-              "growth": "-13%"
+              "score": 13500000000000,
+              "tokens_display": "13.5T tokens",
+              "growth": "-14%"
             },
             {
               "rank": 4,
-              "model_id": "openai/gpt-6-luna",
-              "name": "GPT-6 Luna",
-              "score": 7220000000000,
-              "tokens_display": "7.22T tokens",
-              "growth": "-34%"
+              "model_id": "tencent/hy4",
+              "name": "Hy4",
+              "score": 10100000000000,
+              "tokens_display": "10.1T tokens",
+              "growth": "new"
             },
             {
               "rank": 5,
-              "model_id": "tencent/hy4",
-              "name": "Hy4",
-              "score": 7050000000000,
-              "tokens_display": "7.05T tokens",
-              "growth": "new"
+              "model_id": "openai/gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "score": 7260000000000,
+              "tokens_display": "7.26T tokens",
+              "growth": "-29%"
             },
             {
               "rank": 6,
               "model_id": "stepfun/step-5-preview",
               "name": "Step 5 Preview",
-              "score": 6830000000000,
-              "tokens_display": "6.83T tokens",
-              "growth": "+8%"
+              "score": 6990000000000,
+              "tokens_display": "6.99T tokens",
+              "growth": "+11%"
             },
             {
               "rank": 7,
               "model_id": "anthropic/claude-opus-5.5",
               "name": "Claude Opus 5.5",
-              "score": 6590000000000,
-              "tokens_display": "6.59T tokens",
-              "growth": "-10%"
+              "score": 6740000000000,
+              "tokens_display": "6.74T tokens",
+              "growth": "-2%"
             },
             {
               "rank": 8,
               "model_id": "minimax/minimax-m3.1-flash",
               "name": "MiniMax M3.1 Flash",
-              "score": 5670000000000,
-              "tokens_display": "5.67T tokens",
-              "growth": "+12%"
+              "score": 5370000000000,
+              "tokens_display": "5.37T tokens",
+              "growth": "-5%"
             },
             {
               "rank": 9,
               "model_id": "tencent/hy4-preview",
               "name": "Hy4 preview",
-              "score": 5110000000000,
-              "tokens_display": "5.11T tokens",
-              "growth": "-45%"
+              "score": 4200000000000,
+              "tokens_display": "4.2T tokens",
+              "growth": "-55%"
             },
             {
               "rank": 10,
-              "model_id": "openai/gpt-5.6-luna",
-              "name": "GPT-5.6 Luna",
-              "score": 4070000000000,
-              "tokens_display": "4.07T tokens",
-              "growth": "+31%"
+              "model_id": "moonshotai/kimi-k3.1-pro",
+              "name": "Kimi K3.1 Pro",
+              "score": 4120000000000,
+              "tokens_display": "4.12T tokens",
+              "growth": "+109%"
             }
           ],
           "coverage": "top10",
-          "fetched_at": "2026-11-07T08:49:30+00:00",
+          "fetched_at": "2026-11-08T09:00:32+00:00",
           "method": "public_html"
         }
       },
@@ -108,7 +108,7 @@
       "source": "lmsys",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "method": "official_dataset",
-      "fetched_at": "2026-11-07T08:49:31+00:00",
+      "fetched_at": "2026-11-08T09:00:33+00:00",
       "boards": {
         "Agent": {
           "scope": "arena:agent:overall",
@@ -669,7 +669,7 @@
           ],
           "coverage": "rank<=50",
           "population": 58,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Text": {
@@ -1231,7 +1231,7 @@
           ],
           "coverage": "rank<=50",
           "population": 419,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "WebDev": {
@@ -1793,7 +1793,7 @@
           ],
           "coverage": "rank<=50",
           "population": 153,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Vision": {
@@ -2355,7 +2355,7 @@
           ],
           "coverage": "rank<=50",
           "population": 167,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Document": {
@@ -2873,7 +2873,7 @@
           ],
           "coverage": "rank<=50",
           "population": 46,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Search": {
@@ -3347,7 +3347,7 @@
           ],
           "coverage": "rank<=50",
           "population": 42,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Text-to-Image": {
@@ -3909,7 +3909,7 @@
           ],
           "coverage": "rank<=50",
           "population": 84,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Image Edit": {
@@ -4471,7 +4471,7 @@
           ],
           "coverage": "rank<=50",
           "population": 63,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Text-to-Video": {
@@ -5033,7 +5033,7 @@
           ],
           "coverage": "rank<=50",
           "population": 50,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Image-to-Video": {
@@ -5595,7 +5595,7 @@
           ],
           "coverage": "rank<=50",
           "population": 50,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         },
         "Video Edit": {
@@ -5728,7 +5728,7 @@
           ],
           "coverage": "rank<=50",
           "population": 11,
-          "fetched_at": "2026-11-07T08:49:31+00:00",
+          "fetched_at": "2026-11-08T09:00:33+00:00",
           "method": "official_dataset"
         }
       },
