@@ -1,184 +1,184 @@
-# 大模型趋势日报 2026-11-08
+# 大模型趋势日报 2026-11-09
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 56T | 0 | -200B (-0.4%) |
-| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 17.7T | 0 | +500B (+2.9%) |
-| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.5T | 0 | -600B (-4.3%) |
-| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 10.1T | ↑1 | +3.05T (+43.3%) |
-| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.26T | ↓1 | +40B (+0.6%) |
-| 6 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.99T | 0 | +160B (+2.3%) |
-| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.74T | 0 | +150B (+2.3%) |
-| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 5.37T | 0 | -300B (-5.3%) |
-| 9 | [tencent/hy4-preview](https://openrouter.ai/tencent/hy4-preview) | 4.2T | 0 | -910B (-17.8%) |
-| 10 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.12T | 新入榜 | 未知 |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 56T | 0 | 0 (+0.0%) |
+| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 17.6T | 0 | -100B (-0.6%) |
+| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.2T | 0 | -300B (-2.2%) |
+| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 12.8T | 0 | +2.7T (+26.7%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.21T | 0 | -50B (-0.7%) |
+| 6 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 7.2T | 0 | +210B (+3.0%) |
+| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.77T | 0 | +30B (+0.4%) |
+| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 5.01T | 0 | -360B (-6.7%) |
+| 9 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.37T | ↑1 | +250B (+6.1%) |
+| 10 | [stealth/crouton-alpha](https://openrouter.ai/stealth/crouton-alpha) | 4.27T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Opus 5.5 (Max) | 20.14% | 0 | +0.00 pp |
-| 2 | Gemini 4 Carbon (High) | 16.72% | 0 | +0.00 pp |
-| 3 | Claude Sonnet 5.5 (Max) | 15.42% | 0 | +0.00 pp |
-| 4 | GPT-6 Astra (Max) | 14.70% | 0 | +0.00 pp |
-| 5 | Claude Fable 5.1 (Max) | 13.86% | 0 | +0.00 pp |
-| 6 | GPT-6.1 Sol (Max) | 12.51% | 0 | +0.00 pp |
-| 7 | GPT-6.1 Terra (Max) | 11.40% | 0 | +0.00 pp |
-| 8 | Gemini 4 Argon (High) | 10.53% | 0 | +0.00 pp |
-| 9 | Muse Wonder Full (Max) | 9.42% | 0 | +0.00 pp |
-| 10 | Claude Fable 5 (High) | 7.82% | 0 | +0.00 pp |
+| 1 | Claude Opus 5.5 (Max) | 19.96% | 0 | -0.19 pp |
+| 2 | Gemini 4 Carbon (High) | 16.63% | 0 | -0.09 pp |
+| 3 | Claude Sonnet 5.5 (Max) | 15.99% | 0 | +0.57 pp |
+| 4 | Claude Fable 5.1 (Max) | 14.34% | ↑1 | +0.48 pp |
+| 5 | GPT-6 Astra (Max) | 14.24% | ↓1 | -0.46 pp |
+| 6 | GPT-6.1 Sol (Max) | 12.53% | 0 | +0.01 pp |
+| 7 | GPT-6.1 Terra (Max) | 12.10% | 0 | +0.71 pp |
+| 8 | Gemini 4 Argon (High) | 10.83% | 0 | +0.30 pp |
+| 9 | Muse Wonder Full (Max) | 9.09% | 0 | -0.34 pp |
+| 10 | Claude Fable 5 (High) | 7.70% | 0 | -0.12 pp |
 
 ## Arena 文本
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Gemini 4 Carbon (High) | 1,526.5 | 0 | 0.0 |
-| 2 | Gemini 4 Argon (High) | 1,522.6 | 0 | 0.0 |
-| 3 | Muse Wonder (Max) | 1,513.1 | 0 | 0.0 |
-| 4 | Claude Opus 5.5 (High) | 1,505.1 | 0 | 0.0 |
-| 5 | Claude Fable 5 (High) | 1,504.0 | 0 | 0.0 |
-| 6 | Claude Fable 5.1 (Max) | 1,503.7 | 0 | 0.0 |
-| 7 | Claude Opus 4.6 (High) | 1,503.2 | 0 | 0.0 |
-| 8 | Claude Opus 4.7 (High) | 1,501.0 | 0 | 0.0 |
-| 9 | Gemini 3.8 Flash (High) | 1,497.8 | 0 | 0.0 |
-| 10 | Claude Opus 4.6 | 1,496.3 | 0 | 0.0 |
+| 1 | Gemini 4 Carbon (High) | 1,526.6 | 0 | +0.1 |
+| 2 | Gemini 4 Argon (High) | 1,522.0 | 0 | -0.6 |
+| 3 | Muse Wonder (Max) | 1,512.1 | 0 | -1.0 |
+| 4 | Claude Opus 5.5 (High) | 1,505.7 | 0 | +0.6 |
+| 5 | Claude Fable 5 (High) | 1,503.8 | 0 | -0.2 |
+| 6 | Claude Fable 5.1 (Max) | 1,503.1 | 0 | -0.6 |
+| 7 | Claude Opus 4.6 (High) | 1,502.9 | 0 | -0.2 |
+| 8 | Claude Opus 4.7 (High) | 1,501.0 | 0 | -0.0 |
+| 9 | Gemini 3.8 Flash (High) | 1,497.5 | 0 | -0.3 |
+| 10 | Claude Opus 4.6 | 1,496.5 | 0 | +0.2 |
 
 ## Arena 网页开发
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Opus 5.5 (Max) | 1,814.3 | 0 | 0.0 |
-| 2 | Claude Sonnet 5.5 (xHigh) | 1,772.0 | 0 | 0.0 |
-| 3 | GPT-6 Astra (Max) | 1,769.8 | 0 | 0.0 |
-| 4 | Gemini 4 Carbon (High) | 1,767.2 | 0 | 0.0 |
-| 5 | Claude Fable 5.1 (Max) | 1,745.7 | 0 | 0.0 |
-| 6 | GPT-6.1 Sol (Max) | 1,741.8 | 0 | 0.0 |
-| 7 | Muse Wonder Full (Max) | 1,726.0 | 0 | 0.0 |
-| 8 | Claude Sonnet 5.5 (High) | 1,711.2 | 0 | 0.0 |
-| 9 | Claude Opus 5 (Max) | 1,691.3 | 0 | 0.0 |
-| 10 | Kimi K3.1 Pro (Max) | 1,683.9 | 0 | 0.0 |
+| 1 | Claude Opus 5.5 (Max) | 1,818.2 | 0 | +3.8 |
+| 2 | Claude Sonnet 5.5 (xHigh) | 1,773.5 | 0 | +1.4 |
+| 3 | Gemini 4 Carbon (High) | 1,768.1 | ↑1 | +0.9 |
+| 4 | GPT-6 Astra (Max) | 1,766.9 | ↓1 | -2.9 |
+| 5 | Claude Fable 5.1 (Max) | 1,744.3 | 0 | -1.4 |
+| 6 | GPT-6.1 Sol (Max) | 1,742.6 | 0 | +0.8 |
+| 7 | Muse Wonder Full (Max) | 1,723.7 | 0 | -2.3 |
+| 8 | Claude Sonnet 5.5 (High) | 1,713.4 | 0 | +2.2 |
+| 9 | Claude Opus 5 (Max) | 1,690.9 | 0 | -0.4 |
+| 10 | Kimi K3.1 Pro (Max) | 1,686.9 | 0 | +2.9 |
 
 ## Arena 视觉
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5 (High) | 1,309.4 | 0 | 0.0 |
-| 2 | Qwen3.8-Max | 1,299.5 | 0 | 0.0 |
-| 3 | Claude Opus 4.7 | 1,298.8 | 0 | 0.0 |
-| 4 | Claude Opus 4.6 (High) | 1,298.7 | 0 | 0.0 |
-| 5 | Claude Opus 4.7 (High) | 1,297.9 | 0 | 0.0 |
-| 6 | Claude Opus 5.5 (High) | 1,295.6 | 0 | 0.0 |
-| 7 | Gemini 3.7 Flash (High) | 1,294.1 | 0 | 0.0 |
-| 8 | Muse Spark | 1,293.9 | 0 | 0.0 |
-| 9 | Claude Opus 4.6 | 1,293.2 | 0 | 0.0 |
-| 10 | GPT-6.1 Sol (Max) | 1,292.8 | 0 | 0.0 |
+| 1 | Claude Fable 5 (High) | 1,309.5 | 0 | +0.1 |
+| 2 | Claude Opus 4.7 | 1,300.0 | ↑1 | +1.2 |
+| 3 | Qwen3.8-Max | 1,299.1 | ↓1 | -0.4 |
+| 4 | Claude Opus 4.6 (High) | 1,298.7 | 0 | +0.0 |
+| 5 | Claude Opus 4.7 (High) | 1,298.3 | 0 | +0.4 |
+| 6 | Claude Opus 5.5 (High) | 1,295.2 | 0 | -0.5 |
+| 7 | Muse Spark | 1,294.3 | ↑1 | +0.3 |
+| 8 | Gemini 3.7 Flash (High) | 1,293.9 | ↓1 | -0.2 |
+| 9 | Muse Spark 1.2 (xHigh) | 1,293.6 | ↑3 | +1.4 |
+| 10 | Gemini 3.8 Flash (High) | 1,293.1 | ↑1 | +0.6 |
 
 ## Arena 文档
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.1 (Max) | 1,515.5 | 0 | 0.0 |
-| 2 | Claude Opus 5 (High) | 1,508.2 | 0 | 0.0 |
-| 3 | Claude Opus 4.6 (High) | 1,506.9 | 0 | 0.0 |
-| 4 | Claude Opus 4.6 | 1,505.7 | 0 | 0.0 |
-| 5 | Claude Fable 5 (High) | 1,496.1 | 0 | 0.0 |
-| 6 | Claude Opus 4.7 (High) | 1,495.7 | 0 | 0.0 |
-| 7 | Claude Opus 4.7 | 1,495.0 | 0 | 0.0 |
-| 8 | GPT-5.5 (High) | 1,484.8 | 0 | 0.0 |
-| 9 | Claude Sonnet 4.6 | 1,481.6 | 0 | 0.0 |
-| 10 | GPT-5.5 | 1,481.5 | 0 | 0.0 |
+| 1 | Claude Fable 5.1 (Max) | 1,514.6 | 0 | -0.9 |
+| 2 | Claude Opus 5 (High) | 1,508.6 | 0 | +0.4 |
+| 3 | Claude Opus 4.6 (High) | 1,507.7 | 0 | +0.8 |
+| 4 | Claude Opus 4.6 | 1,506.2 | 0 | +0.5 |
+| 5 | Claude Fable 5 (High) | 1,496.5 | 0 | +0.4 |
+| 6 | Claude Opus 4.7 (High) | 1,495.8 | 0 | +0.0 |
+| 7 | Claude Opus 4.7 | 1,494.7 | 0 | -0.2 |
+| 8 | GPT-5.5 (High) | 1,484.4 | 0 | -0.4 |
+| 9 | Gemini 3.8 Flash (High) | 1,481.9 | ↑2 | +0.5 |
+| 10 | Claude Sonnet 4.6 | 1,481.8 | ↓1 | +0.2 |
 
 ## Arena 搜索
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Qwen3.8-Max | 1,259.7 | 0 | 0.0 |
-| 2 | GPT-5.6 Sol (xHigh) | 1,258.5 | 0 | 0.0 |
-| 3 | Claude Opus 4.6 (Search) | 1,251.8 | 0 | 0.0 |
-| 4 | GPT-5.5 (Search) | 1,246.9 | 0 | 0.0 |
-| 5 | Claude Opus 5 (High) | 1,239.9 | 0 | 0.0 |
-| 6 | Claude Fable 5.1 (High) | 1,238.6 | 0 | 0.0 |
-| 7 | GPT-6 Astra (Max) | 1,232.3 | 0 | 0.0 |
-| 8 | Claude Opus 4.7 | 1,231.0 | 0 | 0.0 |
-| 9 | GPT-6.1 Sol (Max) | 1,229.2 | 0 | 0.0 |
-| 10 | Claude Fable 5 (High) | 1,229.1 | 0 | 0.0 |
+| 1 | Qwen3.8-Max | 1,259.1 | 0 | -0.7 |
+| 2 | GPT-5.6 Sol (xHigh) | 1,257.9 | 0 | -0.6 |
+| 3 | Claude Opus 4.6 (Search) | 1,251.8 | 0 | -0.1 |
+| 4 | GPT-5.5 (Search) | 1,245.5 | 0 | -1.4 |
+| 5 | Claude Opus 5 (High) | 1,239.3 | 0 | -0.6 |
+| 6 | Claude Fable 5.1 (High) | 1,239.1 | 0 | +0.5 |
+| 7 | GPT-6 Astra (Max) | 1,230.9 | 0 | -1.3 |
+| 8 | GPT-6.1 Sol (Max) | 1,230.8 | ↑1 | +1.6 |
+| 9 | Claude Opus 4.7 | 1,230.2 | ↓1 | -0.8 |
+| 10 | Claude Fable 5 (High) | 1,228.2 | 0 | -0.9 |
 
 ## Arena 文生图
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,428.9 | 0 | 0.0 |
-| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,408.9 | 0 | 0.0 |
-| 3 | GPT-Image-2.5 Flare | 1,401.8 | 0 | 0.0 |
-| 4 | GPT-Image-2.6 Flare (Medium) | 1,382.8 | 0 | 0.0 |
-| 5 | GPT-Image-2 (Medium) | 1,382.2 | 0 | 0.0 |
-| 6 | MAI-Image-2.6 | 1,329.7 | 0 | 0.0 |
-| 7 | Gemini Nano Banana 2.1 | 1,325.3 | 0 | 0.0 |
-| 8 | Grok Imagine Image 2.0 | 1,318.0 | 0 | 0.0 |
-| 9 | Reve 2.1 | 1,300.2 | 0 | 0.0 |
-| 10 | Grok Imagine Image 2.0 (20260801) | 1,288.9 | 0 | 0.0 |
+| 1 | GPT-Image-2.5 Sunburst | 1,428.3 | 0 | -0.6 |
+| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,406.2 | 0 | -2.7 |
+| 3 | GPT-Image-2.5 Flare | 1,400.4 | 0 | -1.4 |
+| 4 | GPT-Image-2.6 Flare (Medium) | 1,382.8 | 0 | +0.0 |
+| 5 | GPT-Image-2 (Medium) | 1,381.8 | 0 | -0.4 |
+| 6 | MAI-Image-2.6 | 1,329.9 | 0 | +0.2 |
+| 7 | Gemini Nano Banana 2.1 | 1,327.7 | 0 | +2.4 |
+| 8 | Grok Imagine Image 2.0 | 1,318.6 | 0 | +0.7 |
+| 9 | Reve 2.1 | 1,301.9 | 0 | +1.6 |
+| 10 | Grok Imagine Image 2.0 (20260801) | 1,289.5 | 0 | +0.6 |
 
 ## Arena 图像编辑
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,517.4 | 0 | 0.0 |
-| 2 | GPT-Image-2.5 Flare | 1,483.1 | 0 | 0.0 |
-| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,475.8 | 0 | 0.0 |
-| 4 | MAI-Image-2.7-Preview | 1,467.2 | 0 | 0.0 |
-| 5 | GPT-Image-2.6 Flare (Medium) | 1,462.0 | 0 | 0.0 |
-| 6 | GPT-Image-2 (Medium) | 1,459.9 | 0 | 0.0 |
-| 7 | Grok Imagine Image 2.0 | 1,438.4 | 0 | 0.0 |
-| 8 | Gemini Nano Banana 2.1 | 1,427.2 | 0 | 0.0 |
-| 9 | MAI-Image-2.6 | 1,426.5 | 0 | 0.0 |
-| 10 | Grok Imagine Image 2.0 (20260801) | 1,416.5 | 0 | 0.0 |
+| 1 | GPT-Image-2.5 Sunburst | 1,520.3 | 0 | +2.8 |
+| 2 | GPT-Image-2.5 Flare | 1,484.5 | 0 | +1.4 |
+| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,476.7 | 0 | +0.9 |
+| 4 | MAI-Image-2.7-Preview | 1,468.1 | 0 | +1.0 |
+| 5 | GPT-Image-2 (Medium) | 1,461.0 | ↑1 | +1.0 |
+| 6 | GPT-Image-2.6 Flare (Medium) | 1,459.9 | ↓1 | -2.2 |
+| 7 | Grok Imagine Image 2.0 | 1,437.0 | 0 | -1.4 |
+| 8 | MAI-Image-2.6 | 1,427.7 | ↑1 | +1.2 |
+| 9 | Gemini Nano Banana 2.1 | 1,427.3 | ↓1 | +0.1 |
+| 10 | Grok Imagine Image 2.0 (20260801) | 1,418.0 | 0 | +1.5 |
 
 ## Arena 文生视频
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Gemini Omni 1.2 Flash | 1,541.4 | 0 | 0.0 |
-| 2 | Gemini Omni 1.1 Flash | 1,513.6 | 0 | 0.0 |
-| 3 | gemini-omni-flash | 1,509.5 | 0 | 0.0 |
-| 4 | FLUX 3 Video | 1,490.5 | 0 | 0.0 |
-| 5 | Grok Imagine Video 1.5 | 1,486.3 | 0 | 0.0 |
-| 6 | Dreamina Seedance 2.0 (720p) | 1,481.3 | 0 | 0.0 |
-| 7 | Dreamina Seedance 2.5 (720p) | 1,480.4 | 0 | 0.0 |
-| 8 | Wan 3.0 | 1,477.3 | 0 | 0.0 |
-| 9 | SkyReels V4 | 1,457.7 | 0 | 0.0 |
-| 10 | Muse Video | 1,456.9 | 0 | 0.0 |
+| 1 | Gemini Omni 1.2 Flash | 1,540.1 | 0 | -1.3 |
+| 2 | Gemini Omni 1.1 Flash | 1,512.9 | 0 | -0.7 |
+| 3 | gemini-omni-flash | 1,509.2 | 0 | -0.2 |
+| 4 | FLUX 3 Video | 1,491.2 | 0 | +0.6 |
+| 5 | Grok Imagine Video 1.5 | 1,487.6 | 0 | +1.3 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,482.9 | 0 | +1.5 |
+| 7 | Dreamina Seedance 2.5 (720p) | 1,479.1 | 0 | -1.3 |
+| 8 | Wan 3.0 | 1,476.2 | 0 | -1.0 |
+| 9 | SkyReels V4 | 1,458.8 | 0 | +1.1 |
+| 10 | Muse Video | 1,457.1 | 0 | +0.3 |
 
 ## Arena 图生视频
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Gemini Omni 1.2 Flash | 1,502.4 | 0 | 0.0 |
-| 2 | MiniMax H3 | 1,493.1 | 0 | 0.0 |
-| 3 | Dreamina Seedance 2.5 (720p) | 1,488.2 | 0 | 0.0 |
-| 4 | Gemini Omni 1.1 Flash | 1,486.5 | 0 | 0.0 |
-| 5 | Wan 3.0 | 1,480.9 | 0 | 0.0 |
-| 6 | Dreamina Seedance 2.0 (720p) | 1,478.5 | 0 | 0.0 |
-| 7 | SkyReels V4 | 1,475.9 | 0 | 0.0 |
-| 8 | gemini-omni-flash | 1,463.2 | 0 | 0.0 |
-| 9 | HiDream-O1-Video-1.0 | 1,455.1 | 0 | 0.0 |
-| 10 | Grok Imagine Video 1.5 (720p) | 1,453.9 | 0 | 0.0 |
+| 1 | Gemini Omni 1.2 Flash | 1,502.8 | 0 | +0.4 |
+| 2 | Dreamina Seedance 2.5 (720p) | 1,493.2 | ↑1 | +5.0 |
+| 3 | MiniMax H3 | 1,492.6 | ↓1 | -0.5 |
+| 4 | Gemini Omni 1.1 Flash | 1,487.1 | 0 | +0.6 |
+| 5 | Wan 3.0 | 1,481.8 | 0 | +0.9 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,479.5 | 0 | +0.9 |
+| 7 | SkyReels V4 | 1,475.8 | 0 | -0.1 |
+| 8 | gemini-omni-flash | 1,463.4 | 0 | +0.2 |
+| 9 | HiDream-O1-Video-1.0 | 1,454.9 | 0 | -0.2 |
+| 10 | Grok Imagine Video 1.5 (720p) | 1,453.6 | 0 | -0.3 |
 
 ## Arena 视频编辑
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Wan 3.0 | 1,423.1 | 0 | 0.0 |
-| 2 | Dreamina Seedance 2.5 (720p) | 1,417.3 | 0 | 0.0 |
-| 3 | Gemini Omni 1.2 Flash | 1,394.9 | 0 | 0.0 |
-| 4 | MiniMax H3 | 1,384.5 | 0 | 0.0 |
-| 5 | gemini-omni-flash | 1,375.3 | 0 | 0.0 |
-| 6 | Dreamina Seedance 2.0 (720p) | 1,370.0 | 0 | 0.0 |
-| 7 | HappyHorse 1.0 | 1,306.0 | 0 | 0.0 |
-| 8 | Kling O3 Pro | 1,263.3 | 0 | 0.0 |
-| 9 | Grok Imagine Video | 1,249.1 | 0 | 0.0 |
-| 10 | Kling O1 Pro | 1,190.5 | 0 | 0.0 |
+| 1 | Wan 3.0 | 1,424.0 | 0 | +0.9 |
+| 2 | Dreamina Seedance 2.5 (720p) | 1,416.6 | 0 | -0.7 |
+| 3 | Gemini Omni 1.2 Flash | 1,395.5 | 0 | +0.7 |
+| 4 | MiniMax H3 | 1,382.8 | 0 | -1.7 |
+| 5 | gemini-omni-flash | 1,377.8 | 0 | +2.5 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,369.5 | 0 | -0.5 |
+| 7 | HappyHorse 1.0 | 1,305.3 | 0 | -0.7 |
+| 8 | Kling O3 Pro | 1,262.7 | 0 | -0.6 |
+| 9 | Grok Imagine Video | 1,250.3 | 0 | +1.2 |
+| 10 | Kling O1 Pro | 1,190.0 | 0 | -0.4 |
 
 ## Artificial Analysis 能力指数
 
