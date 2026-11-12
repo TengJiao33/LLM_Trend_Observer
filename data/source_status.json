@@ -1,13 +1,13 @@
 {
   "openrouter": {
     "state": "ok",
-    "fetched_at": "2026-11-11T09:27:33+00:00",
+    "fetched_at": "2026-11-12T09:51:53+00:00",
     "boards": 1,
     "errors": {}
   },
   "artalanaly": {
     "state": "failed",
-    "fetched_at": "2026-11-11T09:27:34+00:00",
+    "fetched_at": "2026-11-12T09:51:54+00:00",
     "boards": 0,
     "errors": {
       "source": "Artificial Analysis table headers or cost units changed"
@@ -15,7 +15,7 @@
   },
   "lmsys": {
     "state": "ok",
-    "fetched_at": "2026-11-11T09:27:34+00:00",
+    "fetched_at": "2026-11-12T09:51:54+00:00",
     "boards": 11,
     "errors": {}
   }

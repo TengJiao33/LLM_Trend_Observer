@@ -1,34 +1,34 @@
-# 大模型趋势日报 2026-11-11
+# 大模型趋势日报 2026-11-12
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 53.8T | 0 | -1.6T (-2.9%) |
-| 2 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 18.8T | ↑1 | +2.8T (+17.5%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16.9T | ↓1 | -600B (-3.4%) |
-| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.3T | 0 | -800B (-6.6%) |
-| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.04T | ↑1 | -60B (-0.8%) |
-| 6 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.94T | ↓1 | -210B (-2.9%) |
-| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.76T | 0 | +10B (+0.1%) |
-| 8 | [stealth/crouton-alpha](https://openrouter.ai/stealth/crouton-alpha) | 5.07T | 0 | -30B (-0.6%) |
-| 9 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.42T | ↑1 | +30B (+0.7%) |
-| 10 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.33T | ↓1 | -330B (-7.1%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 53.2T | 0 | -600B (-1.1%) |
+| 2 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 20.2T | 0 | +1.4T (+7.4%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16.3T | 0 | -600B (-3.6%) |
+| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 12T | 0 | +700B (+6.2%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.16T | 0 | +120B (+1.7%) |
+| 6 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.88T | 0 | -60B (-0.9%) |
+| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.65T | 0 | -110B (-1.6%) |
+| 8 | [stealth/crouton-alpha](https://openrouter.ai/stealth/crouton-alpha) | 4.5T | 0 | -570B (-11.2%) |
+| 9 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.42T | 0 | 0 (+0.0%) |
+| 10 | [openai/gpt-6.1-sol](https://openrouter.ai/openai/gpt-6.1-sol) | 4.14T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Opus 5.5 (Max) | 19.96% | 0 | +0.00 pp |
-| 2 | Gemini 4 Carbon (High) | 16.63% | 0 | +0.00 pp |
-| 3 | Claude Sonnet 5.5 (Max) | 15.99% | 0 | +0.00 pp |
-| 4 | Claude Fable 5.1 (Max) | 14.34% | 0 | +0.00 pp |
-| 5 | GPT-6 Astra (Max) | 14.24% | 0 | +0.00 pp |
-| 6 | GPT-6.1 Sol (Max) | 12.53% | 0 | +0.00 pp |
-| 7 | GPT-6.1 Terra (Max) | 12.10% | 0 | +0.00 pp |
-| 8 | Gemini 4 Argon (High) | 10.83% | 0 | +0.00 pp |
-| 9 | Muse Wonder Full (Max) | 9.09% | 0 | +0.00 pp |
-| 10 | Claude Fable 5 (High) | 7.70% | 0 | +0.00 pp |
+| 1 | Claude Fable 5.2 (Max) | 30.35% | 新入榜 | 未知 |
+| 2 | Claude Opus 5.5 (Max) | 19.52% | ↓1 | -0.44 pp |
+| 3 | Gemini 4 Carbon (High) | 16.98% | ↓1 | +0.35 pp |
+| 4 | Claude Sonnet 5.5 (Max) | 15.95% | ↓1 | -0.04 pp |
+| 5 | Claude Fable 5.1 (Max) | 14.82% | ↓1 | +0.48 pp |
+| 6 | GPT-6 Astra (Max) | 14.54% | ↓1 | +0.30 pp |
+| 7 | GPT-6.1 Sol (Max) | 12.46% | ↓1 | -0.07 pp |
+| 8 | GPT-6.1 Terra (Max) | 12.00% | ↓1 | -0.11 pp |
+| 9 | Gemini 4 Argon (High) | 10.74% | ↓1 | -0.09 pp |
+| 10 | Muse Wonder Full (Max) | 8.96% | ↓1 | -0.13 pp |
 
 ## Arena 文本
 
@@ -49,16 +49,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (xHigh) | 1,835.8 | 新入榜 | 未知 |
-| 2 | Claude Opus 5.5 (Max) | 1,814.3 | ↓1 | -3.4 |
-| 3 | Claude Sonnet 5.5 (xHigh) | 1,772.5 | ↓1 | -1.7 |
-| 4 | Gemini 4 Carbon (High) | 1,768.2 | ↓1 | +0.2 |
-| 5 | GPT-6 Astra (Max) | 1,764.4 | ↓1 | -2.4 |
-| 6 | GPT-6.1 Sol (Max) | 1,743.0 | 0 | +0.2 |
-| 7 | Claude Fable 5.1 (Max) | 1,742.1 | ↓2 | -2.5 |
-| 8 | Muse Wonder Full (Max) | 1,723.4 | ↓1 | -0.5 |
-| 9 | Claude Sonnet 5.5 (High) | 1,715.3 | ↓1 | +2.1 |
-| 10 | Claude Opus 5 (Max) | 1,691.0 | ↓1 | +0.1 |
+| 1 | Claude Fable 5.2 (xHigh) | 1,835.8 | 0 | 0.0 |
+| 2 | Claude Opus 5.5 (Max) | 1,814.3 | 0 | 0.0 |
+| 3 | Claude Sonnet 5.5 (xHigh) | 1,772.5 | 0 | 0.0 |
+| 4 | Gemini 4 Carbon (High) | 1,768.2 | 0 | 0.0 |
+| 5 | GPT-6 Astra (Max) | 1,764.4 | 0 | 0.0 |
+| 6 | GPT-6.1 Sol (Max) | 1,743.0 | 0 | 0.0 |
+| 7 | Claude Fable 5.1 (Max) | 1,742.1 | 0 | 0.0 |
+| 8 | Muse Wonder Full (Max) | 1,723.4 | 0 | 0.0 |
+| 9 | Claude Sonnet 5.5 (High) | 1,715.3 | 0 | 0.0 |
+| 10 | Claude Opus 5 (Max) | 1,691.0 | 0 | 0.0 |
 
 ## Arena 视觉
 
@@ -169,16 +169,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Wan 3.0 | 1,423.7 | 0 | -0.3 |
-| 2 | Dreamina Seedance 2.5 (720p) | 1,418.8 | 0 | +1.6 |
-| 3 | Gemini Omni 1.2 Flash | 1,395.6 | 0 | +0.1 |
-| 4 | gemini-omni-flash | 1,380.5 | ↑1 | +2.5 |
-| 5 | MiniMax H3 | 1,378.4 | ↓1 | -4.6 |
-| 6 | Dreamina Seedance 2.0 (720p) | 1,368.0 | 0 | -1.1 |
-| 7 | SkyReels V4 | 1,363.5 | 新入榜 | 未知 |
-| 8 | HappyHorse 1.0 | 1,305.7 | ↓1 | +0.6 |
-| 9 | Kling O3 Pro | 1,265.7 | ↓1 | +3.2 |
-| 10 | Grok Imagine Video | 1,249.8 | ↓1 | -0.2 |
+| 1 | Wan 3.0 | 1,423.7 | 0 | 0.0 |
+| 2 | Dreamina Seedance 2.5 (720p) | 1,418.8 | 0 | 0.0 |
+| 3 | Gemini Omni 1.2 Flash | 1,395.6 | 0 | 0.0 |
+| 4 | gemini-omni-flash | 1,380.5 | 0 | 0.0 |
+| 5 | MiniMax H3 | 1,378.4 | 0 | 0.0 |
+| 6 | Dreamina Seedance 2.0 (720p) | 1,368.0 | 0 | 0.0 |
+| 7 | SkyReels V4 | 1,363.5 | 0 | 0.0 |
+| 8 | HappyHorse 1.0 | 1,305.7 | 0 | 0.0 |
+| 9 | Kling O3 Pro | 1,265.7 | 0 | 0.0 |
+| 10 | Grok Imagine Video | 1,249.8 | 0 | 0.0 |
 
 ## Artificial Analysis 能力指数
 
