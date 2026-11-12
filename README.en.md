@@ -21,11 +21,11 @@ The workflow requests a daily start at **10:17 Asia/Shanghai (02:17 UTC)**. GitH
 | :--- | :--- | :--- |
 | [OpenRouter](https://openrouter.ai/rankings) | Token usage on the platform | Official Data API for the previous complete UTC day when a key is configured; otherwise the public weekly leaderboard |
 | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) | Text, vision, agents, web development, documents, search, images and video | Official `latest` Parquet files from one pinned dataset revision, filtered to `overall` |
-| [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence, output speed and cost | Official API when a key is configured; otherwise the public performance table, parsed by header |
+| [Artificial Analysis](https://artificialanalysis.ai/) | Intelligence, task time (HTML) or output speed (API), and cost | Official API when a key is configured; otherwise the public performance table, parsed by header |
 
 Text and Vision use Arena's style-controlled subsets. Agent scores are displayed as percentages; other Arena scores retain the official ratings, with intervals kept in snapshot files. Legacy categories without a separate official dataset subset are not filled with obsolete snapshots.
 
-The AA public table reports **USD/task**, a task cost. API mode reports input and output **USD/1M tokens** separately. These metrics have separate comparison baselines. Intelligence rankings distinguish reasoning settings; speed and cost rankings distinguish deployments and hosting providers.
+The AA public table reports **Time per Task Minutes**, measured in minutes per task with lower values ranked first, and **USD/task**, a task cost. API mode retains output speed in **tokens/s** and reports input and output **USD/1M tokens** separately. Task time and output speed have separate comparison baselines; historical values are not converted or compared across these metrics. Intelligence rankings distinguish reasoning settings; time, speed and cost rankings distinguish deployments and hosting providers.
 
 The HF Open LLM Leaderboard [retired in March 2025](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard/discussions/1135) and is no longer included in daily reports. Existing historical files remain available.
 

@@ -48,7 +48,7 @@ def parse_embed_html(html):
             continue
         names = [th.get_text(" ", strip=True) for th in header.select("th")]
         required = {"provider": "API Provider", "name": "Model", "intelligence": "Artificial Analysis Intelligence Index",
-                    "cost_per_task": "Cost per Task USD", "speed": "Median Tokens/s"}
+                    "cost_per_task": "Cost per Task USD", "time_per_task": "Time per Task Minutes"}
         if not all(value in names for value in required.values()):
             raise ValueError("Artificial Analysis table headers or cost units changed")
         columns = {key: names.index(value) for key, value in required.items()}
@@ -68,9 +68,9 @@ def parse_embed_html(html):
             identity = link["href"] + "|" + name
             models.append({"base_id": identity, "model_id": identity + "|" + provider_link["href"],
                            "name": name, "deployment_name": f"{name} ({provider})",
-                           **{key: parse_value(text[columns[key]]) for key in ["intelligence", "cost_per_task", "speed"]}})
+                           **{key: parse_value(text[columns[key]]) for key in ["intelligence", "cost_per_task", "time_per_task"]}})
         return build_boards(models, {"Intelligence": ("intelligence", "index", False),
-                                    "Speed": ("speed", "tokens/s", False),
+                                    "TimePerTask": ("time_per_task", "minutes/task", True),
                                     "CostPerTask": ("cost_per_task", "USD/task", True)}, "html")
     raise ValueError("Artificial Analysis performance table not found")
 

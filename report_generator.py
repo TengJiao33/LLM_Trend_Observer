@@ -10,10 +10,10 @@ LABELS = {"openrouter": "OpenRouter", "lmsys": "Arena", "artalanaly": "Artificia
 BOARD_LABELS = {"Usage": "模型调用量", "Agent": "智能体", "Text": "文本", "WebDev": "网页开发",
                 "Vision": "视觉", "Document": "文档", "Search": "搜索", "Text-to-Image": "文生图",
                 "Image Edit": "图像编辑", "Text-to-Video": "文生视频", "Image-to-Video": "图生视频",
-                "Video Edit": "视频编辑", "Intelligence": "能力指数", "Speed": "输出速度",
+                "Video Edit": "视频编辑", "Intelligence": "能力指数", "Speed": "输出速度", "TimePerTask": "任务耗时（越低越好）",
                 "CostPerTask": "任务成本", "InputPrice": "输入 Token 价格", "OutputPrice": "输出 Token 价格"}
 UNITS = {"proportion": "百分比", "rating": "Arena 分数", "index": "能力指数", "tokens": "Tokens",
-         "tokens/s": "输出 Tokens/s", "USD/task": "USD/任务", "USD/1M input tokens": "USD/百万输入 Tokens",
+         "tokens/s": "输出 Tokens/s", "minutes/task": "分钟/任务", "USD/task": "USD/任务", "USD/1M input tokens": "USD/百万输入 Tokens",
          "USD/1M output tokens": "USD/百万输出 Tokens"}
 
 

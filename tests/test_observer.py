@@ -30,13 +30,18 @@ def or_html(missing=None):
     return ''.join(cards)
 
 
-def aa_html(reorder=False, cost_header="Cost per Task USD"):
-    headers = ["API Provider", "Model", "Context Window", "License", "Artificial Analysis Intelligence Index", cost_header, "Median Tokens/s", "Further Analysis"]
-    cells = ["Host", "Reasoner (high)", "1M", "Open", "50", "$0.02", "1,250", '<a href="/models/reasoner">Model</a><a href="/providers/host">Provider</a>']
+def aa_html(reorder=False, cost_header="Cost per Task USD", time_header="Time per Task Minutes", times=None):
+    headers = ["API Provider", "Model", "Context Window", "License", "Artificial Analysis Intelligence Index", cost_header, time_header, "Further Analysis"]
     if reorder:
         headers[4], headers[6] = headers[6], headers[4]
-        cells[4], cells[6] = cells[6], cells[4]
-    return '<table><tr>' + ''.join(f'<th>{h}</th>' for h in headers) + '</tr><tr>' + ''.join(f'<td>{v}</td>' for v in cells) + '</tr></table>'
+    rows = []
+    for provider, time in (times if times is not None else [("Host", "1,250")]):
+        cells = [provider, "Reasoner (high)", "1M", "Open", "50", "$0.02", time,
+                 f'<a href="/models/reasoner">Model</a><a href="/providers/{provider.lower()}">Provider</a>']
+        if reorder:
+            cells[4], cells[6] = cells[6], cells[4]
+        rows.append('<tr>' + ''.join(f'<td>{v}</td>' for v in cells) + '</tr>')
+    return '<table><tr><th colspan="8">Model Intelligence / Price / Speed</th></tr><tr>' + ''.join(f'<th>{h}</th>' for h in headers) + '</tr>' + ''.join(rows) + '</table>'
 
 
 class ParserTests(unittest.TestCase):
@@ -75,8 +80,26 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(a, b)
         self.assertEqual("USD/task", a["CostPerTask"]["unit"])
         self.assertEqual(0.02, a["CostPerTask"]["rows"][0]["score"])
-        self.assertEqual(1250, a["Speed"]["rows"][0]["score"])
+        self.assertEqual("minutes/task", a["TimePerTask"]["unit"])
+        self.assertEqual("time_per_task", a["TimePerTask"]["metric"])
+        self.assertEqual(1250, a["TimePerTask"]["rows"][0]["score"])
+        self.assertNotIn("Speed", a)
         self.assertNotIn("Price", a)
+
+    def test_aa_task_time_ranks_lower_first_with_ties_and_missing_values(self):
+        boards = parse_embed_html(aa_html(times=[("Slow", "47.5"), ("Fast", "0.4"),
+                                               ("Missing", "--"), ("Tied", "0.4"), ("Zero", "0")]))
+        rows = boards["TimePerTask"]["rows"]
+        self.assertEqual([0, 0.4, 0.4, 47.5], [row["score"] for row in rows])
+        self.assertEqual([1, 2, 2, 4], [row["rank"] for row in rows])
+        self.assertEqual("Reasoner (high) (Zero)", rows[0]["name"])
+        self.assertEqual(1, len(boards["Intelligence"]["rows"]))
+        self.assertEqual(5, len(boards["CostPerTask"]["rows"]))
+
+    def test_aa_unknown_time_units_are_not_treated_as_minutes(self):
+        for header in ["Time per Task Seconds", "Median Tokens/s"]:
+            with self.subTest(header=header), self.assertRaisesRegex(ValueError, "headers or cost units"):
+                parse_embed_html(aa_html(time_header=header))
 
     def test_aa_unknown_cost_definition_fails_instead_of_relabelling(self):
         with self.assertRaisesRegex(ValueError, "headers or cost units"):
@@ -94,6 +117,9 @@ class ParserTests(unittest.TestCase):
         self.assertEqual("USD/1M input tokens", boards["InputPrice"]["unit"])
         self.assertEqual(4.8, boards["OutputPrice"]["rows"][0]["score"])
         self.assertEqual("stable-id", boards["Intelligence"]["rows"][0]["model_id"])
+        self.assertEqual("tokens/s", boards["Speed"]["unit"])
+        self.assertEqual(100, boards["Speed"]["rows"][0]["score"])
+        self.assertNotIn("TimePerTask", boards)
         self.assertNotIn("CostPerTask", boards)
 
     def test_arena_filters_all_rows_before_ranking(self):
@@ -158,6 +184,24 @@ class HistoryAndReportTests(unittest.TestCase):
                 result = self.engine.compare("openrouter", "Usage", board(**{key: "changed"}))
                 self.assertEqual("baseline", result["state"])
                 self.assertIsNone(result["rows"][0]["rank_delta"])
+
+    def test_task_time_report_starts_a_separate_baseline_from_historical_speed(self):
+        old_speed = board(scope="aa:html:speed", metric="speed", unit="tokens/s", coverage="rank<=50")
+        self.engine.update_many({"artalanaly": snapshot("artalanaly", "url", "public_html", {"Speed": old_speed})})
+        current = snapshot("artalanaly", "url", "public_html", parse_embed_html(aa_html(times=[("Host", "2.5")])))
+        comparison = self.engine.compare("artalanaly", "TimePerTask", current["boards"]["TimePerTask"])
+        self.assertEqual("baseline", comparison["state"])
+        self.assertIsNone(comparison["rows"][0]["score_delta"])
+        path = ReportGenerator(self.root / "reports", self.engine).generate({"artalanaly": current}, {})
+        text = Path(path).read_text(encoding="utf-8")
+        self.assertIn("Artificial Analysis 任务耗时（越低越好）", text)
+        self.assertIn("| 排名 | 模型 | 分钟/任务 |", text)
+        self.assertIn("| 1 | Reasoner (high) (Host) | 2.5 |", text)
+        self.assertNotIn("输出速度", text)
+        self.assertNotIn("数值变化", text)
+        self.engine.update_many({"artalanaly": current})
+        self.assertEqual(old_speed, self.engine.previous_boards("artalanaly")["Speed"])
+        self.assertEqual("comparable", self.engine.compare("artalanaly", "TimePerTask", current["boards"]["TimePerTask"])["state"])
 
     def test_increase_from_zero_cost_is_reported_without_division_by_zero(self):
         self.save(board([{"model_id": "a", "name": "A", "rank": 1, "score": 0}], unit="USD/task"))

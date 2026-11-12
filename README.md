@@ -21,11 +21,11 @@
 | :--- | :--- | :--- |
 | [OpenRouter](https://openrouter.ai/rankings) | 平台内模型 Token 使用量 | 配置 API key 时读取上一个完整 UTC 日的官方 Data API；否则读取公开周榜 |
 | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) | 文本、视觉、智能体、网页开发、文档、搜索、图像及视频赛道 | 固定数据集版本，读取官方 `latest` Parquet 文件的 `overall` 分类 |
-| [Artificial Analysis](https://artificialanalysis.ai/) | 能力指数、输出速度、成本 | 配置 API key 时读取官方 API；否则按表头读取公开性能榜 |
+| [Artificial Analysis](https://artificialanalysis.ai/) | 能力指数、任务耗时（网页）或输出速度（API）、成本 | 配置 API key 时读取官方 API；否则按表头读取公开性能榜 |
 
 Text 和 Vision 使用 Arena 的 style-controlled 版本。Agent 分数以百分比展示，其他 Arena 分数保留官方评分，区间保存在快照文件中。官方数据集没有单独提供的旧分类不会继续用过期快照补齐。
 
-AA 网页中的 **USD/task** 表示任务成本；API 模式分别展示输入和输出的 **USD/1M tokens**。这些指标分别建立基线。能力榜区分推理设置，速度和成本榜区分模型部署及托管商。
+AA 网页中的 **Time per Task Minutes** 表示每项任务的耗时，以分钟计，越低越好；**USD/task** 表示任务成本。API 模式保留输出速度 **tokens/s**，并分别展示输入和输出的 **USD/1M tokens**。任务耗时与输出速度分别建立比较基线，不换算或混用历史数值。能力榜区分推理设置，耗时、速度和成本榜区分模型部署及托管商。
 
 HF Open LLM Leaderboard 已于 [2025 年 3 月正式退役](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard/discussions/1135)，不再纳入日报。已有历史文件保留供查阅。
 
