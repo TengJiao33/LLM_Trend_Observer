@@ -1,19 +1,19 @@
-# 大模型趋势日报 2026-11-14
+# 大模型趋势日报 2026-11-15
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 56.9T | 0 | +1.1T (+2.0%) |
-| 2 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 19.8T | 0 | -500B (-2.5%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.8T | 0 | -200B (-1.2%) |
-| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.8T | 0 | -200B (-1.7%) |
-| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.53T | 0 | +100B (+1.3%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.99T | 0 | +200B (+2.9%) |
-| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.57T | 0 | -160B (-2.4%) |
-| 8 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.32T | 0 | -60B (-1.4%) |
-| 9 | [openai/gpt-6.1-sol](https://openrouter.ai/openai/gpt-6.1-sol) | 4.11T | 0 | -120B (-2.8%) |
-| 10 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 3.85T | 新入榜 | 未知 |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 58T | 0 | +1.1T (+1.9%) |
+| 2 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 18.9T | 0 | -900B (-4.5%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.7T | 0 | -100B (-0.6%) |
+| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.9T | 0 | +100B (+0.8%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.68T | 0 | +150B (+2.0%) |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.98T | 0 | -10B (-0.1%) |
+| 7 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.57T | 0 | 0 (+0.0%) |
+| 8 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 4.04T | ↑2 | +190B (+4.9%) |
+| 9 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 3.92T | ↓1 | -400B (-9.3%) |
+| 10 | [openai/gpt-6.1-sol](https://openrouter.ai/openai/gpt-6.1-sol) | 3.89T | ↓1 | -220B (-5.4%) |
 
 ## Arena 智能体
 
@@ -185,12 +185,12 @@
 | 排名 | 模型 | 能力指数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | Claude Fable 5.2 (max) | 65 | 0 | 0 |
-| 2 | Claude Fable 5.2 (high) | 62 | 新入榜 | 未知 |
-| 2 | Claude Fable 5.2 (xhigh) | 62 | 新入榜 | 未知 |
+| 2 | Claude Fable 5.2 (high) | 62 | 0 | 0 |
+| 2 | Claude Fable 5.2 (xhigh) | 62 | 0 | 0 |
 | 4 | Gemini 4 Carbon (high) | 60 | 0 | 0 |
 | 5 | Claude Opus 5.5 (max) | 59 | 0 | 0 |
-| 6 | Gemini 4 Carbon (medium) | 58 | 新入榜 | 未知 |
-| 7 | Claude Opus 5.5 (xhigh) | 57 | 新入榜 | 未知 |
+| 6 | Gemini 4 Carbon (medium) | 58 | 0 | 0 |
+| 7 | Claude Opus 5.5 (xhigh) | 57 | 0 | 0 |
 | 7 | GPT-6 Astra (max) (Fast) | 57 | 0 | 0 |
 | 7 | GPT-6 Astra (max) (Flex) | 57 | 0 | 0 |
 | 7 | GPT-6 Astra (max) (Ultrafast) | 57 | 0 | 0 |
@@ -200,16 +200,16 @@
 
 | 排名 | 模型 | 分钟/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-6 Luna (low) (OpenAI) | 0.6 | 新入榜 | 未知 |
+| 1 | GPT-6 Luna (low) (OpenAI) | 0.6 | 0 | 0 (+0.0%) |
 | 2 | gpt-oss-120b (high) (Cerebras) | 0.9 | 0 | 0 (+0.0%) |
-| 3 | GPT-6.1 Terra (low) (OpenAI) | 1.2 | 新入榜 | 未知 |
-| 4 | Gemini 4 Hydrogen (low) (Google) | 1.4 | 新入榜 | 未知 |
-| 4 | Beam 1.0 (NVFP4) (Baseten) | 1.4 | 0 | +0.1 (+7.7%) |
+| 3 | GPT-6.1 Terra (low) (OpenAI) | 1.2 | 0 | 0 (+0.0%) |
+| 4 | Gemini 4 Hydrogen (low) (Google) | 1.4 | 0 | 0 (+0.0%) |
+| 4 | Beam 1.0 (NVFP4) (Baseten) | 1.4 | 0 | 0 (+0.0%) |
 | 6 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.7 | 0 | 0 (+0.0%) |
 | 6 | Mistral Small 4 (Mistral) | 1.7 | 0 | 0 (+0.0%) |
-| 8 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.9 | 新入榜 | 未知 |
-| 8 | Beam 1.0 (NVFP4) (Nebius) | 1.9 | 0 | +0.1 (+5.6%) |
-| 10 | GPT-6.1 Sol (low) (OpenAI) | 2 | 新入榜 | 未知 |
+| 8 | GPT-6 Luna (non-reasoning) (Microsoft Azure) | 1.9 | ↑3 | -0.2 (-9.5%) |
+| 8 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.9 | 0 | 0 (+0.0%) |
+| 8 | Beam 1.0 (NVFP4) (Nebius) | 1.9 | 0 | 0 (+0.0%) |
 
 ## Artificial Analysis 任务成本
 
@@ -218,12 +218,12 @@
 | 1 | Command A+ (Cohere) | 0 | 0 | 0 |
 | 1 | K2 Horizon 375B A23B (Institute of Foundation Models) | 0 | 0 | 0 |
 | 1 | North Mini Code (Cohere) | 0 | 0 | 0 |
-| 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 新入榜 | 未知 |
+| 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | 0 | 0 |
-| 6 | GPT-6 Luna (low) (OpenAI) | 0.0051 | 新入榜 | 未知 |
+| 6 | GPT-6 Luna (low) (OpenAI) | 0.0051 | 0 | 0 (+0.0%) |
 | 7 | Granite 4.2 8B (CoreWeave) | 0.0387 | 0 | 0 (+0.0%) |
 | 8 | Mistral Small 4 (Mistral) | 0.0399 | 0 | 0 (+0.0%) |
 | 9 | Granite 4.2 8B (DeepInfra) | 0.0405 | 0 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | 新入榜 | 未知 |
+| 10 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | 0 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
