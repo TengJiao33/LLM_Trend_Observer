@@ -6,7 +6,7 @@
       "source": "openrouter",
       "url": "https://openrouter.ai/rankings?view=week",
       "method": "public_html",
-      "fetched_at": "2026-11-17T10:44:46+00:00",
+      "fetched_at": "2026-11-18T10:12:10+00:00",
       "boards": {
         "Usage": {
           "scope": "openrouter:html:week",
@@ -19,85 +19,85 @@
               "rank": 1,
               "model_id": "deepseek/deepseek-v4.1-flash-1017",
               "name": "DeepSeek V4.1 Flash 1017",
-              "score": 61200000000000,
-              "tokens_display": "61.2T tokens",
-              "growth": "+10%"
+              "score": 61900000000000,
+              "tokens_display": "61.9T tokens",
+              "growth": "+15%"
             },
             {
               "rank": 2,
-              "model_id": "tencent/hy4",
-              "name": "Hy4",
-              "score": 16000000000000,
-              "tokens_display": "16T tokens",
-              "growth": "+0%"
+              "model_id": "tencent/hy4-flash",
+              "name": "Hy4 flash",
+              "score": 22800000000000,
+              "tokens_display": "22.8T tokens",
+              "growth": "new"
             },
             {
               "rank": 3,
               "model_id": "deepseek/deepseek-v4.1-flash",
               "name": "DeepSeek V4.1 Flash",
-              "score": 15500000000000,
-              "tokens_display": "15.5T tokens",
-              "growth": "-12%"
+              "score": 15900000000000,
+              "tokens_display": "15.9T tokens",
+              "growth": "-6%"
             },
             {
               "rank": 4,
-              "model_id": "z-ai/glm-5.3-flash",
-              "name": "GLM 5.3 Flash",
-              "score": 11800000000000,
-              "tokens_display": "11.8T tokens",
-              "growth": "-3%"
+              "model_id": "tencent/hy4",
+              "name": "Hy4",
+              "score": 14300000000000,
+              "tokens_display": "14.3T tokens",
+              "growth": "-24%"
             },
             {
               "rank": 5,
-              "model_id": "openai/gpt-6-luna",
-              "name": "GPT-6 Luna",
-              "score": 8080000000000,
-              "tokens_display": "8.08T tokens",
-              "growth": "+14%"
+              "model_id": "z-ai/glm-5.3-flash",
+              "name": "GLM 5.3 Flash",
+              "score": 11500000000000,
+              "tokens_display": "11.5T tokens",
+              "growth": "+2%"
             },
             {
               "rank": 6,
-              "model_id": "anthropic/claude-opus-5.5",
-              "name": "Claude Opus 5.5",
-              "score": 7370000000000,
-              "tokens_display": "7.37T tokens",
-              "growth": "+9%"
+              "model_id": "openai/gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "score": 8380000000000,
+              "tokens_display": "8.38T tokens",
+              "growth": "+19%"
             },
             {
               "rank": 7,
-              "model_id": "stepfun/step-5-preview",
-              "name": "Step 5 Preview",
-              "score": 6360000000000,
-              "tokens_display": "6.36T tokens",
-              "growth": "-11%"
+              "model_id": "anthropic/claude-opus-5.5",
+              "name": "Claude Opus 5.5",
+              "score": 7530000000000,
+              "tokens_display": "7.53T tokens",
+              "growth": "+11%"
             },
             {
               "rank": 8,
-              "model_id": "xiaomi/mimo-v2.6-flash",
-              "name": "MiMo-V2.6-Flash",
-              "score": 4160000000000,
-              "tokens_display": "4.16T tokens",
-              "growth": "+63%"
+              "model_id": "stepfun/step-5-preview",
+              "name": "Step 5 Preview",
+              "score": 6570000000000,
+              "tokens_display": "6.57T tokens",
+              "growth": "-5%"
             },
             {
               "rank": 9,
-              "model_id": "z-ai/glm-5.3",
-              "name": "GLM 5.3",
-              "score": 3740000000000,
-              "tokens_display": "3.74T tokens",
-              "growth": "+5%"
+              "model_id": "xiaomi/mimo-v2.6-flash",
+              "name": "MiMo-V2.6-Flash",
+              "score": 4110000000000,
+              "tokens_display": "4.11T tokens",
+              "growth": "+44%"
             },
             {
               "rank": 10,
-              "model_id": "openai/gpt-6.1-sol",
-              "name": "GPT-6.1 Sol",
-              "score": 3710000000000,
-              "tokens_display": "3.71T tokens",
-              "growth": "-5%"
+              "model_id": "z-ai/glm-5.3",
+              "name": "GLM 5.3",
+              "score": 3620000000000,
+              "tokens_display": "3.62T tokens",
+              "growth": "-1%"
             }
           ],
           "coverage": "top10",
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:10+00:00",
           "method": "public_html"
         }
       },
@@ -108,7 +108,7 @@
       "source": "lmsys",
       "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
       "method": "official_dataset",
-      "fetched_at": "2026-11-17T10:44:46+00:00",
+      "fetched_at": "2026-11-18T10:12:11+00:00",
       "boards": {
         "Agent": {
           "scope": "arena:agent:overall",
@@ -669,7 +669,7 @@
           ],
           "coverage": "rank<=50",
           "population": 65,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Text": {
@@ -1231,7 +1231,7 @@
           ],
           "coverage": "rank<=50",
           "population": 421,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "WebDev": {
@@ -1793,7 +1793,7 @@
           ],
           "coverage": "rank<=50",
           "population": 157,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Vision": {
@@ -2355,7 +2355,7 @@
           ],
           "coverage": "rank<=50",
           "population": 167,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Document": {
@@ -2873,7 +2873,7 @@
           ],
           "coverage": "rank<=50",
           "population": 46,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Search": {
@@ -3347,23 +3347,23 @@
           ],
           "coverage": "rank<=50",
           "population": 42,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Text-to-Image": {
           "scope": "arena:text_to_image:overall",
           "metric": "arena_rating",
           "unit": "rating",
-          "published_at": "2026-11-12",
+          "published_at": "2026-11-17",
           "rows": [
             {
               "model_id": "GPT-Image-2.5 Sunburst",
               "name": "GPT-Image-2.5 Sunburst",
               "rank": 1,
-              "score": 1428.658740106337,
-              "ci_low": 1423.5418462229331,
-              "ci_high": 1433.7756339897408,
-              "votes": 63818,
+              "score": 1428.457476981579,
+              "ci_low": 1423.5064336402706,
+              "ci_high": 1433.4085203228874,
+              "votes": 68073,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3371,10 +3371,10 @@
               "model_id": "GPT-Image-2.6 Sunburst (Medium)",
               "name": "GPT-Image-2.6 Sunburst (Medium)",
               "rank": 2,
-              "score": 1405.5960201244966,
-              "ci_low": 1392.1955032336002,
-              "ci_high": 1418.996537015393,
-              "votes": 2697,
+              "score": 1410.1144596717731,
+              "ci_low": 1400.771011124068,
+              "ci_high": 1419.457908219478,
+              "votes": 6547,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3382,251 +3382,262 @@
               "model_id": "GPT-Image-2.5 Flare",
               "name": "GPT-Image-2.5 Flare",
               "rank": 3,
-              "score": 1398.1844908090748,
-              "ci_low": 1393.2251165863897,
-              "ci_high": 1403.1438650317596,
-              "votes": 63120,
+              "score": 1399.5392369641024,
+              "ci_low": 1394.711148600061,
+              "ci_high": 1404.367325328144,
+              "votes": 67372,
               "organization": "openai",
               "license": "Proprietary"
             },
             {
-              "model_id": "GPT-Image-2.6 Flare (Medium)",
-              "name": "GPT-Image-2.6 Flare (Medium)",
+              "model_id": "MAI-Image-2.7",
+              "name": "MAI-Image-2.7",
               "rank": 4,
-              "score": 1383.51155141982,
-              "ci_low": 1370.3173630755682,
-              "ci_high": 1396.705739764072,
-              "votes": 2532,
-              "organization": "openai",
+              "score": 1387.3671233107225,
+              "ci_low": 1375.4765130099256,
+              "ci_high": 1399.2577336115194,
+              "votes": 3082,
+              "organization": "microsoft-ai",
               "license": "Proprietary"
             },
             {
               "model_id": "GPT-Image-2 (Medium)",
               "name": "GPT-Image-2 (Medium)",
               "rank": 5,
-              "score": 1381.72527119212,
-              "ci_low": 1377.9063170223367,
-              "ci_high": 1385.5442253619035,
-              "votes": 108559,
+              "score": 1382.0192878030816,
+              "ci_low": 1378.241686490968,
+              "ci_high": 1385.7968891151952,
+              "votes": 110696,
+              "organization": "openai",
+              "license": "Proprietary"
+            },
+            {
+              "model_id": "GPT-Image-2.6 Flare (Medium)",
+              "name": "GPT-Image-2.6 Flare (Medium)",
+              "rank": 6,
+              "score": 1375.344171109689,
+              "ci_low": 1366.0337908701408,
+              "ci_high": 1384.654551349237,
+              "votes": 6447,
               "organization": "openai",
               "license": "Proprietary"
             },
             {
               "model_id": "MAI-Image-2.6",
               "name": "MAI-Image-2.6",
-              "rank": 6,
-              "score": 1329.8690695678902,
-              "ci_low": 1324.8374587127312,
-              "ci_high": 1334.9006804230494,
-              "votes": 41413,
+              "rank": 7,
+              "score": 1330.6752866849622,
+              "ci_low": 1325.7346195023988,
+              "ci_high": 1335.6159538675256,
+              "votes": 42837,
               "organization": "microsoft-ai",
               "license": "Proprietary"
             },
             {
               "model_id": "Gemini Nano Banana 2.1",
               "name": "Gemini Nano Banana 2.1",
-              "rank": 7,
-              "score": 1327.474846718301,
-              "ci_low": 1318.3661810633666,
-              "ci_high": 1336.5835123732354,
-              "votes": 4961,
+              "rank": 8,
+              "score": 1327.553852728771,
+              "ci_low": 1318.439303952888,
+              "ci_high": 1336.668401504654,
+              "votes": 4957,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Grok Imagine Image 2.0",
               "name": "Grok Imagine Image 2.0",
-              "rank": 8,
-              "score": 1317.8719076201676,
-              "ci_low": 1310.4075582999678,
-              "ci_high": 1325.336256940367,
-              "votes": 9919,
+              "rank": 9,
+              "score": 1318.0780360012975,
+              "ci_low": 1310.5880805022614,
+              "ci_high": 1325.5679915003336,
+              "votes": 9894,
               "organization": "xai",
               "license": "Proprietary"
             },
             {
               "model_id": "Reve 2.1",
               "name": "Reve 2.1",
-              "rank": 9,
-              "score": 1301.4697159231348,
-              "ci_low": 1293.834669643078,
-              "ci_high": 1309.1047622031913,
-              "votes": 7893,
+              "rank": 10,
+              "score": 1301.7828459900613,
+              "ci_low": 1294.1490675599769,
+              "ci_high": 1309.4166244201458,
+              "votes": 7897,
               "organization": "reve",
               "license": "Proprietary"
             },
             {
               "model_id": "Grok Imagine Image 2.0 (20260801)",
               "name": "Grok Imagine Image 2.0 (20260801)",
-              "rank": 10,
-              "score": 1287.2899489231472,
-              "ci_low": 1282.1529721863765,
-              "ci_high": 1292.426925659918,
-              "votes": 36215,
+              "rank": 11,
+              "score": 1287.035885668926,
+              "ci_low": 1282.0345229731738,
+              "ci_high": 1292.0372483646784,
+              "votes": 38904,
               "organization": "xai",
               "license": "Proprietary"
             },
             {
               "model_id": "Reve 2.0",
               "name": "Reve 2.0",
-              "rank": 11,
-              "score": 1268.0600216821813,
-              "ci_low": 1261.8140857635822,
-              "ci_high": 1274.3059576007804,
-              "votes": 15293,
+              "rank": 12,
+              "score": 1268.3142296587237,
+              "ci_low": 1262.0687070704626,
+              "ci_high": 1274.5597522469848,
+              "votes": 15282,
               "organization": "reve",
               "license": "Proprietary"
             },
             {
               "model_id": "Muse Image",
               "name": "Muse Image",
-              "rank": 12,
-              "score": 1266.1698356343638,
-              "ci_low": 1261.7047339028086,
-              "ci_high": 1270.6349373659193,
-              "votes": 59855,
+              "rank": 13,
+              "score": 1265.5716214436763,
+              "ci_low": 1261.1672305503587,
+              "ci_high": 1269.976012336994,
+              "votes": 62120,
               "organization": "meta",
               "license": "Proprietary"
             },
             {
               "model_id": "Gemini 3.1 Flash Image (nano-banana-2, Web Search)",
               "name": "Gemini 3.1 Flash Image (nano-banana-2, Web Search)",
-              "rank": 13,
-              "score": 1256.3655234376752,
-              "ci_low": 1252.5584780886034,
-              "ci_high": 1260.172568786747,
-              "votes": 81208,
+              "rank": 14,
+              "score": 1256.1305246761576,
+              "ci_low": 1252.3807304395502,
+              "ci_high": 1259.880318912765,
+              "votes": 84052,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Qwen-Image-3.0-Pro",
               "name": "Qwen-Image-3.0-Pro",
-              "rank": 14,
-              "score": 1254.1076302685196,
-              "ci_low": 1247.4953918498632,
-              "ci_high": 1260.7198686871761,
-              "votes": 10899,
+              "rank": 15,
+              "score": 1254.267956793678,
+              "ci_low": 1247.653217871543,
+              "ci_high": 1260.8826957158128,
+              "votes": 10895,
               "organization": "alibaba",
               "license": "Proprietary"
             },
             {
               "model_id": "MAI-Image-2.5",
               "name": "MAI-Image-2.5",
-              "rank": 15,
-              "score": 1252.518264638503,
-              "ci_low": 1248.2789315408354,
-              "ci_high": 1256.757597736171,
-              "votes": 59026,
-              "organization": "microsoft-ai",
-              "license": "Proprietary"
-            },
-            {
-              "model_id": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
-              "name": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
               "rank": 16,
-              "score": 1249.025821071521,
-              "ci_low": 1242.9519113999531,
-              "ci_high": 1255.0997307430887,
-              "votes": 17125,
-              "organization": "google",
+              "score": 1252.6465845772764,
+              "ci_low": 1248.406235127748,
+              "ci_high": 1256.886934026805,
+              "votes": 58997,
+              "organization": "microsoft-ai",
               "license": "Proprietary"
             },
             {
               "model_id": "Seedream 5.0 Pro",
               "name": "Seedream 5.0 Pro",
               "rank": 17,
-              "score": 1248.0746327795516,
-              "ci_low": 1244.3114398352755,
-              "ci_high": 1251.8378257238276,
-              "votes": 110580,
+              "score": 1249.270564836061,
+              "ci_low": 1245.5473237486892,
+              "ci_high": 1252.993805923433,
+              "votes": 112977,
               "organization": "bytedance",
+              "license": "Proprietary"
+            },
+            {
+              "model_id": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
+              "name": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
+              "rank": 18,
+              "score": 1249.1014924012643,
+              "ci_low": 1243.0255783276175,
+              "ci_high": 1255.177406474911,
+              "votes": 17109,
+              "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Gemini 3 Pro Image (nano-banana-pro, 2K)",
               "name": "Gemini 3 Pro Image (nano-banana-pro, 2K)",
-              "rank": 18,
-              "score": 1245.5988435664224,
-              "ci_low": 1242.5748923686565,
-              "ci_high": 1248.6227947641883,
-              "votes": 184749,
+              "rank": 19,
+              "score": 1245.7162299629967,
+              "ci_low": 1242.6903578013773,
+              "ci_high": 1248.7421021246162,
+              "votes": 184617,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "GPT-Image-1.5 (High Fidelity)",
               "name": "GPT-Image-1.5 (High Fidelity)",
-              "rank": 19,
-              "score": 1235.997128699871,
-              "ci_low": 1232.9310051547573,
-              "ci_high": 1239.0632522449848,
-              "votes": 169318,
+              "rank": 20,
+              "score": 1236.1290218426602,
+              "ci_low": 1233.061652470386,
+              "ci_high": 1239.1963912149347,
+              "votes": 169259,
               "organization": "openai",
               "license": "Proprietary"
             },
             {
               "model_id": "Gemini 3 Pro Image Preview (nano-banana-pro)",
               "name": "Gemini 3 Pro Image Preview (nano-banana-pro)",
-              "rank": 20,
-              "score": 1231.1841519408872,
-              "ci_low": 1226.2531932022437,
-              "ci_high": 1236.1151106795305,
-              "votes": 83791,
+              "rank": 21,
+              "score": 1231.1675977143702,
+              "ci_low": 1226.235340750809,
+              "ci_high": 1236.0998546779315,
+              "votes": 83785,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Qwen-Image-2.1",
               "name": "Qwen-Image-2.1",
-              "rank": 21,
-              "score": 1226.8850661758834,
-              "ci_low": 1220.5789148941258,
-              "ci_high": 1233.1912174576412,
-              "votes": 17822,
+              "rank": 22,
+              "score": 1227.2796623795352,
+              "ci_low": 1220.9700622386179,
+              "ci_high": 1233.5892625204528,
+              "votes": 17794,
               "organization": "alibaba",
               "license": "qwen-research"
             },
             {
               "model_id": "Ideogram 4.0 (Quality)",
               "name": "Ideogram 4.0 (Quality)",
-              "rank": 22,
-              "score": 1198.612891726555,
-              "ci_low": 1194.9289138022662,
-              "ci_high": 1202.296869650844,
-              "votes": 80995,
+              "rank": 23,
+              "score": 1198.9421763986456,
+              "ci_low": 1195.3012942933162,
+              "ci_high": 1202.5830585039753,
+              "votes": 83791,
               "organization": "ideogram",
               "license": "Ideogram Open Model"
             },
             {
               "model_id": "MiniMax H3-Image",
               "name": "MiniMax H3-Image",
-              "rank": 23,
-              "score": 1197.2357037500099,
-              "ci_low": 1186.5474345539174,
-              "ci_high": 1207.9239729461024,
-              "votes": 3277,
+              "rank": 24,
+              "score": 1198.1673440422599,
+              "ci_low": 1187.509196582123,
+              "ci_high": 1208.8254915023967,
+              "votes": 3285,
               "organization": "minimax",
               "license": "minimax-h3-image-community-license-agreement"
             },
             {
               "model_id": "Qwen-Image-2.0-Pro (2026-06-22)",
               "name": "Qwen-Image-2.0-Pro (2026-06-22)",
-              "rank": 24,
-              "score": 1190.0832906310393,
-              "ci_low": 1184.1492390053102,
-              "ci_high": 1196.0173422567682,
-              "votes": 12657,
+              "rank": 25,
+              "score": 1190.2189846990489,
+              "ci_low": 1184.282672184214,
+              "ci_high": 1196.1552972138834,
+              "votes": 12648,
               "organization": "alibaba",
               "license": "Proprietary"
             },
             {
               "model_id": "UNI-1.1 Max",
               "name": "UNI-1.1 Max",
-              "rank": 25,
-              "score": 1188.3974895502051,
-              "ci_low": 1182.185729592323,
-              "ci_high": 1194.609249508087,
+              "rank": 26,
+              "score": 1188.3926220692897,
+              "ci_low": 1182.18174115249,
+              "ci_high": 1194.603502986089,
               "votes": 13728,
               "organization": "luma-ai",
               "license": "Proprietary"
@@ -3634,298 +3645,287 @@
             {
               "model_id": "MAI-Image-2",
               "name": "MAI-Image-2",
-              "rank": 26,
-              "score": 1182.7370614459373,
-              "ci_low": 1178.1497168669082,
-              "ci_high": 1187.3244060249665,
-              "votes": 50391,
+              "rank": 27,
+              "score": 1182.741826261638,
+              "ci_low": 1178.1507004090604,
+              "ci_high": 1187.3329521142157,
+              "votes": 50370,
               "organization": "microsoft-ai",
               "license": "Proprietary"
             },
             {
               "model_id": "UNI-1.1",
               "name": "UNI-1.1",
-              "rank": 27,
-              "score": 1181.2243653270343,
-              "ci_low": 1177.1412469068785,
-              "ci_high": 1185.30748374719,
-              "votes": 61451,
+              "rank": 28,
+              "score": 1181.4023605430546,
+              "ci_low": 1177.3709652251648,
+              "ci_high": 1185.4337558609443,
+              "votes": 63517,
               "organization": "luma-ai",
               "license": "Proprietary"
             },
             {
               "model_id": "Recraft V4.1 Utility Pro",
               "name": "Recraft V4.1 Utility Pro",
-              "rank": 28,
-              "score": 1169.0883870812686,
-              "ci_low": 1157.9675591156329,
-              "ci_high": 1180.2092150469045,
-              "votes": 2564,
+              "rank": 29,
+              "score": 1169.257788051509,
+              "ci_low": 1158.1319556820476,
+              "ci_high": 1180.38362042097,
+              "votes": 2562,
               "organization": "recraft",
               "license": "Proprietary"
             },
             {
               "model_id": "Grok Imagine Image",
               "name": "Grok Imagine Image",
-              "rank": 29,
-              "score": 1168.8413802301309,
-              "ci_low": 1166.2165244239065,
-              "ci_high": 1171.4662360363552,
-              "votes": 292090,
+              "rank": 30,
+              "score": 1168.1443059946578,
+              "ci_low": 1165.532121793782,
+              "ci_high": 1170.7564901955338,
+              "votes": 295296,
               "organization": "xai",
               "license": "Proprietary"
             },
             {
               "model_id": "Cosmos3-Super-Text2Image (Agentic)",
               "name": "Cosmos3-Super-Text2Image (Agentic)",
-              "rank": 30,
-              "score": 1163.9124776577892,
-              "ci_low": 1156.7298222998563,
-              "ci_high": 1171.095133015722,
-              "votes": 10144,
+              "rank": 31,
+              "score": 1164.0693031802823,
+              "ci_low": 1156.8754785893693,
+              "ci_high": 1171.2631277711955,
+              "votes": 10118,
               "organization": "nvidia",
               "license": "OpenMDW-1.1"
             },
             {
               "model_id": "FLUX.2 [max]",
               "name": "FLUX.2 [max]",
-              "rank": 31,
-              "score": 1160.9927620957253,
-              "ci_low": 1157.4404347693137,
-              "ci_high": 1164.5450894221372,
-              "votes": 120408,
+              "rank": 32,
+              "score": 1161.0070437591419,
+              "ci_low": 1157.4530744067786,
+              "ci_high": 1164.5610131115052,
+              "votes": 120384,
               "organization": "bfl",
               "license": "Proprietary"
             },
             {
               "model_id": "Grok Imagine Image Pro",
               "name": "Grok Imagine Image Pro",
-              "rank": 32,
-              "score": 1159.9499343307432,
-              "ci_low": 1156.140939031068,
-              "ci_high": 1163.7589296304184,
-              "votes": 96908,
+              "rank": 33,
+              "score": 1159.9701761679182,
+              "ci_low": 1156.1600513976766,
+              "ci_high": 1163.7803009381596,
+              "votes": 96883,
               "organization": "xai",
               "license": "Proprietary"
             },
             {
               "model_id": "FLUX.2 [flex]",
               "name": "FLUX.2 [flex]",
-              "rank": 33,
-              "score": 1156.3339897018311,
-              "ci_low": 1152.912392435953,
-              "ci_high": 1159.7555869677094,
-              "votes": 152898,
+              "rank": 34,
+              "score": 1156.3814693727495,
+              "ci_low": 1152.9582008973616,
+              "ci_high": 1159.8047378481374,
+              "votes": 152862,
               "organization": "bfl",
               "license": "Proprietary"
             },
             {
               "model_id": "Reve v1.5",
               "name": "Reve v1.5",
-              "rank": 34,
-              "score": 1154.1267933757845,
-              "ci_low": 1149.8382938222678,
-              "ci_high": 1158.4152929293014,
-              "votes": 38472,
+              "rank": 35,
+              "score": 1154.1180666103219,
+              "ci_low": 1149.8291378598085,
+              "ci_high": 1158.4069953608353,
+              "votes": 38461,
               "organization": "reve",
               "license": "Proprietary"
             },
             {
               "model_id": "FLUX.2 [pro]",
               "name": "FLUX.2 [pro]",
-              "rank": 35,
-              "score": 1152.5347300449414,
-              "ci_low": 1149.6785057823356,
-              "ci_high": 1155.390954307547,
-              "votes": 218975,
+              "rank": 36,
+              "score": 1152.5034506647987,
+              "ci_low": 1149.6465417266957,
+              "ci_high": 1155.3603596029018,
+              "votes": 218860,
               "organization": "bfl",
               "license": "Proprietary"
             },
             {
               "model_id": "HunyuanImage 3.0",
               "name": "HunyuanImage 3.0",
-              "rank": 36,
-              "score": 1151.501313938116,
-              "ci_low": 1148.141776453284,
-              "ci_high": 1154.860851422948,
-              "votes": 175188,
+              "rank": 37,
+              "score": 1151.4815914271685,
+              "ci_low": 1148.1203096387592,
+              "ci_high": 1154.8428732155778,
+              "votes": 175172,
               "organization": "tencent",
               "license": "tencent-hunyuan-community"
             },
             {
               "model_id": "Cosmos3-Super-Text2Image",
               "name": "Cosmos3-Super-Text2Image",
-              "rank": 37,
-              "score": 1149.5083605847842,
-              "ci_low": 1143.5043794705477,
-              "ci_high": 1155.5123416990205,
-              "votes": 17415,
+              "rank": 38,
+              "score": 1149.598024811623,
+              "ci_low": 1143.5844399507139,
+              "ci_high": 1155.6116096725323,
+              "votes": 17370,
               "organization": "nvidia",
               "license": "OpenMDW-1.1"
             },
             {
               "model_id": "Gemini 2.5 Flash Image Preview (nano-banana)",
               "name": "Gemini 2.5 Flash Image Preview (nano-banana)",
-              "rank": 38,
-              "score": 1148.3394177654307,
-              "ci_low": 1145.9195063029856,
-              "ci_high": 1150.7593292278755,
-              "votes": 893974,
+              "rank": 39,
+              "score": 1148.3283989122806,
+              "ci_low": 1145.9048445325702,
+              "ci_high": 1150.7519532919907,
+              "votes": 893713,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Seedream 4.5",
               "name": "Seedream 4.5",
-              "rank": 39,
-              "score": 1147.713842803876,
-              "ci_low": 1145.1300375094702,
-              "ci_high": 1150.297648098282,
-              "votes": 312018,
+              "rank": 40,
+              "score": 1147.812577131167,
+              "ci_low": 1145.227692826309,
+              "ci_high": 1150.397461436025,
+              "votes": 311853,
               "organization": "bytedance",
               "license": "Proprietary"
             },
             {
               "model_id": "Imagen 4 Ultra (generate-001)",
               "name": "Imagen 4 Ultra (generate-001)",
-              "rank": 40,
-              "score": 1145.9078525820787,
-              "ci_low": 1141.5695299675217,
-              "ci_high": 1150.2461751966357,
-              "votes": 385752,
+              "rank": 41,
+              "score": 1145.9244723008358,
+              "ci_low": 1141.5835322120913,
+              "ci_high": 1150.26541238958,
+              "votes": 385702,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "FLUX.2 [dev]",
               "name": "FLUX.2 [dev]",
-              "rank": 41,
-              "score": 1144.946720887251,
-              "ci_low": 1140.7621387959496,
-              "ci_high": 1149.1313029785526,
-              "votes": 75646,
+              "rank": 42,
+              "score": 1145.0359134897028,
+              "ci_low": 1140.8497558830998,
+              "ci_high": 1149.222071096306,
+              "votes": 75626,
               "organization": "bfl",
               "license": "flux-non-commercial-license"
             },
             {
               "model_id": "Seedream 5.0 Lite",
               "name": "Seedream 5.0 Lite",
-              "rank": 42,
-              "score": 1141.1220323947969,
-              "ci_low": 1138.0242756274113,
-              "ci_high": 1144.2197891621822,
-              "votes": 147237,
+              "rank": 43,
+              "score": 1141.1910297573763,
+              "ci_low": 1138.1298574160821,
+              "ci_high": 1144.2522020986703,
+              "votes": 149656,
               "organization": "bytedance",
               "license": "Proprietary"
             },
             {
               "model_id": "Wan 2.6",
               "name": "Wan 2.6",
-              "rank": 43,
-              "score": 1138.626107383381,
-              "ci_low": 1135.8811990043625,
-              "ci_high": 1141.3710157623993,
-              "votes": 251923,
+              "rank": 44,
+              "score": 1138.5190031171733,
+              "ci_low": 1135.7829714906688,
+              "ci_high": 1141.2550347436777,
+              "votes": 254465,
               "organization": "alibaba",
               "license": "Proprietary"
             },
             {
               "model_id": "Seedream 4.0 (2K)",
               "name": "Seedream 4.0 (2K)",
-              "rank": 44,
-              "score": 1138.2281244206101,
-              "ci_low": 1131.6413653775808,
-              "ci_high": 1144.8148834636397,
-              "votes": 12274,
+              "rank": 45,
+              "score": 1138.2635819245406,
+              "ci_low": 1131.675334323006,
+              "ci_high": 1144.8518295260756,
+              "votes": 12272,
               "organization": "bytedance",
               "license": "Proprietary"
             },
             {
               "model_id": "Recraft V4.1 Pro",
               "name": "Recraft V4.1 Pro",
-              "rank": 45,
-              "score": 1131.8912369202026,
-              "ci_low": 1121.3177505637127,
-              "ci_high": 1142.4647232766922,
-              "votes": 2744,
+              "rank": 46,
+              "score": 1132.0026219510448,
+              "ci_low": 1121.431803660848,
+              "ci_high": 1142.5734402412418,
+              "votes": 2742,
               "organization": "recraft",
               "license": "Proprietary"
             },
             {
               "model_id": "Krea 2 Medium",
               "name": "Krea 2 Medium",
-              "rank": 46,
-              "score": 1128.0131059802673,
-              "ci_low": 1124.141736209782,
-              "ci_high": 1131.8844757507527,
-              "votes": 78137,
+              "rank": 47,
+              "score": 1129.6947945901343,
+              "ci_low": 1125.8627369834514,
+              "ci_high": 1133.5268521968173,
+              "votes": 80793,
               "organization": "krea",
               "license": "Proprietary"
             },
             {
               "model_id": "Imagen 4 (generate-001)",
               "name": "Imagen 4 (generate-001)",
-              "rank": 47,
-              "score": 1127.6249932500814,
-              "ci_low": 1124.8584733156702,
-              "ci_high": 1130.3915131844926,
-              "votes": 533124,
+              "rank": 48,
+              "score": 1127.6362229288209,
+              "ci_low": 1124.8672190893985,
+              "ci_high": 1130.4052267682434,
+              "votes": 533051,
               "organization": "google",
               "license": "Proprietary"
             },
             {
               "model_id": "Qwen-Image (2512)",
               "name": "Qwen-Image (2512)",
-              "rank": 48,
-              "score": 1123.9436828612652,
-              "ci_low": 1120.4502326645709,
-              "ci_high": 1127.4371330579593,
-              "votes": 95286,
+              "rank": 49,
+              "score": 1123.9078904891076,
+              "ci_low": 1120.412401340276,
+              "ci_high": 1127.4033796379395,
+              "votes": 95250,
               "organization": "alibaba",
               "license": "Apache 2.0"
             },
             {
               "model_id": "Wan 2.5 Preview",
               "name": "Wan 2.5 Preview",
-              "rank": 49,
-              "score": 1117.2952419952267,
-              "ci_low": 1114.503528903422,
-              "ci_high": 1120.0869550870314,
-              "votes": 283791,
-              "organization": "alibaba",
-              "license": "Proprietary"
-            },
-            {
-              "model_id": "Recraft V4",
-              "name": "Recraft V4",
               "rank": 50,
-              "score": 1116.599992152511,
-              "ci_low": 1113.5078809184668,
-              "ci_high": 1119.6921033865556,
-              "votes": 156056,
-              "organization": "recraft",
+              "score": 1117.422092843695,
+              "ci_low": 1114.627395228252,
+              "ci_high": 1120.216790459138,
+              "votes": 283635,
+              "organization": "alibaba",
               "license": "Proprietary"
             }
           ],
           "coverage": "rank<=50",
-          "population": 85,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "population": 86,
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Image Edit": {
           "scope": "arena:image_edit:overall",
           "metric": "arena_rating",
           "unit": "rating",
-          "published_at": "2026-11-12",
+          "published_at": "2026-11-17",
           "rows": [
             {
               "model_id": "GPT-Image-2.5 Sunburst",
               "name": "GPT-Image-2.5 Sunburst",
               "rank": 1,
-              "score": 1518.6003555100397,
-              "ci_low": 1513.9936915803808,
-              "ci_high": 1523.2070194396986,
-              "votes": 131648,
+              "score": 1518.6233652795484,
+              "ci_low": 1514.2008466922537,
+              "ci_high": 1523.045883866843,
+              "votes": 140743,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3933,10 +3933,10 @@
               "model_id": "GPT-Image-2.5 Flare",
               "name": "GPT-Image-2.5 Flare",
               "rank": 2,
-              "score": 1484.0396322199538,
-              "ci_low": 1479.6625985184835,
-              "ci_high": 1488.416665921424,
-              "votes": 128720,
+              "score": 1483.615663343985,
+              "ci_low": 1479.3761953398073,
+              "ci_high": 1487.855131348163,
+              "votes": 137820,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3944,21 +3944,21 @@
               "model_id": "GPT-Image-2.6 Sunburst (Medium)",
               "name": "GPT-Image-2.6 Sunburst (Medium)",
               "rank": 3,
-              "score": 1476.4677390304257,
-              "ci_low": 1465.9159386470737,
-              "ci_high": 1487.0195394137775,
-              "votes": 3493,
+              "score": 1480.710585744545,
+              "ci_low": 1473.7235067395868,
+              "ci_high": 1487.697664749503,
+              "votes": 16881,
               "organization": "openai",
               "license": "Proprietary"
             },
             {
-              "model_id": "MAI-Image-2.7-Preview",
-              "name": "MAI-Image-2.7-Preview",
+              "model_id": "MAI-Image-2.7",
+              "name": "MAI-Image-2.7",
               "rank": 4,
-              "score": 1471.3885135537748,
-              "ci_low": 1465.2008639058888,
-              "ci_high": 1477.5761632016606,
-              "votes": 27340,
+              "score": 1475.4840107459195,
+              "ci_low": 1464.4617981241809,
+              "ci_high": 1486.506223367658,
+              "votes": 3007,
               "organization": "microsoft-ai",
               "license": "Proprietary"
             },
@@ -3966,10 +3966,10 @@
               "model_id": "GPT-Image-2 (Medium)",
               "name": "GPT-Image-2 (Medium)",
               "rank": 5,
-              "score": 1461.647569540838,
-              "ci_low": 1458.6461339679852,
-              "ci_high": 1464.6490051136911,
-              "votes": 364695,
+              "score": 1461.5215232235455,
+              "ci_low": 1458.5824585325308,
+              "ci_high": 1464.4605879145602,
+              "votes": 371930,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3977,10 +3977,10 @@
               "model_id": "GPT-Image-2.6 Flare (Medium)",
               "name": "GPT-Image-2.6 Flare (Medium)",
               "rank": 6,
-              "score": 1460.226630845488,
-              "ci_low": 1449.8181941433577,
-              "ci_high": 1470.6350675476183,
-              "votes": 3534,
+              "score": 1460.6949345559856,
+              "ci_low": 1453.9168804423005,
+              "ci_high": 1467.4729886696707,
+              "votes": 16830,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -3988,10 +3988,10 @@
               "model_id": "Grok Imagine Image 2.0",
               "name": "Grok Imagine Image 2.0",
               "rank": 7,
-              "score": 1437.193815781985,
-              "ci_low": 1431.430360521157,
-              "ci_high": 1442.9572710428129,
-              "votes": 33892,
+              "score": 1437.3657179279428,
+              "ci_low": 1431.60159863078,
+              "ci_high": 1443.1298372251058,
+              "votes": 33908,
               "organization": "xai",
               "license": "Proprietary"
             },
@@ -3999,10 +3999,10 @@
               "model_id": "MAI-Image-2.6",
               "name": "MAI-Image-2.6",
               "rank": 8,
-              "score": 1427.528114610357,
-              "ci_low": 1422.8575941188385,
-              "ci_high": 1432.1986351018757,
-              "votes": 82766,
+              "score": 1427.4354155739982,
+              "ci_low": 1422.7731151637213,
+              "ci_high": 1432.0977159842748,
+              "votes": 82671,
               "organization": "microsoft-ai",
               "license": "Proprietary"
             },
@@ -4010,10 +4010,10 @@
               "model_id": "Gemini Nano Banana 2.1",
               "name": "Gemini Nano Banana 2.1",
               "rank": 9,
-              "score": 1427.2677209801122,
-              "ci_low": 1421.3027717303767,
-              "ci_high": 1433.2326702298478,
-              "votes": 12057,
+              "score": 1427.173066493851,
+              "ci_low": 1421.2103121829134,
+              "ci_high": 1433.1358208047886,
+              "votes": 12041,
               "organization": "google",
               "license": "Proprietary"
             },
@@ -4021,10 +4021,10 @@
               "model_id": "Grok Imagine Image 2.0 (20260801)",
               "name": "Grok Imagine Image 2.0 (20260801)",
               "rank": 10,
-              "score": 1417.9132495088056,
-              "ci_low": 1413.745779370048,
-              "ci_high": 1422.0807196475632,
-              "votes": 134617,
+              "score": 1418.6106998089936,
+              "ci_low": 1414.6281133553668,
+              "ci_high": 1422.5932862626205,
+              "votes": 144482,
               "organization": "xai",
               "license": "Proprietary"
             },
@@ -4032,43 +4032,43 @@
               "model_id": "Krea 3 Ultra",
               "name": "Krea 3 Ultra",
               "rank": 11,
-              "score": 1411.5626678738865,
-              "ci_low": 1399.9837864754397,
-              "ci_high": 1423.1415492723334,
-              "votes": 2616,
+              "score": 1411.6904835518642,
+              "ci_low": 1400.1331561309864,
+              "ci_high": 1423.247810972742,
+              "votes": 2625,
               "organization": "krea",
-              "license": "Proprietary"
-            },
-            {
-              "model_id": "Muse Image",
-              "name": "Muse Image",
-              "rank": 12,
-              "score": 1400.7671125463705,
-              "ci_low": 1397.0322382422087,
-              "ci_high": 1404.5019868505326,
-              "votes": 204077,
-              "organization": "meta",
               "license": "Proprietary"
             },
             {
               "model_id": "MAI-Image-2.5",
               "name": "MAI-Image-2.5",
-              "rank": 13,
-              "score": 1400.3722381214493,
-              "ci_low": 1396.6115205327942,
-              "ci_high": 1404.1329557101046,
-              "votes": 183296,
+              "rank": 12,
+              "score": 1400.3009257094982,
+              "ci_low": 1396.5467362830693,
+              "ci_high": 1404.0551151359273,
+              "votes": 183259,
               "organization": "microsoft-ai",
+              "license": "Proprietary"
+            },
+            {
+              "model_id": "Muse Image",
+              "name": "Muse Image",
+              "rank": 13,
+              "score": 1399.9934770396303,
+              "ci_low": 1396.3439257674067,
+              "ci_high": 1403.6430283118539,
+              "votes": 211112,
+              "organization": "meta",
               "license": "Proprietary"
             },
             {
               "model_id": "Seedream 5.0 Pro",
               "name": "Seedream 5.0 Pro",
               "rank": 14,
-              "score": 1391.7795250763736,
-              "ci_low": 1388.5850037425857,
-              "ci_high": 1394.9740464101612,
-              "votes": 349293,
+              "score": 1391.9489501087908,
+              "ci_low": 1388.8695069079997,
+              "ci_high": 1395.0283933095818,
+              "votes": 358335,
               "organization": "bytedance",
               "license": "Proprietary"
             },
@@ -4076,10 +4076,10 @@
               "model_id": "Grok Imagine Image (Quality, 20260519)",
               "name": "Grok Imagine Image (Quality, 20260519)",
               "rank": 15,
-              "score": 1391.2423057736278,
-              "ci_low": 1385.5878478693244,
-              "ci_high": 1396.8967636779312,
-              "votes": 37087,
+              "score": 1391.2187813358676,
+              "ci_low": 1385.568993752574,
+              "ci_high": 1396.8685689191611,
+              "votes": 37096,
               "organization": "xai",
               "license": "Proprietary"
             },
@@ -4087,10 +4087,10 @@
               "model_id": "Gemini 3 Pro Image (nano-banana-pro, 2K)",
               "name": "Gemini 3 Pro Image (nano-banana-pro, 2K)",
               "rank": 16,
-              "score": 1390.736960841368,
-              "ci_low": 1388.1788575013852,
-              "ci_high": 1393.295064181351,
-              "votes": 682239,
+              "score": 1390.7734983803769,
+              "ci_low": 1388.224638270488,
+              "ci_high": 1393.3223584902657,
+              "votes": 682032,
               "organization": "google",
               "license": "Proprietary"
             },
@@ -4098,10 +4098,10 @@
               "model_id": "ChatGPT Image Latest (High Fidelity, 20251216)",
               "name": "ChatGPT Image Latest (High Fidelity, 20251216)",
               "rank": 17,
-              "score": 1387.6093117405544,
-              "ci_low": 1384.9487075751802,
-              "ci_high": 1390.2699159059287,
-              "votes": 657370,
+              "score": 1387.4765551591909,
+              "ci_low": 1384.824778540541,
+              "ci_high": 1390.128331777841,
+              "votes": 657235,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -4109,10 +4109,10 @@
               "model_id": "Gemini 3.1 Flash Image (nano-banana-2, Web Search)",
               "name": "Gemini 3.1 Flash Image (nano-banana-2, Web Search)",
               "rank": 18,
-              "score": 1386.894953859847,
-              "ci_low": 1383.7883469547764,
-              "ci_high": 1390.0015607649177,
-              "votes": 268281,
+              "score": 1386.8670122618041,
+              "ci_low": 1383.7681156910774,
+              "ci_high": 1389.965908832531,
+              "votes": 268179,
               "organization": "google",
               "license": "Proprietary"
             },
@@ -4120,10 +4120,10 @@
               "model_id": "Gemini 3 Pro Image Preview (nano-banana-pro)",
               "name": "Gemini 3 Pro Image Preview (nano-banana-pro)",
               "rank": 19,
-              "score": 1384.8076811845096,
-              "ci_low": 1381.9275286735383,
-              "ci_high": 1387.687833695481,
-              "votes": 532464,
+              "score": 1384.812846618806,
+              "ci_low": 1381.9411518484237,
+              "ci_high": 1387.6845413891883,
+              "votes": 532373,
               "organization": "google",
               "license": "Proprietary"
             },
@@ -4131,10 +4131,10 @@
               "model_id": "Reve 2.1",
               "name": "Reve 2.1",
               "rank": 20,
-              "score": 1372.7611747813135,
-              "ci_low": 1366.611447158986,
-              "ci_high": 1378.9109024036409,
-              "votes": 19875,
+              "score": 1372.7770448823326,
+              "ci_low": 1366.6317419753516,
+              "ci_high": 1378.9223477893136,
+              "votes": 19872,
               "organization": "reve",
               "license": "Proprietary"
             },
@@ -4142,10 +4142,10 @@
               "model_id": "GPT-Image-1.5 (High Fidelity)",
               "name": "GPT-Image-1.5 (High Fidelity)",
               "rank": 21,
-              "score": 1367.2450269782587,
-              "ci_low": 1364.6468387421241,
-              "ci_high": 1369.8432152143932,
-              "votes": 682205,
+              "score": 1367.2581614312512,
+              "ci_low": 1364.669561023812,
+              "ci_high": 1369.8467618386906,
+              "votes": 682072,
               "organization": "openai",
               "license": "Proprietary"
             },
@@ -4153,9 +4153,9 @@
               "model_id": "Qwen-Image-2.1",
               "name": "Qwen-Image-2.1",
               "rank": 22,
-              "score": 1363.4074383716202,
-              "ci_low": 1357.2536035077003,
-              "ci_high": 1369.5612732355398,
+              "score": 1363.2486405127295,
+              "ci_low": 1357.1035847137537,
+              "ci_high": 1369.393696311705,
               "votes": 37959,
               "organization": "alibaba",
               "license": "qwen-research"
@@ -4164,10 +4164,10 @@
               "model_id": "Reve 2.0",
               "name": "Reve 2.0",
               "rank": 23,
-              "score": 1359.1831130892376,
-              "ci_low": 1352.6533772199182,
-              "ci_high": 1365.712848958557,
-              "votes": 18604,
+              "score": 1359.1404622638918,
+              "ci_low": 1352.613950648166,
+              "ci_high": 1365.6669738796174,
+              "votes": 18599,
               "organization": "reve",
               "license": "Proprietary"
             },
@@ -4175,10 +4175,10 @@
               "model_id": "MiniMax H3-Image",
               "name": "MiniMax H3-Image",
               "rank": 24,
-              "score": 1358.9088875439445,
-              "ci_low": 1349.9350896907324,
-              "ci_high": 1367.8826853971566,
-              "votes": 5129,
+              "score": 1358.1838775695321,
+              "ci_low": 1349.2204999255164,
+              "ci_high": 1367.1472552135474,
+              "votes": 5134,
               "organization": "minimax",
               "license": "minimax-h3-image-community-license-agreement"
             },
@@ -4186,10 +4186,10 @@
               "model_id": "Ideogram 4.5",
               "name": "Ideogram 4.5",
               "rank": 25,
-              "score": 1347.1625710533713,
-              "ci_low": 1342.8629022490381,
-              "ci_high": 1351.4622398577042,
-              "votes": 110249,
+              "score": 1346.7885859029318,
+              "ci_low": 1342.7135121394415,
+              "ci_high": 1350.8636596664219,
+              "votes": 120488,
               "organization": "ideogram",
               "license": "Proprietary"
             },
@@ -4197,10 +4197,10 @@
               "model_id": "UNI-1.1 Max",
               "name": "UNI-1.1 Max",
               "rank": 26,
-              "score": 1333.229641601757,
-              "ci_low": 1328.2910381146137,
-              "ci_high": 1338.1682450889002,
-              "votes": 42191,
+              "score": 1332.9073153602883,
+              "ci_low": 1327.9678935775019,
+              "ci_high": 1337.8467371430747,
+              "votes": 42183,
               "organization": "luma-ai",
               "license": "Proprietary"
             },
@@ -4208,10 +4208,10 @@
               "model_id": "Grok Imagine Image",
               "name": "Grok Imagine Image",
               "rank": 27,
-              "score": 1328.4081070804577,
-              "ci_low": 1326.0078971757107,
-              "ci_high": 1330.808316985205,
-              "votes": 847359,
+              "score": 1328.595396076944,
+              "ci_low": 1326.247350795518,
+              "ci_high": 1330.9434413583701,
+              "votes": 859790,
               "organization": "xai",
               "license": "Proprietary"
             },
@@ -4219,10 +4219,10 @@
               "model_id": "UNI-1.1",
               "name": "UNI-1.1",
               "rank": 28,
-              "score": 1315.6589661621501,
-              "ci_low": 1312.4579247618633,
-              "ci_high": 1318.8600075624372,
-              "votes": 248038,
+              "score": 1315.2753858480887,
+              "ci_low": 1312.1418510284361,
+              "ci_high": 1318.4089206677413,
+              "votes": 255691,
               "organization": "luma-ai",
               "license": "Proprietary"
             },
@@ -4230,9 +4230,9 @@
               "model_id": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
               "name": "Gemini 3.1 Flash-Lite Image (nano-banana-2-lite)",
               "rank": 29,
-              "score": 1312.782496785738,
-              "ci_low": 1307.975728352418,
-              "ci_high": 1317.589265219058,
+              "score": 1312.7306653653623,
+              "ci_low": 1307.9296938297844,
+              "ci_high": 1317.5316369009402,
               "votes": 63104,
               "organization": "google",
               "license": "Proprietary"
@@ -4241,10 +4241,10 @@
               "model_id": "Qwen-Image-2.0-Pro (2026-06-22)",
               "name": "Qwen-Image-2.0-Pro (2026-06-22)",
               "rank": 30,
-              "score": 1302.7371809565195,
-              "ci_low": 1298.0316864511774,
-              "ci_high": 1307.4426754618617,
-              "votes": 54559,
+              "score": 1302.7867180116145,
+              "ci_low": 1298.0877861742288,
+              "ci_high": 1307.4856498490003,
+              "votes": 54544,
               "organization": "alibaba",
               "license": "Proprietary"
             },
@@ -4252,10 +4252,10 @@
               "model_id": "Seedream 4.5",
               "name": "Seedream 4.5",
               "rank": 31,
-              "score": 1302.5132189309024,
-              "ci_low": 1300.3469043938167,
-              "ci_high": 1304.6795334679882,
-              "votes": 1357348,
+              "score": 1302.5200691317916,
+              "ci_low": 1300.3663164862387,
+              "ci_high": 1304.6738217773445,
+              "votes": 1357015,
               "organization": "bytedance",
               "license": "Proprietary"
             },
@@ -4263,10 +4263,10 @@
               "model_id": "Wan 2.7 Image Pro",
               "name": "Wan 2.7 Image Pro",
               "rank": 32,
-              "score": 1302.1446491384438,
-              "ci_low": 1298.0350300007165,
-              "ci_high": 1306.254268276171,
-              "votes": 42986,
+              "score": 1302.136892969027,
+              "ci_low": 1298.0343148543056,
+              "ci_high": 1306.2394710837482,
+              "votes": 42974,
               "organization": "alibaba",
               "license": "Proprietary"
             },
@@ -4274,10 +4274,10 @@
               "model_id": "HunyuanImage 3.0 Instruct",
               "name": "HunyuanImage 3.0 Instruct",
               "rank": 33,
-              "score": 1301.3983356146607,
-              "ci_low": 1298.0291831943807,
-              "ci_high": 1304.7674880349405,
-              "votes": 322364,
+              "score": 1301.3916552743328,
+              "ci_low": 1298.0303867365121,
+              "ci_high": 1304.7529238121538,
+              "votes": 322277,
               "organization": "tencent",
               "license": "tencent-hunyuan-community"
             },
@@ -4285,10 +4285,10 @@
               "model_id": "Wan 2.7 Image",
               "name": "Wan 2.7 Image",
               "rank": 34,
-              "score": 1300.7909783319294,
-              "ci_low": 1296.9157928894333,
-              "ci_high": 1304.6661637744255,
-              "votes": 43793,
+              "score": 1300.7966126304523,
+              "ci_low": 1296.927658741947,
+              "ci_high": 1304.6655665189576,
+              "votes": 43778,
               "organization": "alibaba",
               "license": "Proprietary"
             },
@@ -4296,10 +4296,10 @@
               "model_id": "Seedream 5.0 Lite",
               "name": "Seedream 5.0 Lite",
               "rank": 35,
-              "score": 1293.3318088313854,
-              "ci_low": 1290.7574613509646,
-              "ci_high": 1295.9061563118064,
-              "votes": 526525,
+              "score": 1293.4042191565206,
+              "ci_low": 1290.8797268927035,
+              "ci_high": 1295.9287114203378,
+              "votes": 535784,
               "organization": "bytedance",
               "license": "Proprietary"
             },
@@ -4307,10 +4307,10 @@
               "model_id": "Gemini 2.5 Flash Image Preview (nano-banana)",
               "name": "Gemini 2.5 Flash Image Preview (nano-banana)",
               "rank": 36,
-              "score": 1291.5395879738537,
-              "ci_low": 1289.4820822316628,
-              "ci_high": 1293.5970937160446,
-              "votes": 11419327,
+              "score": 1291.5848040484182,
+              "ci_low": 1289.5399800955586,
+              "ci_high": 1293.6296280012775,
+              "votes": 11418324,
               "organization": "google",
               "license": "Proprietary"
             },
@@ -4318,10 +4318,10 @@
               "model_id": "Seedream 4.0 (2K)",
               "name": "Seedream 4.0 (2K)",
               "rank": 37,
-              "score": 1267.0193573440283,
-              "ci_low": 1260.0604902988641,
-              "ci_high": 1273.9782243891925,
-              "votes": 208498,
+              "score": 1267.0421614243814,
+              "ci_low": 1260.0871164853193,
+              "ci_high": 1273.9972063634436,
+              "votes": 208459,
               "organization": "bytedance",
               "license": "Proprietary"
             },
@@ -4329,10 +4329,10 @@
               "model_id": "FLUX.2 [max]",
               "name": "FLUX.2 [max]",
               "rank": 38,
-              "score": 1261.6846038898032,
-              "ci_low": 1258.5131496305003,
-              "ci_high": 1264.8560581491058,
-              "votes": 367379,
+              "score": 1261.6704579804216,
+              "ci_low": 1258.5072115096993,
+              "ci_high": 1264.8337044511438,
+              "votes": 367252,
               "organization": "bfl",
               "license": "Proprietary"
             },
@@ -4340,10 +4340,10 @@
               "model_id": "Reve v1.1",
               "name": "Reve v1.1",
               "rank": 39,
-              "score": 1261.4702209002926,
-              "ci_low": 1258.695926194875,
-              "ci_high": 1264.2445156057101,
-              "votes": 657727,
+              "score": 1261.4854621932252,
+              "ci_low": 1258.7211707760302,
+              "ci_high": 1264.2497536104202,
+              "votes": 657507,
               "organization": "reve",
               "license": "Proprietary"
             },
@@ -4351,10 +4351,10 @@
               "model_id": "Kling Image O1",
               "name": "Kling Image O1",
               "rank": 40,
-              "score": 1250.406280837919,
-              "ci_low": 1246.6918693038847,
-              "ci_high": 1254.1206923719535,
-              "votes": 140087,
+              "score": 1250.445518270144,
+              "ci_low": 1246.736653157493,
+              "ci_high": 1254.154383382795,
+              "votes": 140038,
               "organization": "kling",
               "license": "Proprietary"
             },
@@ -4362,10 +4362,10 @@
               "model_id": "FLUX.2 [pro]",
               "name": "FLUX.2 [pro]",
               "rank": 41,
-              "score": 1247.4649626318069,
-              "ci_low": 1244.8834859922927,
-              "ci_high": 1250.046439271321,
-              "votes": 669741,
+              "score": 1247.5374921417147,
+              "ci_low": 1244.9656278722437,
+              "ci_high": 1250.1093564111854,
+              "votes": 669593,
               "organization": "bfl",
               "license": "Proprietary"
             },
@@ -4373,10 +4373,10 @@
               "model_id": "Qwen-Image-Edit",
               "name": "Qwen-Image-Edit",
               "rank": 42,
-              "score": 1240.8753576855956,
-              "ci_low": 1238.2464646898752,
-              "ci_high": 1243.5042506813163,
-              "votes": 1999501,
+              "score": 1240.8749682325022,
+              "ci_low": 1238.2549267807174,
+              "ci_high": 1243.4950096842872,
+              "votes": 1999135,
               "organization": "alibaba",
               "license": "Apache 2.0"
             },
@@ -4384,10 +4384,10 @@
               "model_id": "Reve v1",
               "name": "Reve v1",
               "rank": 43,
-              "score": 1234.5940855562133,
-              "ci_low": 1229.6012640234674,
-              "ci_high": 1239.5869070889594,
-              "votes": 390853,
+              "score": 1234.5930578187613,
+              "ci_low": 1229.6050666978854,
+              "ci_high": 1239.5810489396374,
+              "votes": 390803,
               "organization": "reve",
               "license": "Proprietary"
             },
@@ -4395,10 +4395,10 @@
               "model_id": "Qwen-Image-Edit (2511)",
               "name": "Qwen-Image-Edit (2511)",
               "rank": 44,
-              "score": 1233.1249271336224,
-              "ci_low": 1230.3220677925506,
-              "ci_high": 1235.9277864746941,
-              "votes": 471839,
+              "score": 1233.061580328503,
+              "ci_low": 1230.2689032071892,
+              "ci_high": 1235.854257449817,
+              "votes": 471692,
               "organization": "alibaba",
               "license": "Apache 2.0"
             },
@@ -4406,43 +4406,43 @@
               "model_id": "Wan 2.6 Image",
               "name": "Wan 2.6 Image",
               "rank": 45,
-              "score": 1231.2734096883528,
-              "ci_low": 1228.665724341562,
-              "ci_high": 1233.8810950351435,
-              "votes": 708549,
+              "score": 1231.1704478553356,
+              "ci_low": 1228.5725132542354,
+              "ci_high": 1233.7683824564358,
+              "votes": 708328,
               "organization": "alibaba",
+              "license": "Proprietary"
+            },
+            {
+              "model_id": "FLUX.2 [flex]",
+              "name": "FLUX.2 [flex]",
+              "rank": 46,
+              "score": 1224.4187304516383,
+              "ci_low": 1221.2628112783834,
+              "ci_high": 1227.5746496248933,
+              "votes": 433419,
+              "organization": "bfl",
               "license": "Proprietary"
             },
             {
               "model_id": "FLUX.2 [klein] 9B",
               "name": "FLUX.2 [klein] 9B",
-              "rank": 46,
-              "score": 1224.4297558574785,
-              "ci_low": 1221.52721565259,
-              "ci_high": 1227.332296062367,
-              "votes": 528289,
+              "rank": 47,
+              "score": 1224.4043399324887,
+              "ci_low": 1221.511136124513,
+              "ci_high": 1227.2975437404643,
+              "votes": 528140,
               "organization": "bfl",
               "license": "flux-non-commercial-license"
-            },
-            {
-              "model_id": "FLUX.2 [flex]",
-              "name": "FLUX.2 [flex]",
-              "rank": 47,
-              "score": 1224.4264093897605,
-              "ci_low": 1221.2614273690663,
-              "ci_high": 1227.591391410455,
-              "votes": 433538,
-              "organization": "bfl",
-              "license": "Proprietary"
             },
             {
               "model_id": "FLUX.2 [dev]",
               "name": "FLUX.2 [dev]",
               "rank": 48,
-              "score": 1223.9621147028402,
-              "ci_low": 1219.9365800976213,
-              "ci_high": 1227.987649308059,
-              "votes": 247356,
+              "score": 1223.9336179732522,
+              "ci_low": 1219.9172827589027,
+              "ci_high": 1227.949953187602,
+              "votes": 247274,
               "organization": "bfl",
               "license": "flux-non-commercial-license"
             },
@@ -4450,10 +4450,10 @@
               "model_id": "Seedream 4.0 (High Res, fal)",
               "name": "Seedream 4.0 (High Res, fal)",
               "rank": 49,
-              "score": 1215.696406138377,
-              "ci_low": 1212.8739569963413,
-              "ci_high": 1218.5188552804127,
-              "votes": 1211391,
+              "score": 1215.72766496063,
+              "ci_low": 1212.912299577818,
+              "ci_high": 1218.5430303434416,
+              "votes": 1211154,
               "organization": "bytedance",
               "license": "Proprietary"
             },
@@ -4461,17 +4461,17 @@
               "model_id": "P-Image-Edit",
               "name": "P-Image-Edit",
               "rank": 50,
-              "score": 1209.658707932603,
-              "ci_low": 1206.4813390839624,
-              "ci_high": 1212.8360767812435,
-              "votes": 351492,
+              "score": 1209.651672674309,
+              "ci_low": 1206.4814156691173,
+              "ci_high": 1212.821929679501,
+              "votes": 351346,
               "organization": "",
               "license": "Proprietary"
             }
           ],
           "coverage": "rank<=50",
           "population": 64,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Text-to-Video": {
@@ -5033,7 +5033,7 @@
           ],
           "coverage": "rank<=50",
           "population": 50,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Image-to-Video": {
@@ -5595,7 +5595,7 @@
           ],
           "coverage": "rank<=50",
           "population": 50,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         },
         "Video Edit": {
@@ -5739,19 +5739,19 @@
           ],
           "coverage": "rank<=50",
           "population": 12,
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "official_dataset"
         }
       },
       "errors": {},
-      "revision": "8013e3f0a8d3c16b4fd18588c5c8bbb8d2755f4d"
+      "revision": "b17ca88fd34809e9161df1ef89fd444acaf598e4"
     },
     "artalanaly": {
       "schema_version": 2,
       "source": "artalanaly",
       "url": "https://artificialanalysis.ai/embed/llm-performance-leaderboard",
       "method": "public_html",
-      "fetched_at": "2026-11-17T10:44:46+00:00",
+      "fetched_at": "2026-11-18T10:12:11+00:00",
       "boards": {
         "Intelligence": {
           "scope": "aa:html:intelligence",
@@ -5778,290 +5778,290 @@
               "score": 62.0
             },
             {
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (max)",
+              "name": "GPT-6.2 Astra (max)",
+              "rank": 2,
+              "score": 62.0
+            },
+            {
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (xhigh)",
+              "name": "GPT-6.2 Astra (xhigh)",
+              "rank": 2,
+              "score": 62.0
+            },
+            {
               "model_id": "/models/gemini-4-carbon|Gemini 4 Carbon (high)",
               "name": "Gemini 4 Carbon (high)",
-              "rank": 4,
+              "rank": 6,
+              "score": 60.0
+            },
+            {
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (high)",
+              "name": "GPT-6.2 Astra (high)",
+              "rank": 6,
               "score": 60.0
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (max)",
               "name": "Claude Opus 5.5 (max)",
-              "rank": 5,
+              "rank": 8,
               "score": 59.0
             },
             {
               "model_id": "/models/gemini-4-carbon|Gemini 4 Carbon (medium)",
               "name": "Gemini 4 Carbon (medium)",
-              "rank": 6,
+              "rank": 9,
               "score": 58.0
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (xhigh)",
               "name": "Claude Opus 5.5 (xhigh)",
-              "rank": 7,
+              "rank": 10,
               "score": 57.0
             },
             {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (max) (Fast)",
-              "name": "GPT-6 Astra (max) (Fast)",
-              "rank": 7,
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (medium)",
+              "name": "GPT-6.2 Astra (medium)",
+              "rank": 10,
               "score": 57.0
             },
             {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (max) (Flex)",
-              "name": "GPT-6 Astra (max) (Flex)",
-              "rank": 7,
-              "score": 57.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (max) (Ultrafast)",
-              "name": "GPT-6 Astra (max) (Ultrafast)",
-              "rank": 7,
-              "score": 57.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (max)",
-              "name": "GPT-6 Astra (max)",
-              "rank": 7,
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (max)",
+              "name": "GPT-6.2 Sol (max)",
+              "rank": 10,
               "score": 57.0
             },
             {
               "model_id": "/models/claude-fable-5-2|Claude Fable 5.2 (medium)",
               "name": "Claude Fable 5.2 (medium)",
-              "rank": 12,
+              "rank": 13,
+              "score": 56.0
+            },
+            {
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (xhigh)",
+              "name": "GPT-6.2 Sol (xhigh)",
+              "rank": 13,
               "score": 56.0
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (max)",
               "name": "Claude Sonnet 5.5 (max)",
-              "rank": 13,
+              "rank": 15,
               "score": 55.0
             },
             {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (max) (Fast)",
-              "name": "GPT-6.1 Sol (max) (Fast)",
-              "rank": 13,
-              "score": 55.0
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (max) (Flex)",
-              "name": "GPT-6.1 Sol (max) (Flex)",
-              "rank": 13,
-              "score": 55.0
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (max) (Ultrafast)",
-              "name": "GPT-6.1 Sol (max) (Ultrafast)",
-              "rank": 13,
-              "score": 55.0
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (max)",
-              "name": "GPT-6.1 Sol (max)",
-              "rank": 13,
-              "score": 55.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (high)",
-              "name": "GPT-6 Astra (high)",
-              "rank": 13,
-              "score": 55.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (xhigh)",
-              "name": "GPT-6 Astra (xhigh)",
-              "rank": 13,
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (high)",
+              "name": "GPT-6.2 Sol (high)",
+              "rank": 15,
               "score": 55.0
             },
             {
               "model_id": "/models/claude-fable-5-2|Claude Fable 5.2 (low)",
               "name": "Claude Fable 5.2 (low)",
-              "rank": 20,
+              "rank": 17,
               "score": 54.0
             },
             {
               "model_id": "/models/gemini-4-carbon|Gemini 4 Carbon (low)",
               "name": "Gemini 4 Carbon (low)",
-              "rank": 20,
+              "rank": 17,
               "score": 54.0
             },
             {
               "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (xhigh)",
               "name": "Gemini 4 Hydrogen (xhigh)",
-              "rank": 20,
+              "rank": 17,
               "score": 54.0
+            },
+            {
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (medium)",
+              "name": "GPT-6.2 Sol (medium)",
+              "rank": 20,
+              "score": 53.0
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (high)",
               "name": "Claude Opus 5.5 (high)",
-              "rank": 23,
-              "score": 52.0
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (xhigh)",
-              "name": "GPT-6.1 Sol (xhigh)",
-              "rank": 23,
-              "score": 52.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (medium)",
-              "name": "GPT-6 Astra (medium)",
-              "rank": 23,
+              "rank": 21,
               "score": 52.0
             },
             {
               "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (high)",
               "name": "Gemini 4 Hydrogen (high)",
-              "rank": 26,
+              "rank": 22,
               "score": 51.0
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (max)",
               "name": "GPT-6.1 Terra (max)",
-              "rank": 26,
+              "rank": 22,
               "score": 51.0
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (xhigh)",
               "name": "Claude Sonnet 5.5 (xhigh)",
-              "rank": 28,
+              "rank": 24,
               "score": 50.0
             },
             {
               "model_id": "/models/gemini-4-argon|Gemini 4 Argon (high) (Vertex)",
               "name": "Gemini 4 Argon (high) (Vertex)",
-              "rank": 28,
+              "rank": 24,
               "score": 50.0
             },
             {
               "model_id": "/models/gemini-4-argon|Gemini 4 Argon (high) AI Studio",
               "name": "Gemini 4 Argon (high) AI Studio",
-              "rank": 28,
-              "score": 50.0
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (high)",
-              "name": "GPT-6.1 Sol (high)",
-              "rank": 28,
+              "rank": 24,
               "score": 50.0
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (medium)",
               "name": "Claude Opus 5.5 (medium)",
-              "rank": 32,
+              "rank": 27,
               "score": 48.0
             },
             {
               "model_id": "/models/gemini-4-argon|Gemini 4 Argon (medium) (Vertex)",
               "name": "Gemini 4 Argon (medium) (Vertex)",
-              "rank": 32,
+              "rank": 27,
               "score": 48.0
             },
             {
               "model_id": "/models/gemini-4-argon|Gemini 4 Argon (medium) AI Studio",
               "name": "Gemini 4 Argon (medium) AI Studio",
-              "rank": 32,
+              "rank": 27,
               "score": 48.0
             },
             {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (medium)",
-              "name": "GPT-6.1 Sol (medium)",
-              "rank": 35,
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (low)",
+              "name": "GPT-6.2 Astra (low)",
+              "rank": 30,
               "score": 46.0
             },
             {
               "model_id": "/models/kimi-k3-1-pro|Kimi K3.1 Pro (FAST)",
               "name": "Kimi K3.1 Pro (FAST)",
-              "rank": 35,
+              "rank": 30,
               "score": 46.0
             },
             {
               "model_id": "/models/kimi-k3-1-pro|Kimi K3.1 Pro (ULTRA)",
               "name": "Kimi K3.1 Pro (ULTRA)",
-              "rank": 35,
+              "rank": 30,
               "score": 46.0
             },
             {
               "model_id": "/models/kimi-k3-1-pro|Kimi K3.1 Pro High Speed",
               "name": "Kimi K3.1 Pro High Speed",
-              "rank": 35,
+              "rank": 30,
               "score": 46.0
             },
             {
               "model_id": "/models/kimi-k3-1-pro|Kimi K3.1 Pro",
               "name": "Kimi K3.1 Pro",
-              "rank": 35,
+              "rank": 30,
               "score": 46.0
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (xhigh)",
               "name": "GPT-6.1 Terra (xhigh)",
-              "rank": 40,
+              "rank": 35,
               "score": 45.0
             },
             {
               "model_id": "/models/muse-wonder|Muse Wonder (max)",
               "name": "Muse Wonder (max)",
-              "rank": 41,
+              "rank": 36,
               "score": 44.0
-            },
-            {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (low)",
-              "name": "GPT-6 Astra (low)",
-              "rank": 42,
-              "score": 43.0
             },
             {
               "model_id": "/models/qwen4-max|Qwen4 Max",
               "name": "Qwen4 Max",
-              "rank": 42,
+              "rank": 37,
               "score": 43.0
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (high)",
               "name": "Claude Sonnet 5.5 (high)",
-              "rank": 44,
+              "rank": 38,
               "score": 42.0
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (high)",
               "name": "GPT-6.1 Terra (high)",
-              "rank": 44,
+              "rank": 38,
               "score": 42.0
             },
             {
               "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (medium)",
               "name": "Gemini 4 Hydrogen (medium)",
-              "rank": 46,
+              "rank": 40,
+              "score": 41.0
+            },
+            {
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (low)",
+              "name": "GPT-6.2 Sol (low)",
+              "rank": 40,
               "score": 41.0
             },
             {
               "model_id": "/models/muse-wonder|Muse Wonder (high)",
               "name": "Muse Wonder (high)",
-              "rank": 46,
+              "rank": 40,
               "score": 41.0
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (medium)",
               "name": "GPT-6.1 Terra (medium)",
-              "rank": 48,
+              "rank": 43,
               "score": 38.0
             },
             {
               "model_id": "/models/claude-haiku-5-5|Claude Haiku 5.5 (max)",
               "name": "Claude Haiku 5.5 (max)",
-              "rank": 49,
+              "rank": 44,
               "score": 36.0
             },
             {
               "model_id": "/models/muse-ember|Muse Ember (max)",
               "name": "Muse Ember (max)",
-              "rank": 49,
+              "rank": 44,
               "score": 36.0
+            },
+            {
+              "model_id": "/models/claude-haiku-5-5|Claude Haiku 5.5 (xhigh)",
+              "name": "Claude Haiku 5.5 (xhigh)",
+              "rank": 46,
+              "score": 35.0
+            },
+            {
+              "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)",
+              "name": "Claude Opus 5.5 (low)",
+              "rank": 46,
+              "score": 35.0
+            },
+            {
+              "model_id": "/models/grok-4-7|Grok 4.7 (high)",
+              "name": "Grok 4.7 (high)",
+              "rank": 46,
+              "score": 35.0
+            },
+            {
+              "model_id": "/models/grok-4-7|Grok 4.7 (xhigh)",
+              "name": "Grok 4.7 (xhigh)",
+              "rank": 46,
+              "score": 35.0
+            },
+            {
+              "model_id": "/models/tencent-hy4|Tencent Hy4",
+              "name": "Tencent Hy4",
+              "rank": 46,
+              "score": 35.0
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "public_html"
         },
         "Speed": {
@@ -6532,6 +6532,12 @@
               "score": 0.12
             },
             {
+              "model_id": "/models/lfm3-vl-2b|LFM3-VL-2B|/providers/liquid-ai",
+              "name": "LFM3-VL-2B (Liquid AI)",
+              "rank": 24,
+              "score": 0.12
+            },
+            {
               "model_id": "/models/muse-ember|Muse Ember (xhigh)|/providers/meta",
               "name": "Muse Ember (xhigh) (Meta)",
               "rank": 24,
@@ -6540,49 +6546,43 @@
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash|/providers/deepinfra",
               "name": "MiMo-V2.6-Flash (DeepInfra)",
-              "rank": 27,
+              "rank": 28,
               "score": 0.13
             },
             {
               "model_id": "/models/mimo-v2-6-flash|MiMo-V2.6-Flash|/providers/xiaomi",
               "name": "MiMo-V2.6-Flash (Xiaomi)",
-              "rank": 27,
+              "rank": 28,
               "score": 0.13
             },
             {
               "model_id": "/models/muse-glimmer|Muse Glimmer (high)|/providers/deepinfra",
               "name": "Muse Glimmer (high) (DeepInfra)",
-              "rank": 27,
+              "rank": 28,
               "score": 0.13
             },
             {
               "model_id": "/models/muse-ember|Muse Ember (max)|/providers/meta",
               "name": "Muse Ember (max) (Meta)",
-              "rank": 30,
+              "rank": 31,
               "score": 0.14
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (max)|/providers/openai",
               "name": "GPT-6 Luna (max) (OpenAI)",
-              "rank": 31,
+              "rank": 32,
               "score": 0.15
             },
             {
               "model_id": "/models/claude-haiku-5-5|Claude Haiku 5.5 (high)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (high) (Anthropic)",
-              "rank": 32,
-              "score": 0.16
-            },
-            {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (low)|/providers/openai",
-              "name": "GPT-6.1 Sol (low) (OpenAI)",
-              "rank": 32,
+              "rank": 33,
               "score": 0.16
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (max)|/providers/azure",
               "name": "GPT-6 Luna (max) (Microsoft Azure)",
-              "rank": 32,
+              "rank": 33,
               "score": 0.16
             },
             {
@@ -6598,92 +6598,92 @@
               "score": 0.17
             },
             {
+              "model_id": "/models/lfm3-1-7b|LFM3-1.7B|/providers/liquid-ai",
+              "name": "LFM3-1.7B (Liquid AI)",
+              "rank": 35,
+              "score": 0.17
+            },
+            {
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (low)|/providers/openai",
+              "name": "GPT-6.2 Sol (low) (OpenAI)",
+              "rank": 38,
+              "score": 0.18
+            },
+            {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max)|/providers/deepinfra",
               "name": "DeepSeek V4.1 Flash 1017 (max) (DeepInfra)",
-              "rank": 37,
+              "rank": 39,
               "score": 0.19
             },
             {
               "model_id": "/models/mimo-v2-6-pro|MiMo-V2.6-Pro (BF16)|/providers/gmi",
               "name": "MiMo-V2.6-Pro (BF16) (GMI)",
-              "rank": 37,
+              "rank": 39,
+              "score": 0.19
+            },
+            {
+              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/coreweave",
+              "name": "Nemotron 3.5 Super VL (NVFP4) (CoreWeave)",
+              "rank": 39,
               "score": 0.19
             },
             {
               "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high) Vertex|/providers/google",
               "name": "gpt-oss-120b (high) Vertex (Google)",
-              "rank": 39,
+              "rank": 42,
               "score": 0.21
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (non-reasoning)|/providers/openai",
               "name": "GPT-6.1 Terra (non-reasoning) (OpenAI)",
-              "rank": 40,
+              "rank": 43,
               "score": 0.23
             },
             {
               "model_id": "/models/muse-glimmer|Muse Glimmer (high)|/providers/togetherai",
               "name": "Muse Glimmer (high) (Together AI)",
-              "rank": 40,
+              "rank": 43,
               "score": 0.23
             },
             {
               "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/baseten",
               "name": "gpt-oss-120b (high) (Baseten)",
-              "rank": 42,
+              "rank": 45,
               "score": 0.24
             },
             {
               "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/coreweave",
               "name": "Nemotron 3.5 Lightning (BF16) (CoreWeave)",
-              "rank": 42,
+              "rank": 45,
               "score": 0.24
             },
             {
               "model_id": "/models/claude-haiku-5-5|Claude Haiku 5.5 (xhigh)|/providers/anthropic",
               "name": "Claude Haiku 5.5 (xhigh) (Anthropic)",
-              "rank": 44,
+              "rank": 47,
               "score": 0.25
             },
             {
               "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (high)|/providers/openai",
               "name": "GPT-6.1 Terra (high) (OpenAI)",
-              "rank": 45,
+              "rank": 48,
               "score": 0.26
             },
             {
               "model_id": "/models/mimo-v2-6-pro|MiMo-V2.6-Pro|/providers/xiaomi",
               "name": "MiMo-V2.6-Pro (Xiaomi)",
-              "rank": 45,
+              "rank": 48,
               "score": 0.26
             },
             {
               "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (BF16)|/providers/crusoe",
               "name": "Nemotron 3.5 Lightning (BF16) (Crusoe)",
-              "rank": 45,
+              "rank": 48,
               "score": 0.26
-            },
-            {
-              "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/togetherai",
-              "name": "Beam 1.0 (NVFP4) (Together AI)",
-              "rank": 48,
-              "score": 0.28
-            },
-            {
-              "model_id": "/models/reflection-beam|Beam 1.0|/providers/digitalocean",
-              "name": "Beam 1.0 (DigitalOcean)",
-              "rank": 48,
-              "score": 0.28
-            },
-            {
-              "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (low)|/providers/google",
-              "name": "Gemini 4 Hydrogen (low) (Google)",
-              "rank": 50,
-              "score": 0.29
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "public_html"
         },
         "TimePerTask": {
@@ -6717,8 +6717,8 @@
               "score": 1.2
             },
             {
-              "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (low)|/providers/google",
-              "name": "Gemini 4 Hydrogen (low) (Google)",
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (low)|/providers/openai",
+              "name": "GPT-6.2 Sol (low) (OpenAI)",
               "rank": 5,
               "score": 1.4
             },
@@ -6726,47 +6726,47 @@
               "model_id": "/models/gemini-3-5-flash-lite|Gemini 3.5 Flash-Lite AI Studio|/providers/google",
               "name": "Gemini 3.5 Flash-Lite AI Studio (Google)",
               "rank": 6,
+              "score": 1.5
+            },
+            {
+              "model_id": "/models/gemini-4-hydrogen|Gemini 4 Hydrogen (low)|/providers/google",
+              "name": "Gemini 4 Hydrogen (low) (Google)",
+              "rank": 6,
+              "score": 1.5
+            },
+            {
+              "model_id": "/models/gpt-6-2-astra|GPT-6.2 Astra (low)|/providers/openai",
+              "name": "GPT-6.2 Astra (low) (OpenAI)",
+              "rank": 8,
               "score": 1.6
             },
             {
               "model_id": "/models/mistral-small-4|Mistral Small 4|/providers/mistral",
               "name": "Mistral Small 4 (Mistral)",
-              "rank": 7,
+              "rank": 9,
               "score": 1.7
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (non-reasoning)|/providers/azure",
               "name": "GPT-6 Luna (non-reasoning) (Microsoft Azure)",
-              "rank": 8,
+              "rank": 10,
               "score": 1.8
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (non-reasoning)|/providers/openai",
               "name": "GPT-6 Luna (non-reasoning) (OpenAI)",
-              "rank": 8,
+              "rank": 10,
               "score": 1.8
             },
             {
-              "model_id": "/models/gpt-6-1-sol|GPT-6.1 Sol (low)|/providers/openai",
-              "name": "GPT-6.1 Sol (low) (OpenAI)",
+              "model_id": "/models/lfm3-vl-2b|LFM3-VL-2B|/providers/liquid-ai",
+              "name": "LFM3-VL-2B (Liquid AI)",
               "rank": 10,
-              "score": 1.9
-            },
-            {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/sambanova",
-              "name": "gpt-oss-120b (high) (SambaNova)",
-              "rank": 10,
-              "score": 1.9
+              "score": 1.8
             },
             {
               "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/togetherai",
               "name": "Beam 1.0 (NVFP4) (Together AI)",
-              "rank": 12,
-              "score": 2.0
-            },
-            {
-              "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/nebius",
-              "name": "Beam 1.0 (NVFP4) (Nebius)",
               "rank": 13,
               "score": 2.1
             },
@@ -6777,224 +6777,224 @@
               "score": 2.2
             },
             {
-              "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (low)|/providers/azure",
-              "name": "Claude Sonnet 5.5 (low) (Microsoft Azure)",
-              "rank": 15,
-              "score": 2.4
+              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/primalabs",
+              "name": "Nemotron 3.5 Lightning (NVFP4) (PrimaLabs)",
+              "rank": 14,
+              "score": 2.2
             },
             {
-              "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (non-reasoning)|/providers/openai",
-              "name": "GPT-6.1 Terra (non-reasoning) (OpenAI)",
-              "rank": 15,
-              "score": 2.4
-            },
-            {
-              "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/coreweave",
-              "name": "Beam 1.0 (NVFP4) (CoreWeave)",
-              "rank": 15,
-              "score": 2.4
+              "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/nebius",
+              "name": "Beam 1.0 (NVFP4) (Nebius)",
+              "rank": 14,
+              "score": 2.2
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (low)|/providers/amazon_bedrock",
               "name": "Claude Sonnet 5.5 (low) (Amazon Bedrock)",
-              "rank": 18,
-              "score": 2.5
+              "rank": 17,
+              "score": 2.4
+            },
+            {
+              "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (low)|/providers/azure",
+              "name": "Claude Sonnet 5.5 (low) (Microsoft Azure)",
+              "rank": 17,
+              "score": 2.4
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (low)|/providers/google",
               "name": "Claude Sonnet 5.5 (low) (Google)",
-              "rank": 18,
+              "rank": 19,
+              "score": 2.5
+            },
+            {
+              "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (non-reasoning)|/providers/openai",
+              "name": "GPT-6.1 Terra (non-reasoning) (OpenAI)",
+              "rank": 19,
+              "score": 2.5
+            },
+            {
+              "model_id": "/models/inkling|Inkling (high)|/providers/thinking-machines",
+              "name": "Inkling (high) (Thinking Machines)",
+              "rank": 19,
+              "score": 2.5
+            },
+            {
+              "model_id": "/models/reflection-beam|Beam 1.0 (NVFP4)|/providers/coreweave",
+              "name": "Beam 1.0 (NVFP4) (CoreWeave)",
+              "rank": 19,
               "score": 2.5
             },
             {
               "model_id": "/models/claude-sonnet-5-5|Claude Sonnet 5.5 (low)|/providers/anthropic",
               "name": "Claude Sonnet 5.5 (low) (Anthropic)",
-              "rank": 20,
+              "rank": 23,
               "score": 2.6
             },
             {
               "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (FAST)|/providers/baseten",
               "name": "DeepSeek V4.1 Flash 1017 (max) (FAST) (Baseten)",
-              "rank": 20,
+              "rank": 23,
               "score": 2.6
-            },
-            {
-              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT)|/providers/lithos-ai",
-              "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI)",
-              "rank": 22,
-              "score": 2.7
-            },
-            {
-              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST)|/providers/inco",
-              "name": "DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco)",
-              "rank": 22,
-              "score": 2.7
-            },
-            {
-              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL|/providers/baseten",
-              "name": "Nemotron 3.5 Super VL (Baseten)",
-              "rank": 22,
-              "score": 2.7
             },
             {
               "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning) (FP4)|/providers/nebius",
               "name": "Qwen3.8 27B (non-reasoning) (FP4) (Nebius)",
-              "rank": 22,
+              "rank": 23,
+              "score": 2.6
+            },
+            {
+              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST)|/providers/inco",
+              "name": "DeepSeek V4.1 Flash 1017 (non-reasoning) (FAST) (Inco)",
+              "rank": 26,
+              "score": 2.7
+            },
+            {
+              "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FP4, ULTRA CHAT)|/providers/lithos-ai",
+              "name": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
+              "rank": 26,
               "score": 2.7
             },
             {
               "model_id": "/models/glm-5-3|GLM-5.3 (low) (FP4, FAST)|/providers/supernova",
               "name": "GLM-5.3 (low) (FP4, FAST) (Supernova)",
               "rank": 26,
+              "score": 2.7
+            },
+            {
+              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL|/providers/baseten",
+              "name": "Nemotron 3.5 Super VL (Baseten)",
+              "rank": 26,
+              "score": 2.7
+            },
+            {
+              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT)|/providers/lithos-ai",
+              "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA CHAT) (LithosAI)",
+              "rank": 30,
               "score": 2.8
             },
             {
-              "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (medium)|/providers/openai",
-              "name": "GPT-6.1 Terra (medium) (OpenAI)",
-              "rank": 26,
+              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/sambanova",
+              "name": "gpt-oss-120b (high) (SambaNova)",
+              "rank": 30,
               "score": 2.8
             },
             {
-              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/primalabs",
-              "name": "Nemotron 3.5 Lightning (NVFP4) (PrimaLabs)",
-              "rank": 26,
+              "model_id": "/models/muse-ember|Muse Ember (xhigh)|/providers/meta",
+              "name": "Muse Ember (xhigh) (Meta)",
+              "rank": 30,
+              "score": 2.8
+            },
+            {
+              "model_id": "/models/north-mini-code|North Mini Code|/providers/cohere",
+              "name": "North Mini Code (Cohere)",
+              "rank": 30,
               "score": 2.8
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)|/providers/azure",
               "name": "Claude Opus 5.5 (low) (Microsoft Azure)",
-              "rank": 29,
+              "rank": 34,
               "score": 2.9
             },
             {
-              "model_id": "/models/glm-5-3-flash|GLM-5.3-Flash (FP4, ULTRA CHAT)|/providers/lithos-ai",
-              "name": "GLM-5.3-Flash (FP4, ULTRA CHAT) (LithosAI)",
-              "rank": 29,
-              "score": 2.9
-            },
-            {
-              "model_id": "/models/muse-ember|Muse Ember (xhigh)|/providers/meta",
-              "name": "Muse Ember (xhigh) (Meta)",
-              "rank": 29,
-              "score": 2.9
-            },
-            {
-              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/coreweave",
-              "name": "Nemotron 3.5 Super VL (NVFP4) (CoreWeave)",
-              "rank": 29,
-              "score": 2.9
-            },
-            {
-              "model_id": "/models/nemotron-3-ultra-550b-a55b|Nemotron 3 Ultra|/providers/coreweave",
-              "name": "Nemotron 3 Ultra (CoreWeave)",
-              "rank": 29,
-              "score": 2.9
-            },
-            {
-              "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning)|/providers/crusoe",
-              "name": "Qwen3.8 27B (non-reasoning) (Crusoe)",
-              "rank": 29,
+              "model_id": "/models/gpt-6-1-terra|GPT-6.1 Terra (medium)|/providers/openai",
+              "name": "GPT-6.1 Terra (medium) (OpenAI)",
+              "rank": 34,
               "score": 2.9
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)|/providers/anthropic",
               "name": "Claude Opus 5.5 (low) (Anthropic)",
-              "rank": 35,
+              "rank": 36,
               "score": 3.0
             },
             {
               "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)|/providers/google",
               "name": "Claude Opus 5.5 (low) (Google)",
-              "rank": 35,
+              "rank": 36,
               "score": 3.0
             },
             {
-              "model_id": "/models/north-mini-code|North Mini Code|/providers/cohere",
-              "name": "North Mini Code (Cohere)",
-              "rank": 35,
+              "model_id": "/models/nemotron-3-5-super-vl|Nemotron 3.5 Super VL (NVFP4)|/providers/coreweave",
+              "name": "Nemotron 3.5 Super VL (NVFP4) (CoreWeave)",
+              "rank": 36,
+              "score": 3.0
+            },
+            {
+              "model_id": "/models/nemotron-3-ultra-550b-a55b|Nemotron 3 Ultra|/providers/coreweave",
+              "name": "Nemotron 3 Ultra (CoreWeave)",
+              "rank": 36,
+              "score": 3.0
+            },
+            {
+              "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning)|/providers/crusoe",
+              "name": "Qwen3.8 27B (non-reasoning) (Crusoe)",
+              "rank": 36,
               "score": 3.0
             },
             {
               "model_id": "/models/reflection-beam|Beam 1.0|/providers/digitalocean",
               "name": "Beam 1.0 (DigitalOcean)",
-              "rank": 35,
+              "rank": 36,
               "score": 3.0
             },
             {
-              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA FAST)|/providers/fireworks",
-              "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA FAST) (Fireworks)",
-              "rank": 39,
+              "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)|/providers/amazon_bedrock",
+              "name": "Claude Opus 5.5 (low) (Amazon Bedrock)",
+              "rank": 42,
               "score": 3.1
             },
             {
-              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/groq",
-              "name": "gpt-oss-120b (high) (Groq)",
-              "rank": 39,
+              "model_id": "/models/gpt-6-2-sol|GPT-6.2 Sol (medium)|/providers/openai",
+              "name": "GPT-6.2 Sol (medium) (OpenAI)",
+              "rank": 42,
               "score": 3.1
             },
             {
               "model_id": "/models/muse-ember|Muse Ember (max)|/providers/meta",
               "name": "Muse Ember (max) (Meta)",
-              "rank": 39,
+              "rank": 42,
               "score": 3.1
             },
             {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (low)|/providers/azure",
-              "name": "GPT-6 Astra (low) (Microsoft Azure)",
-              "rank": 42,
+              "model_id": "/models/deepseek-v4-1-flash-1017|DeepSeek V4.1 Flash 1017 (max) (ULTRA FAST)|/providers/fireworks",
+              "name": "DeepSeek V4.1 Flash 1017 (max) (ULTRA FAST) (Fireworks)",
+              "rank": 45,
               "score": 3.2
             },
             {
-              "model_id": "/models/claude-opus-5-5|Claude Opus 5.5 (low)|/providers/amazon_bedrock",
-              "name": "Claude Opus 5.5 (low) (Amazon Bedrock)",
-              "rank": 43,
+              "model_id": "/models/gpt-oss-120b|gpt-oss-120b (high)|/providers/groq",
+              "name": "gpt-oss-120b (high) (Groq)",
+              "rank": 45,
+              "score": 3.2
+            },
+            {
+              "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning)|/providers/multiverse-computing",
+              "name": "Qwen3.8 27B (non-reasoning) (Multiverse Computing)",
+              "rank": 47,
               "score": 3.4
             },
             {
               "model_id": "/models/command-a-plus|Command A+|/providers/cohere",
               "name": "Command A+ (Cohere)",
-              "rank": 43,
-              "score": 3.4
+              "rank": 48,
+              "score": 3.5
             },
             {
-              "model_id": "/models/gpt-6-astra|GPT-6 Astra (low)|/providers/openai",
-              "name": "GPT-6 Astra (low) (OpenAI)",
-              "rank": 43,
-              "score": 3.4
-            },
-            {
-              "model_id": "/models/nemotron-3-5-lightning|Nemotron 3.5 Lightning (NVFP4)|/providers/deepinfra",
-              "name": "Nemotron 3.5 Lightning (NVFP4) (DeepInfra)",
-              "rank": 43,
-              "score": 3.4
-            },
-            {
-              "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning) (NVFP4)|/providers/modular",
-              "name": "Qwen3.8 27B (non-reasoning) (NVFP4) (Modular)",
-              "rank": 43,
-              "score": 3.4
-            },
-            {
-              "model_id": "/models/qwen3-8-27b|Qwen3.8 27B (non-reasoning)|/providers/multiverse-computing",
-              "name": "Qwen3.8 27B (non-reasoning) (Multiverse Computing)",
-              "rank": 43,
-              "score": 3.4
-            },
-            {
-              "model_id": "/models/glm-5-3|GLM-5.3 (low) (FAST)|/providers/inco",
-              "name": "GLM-5.3 (low) (FAST) (Inco)",
-              "rank": 49,
+              "model_id": "/models/glm-5-3|GLM-5.3 (low)|/providers/bitdeer",
+              "name": "GLM-5.3 (low) (Bitdeer AI)",
+              "rank": 48,
               "score": 3.5
             },
             {
               "model_id": "/models/gpt-6-luna|GPT-6 Luna (medium)|/providers/openai",
               "name": "GPT-6 Luna (medium) (OpenAI)",
-              "rank": 49,
+              "rank": 48,
               "score": 3.5
             }
           ],
           "coverage": "rank<=50",
-          "fetched_at": "2026-11-17T10:44:46+00:00",
+          "fetched_at": "2026-11-18T10:12:11+00:00",
           "method": "public_html"
         }
       },
