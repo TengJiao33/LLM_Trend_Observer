@@ -1,64 +1,64 @@
-# 大模型趋势日报 2026-11-18
+# 大模型趋势日报 2026-11-19
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 61.9T | 0 | +700B (+1.1%) |
-| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 22.8T | 新入榜 | 未知 |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.9T | 0 | +400B (+2.6%) |
-| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 14.3T | ↓2 | -1.7T (-10.6%) |
-| 5 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.5T | ↓1 | -300B (-2.5%) |
-| 6 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.38T | ↓1 | +300B (+3.7%) |
-| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.53T | ↓1 | +160B (+2.2%) |
-| 8 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.57T | ↓1 | +210B (+3.3%) |
-| 9 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 4.11T | ↓1 | -50B (-1.2%) |
-| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 3.62T | ↓1 | -120B (-3.2%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 62.1T | 0 | +200B (+0.3%) |
+| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 46.6T | 0 | +23.8T (+104.4%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16T | 0 | +100B (+0.6%) |
+| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 13T | 0 | -1.3T (-9.1%) |
+| 5 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 10.9T | 0 | -600B (-5.2%) |
+| 6 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.62T | 0 | +240B (+2.9%) |
+| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.63T | 0 | +100B (+1.3%) |
+| 8 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.39T | 0 | -180B (-2.7%) |
+| 9 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 4.05T | 0 | -60B (-1.5%) |
+| 10 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 3.67T | 新入榜 | 未知 |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (Max) | 28.61% | 0 | +0.00 pp |
-| 2 | Claude Opus 5.5 (Max) | 18.19% | 0 | +0.00 pp |
-| 3 | Gemini 4 Carbon (High) | 16.45% | 0 | +0.00 pp |
-| 4 | Claude Sonnet 5.5 (Max) | 15.29% | 0 | +0.00 pp |
-| 5 | Gemini 4 Hydrogen (High) | 14.91% | 0 | +0.00 pp |
-| 6 | Claude Fable 5.1 (Max) | 14.10% | 0 | +0.00 pp |
-| 7 | GPT-6 Astra (Max) | 13.91% | 0 | +0.00 pp |
-| 8 | Claude Opus 5.5 (High) | 13.35% | 0 | +0.00 pp |
-| 9 | GPT-6.1 Sol (Max) | 11.78% | 0 | +0.00 pp |
-| 10 | GPT-6.1 Terra (Max) | 11.34% | 0 | +0.00 pp |
+| 1 | Claude Fable 5.2 (Max) | 27.42% | 0 | -1.19 pp |
+| 2 | Claude Opus 5.5 (Max) | 18.63% | 0 | +0.43 pp |
+| 3 | Gemini 4 Neon (High) | 18.41% | 新入榜 | 未知 |
+| 4 | Gemini 4 Carbon (High) | 16.10% | ↓1 | -0.34 pp |
+| 5 | Claude Sonnet 5.5 (Max) | 15.56% | ↓1 | +0.28 pp |
+| 6 | GPT-6.2 Astra (Max) | 15.22% | 新入榜 | 未知 |
+| 7 | GPT-6 Astra (Max) | 14.56% | 0 | +0.64 pp |
+| 8 | Claude Opus 5.5 (High) | 13.70% | 0 | +0.35 pp |
+| 9 | Claude Fable 5.1 (Max) | 13.66% | ↓3 | -0.44 pp |
+| 10 | Gemini 4 Hydrogen (High) | 13.52% | ↓5 | -1.39 pp |
 
 ## Arena 文本
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Gemini 4 Carbon (High) | 1,526.2 | 0 | 0.0 |
-| 2 | Gemini 4 Argon (High) | 1,521.7 | 0 | 0.0 |
-| 3 | Muse Wonder (Max) | 1,510.9 | 0 | 0.0 |
-| 4 | Claude Opus 5.5 (High) | 1,506.8 | 0 | 0.0 |
-| 5 | Claude Fable 5 (High) | 1,504.0 | 0 | 0.0 |
-| 6 | Claude Opus 4.6 (High) | 1,502.8 | 0 | 0.0 |
-| 7 | Claude Fable 5.1 (Max) | 1,502.3 | 0 | 0.0 |
-| 8 | Claude Opus 4.7 (High) | 1,501.1 | 0 | 0.0 |
-| 9 | Gemini 3.8 Flash (High) | 1,496.7 | 0 | 0.0 |
-| 10 | Muse Spark 1.3 (Max) | 1,496.5 | 0 | 0.0 |
+| 1 | Gemini 4 Carbon (High) | 1,525.9 | 0 | -0.2 |
+| 2 | Gemini 4 Argon (High) | 1,520.6 | 0 | -1.1 |
+| 3 | Gemini 4 Neon (High) | 1,518.5 | 新入榜 | 未知 |
+| 4 | Muse Wonder (Max) | 1,510.7 | ↓1 | -0.2 |
+| 5 | Claude Opus 5.5 (High) | 1,507.0 | ↓1 | +0.2 |
+| 6 | Claude Fable 5 (High) | 1,504.1 | ↓1 | +0.1 |
+| 7 | Claude Opus 4.6 (High) | 1,502.8 | ↓1 | -0.0 |
+| 8 | Claude Fable 5.1 (Max) | 1,502.1 | ↓1 | -0.2 |
+| 9 | Claude Opus 4.7 (High) | 1,501.1 | ↓1 | -0.1 |
+| 10 | Muse Spark 1.3 (Max) | 1,497.6 | 0 | +1.1 |
 
 ## Arena 网页开发
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (xHigh) | 1,826.0 | 0 | 0.0 |
-| 2 | Claude Opus 5.5 (Max) | 1,815.6 | 0 | 0.0 |
-| 3 | Claude Sonnet 5.5 (xHigh) | 1,772.2 | 0 | 0.0 |
-| 4 | Gemini 4 Carbon (High) | 1,768.3 | 0 | 0.0 |
-| 5 | GPT-6 Astra (Max) | 1,762.9 | 0 | 0.0 |
-| 6 | Qwen4-Max (xHigh) | 1,749.8 | 0 | 0.0 |
-| 7 | Claude Fable 5.1 (Max) | 1,742.9 | 0 | 0.0 |
-| 8 | GPT-6.1 Sol (Max) | 1,742.3 | 0 | 0.0 |
-| 9 | Muse Wonder Full (Max) | 1,723.9 | 0 | 0.0 |
-| 10 | Claude Sonnet 5.5 (High) | 1,715.8 | 0 | 0.0 |
+| 1 | Claude Fable 5.2 (xHigh) | 1,823.8 | 0 | -2.1 |
+| 2 | Claude Opus 5.5 (Max) | 1,818.4 | 0 | +2.8 |
+| 3 | GPT-6.2 Astra (Max) | 1,780.6 | 新入榜 | 未知 |
+| 4 | Claude Sonnet 5.5 (xHigh) | 1,773.0 | ↓1 | +0.8 |
+| 5 | Gemini 4 Carbon (High) | 1,768.5 | ↓1 | +0.2 |
+| 6 | Gemini 4 Neon (High) | 1,763.9 | 新入榜 | 未知 |
+| 7 | GPT-6 Astra (Max) | 1,762.5 | ↓2 | -0.3 |
+| 8 | GPT-6.2 Sol (Max) | 1,756.7 | 新入榜 | 未知 |
+| 9 | Qwen4-Max (xHigh) | 1,750.0 | ↓3 | +0.2 |
+| 10 | GPT-6.1 Sol (Max) | 1,744.1 | ↓2 | +1.7 |
 
 ## Arena 视觉
 
@@ -109,31 +109,31 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,428.5 | 0 | -0.2 |
-| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,410.1 | 0 | +4.5 |
-| 3 | GPT-Image-2.5 Flare | 1,399.5 | 0 | +1.4 |
-| 4 | MAI-Image-2.7 | 1,387.4 | 新入榜 | 未知 |
-| 5 | GPT-Image-2 (Medium) | 1,382.0 | 0 | +0.3 |
-| 6 | GPT-Image-2.6 Flare (Medium) | 1,375.3 | ↓2 | -8.2 |
-| 7 | MAI-Image-2.6 | 1,330.7 | ↓1 | +0.8 |
-| 8 | Gemini Nano Banana 2.1 | 1,327.6 | ↓1 | +0.1 |
-| 9 | Grok Imagine Image 2.0 | 1,318.1 | ↓1 | +0.2 |
-| 10 | Reve 2.1 | 1,301.8 | ↓1 | +0.3 |
+| 1 | GPT-Image-2.5 Sunburst | 1,428.5 | 0 | 0.0 |
+| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,410.1 | 0 | 0.0 |
+| 3 | GPT-Image-2.5 Flare | 1,399.5 | 0 | 0.0 |
+| 4 | MAI-Image-2.7 | 1,387.4 | 0 | 0.0 |
+| 5 | GPT-Image-2 (Medium) | 1,382.0 | 0 | 0.0 |
+| 6 | GPT-Image-2.6 Flare (Medium) | 1,375.3 | 0 | 0.0 |
+| 7 | MAI-Image-2.6 | 1,330.7 | 0 | 0.0 |
+| 8 | Gemini Nano Banana 2.1 | 1,327.6 | 0 | 0.0 |
+| 9 | Grok Imagine Image 2.0 | 1,318.1 | 0 | 0.0 |
+| 10 | Reve 2.1 | 1,301.8 | 0 | 0.0 |
 
 ## Arena 图像编辑
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,518.6 | 0 | +0.0 |
-| 2 | GPT-Image-2.5 Flare | 1,483.6 | 0 | -0.4 |
-| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,480.7 | 0 | +4.2 |
-| 4 | MAI-Image-2.7 | 1,475.5 | 新入榜 | 未知 |
-| 5 | GPT-Image-2 (Medium) | 1,461.5 | 0 | -0.1 |
-| 6 | GPT-Image-2.6 Flare (Medium) | 1,460.7 | 0 | +0.5 |
-| 7 | Grok Imagine Image 2.0 | 1,437.4 | 0 | +0.2 |
-| 8 | MAI-Image-2.6 | 1,427.4 | 0 | -0.1 |
-| 9 | Gemini Nano Banana 2.1 | 1,427.2 | 0 | -0.1 |
-| 10 | Grok Imagine Image 2.0 (20260801) | 1,418.6 | 0 | +0.7 |
+| 1 | GPT-Image-2.5 Sunburst | 1,518.6 | 0 | 0.0 |
+| 2 | GPT-Image-2.5 Flare | 1,483.6 | 0 | 0.0 |
+| 3 | GPT-Image-2.6 Sunburst (Medium) | 1,480.7 | 0 | 0.0 |
+| 4 | MAI-Image-2.7 | 1,475.5 | 0 | 0.0 |
+| 5 | GPT-Image-2 (Medium) | 1,461.5 | 0 | 0.0 |
+| 6 | GPT-Image-2.6 Flare (Medium) | 1,460.7 | 0 | 0.0 |
+| 7 | Grok Imagine Image 2.0 | 1,437.4 | 0 | 0.0 |
+| 8 | MAI-Image-2.6 | 1,427.4 | 0 | 0.0 |
+| 9 | Gemini Nano Banana 2.1 | 1,427.2 | 0 | 0.0 |
+| 10 | Grok Imagine Image 2.0 (20260801) | 1,418.6 | 0 | 0.0 |
 
 ## Arena 文生视频
 
@@ -187,32 +187,28 @@
 | 1 | Claude Fable 5.2 (max) | 65 | 0 | 0 |
 | 2 | Claude Fable 5.2 (high) | 62 | 0 | 0 |
 | 2 | Claude Fable 5.2 (xhigh) | 62 | 0 | 0 |
-| 2 | GPT-6.2 Astra (max) | 62 | 新入榜 | 未知 |
-| 2 | GPT-6.2 Astra (xhigh) | 62 | 新入榜 | 未知 |
-| 6 | Gemini 4 Carbon (high) | 60 | ↓2 | 0 |
-| 6 | GPT-6.2 Astra (high) | 60 | 新入榜 | 未知 |
-| 8 | Claude Opus 5.5 (max) | 59 | ↓3 | 0 |
-| 9 | Gemini 4 Carbon (medium) | 58 | ↓3 | 0 |
-| 10 | Claude Opus 5.5 (xhigh) | 57 | ↓3 | 0 |
-| 10 | GPT-6.2 Astra (medium) | 57 | 新入榜 | 未知 |
-| 10 | GPT-6.2 Sol (max) | 57 | 新入榜 | 未知 |
+| 2 | GPT-6.2 Astra (max) | 62 | 0 | 0 |
+| 2 | GPT-6.2 Astra (xhigh) | 62 | 0 | 0 |
+| 6 | Gemini 4 Neon (xhigh) | 61 | 新入榜 | 未知 |
+| 7 | Gemini 4 Carbon (high) | 60 | ↓1 | 0 |
+| 7 | Gemini 4 Neon (high) | 60 | 新入榜 | 未知 |
+| 7 | GPT-6.2 Astra (high) | 60 | ↓1 | 0 |
+| 10 | Claude Opus 5.5 (max) | 59 | ↓2 | 0 |
 
 ## Artificial Analysis 任务耗时（越低越好）
 
 | 排名 | 模型 | 分钟/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | GPT-6 Luna (low) (OpenAI) | 0.6 | 0 | 0 (+0.0%) |
-| 2 | gpt-oss-120b (high) (Cerebras) | 1 | 0 | 0 (+0.0%) |
-| 3 | GPT-6.1 Terra (low) (OpenAI) | 1.2 | 0 | 0 (+0.0%) |
+| 2 | gpt-oss-120b (high) (Cerebras) | 1.1 | 0 | +0.1 (+10.0%) |
 | 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | 0 | 0 (+0.0%) |
-| 5 | GPT-6.2 Sol (low) (OpenAI) | 1.4 | 新入榜 | 未知 |
-| 6 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.5 | 0 | -0.1 (-6.3%) |
-| 6 | Gemini 4 Hydrogen (low) (Google) | 1.5 | ↓1 | +0.1 (+7.1%) |
-| 8 | GPT-6.2 Astra (low) (OpenAI) | 1.6 | 新入榜 | 未知 |
-| 9 | Mistral Small 4 (Mistral) | 1.7 | ↓2 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (non-reasoning) (Microsoft Azure) | 1.8 | ↓2 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.8 | ↓2 | 0 (+0.0%) |
-| 10 | LFM3-VL-2B (Liquid AI) | 1.8 | 新入榜 | 未知 |
+| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.3 | ↓1 | +0.1 (+8.3%) |
+| 5 | Gemini 4 Hydrogen (low) (Google) | 1.5 | ↑1 | 0 (+0.0%) |
+| 5 | GPT-6.2 Sol (low) (OpenAI) | 1.5 | 0 | +0.1 (+7.1%) |
+| 7 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | ↓1 | +0.1 (+6.7%) |
+| 8 | Mistral Small 4 (Mistral) | 1.7 | ↑1 | 0 (+0.0%) |
+| 9 | GPT-6.2 Astra (low) (OpenAI) | 1.9 | ↓1 | +0.3 (+18.7%) |
+| 9 | LFM3-VL-2B (Liquid AI) | 1.9 | ↑1 | +0.1 (+5.6%) |
 
 ## Artificial Analysis 任务成本
 
