@@ -1,79 +1,79 @@
-# 大模型趋势日报 2026-11-19
+# 大模型趋势日报 2026-11-20
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 62.1T | 0 | +200B (+0.3%) |
-| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 46.6T | 0 | +23.8T (+104.4%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16T | 0 | +100B (+0.6%) |
-| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 13T | 0 | -1.3T (-9.1%) |
-| 5 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 10.9T | 0 | -600B (-5.2%) |
-| 6 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.62T | 0 | +240B (+2.9%) |
-| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.63T | 0 | +100B (+1.3%) |
-| 8 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 6.39T | 0 | -180B (-2.7%) |
-| 9 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 4.05T | 0 | -60B (-1.5%) |
-| 10 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 3.67T | 新入榜 | 未知 |
+| 1 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 69.3T | ↑1 | +22.7T (+48.7%) |
+| 2 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 62.2T | ↓1 | +100B (+0.2%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 16T | 0 | 0 (+0.0%) |
+| 4 | [tencent/hy4](https://openrouter.ai/tencent/hy4) | 11.7T | 0 | -1.3T (-10.0%) |
+| 5 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 10.7T | 0 | -200B (-1.8%) |
+| 6 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.86T | 0 | +240B (+2.8%) |
+| 7 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.53T | 0 | -100B (-1.3%) |
+| 8 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 5.75T | 0 | -640B (-10.0%) |
+| 9 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 4.01T | 0 | -40B (-1.0%) |
+| 10 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 3.92T | 0 | +250B (+6.8%) |
 
 ## Arena 智能体
 
 | 排名 | 模型 | 百分比 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (Max) | 27.42% | 0 | -1.19 pp |
-| 2 | Claude Opus 5.5 (Max) | 18.63% | 0 | +0.43 pp |
-| 3 | Gemini 4 Neon (High) | 18.41% | 新入榜 | 未知 |
-| 4 | Gemini 4 Carbon (High) | 16.10% | ↓1 | -0.34 pp |
-| 5 | Claude Sonnet 5.5 (Max) | 15.56% | ↓1 | +0.28 pp |
-| 6 | GPT-6.2 Astra (Max) | 15.22% | 新入榜 | 未知 |
-| 7 | GPT-6 Astra (Max) | 14.56% | 0 | +0.64 pp |
-| 8 | Claude Opus 5.5 (High) | 13.70% | 0 | +0.35 pp |
-| 9 | Claude Fable 5.1 (Max) | 13.66% | ↓3 | -0.44 pp |
-| 10 | Gemini 4 Hydrogen (High) | 13.52% | ↓5 | -1.39 pp |
+| 1 | Claude Fable 5.2 (Max) | 27.42% | 0 | +0.00 pp |
+| 2 | Claude Opus 5.5 (Max) | 18.63% | 0 | +0.00 pp |
+| 3 | Gemini 4 Neon (High) | 18.41% | 0 | +0.00 pp |
+| 4 | Gemini 4 Carbon (High) | 16.10% | 0 | +0.00 pp |
+| 5 | Claude Sonnet 5.5 (Max) | 15.56% | 0 | +0.00 pp |
+| 6 | GPT-6.2 Astra (Max) | 15.22% | 0 | +0.00 pp |
+| 7 | GPT-6 Astra (Max) | 14.56% | 0 | +0.00 pp |
+| 8 | Claude Opus 5.5 (High) | 13.70% | 0 | +0.00 pp |
+| 9 | Claude Fable 5.1 (Max) | 13.66% | 0 | +0.00 pp |
+| 10 | Gemini 4 Hydrogen (High) | 13.52% | 0 | +0.00 pp |
 
 ## Arena 文本
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Gemini 4 Carbon (High) | 1,525.9 | 0 | -0.2 |
-| 2 | Gemini 4 Argon (High) | 1,520.6 | 0 | -1.1 |
-| 3 | Gemini 4 Neon (High) | 1,518.5 | 新入榜 | 未知 |
-| 4 | Muse Wonder (Max) | 1,510.7 | ↓1 | -0.2 |
-| 5 | Claude Opus 5.5 (High) | 1,507.0 | ↓1 | +0.2 |
-| 6 | Claude Fable 5 (High) | 1,504.1 | ↓1 | +0.1 |
-| 7 | Claude Opus 4.6 (High) | 1,502.8 | ↓1 | -0.0 |
-| 8 | Claude Fable 5.1 (Max) | 1,502.1 | ↓1 | -0.2 |
-| 9 | Claude Opus 4.7 (High) | 1,501.1 | ↓1 | -0.1 |
-| 10 | Muse Spark 1.3 (Max) | 1,497.6 | 0 | +1.1 |
+| 1 | Gemini 4 Carbon (High) | 1,527.0 | 0 | +1.0 |
+| 2 | Gemini 4 Argon (High) | 1,519.6 | 0 | -0.9 |
+| 3 | Gemini 4 Neon (High) | 1,512.9 | 0 | -5.5 |
+| 4 | Muse Wonder (Max) | 1,511.4 | 0 | +0.8 |
+| 5 | Claude Opus 5.5 (High) | 1,506.0 | 0 | -1.1 |
+| 6 | Claude Fable 5 (High) | 1,504.1 | 0 | +0.1 |
+| 7 | Claude Fable 5.2 (Max) | 1,503.1 | 新入榜 | 未知 |
+| 8 | Claude Opus 4.6 (High) | 1,502.8 | ↓1 | +0.0 |
+| 9 | Claude Fable 5.1 (Max) | 1,502.8 | ↓1 | +0.6 |
+| 10 | Claude Opus 4.7 (High) | 1,501.2 | ↓1 | +0.2 |
 
 ## Arena 网页开发
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (xHigh) | 1,823.8 | 0 | -2.1 |
-| 2 | Claude Opus 5.5 (Max) | 1,818.4 | 0 | +2.8 |
-| 3 | GPT-6.2 Astra (Max) | 1,780.6 | 新入榜 | 未知 |
-| 4 | Claude Sonnet 5.5 (xHigh) | 1,773.0 | ↓1 | +0.8 |
-| 5 | Gemini 4 Carbon (High) | 1,768.5 | ↓1 | +0.2 |
-| 6 | Gemini 4 Neon (High) | 1,763.9 | 新入榜 | 未知 |
-| 7 | GPT-6 Astra (Max) | 1,762.5 | ↓2 | -0.3 |
-| 8 | GPT-6.2 Sol (Max) | 1,756.7 | 新入榜 | 未知 |
-| 9 | Qwen4-Max (xHigh) | 1,750.0 | ↓3 | +0.2 |
-| 10 | GPT-6.1 Sol (Max) | 1,744.1 | ↓2 | +1.7 |
+| 1 | Claude Fable 5.2 (xHigh) | 1,823.4 | 0 | -0.4 |
+| 2 | Claude Opus 5.5 (Max) | 1,818.3 | 0 | -0.1 |
+| 3 | Claude Sonnet 5.5 (xHigh) | 1,771.3 | ↑1 | -1.7 |
+| 4 | Gemini 4 Carbon (High) | 1,768.8 | ↑1 | +0.2 |
+| 5 | Gemini 4 Neon (High) | 1,763.2 | ↑1 | -0.7 |
+| 6 | GPT-6 Astra (Max) | 1,763.1 | ↑1 | +0.5 |
+| 7 | GPT-6.2 Astra (Max) | 1,759.3 | ↓4 | -21.3 |
+| 8 | GPT-6.2 Sol (Max) | 1,754.5 | 0 | -2.2 |
+| 9 | Qwen4-Max (xHigh) | 1,749.7 | 0 | -0.3 |
+| 10 | GPT-6.1 Sol (Max) | 1,743.7 | 0 | -0.4 |
 
 ## Arena 视觉
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5 (High) | 1,309.4 | 0 | 0.0 |
-| 2 | Claude Opus 4.7 | 1,300.3 | 0 | 0.0 |
-| 3 | Qwen3.8-Max | 1,299.0 | 0 | 0.0 |
-| 4 | Claude Opus 4.6 (High) | 1,298.8 | 0 | 0.0 |
-| 5 | Claude Opus 4.7 (High) | 1,298.4 | 0 | 0.0 |
-| 6 | Claude Opus 5.5 (High) | 1,295.3 | 0 | 0.0 |
-| 7 | Muse Spark | 1,294.4 | 0 | 0.0 |
-| 8 | Gemini 3.7 Flash (High) | 1,293.8 | 0 | 0.0 |
-| 9 | Muse Spark 1.2 (xHigh) | 1,293.5 | 0 | 0.0 |
-| 10 | Claude Opus 4.6 | 1,293.2 | 0 | 0.0 |
+| 1 | Claude Fable 5 (High) | 1,308.8 | 0 | -0.7 |
+| 2 | Claude Fable 5.2 (Max) | 1,305.3 | 新入榜 | 未知 |
+| 3 | Claude Opus 4.7 | 1,298.7 | ↓1 | -1.6 |
+| 4 | Claude Opus 4.6 (High) | 1,298.2 | 0 | -0.5 |
+| 5 | Claude Opus 4.7 (High) | 1,298.0 | 0 | -0.4 |
+| 6 | Gemini 3.7 Flash (High) | 1,294.2 | ↑2 | +0.4 |
+| 7 | Muse Spark | 1,294.0 | 0 | -0.4 |
+| 8 | Qwen3.8-Max | 1,293.7 | ↓5 | -5.3 |
+| 9 | Claude Opus 5.5 (High) | 1,293.2 | ↓3 | -2.1 |
+| 10 | Muse Spark 1.2 (xHigh) | 1,293.0 | ↓1 | -0.5 |
 
 ## Arena 文档
 
@@ -94,16 +94,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Qwen3.8-Max | 1,259.8 | 0 | 0.0 |
-| 2 | GPT-5.6 Sol (xHigh) | 1,257.8 | 0 | 0.0 |
-| 3 | Claude Opus 4.6 (Search) | 1,251.7 | 0 | 0.0 |
-| 4 | GPT-5.5 (Search) | 1,245.9 | 0 | 0.0 |
-| 5 | Claude Opus 5 (High) | 1,239.0 | 0 | 0.0 |
-| 6 | Claude Fable 5.1 (High) | 1,237.3 | 0 | 0.0 |
-| 7 | GPT-6 Astra (Max) | 1,230.8 | 0 | 0.0 |
-| 8 | GPT-6.1 Sol (Max) | 1,230.4 | 0 | 0.0 |
-| 9 | Claude Opus 4.7 | 1,230.1 | 0 | 0.0 |
-| 10 | Claude Fable 5 (High) | 1,228.2 | 0 | 0.0 |
+| 1 | Amazon-Web-Search-Agent | 1,266.3 | 新入榜 | 未知 |
+| 2 | Qwen3.8-Max | 1,260.9 | ↓1 | +1.1 |
+| 3 | GPT-5.6 Sol (xHigh) | 1,256.2 | ↓1 | -1.7 |
+| 4 | Claude Opus 4.6 (Search) | 1,251.6 | ↓1 | -0.0 |
+| 5 | GPT-5.5 (Search) | 1,246.4 | ↓1 | +0.5 |
+| 6 | Claude Opus 5 (High) | 1,238.3 | ↓1 | -0.7 |
+| 7 | Claude Fable 5.1 (High) | 1,236.8 | ↓1 | -0.5 |
+| 8 | GPT-6 Astra (Max) | 1,230.5 | ↓1 | -0.3 |
+| 9 | Claude Opus 4.7 | 1,230.0 | 0 | -0.1 |
+| 10 | GPT-6.1 Sol (Max) | 1,229.6 | ↓2 | -0.7 |
 
 ## Arena 文生图
 
@@ -189,26 +189,27 @@
 | 2 | Claude Fable 5.2 (xhigh) | 62 | 0 | 0 |
 | 2 | GPT-6.2 Astra (max) | 62 | 0 | 0 |
 | 2 | GPT-6.2 Astra (xhigh) | 62 | 0 | 0 |
-| 6 | Gemini 4 Neon (xhigh) | 61 | 新入榜 | 未知 |
-| 7 | Gemini 4 Carbon (high) | 60 | ↓1 | 0 |
-| 7 | Gemini 4 Neon (high) | 60 | 新入榜 | 未知 |
-| 7 | GPT-6.2 Astra (high) | 60 | ↓1 | 0 |
-| 10 | Claude Opus 5.5 (max) | 59 | ↓2 | 0 |
+| 6 | Gemini 4 Neon (xhigh) | 61 | 0 | 0 |
+| 7 | Gemini 4 Carbon (high) | 60 | 0 | 0 |
+| 7 | Gemini 4 Neon (high) | 60 | 0 | 0 |
+| 7 | GPT-6.2 Astra (high) | 60 | 0 | 0 |
+| 10 | Claude Opus 5.5 (max) | 59 | 0 | 0 |
 
 ## Artificial Analysis 任务耗时（越低越好）
 
 | 排名 | 模型 | 分钟/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | GPT-6 Luna (low) (OpenAI) | 0.6 | 0 | 0 (+0.0%) |
-| 2 | gpt-oss-120b (high) (Cerebras) | 1.1 | 0 | +0.1 (+10.0%) |
+| 2 | gpt-oss-120b (high) (Cerebras) | 1 | 0 | -0.1 (-9.1%) |
 | 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | 0 | 0 (+0.0%) |
-| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.3 | ↓1 | +0.1 (+8.3%) |
-| 5 | Gemini 4 Hydrogen (low) (Google) | 1.5 | ↑1 | 0 (+0.0%) |
-| 5 | GPT-6.2 Sol (low) (OpenAI) | 1.5 | 0 | +0.1 (+7.1%) |
-| 7 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | ↓1 | +0.1 (+6.7%) |
-| 8 | Mistral Small 4 (Mistral) | 1.7 | ↑1 | 0 (+0.0%) |
-| 9 | GPT-6.2 Astra (low) (OpenAI) | 1.9 | ↓1 | +0.3 (+18.7%) |
-| 9 | LFM3-VL-2B (Liquid AI) | 1.9 | ↑1 | +0.1 (+5.6%) |
+| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.4 | 0 | +0.1 (+7.7%) |
+| 5 | Gemini 4 Hydrogen (low) (Google) | 1.5 | 0 | 0 (+0.0%) |
+| 6 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | ↑1 | 0 (+0.0%) |
+| 6 | GPT-6.2 Sol (low) (OpenAI) | 1.6 | ↓1 | +0.1 (+6.7%) |
+| 8 | Mistral Small 4 (Mistral) | 1.7 | 0 | 0 (+0.0%) |
+| 9 | GPT-6.2 Astra (low) (OpenAI) | 2 | 0 | +0.1 (+5.3%) |
+| 9 | GPT-6 Luna (non-reasoning) (OpenAI) | 2 | ↑2 | 0 (+0.0%) |
+| 9 | LFM3-VL-2B (Liquid AI) | 2 | 0 | +0.1 (+5.3%) |
 
 ## Artificial Analysis 任务成本
 
@@ -220,9 +221,9 @@
 | 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 6 | GPT-6 Luna (low) (OpenAI) | 0.0051 | 0 | 0 (+0.0%) |
-| 7 | Gemma 4 E4B (DeepInfra) | 0.0083 | 0 | 0 (+0.0%) |
-| 8 | Granite 4.2 8B (CoreWeave) | 0.0387 | 0 | 0 (+0.0%) |
-| 9 | Mistral Small 4 (Mistral) | 0.0399 | 0 | 0 (+0.0%) |
-| 10 | Granite 4.2 8B (DeepInfra) | 0.0405 | 0 | 0 (+0.0%) |
+| 7 | Granite 4.2 8B (CoreWeave) | 0.0387 | ↑1 | 0 (+0.0%) |
+| 8 | Mistral Small 4 (Mistral) | 0.0399 | ↑1 | 0 (+0.0%) |
+| 9 | Granite 4.2 8B (DeepInfra) | 0.0405 | ↑1 | 0 (+0.0%) |
+| 10 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | ↑1 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
