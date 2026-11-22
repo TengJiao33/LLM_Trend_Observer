@@ -1,19 +1,19 @@
-# 大模型趋势日报 2026-11-21
+# 大模型趋势日报 2026-11-22
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 62.4T | ↑1 | +200B (+0.3%) |
-| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.6T | ↑1 | -400B (-2.5%) |
-| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 10.8T | ↑2 | +100B (+0.9%) |
-| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.74T | ↑2 | -120B (-1.4%) |
-| 5 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.25T | ↑2 | -280B (-3.7%) |
-| 6 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 4.8T | ↑2 | -950B (-16.5%) |
-| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.11T | ↑3 | +190B (+4.8%) |
-| 8 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 3.91T | ↑1 | -100B (-2.5%) |
-| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 3.56T | 新入榜 | 未知 |
-| 10 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 3.54T | 新入榜 | 未知 |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 63.3T | 0 | +900B (+1.4%) |
+| 2 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 15.3T | 0 | -300B (-1.9%) |
+| 3 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 11.6T | 0 | +800B (+7.4%) |
+| 4 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 8.51T | 0 | -230B (-2.6%) |
+| 5 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 7.06T | 0 | -190B (-2.6%) |
+| 6 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 6.51T | 新入榜 | 未知 |
+| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.2T | 0 | +90B (+2.2%) |
+| 8 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 3.88T | ↑2 | +340B (+9.6%) |
+| 9 | [stepfun/step-5-preview](https://openrouter.ai/stepfun/step-5-preview) | 3.84T | ↓3 | -960B (-20.0%) |
+| 10 | [xiaomi/mimo-v2.6-flash](https://openrouter.ai/xiaomi/mimo-v2.6-flash) | 3.83T | ↓2 | -80B (-2.0%) |
 
 ## Arena 智能体
 
@@ -49,16 +49,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5.2 (xHigh) | 1,823.6 | 0 | +0.2 |
-| 2 | Claude Opus 5.5 (Max) | 1,819.0 | 0 | +0.7 |
-| 3 | Claude Sonnet 5.5 (xHigh) | 1,772.0 | 0 | +0.7 |
-| 4 | Gemini 4 Carbon (High) | 1,768.7 | 0 | -0.0 |
-| 5 | GPT-6.2 Astra (Max) | 1,766.2 | ↑2 | +6.9 |
-| 6 | Gemini 4 Neon (High) | 1,764.9 | ↓1 | +1.7 |
-| 7 | GPT-6 Astra (Max) | 1,764.0 | ↓1 | +0.9 |
-| 8 | GPT-6.2 Sol (Max) | 1,754.0 | 0 | -0.5 |
-| 9 | Qwen4-Max (xHigh) | 1,750.9 | 0 | +1.2 |
-| 10 | GPT-6.1 Sol (Max) | 1,743.4 | 0 | -0.3 |
+| 1 | Claude Fable 5.2 (xHigh) | 1,823.6 | 0 | 0.0 |
+| 2 | Claude Opus 5.5 (Max) | 1,819.0 | 0 | 0.0 |
+| 3 | Claude Sonnet 5.5 (xHigh) | 1,772.0 | 0 | 0.0 |
+| 4 | Gemini 4 Carbon (High) | 1,768.7 | 0 | 0.0 |
+| 5 | GPT-6.2 Astra (Max) | 1,766.2 | 0 | 0.0 |
+| 6 | Gemini 4 Neon (High) | 1,764.9 | 0 | 0.0 |
+| 7 | GPT-6 Astra (Max) | 1,764.0 | 0 | 0.0 |
+| 8 | GPT-6.2 Sol (Max) | 1,754.0 | 0 | 0.0 |
+| 9 | Qwen4-Max (xHigh) | 1,750.9 | 0 | 0.0 |
+| 10 | GPT-6.1 Sol (Max) | 1,743.4 | 0 | 0.0 |
 
 ## Arena 视觉
 
@@ -109,16 +109,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-Image-2.5 Sunburst | 1,428.5 | 0 | 0.0 |
-| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,410.1 | 0 | 0.0 |
-| 3 | GPT-Image-2.5 Flare | 1,399.5 | 0 | 0.0 |
-| 4 | MAI-Image-2.7 | 1,387.4 | 0 | 0.0 |
-| 5 | GPT-Image-2 (Medium) | 1,382.0 | 0 | 0.0 |
-| 6 | GPT-Image-2.6 Flare (Medium) | 1,375.3 | 0 | 0.0 |
-| 7 | MAI-Image-2.6 | 1,330.7 | 0 | 0.0 |
-| 8 | Gemini Nano Banana 2.1 | 1,327.6 | 0 | 0.0 |
-| 9 | Grok Imagine Image 2.0 | 1,318.1 | 0 | 0.0 |
-| 10 | Reve 2.1 | 1,301.8 | 0 | 0.0 |
+| 1 | GPT-Image-2.5 Sunburst | 1,429.0 | 0 | +0.5 |
+| 2 | GPT-Image-2.6 Sunburst (Medium) | 1,412.0 | 0 | +1.9 |
+| 3 | GPT-Image-2.5 Flare | 1,399.9 | 0 | +0.3 |
+| 4 | MAI-Image-2.7 | 1,384.5 | 0 | -2.8 |
+| 5 | GPT-Image-2 (Medium) | 1,381.6 | 0 | -0.5 |
+| 6 | GPT-Image-2.6 Flare (Medium) | 1,376.3 | 0 | +1.0 |
+| 7 | MAI-Image-2.6 | 1,329.0 | 0 | -1.7 |
+| 8 | Grok Imagine Image 2.0 | 1,318.2 | ↑1 | +0.1 |
+| 9 | Gemini Nano Banana 2.1 | 1,305.0 | ↓1 | -22.5 |
+| 10 | Reve 2.1 | 1,301.6 | 0 | -0.2 |
 
 ## Arena 图像编辑
 
@@ -201,16 +201,16 @@
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | GPT-6 Luna (low) (OpenAI) | 0.6 | 0 | 0 (+0.0%) |
 | 2 | gpt-oss-120b (high) (Cerebras) | 1 | 0 | 0 (+0.0%) |
+| 3 | GPT-6.1 Terra (low) (OpenAI) | 1.2 | ↑1 | -0.2 (-14.3%) |
 | 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | 0 | 0 (+0.0%) |
-| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.4 | 0 | 0 (+0.0%) |
 | 5 | Gemini 4 Hydrogen (low) (Google) | 1.5 | 0 | 0 (+0.0%) |
 | 6 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | 0 | 0 (+0.0%) |
-| 6 | GPT-6.2 Sol (low) (OpenAI) | 1.6 | 0 | 0 (+0.0%) |
-| 8 | Mistral Small 4 (Mistral) | 1.7 | 0 | 0 (+0.0%) |
-| 9 | Qwen3.8 27B (non-reasoning) (FP4) (Nebius) | 1.9 | ↑3 | -0.2 (-9.5%) |
-| 10 | GPT-6.2 Astra (low) (OpenAI) | 2 | ↓1 | 0 (+0.0%) |
-| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 2 | ↓1 | 0 (+0.0%) |
-| 10 | Beam 1.0 (NVFP4) (Together AI) | 2 | ↑4 | -0.2 (-9.1%) |
+| 7 | GPT-6.2 Sol (low) (OpenAI) | 1.7 | ↓1 | +0.1 (+6.2%) |
+| 7 | Mistral Small 4 (Mistral) | 1.7 | ↑1 | 0 (+0.0%) |
+| 7 | Qwen3.8 27B (non-reasoning) (FP4) (Nebius) | 1.7 | ↑2 | -0.2 (-10.5%) |
+| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.9 | 0 | -0.1 (-5.0%) |
+| 10 | Beam 1.0 (NVFP4) (Nebius) | 1.9 | ↑5 | -0.3 (-13.6%) |
+| 10 | Beam 1.0 (NVFP4) (Together AI) | 1.9 | 0 | -0.1 (-5.0%) |
 
 ## Artificial Analysis 任务成本
 
