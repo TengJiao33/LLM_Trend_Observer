@@ -1,19 +1,19 @@
-# 大模型趋势日报 2026-11-26
+# 大模型趋势日报 2026-11-27
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 73.7T | 0 | +3.7T (+5.3%) |
-| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 32.1T | 0 | +3.3T (+11.5%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 14.5T | 0 | -500B (-3.3%) |
-| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.1T | 0 | -100B (-0.8%) |
-| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.82T | 0 | -320B (-3.9%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.46T | 0 | +20B (+0.3%) |
-| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.73T | 0 | +160B (+3.5%) |
-| 8 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.37T | 0 | -20B (-0.5%) |
-| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 4.25T | 0 | +80B (+1.9%) |
-| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 3.85T | 0 | +70B (+1.9%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 77.2T | 0 | +3.5T (+4.7%) |
+| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 35.6T | 0 | +3.5T (+10.9%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 14.2T | 0 | -300B (-2.1%) |
+| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.5T | 0 | +400B (+3.1%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.47T | 0 | -350B (-4.5%) |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.44T | 0 | -20B (-0.3%) |
+| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.76T | 0 | +30B (+0.6%) |
+| 8 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.67T | 0 | +300B (+6.9%) |
+| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 4.28T | 0 | +30B (+0.7%) |
+| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.07T | 0 | +220B (+5.7%) |
 
 ## Arena 智能体
 
@@ -64,16 +64,16 @@
 
 | 排名 | 模型 | Arena 分数 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | Claude Fable 5 (High) | 1,309.3 | 0 | +0.6 |
-| 2 | Claude Fable 5.2 (Max) | 1,302.1 | 0 | -3.2 |
-| 3 | Claude Opus 4.7 | 1,298.9 | 0 | +0.2 |
-| 4 | Claude Opus 4.6 (High) | 1,298.1 | 0 | -0.1 |
-| 5 | Claude Opus 4.7 (High) | 1,297.9 | 0 | -0.1 |
-| 6 | Qwen3.8-Max | 1,294.6 | ↑2 | +0.8 |
-| 7 | Gemini 3.7 Flash (High) | 1,294.3 | ↓1 | +0.1 |
-| 8 | Muse Spark | 1,294.2 | ↓1 | +0.1 |
-| 9 | Claude Opus 4.6 | 1,292.8 | ↑2 | -0.2 |
-| 10 | Muse Spark 1.2 (xHigh) | 1,292.8 | 0 | -0.2 |
+| 1 | Claude Fable 5 (High) | 1,309.3 | 0 | 0.0 |
+| 2 | Claude Fable 5.2 (Max) | 1,302.1 | 0 | 0.0 |
+| 3 | Claude Opus 4.7 | 1,298.9 | 0 | 0.0 |
+| 4 | Claude Opus 4.6 (High) | 1,298.1 | 0 | 0.0 |
+| 5 | Claude Opus 4.7 (High) | 1,297.9 | 0 | 0.0 |
+| 6 | Qwen3.8-Max | 1,294.6 | 0 | 0.0 |
+| 7 | Gemini 3.7 Flash (High) | 1,294.3 | 0 | 0.0 |
+| 8 | Muse Spark | 1,294.2 | 0 | 0.0 |
+| 9 | Claude Opus 4.6 | 1,292.8 | 0 | 0.0 |
+| 10 | Muse Spark 1.2 (xHigh) | 1,292.8 | 0 | 0.0 |
 
 ## Arena 文档
 
@@ -200,33 +200,31 @@
 
 | 排名 | 模型 | 分钟/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | GPT-6 Luna (low) (OpenAI) | 0.5 | 0 | -0.1 (-16.7%) |
+| 1 | GPT-6 Luna (low) (OpenAI) | 0.5 | 0 | 0 (+0.0%) |
 | 2 | gpt-oss-120b (high) (Cerebras) | 0.9 | 0 | 0 (+0.0%) |
-| 3 | GPT-6.1 Terra (low) (OpenAI) | 1.2 | 0 | +0.1 (+9.1%) |
-| 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | ↑1 | 0 (+0.0%) |
+| 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | 0 | 0 (+0.0%) |
+| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.3 | ↓1 | +0.1 (+8.3%) |
 | 5 | Beam 1.0 (NVFP4) (CoreWeave) | 1.5 | 0 | 0 (+0.0%) |
-| 5 | Beam 1.0 (NVFP4) (Nebius) | 1.5 | ↑2 | -0.1 (-6.3%) |
-| 7 | Gemini 4 Hydrogen (low) (Google) | 1.6 | ↓2 | +0.1 (+6.7%) |
+| 5 | Beam 1.0 (NVFP4) (Nebius) | 1.5 | 0 | 0 (+0.0%) |
+| 7 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | ↑3 | -0.1 (-5.9%) |
+| 7 | Gemini 4 Hydrogen (low) (Google) | 1.6 | 0 | 0 (+0.0%) |
+| 7 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.6 | ↑3 | -0.1 (-5.9%) |
 | 7 | Mistral Small 4 (Mistral) | 1.6 | 0 | 0 (+0.0%) |
-| 7 | Qwen3.8 27B (non-reasoning) (FP4) (Nebius) | 1.6 | ↑3 | -0.1 (-5.9%) |
-| 10 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.7 | 0 | 0 (+0.0%) |
-| 10 | GPT-6.2 Sol (low) (OpenAI) | 1.7 | ↓3 | +0.1 (+6.2%) |
-| 10 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.7 | 0 | 0 (+0.0%) |
-| 10 | Beam 1.0 (NVFP4) (Together AI) | 1.7 | ↑3 | -0.1 (-5.6%) |
+| 7 | Qwen3.8 27B (non-reasoning) (FP4) (Nebius) | 1.6 | 0 | 0 (+0.0%) |
 
 ## Artificial Analysis 任务成本
 
 | 排名 | 模型 | USD/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | Command A+ (Cohere) | 0 | 0 | 0 |
+| 1 | Gemma 4 26B A4B AI Studio (Google) | 0 | 新入榜 | 未知 |
 | 1 | K2 Horizon 375B A23B (Institute of Foundation Models) | 0 | 0 | 0 |
 | 1 | North Mini Code (Cohere) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | 0 | 0 |
-| 6 | GPT-6 Luna (low) (OpenAI) | 0.0051 | 0 | 0 (+0.0%) |
-| 7 | Mistral Small 4 (Mistral) | 0.0399 | 0 | 0 (+0.0%) |
-| 8 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | 0 | 0 (+0.0%) |
-| 9 | Claude Haiku 5.5 (low) (Anthropic) | 0.0438 | 0 | 0 (+0.0%) |
-| 10 | GPT-6.1 Terra (low) (OpenAI) | 0.0713 | 0 | 0 (+0.0%) |
+| 7 | GPT-6 Luna (low) (OpenAI) | 0.0051 | ↓1 | 0 (+0.0%) |
+| 8 | Mistral Small 4 (Mistral) | 0.0399 | ↓1 | 0 (+0.0%) |
+| 9 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | ↓1 | 0 (+0.0%) |
+| 10 | Claude Haiku 5.5 (low) (Anthropic) | 0.0438 | ↓1 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
