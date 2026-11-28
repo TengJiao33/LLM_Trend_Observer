@@ -1,19 +1,19 @@
-# 大模型趋势日报 2026-11-27
+# 大模型趋势日报 2026-11-28
 
 ## OpenRouter 模型调用量
 
 | 排名 | 模型 | Tokens | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
-| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 77.2T | 0 | +3.5T (+4.7%) |
-| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 35.6T | 0 | +3.5T (+10.9%) |
-| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 14.2T | 0 | -300B (-2.1%) |
-| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.5T | 0 | +400B (+3.1%) |
-| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.47T | 0 | -350B (-4.5%) |
-| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.44T | 0 | -20B (-0.3%) |
-| 7 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.76T | 0 | +30B (+0.6%) |
-| 8 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.67T | 0 | +300B (+6.9%) |
-| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 4.28T | 0 | +30B (+0.7%) |
-| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.07T | 0 | +220B (+5.7%) |
+| 1 | [deepseek/deepseek-v4.1-flash-1017](https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017) | 83.1T | 0 | +5.9T (+7.6%) |
+| 2 | [tencent/hy4-flash](https://openrouter.ai/tencent/hy4-flash) | 38.7T | 0 | +3.1T (+8.7%) |
+| 3 | [deepseek/deepseek-v4.1-flash](https://openrouter.ai/deepseek/deepseek-v4.1-flash) | 13.9T | 0 | -300B (-2.1%) |
+| 4 | [z-ai/glm-5.3-flash](https://openrouter.ai/z-ai/glm-5.3-flash) | 13.2T | 0 | -300B (-2.2%) |
+| 5 | [openai/gpt-6-luna](https://openrouter.ai/openai/gpt-6-luna) | 7.42T | 0 | -50B (-0.7%) |
+| 6 | [anthropic/claude-opus-5.5](https://openrouter.ai/anthropic/claude-opus-5.5) | 6.36T | 0 | -80B (-1.2%) |
+| 7 | [moonshotai/kimi-k3.1-pro](https://openrouter.ai/moonshotai/kimi-k3.1-pro) | 4.85T | ↑1 | +180B (+3.9%) |
+| 8 | [minimax/minimax-m3.1-flash](https://openrouter.ai/minimax/minimax-m3.1-flash) | 4.73T | ↓1 | -30B (-0.6%) |
+| 9 | [nvidia/nemotron-3-ultra-550b-a55b:free](https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free) | 4.27T | 0 | -10B (-0.2%) |
+| 10 | [z-ai/glm-5.3](https://openrouter.ai/z-ai/glm-5.3) | 4.16T | 0 | +90B (+2.2%) |
 
 ## Arena 智能体
 
@@ -203,12 +203,11 @@
 | 1 | GPT-6 Luna (low) (OpenAI) | 0.5 | 0 | 0 (+0.0%) |
 | 2 | gpt-oss-120b (high) (Cerebras) | 0.9 | 0 | 0 (+0.0%) |
 | 3 | Beam 1.0 (NVFP4) (Baseten) | 1.2 | 0 | 0 (+0.0%) |
-| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.3 | ↓1 | +0.1 (+8.3%) |
+| 4 | GPT-6.1 Terra (low) (OpenAI) | 1.3 | 0 | 0 (+0.0%) |
 | 5 | Beam 1.0 (NVFP4) (CoreWeave) | 1.5 | 0 | 0 (+0.0%) |
 | 5 | Beam 1.0 (NVFP4) (Nebius) | 1.5 | 0 | 0 (+0.0%) |
-| 7 | Gemini 3.5 Flash-Lite AI Studio (Google) | 1.6 | ↑3 | -0.1 (-5.9%) |
 | 7 | Gemini 4 Hydrogen (low) (Google) | 1.6 | 0 | 0 (+0.0%) |
-| 7 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.6 | ↑3 | -0.1 (-5.9%) |
+| 7 | GPT-6 Luna (non-reasoning) (OpenAI) | 1.6 | 0 | 0 (+0.0%) |
 | 7 | Mistral Small 4 (Mistral) | 1.6 | 0 | 0 (+0.0%) |
 | 7 | Qwen3.8 27B (non-reasoning) (FP4) (Nebius) | 1.6 | 0 | 0 (+0.0%) |
 
@@ -217,14 +216,14 @@
 | 排名 | 模型 | USD/任务 | 名次变化 | 数值变化 |
 | ---: | :--- | ---: | :--- | :--- |
 | 1 | Command A+ (Cohere) | 0 | 0 | 0 |
-| 1 | Gemma 4 26B A4B AI Studio (Google) | 0 | 新入榜 | 未知 |
+| 1 | Gemma 4 26B A4B AI Studio (Google) | 0 | 0 | 0 |
 | 1 | K2 Horizon 375B A23B (Institute of Foundation Models) | 0 | 0 | 0 |
 | 1 | North Mini Code (Cohere) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (non-reasoning) (NVFP4) (Modular) | 0 | 0 | 0 |
 | 1 | Qwen3.8 27B (xhigh) (NVFP4) (Modular) | 0 | 0 | 0 |
-| 7 | GPT-6 Luna (low) (OpenAI) | 0.0051 | ↓1 | 0 (+0.0%) |
-| 8 | Mistral Small 4 (Mistral) | 0.0399 | ↓1 | 0 (+0.0%) |
-| 9 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | ↓1 | 0 (+0.0%) |
-| 10 | Claude Haiku 5.5 (low) (Anthropic) | 0.0438 | ↓1 | 0 (+0.0%) |
+| 7 | GPT-6 Luna (low) (OpenAI) | 0.0051 | 0 | 0 (+0.0%) |
+| 8 | Mistral Small 4 (Mistral) | 0.0399 | 0 | 0 (+0.0%) |
+| 9 | GPT-6 Luna (medium) (OpenAI) | 0.0422 | 0 | 0 (+0.0%) |
+| 10 | Claude Haiku 5.5 (low) (Anthropic) | 0.0438 | 0 | 0 (+0.0%) |
 
 来源：[OpenRouter](https://openrouter.ai/rankings) | [Arena](https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) | [Artificial Analysis](https://artificialanalysis.ai/)
